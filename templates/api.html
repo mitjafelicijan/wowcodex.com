@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>WoW API</title>
+    <link rel="stylesheet" href="/assets/tailwind.v2.min.css">
+  </head>
+  <body class="p-10">
+
+    <main class="flex flex-col gap-8">
+      <select class="border" id="sections">
+        <% for i, section in pairs(sections) do %>
+          <option value="#<%= section.Name -%>"><%= section.Name -%></option>
+        <% end %>
+      </select>
+
+      <section class="flex flex-col gap-4">
+      <% for i, section in pairs(sections) do %>
+        <section class="border">
+          <h2 class="font-bold text-xl"><a id="<%= section.Name -%>"><%= section.Name -%></a></h2>
+
+          <% if section.Namespace then %>
+            <p>Namespace: <%= section.Namespace -%></p>
+          <% end %>
+
+          <% if section.Functions then %>
+            <h2 class="font-semibold">Functions</h2>
+            <% for i, func in pairs(section.Functions) do %>
+              <p><%= section.Name -%>.<%= func.Name -%></p>
+            <% end %>
+          <% end %>
+        </section>
+      <% end %>
+      </section>
+
+    </main>
+
+    <script>
+      document.getElementById("sections").addEventListener("change", function() {
+        document.querySelector(this.value).scrollIntoView({behavior: "smooth"});
+      });
+    </script>
+  </body>
+</html>

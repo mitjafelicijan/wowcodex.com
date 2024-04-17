@@ -1,1 +1,0 @@
-print("Generating API documentation")
