@@ -9,6 +9,6 @@ install:
 
 server:
 	cp -Rf assets public
+	cp templates/index.html public/
 	cd public && npx --yes browser-sync start --server --watch --no-open --directory
-	# cp templates/index.html public/
 	# cd public && python3 -m http.server 6969
