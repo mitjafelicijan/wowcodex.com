@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>WoW API Reference</title>
+    <link rel="stylesheet" href="/assets/tailwind.v2.min.css">
+    <style>.main-container { max-width: 1600px; }</style>
+  </head>
+  <body class="p-10">
+
+    <main class="main-container mx-auto flex flex-col gap-8">
+      <div class="section flex flex-col gap-6">
+        <h2 class="font-bold text-4xl">API Reference</h2>
+
+        <table class="border">
+          <thead class="bg-gray-200">
+            <tr>
+              <th class="p-2 text-left">Name</th>
+              <th class="p-2 text-left">Namespace</th>
+              <th class="p-2 text-left">#Functions</th>
+              <th class="p-2 text-left">#Tables</th>
+              <th class="p-2 text-left">#Events</th>
+            </tr>
+          </thead>
+          <tbody>
+          <% for _, section in pairs(sections) do %>
+            <tr>
+              <td class="p-2">
+                <a class="underline text-indigo-900" href="/apiref/api.<%= string.lower(section.Name) -%>.html"><%= section.Name -%></a>
+              </td>
+              <td class="p-2"><%= section.Namespace or "" -%></td>
+              <td class="p-2"><%= #section.Functions -%></td>
+              <td class="p-2"><%= #section.Tables -%></td>
+              <td class="p-2"><%= #section.Events -%></td>
+            </tr>
+          <% end %>
+        </tbody>
+        </table>
+        
+     </div>
+    </main>
+  </body>
+</html>
