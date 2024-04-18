@@ -1,7 +1,5 @@
 -- Generates HTML version of the Blizzard WoW Game API available
 -- inside of the game and through Lua.
--- local currentDir = debug.getinfo(1).source:match("@?(.*/)") or ""
--- package.path = package.path .. ";~./luarocks/?/init.lua"
 
 require("luarocks.loader")
 
