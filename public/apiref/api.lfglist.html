@@ -22,1159 +22,2816 @@
         
         
           <h2 class="font-semibold text-2xl">Functions</h2>
+
           <div class="flex flex-col gap-4">
           
-            <div class="func border">
-              <div class="flex gap-1 items-center bg-gray-200 p-2">
+            <div class="func border-2">
+              <div class="expand cursor-pointer flex gap-1 items-center bg-gray-200 p-2">
                 <svg class="w-7 h-7" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M7 12.75V11.25H9.38563L10.7931 6.00266C10.797 5.98811 10.8013 5.97377 10.806 5.95965L10.8102 5.94389L10.8146 5.92986C11.1634 4.81245 12.2058 4 13.44 4C14.9588 4 16.19 5.23122 16.19 6.75C16.19 6.91899 16.1747 7.08506 16.1451 7.24669L16.1396 7.2767L15.8408 8.39079L14.392 8.0022L14.6741 6.9505C14.6845 6.88564 14.69 6.81871 14.69 6.75C14.69 6.05964 14.1304 5.5 13.44 5.5C12.8852 5.5 12.413 5.86199 12.2504 6.36445L10.9394 11.25H12V12.75H10.5368L9.48551 16.6678L9.48495 16.6699L9.41212 16.9414C9.4089 16.9535 9.4054 16.9653 9.40164 16.977L9.38363 17.0435L9.38013 17.0549C9.03607 18.1802 7.98975 19 6.75 19C5.23122 19 4 17.7688 4 16.25C4 15.8992 4.08642 15.5956 4.14978 15.373L4.16503 15.3192L4.30629 14.7925L4.38192 14.5349L5.8212 14.9573L5.75052 15.1981L5.6104 15.7206C5.53143 16.0018 5.5 16.1153 5.5 16.25C5.5 16.9404 6.05964 17.5 6.75 17.5C7.30821 17.5 7.78276 17.1335 7.94256 16.6264L8.03671 16.2792L8.03726 16.2772L8.98331 12.75H7Z" fill="#1F2328"/>
                   <path d="M20.0002 17.75L18.9396 18.8107L16.9699 16.841L15.0002 18.8107L13.9396 17.75L15.9093 15.7803L13.9396 13.8107L15.0002 12.75L16.9699 14.7197L18.9396 12.75L20.0002 13.8107L18.0306 15.7803L20.0002 17.75Z" fill="#1F2328"/>
                 </svg>
                 <div class="font-semibold flex-grow">LFGList.CanActiveEntryUseAutoAccept</div>
-                <svg class="w-8 h-8" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
                 </svg>
               </div>
 
-              <div class="p-2 hidden">
-                 <!-- end arguments loop -->
-              </div>
+              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+
+                 <!-- end arguments -->
+                
+                
+                <div>
+                  <h3 class="font-medium pb-2">Returns</h3>
+                  <table class="border border-gray-200 w-full">
+                    <thead class="bg-gray-200">
+                      <tr>
+                        <th class="w-2"></th>
+                        <th class="p-2 text-left">Name</th>
+                        <th class="p-2 text-left w-64">Type</th>
+                        <th class="p-2 text-left w-64">InnerType</th>
+                        <th class="p-2 text-left w-32">Nilable</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                    
+                      <tr>
+                        <td class="p-2"><input type="checkbox" checked></p>
+                        <td class="p-2">canUseAutoAccept</td>
+                        <td class="p-2">bool</td>
+                        <td class="p-2">nil</td>
+                        <td class="p-2">false</td>
+                      </tr>
+                    
+                    </tbody>
+                  </table>
+                </div>
+                 <!-- end returns -->
+
+                <div> <!-- BEGIN: function call -->
+                  <h3 class="font-medium pb-2">Code example</h3>
+                  <code class="bg-gray-100 block p-2">
+                    
+                      local
+                      
+                      
+                        
+                        canUseAutoAccept
+                        
+                      
+                      =
+                    
+                    CanActiveEntryUseAutoAccept
+                    (
+                      
+                    )
+                  </code>
+                </div> <!-- END: function call -->
+              </div> <!-- hidden stuff ends -->
+              
             </div>
           
-            <div class="func border">
-              <div class="flex gap-1 items-center bg-gray-200 p-2">
+            <div class="func border-2">
+              <div class="expand cursor-pointer flex gap-1 items-center bg-gray-200 p-2">
                 <svg class="w-7 h-7" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M7 12.75V11.25H9.38563L10.7931 6.00266C10.797 5.98811 10.8013 5.97377 10.806 5.95965L10.8102 5.94389L10.8146 5.92986C11.1634 4.81245 12.2058 4 13.44 4C14.9588 4 16.19 5.23122 16.19 6.75C16.19 6.91899 16.1747 7.08506 16.1451 7.24669L16.1396 7.2767L15.8408 8.39079L14.392 8.0022L14.6741 6.9505C14.6845 6.88564 14.69 6.81871 14.69 6.75C14.69 6.05964 14.1304 5.5 13.44 5.5C12.8852 5.5 12.413 5.86199 12.2504 6.36445L10.9394 11.25H12V12.75H10.5368L9.48551 16.6678L9.48495 16.6699L9.41212 16.9414C9.4089 16.9535 9.4054 16.9653 9.40164 16.977L9.38363 17.0435L9.38013 17.0549C9.03607 18.1802 7.98975 19 6.75 19C5.23122 19 4 17.7688 4 16.25C4 15.8992 4.08642 15.5956 4.14978 15.373L4.16503 15.3192L4.30629 14.7925L4.38192 14.5349L5.8212 14.9573L5.75052 15.1981L5.6104 15.7206C5.53143 16.0018 5.5 16.1153 5.5 16.25C5.5 16.9404 6.05964 17.5 6.75 17.5C7.30821 17.5 7.78276 17.1335 7.94256 16.6264L8.03671 16.2792L8.03726 16.2772L8.98331 12.75H7Z" fill="#1F2328"/>
                   <path d="M20.0002 17.75L18.9396 18.8107L16.9699 16.841L15.0002 18.8107L13.9396 17.75L15.9093 15.7803L13.9396 13.8107L15.0002 12.75L16.9699 14.7197L18.9396 12.75L20.0002 13.8107L18.0306 15.7803L20.0002 17.75Z" fill="#1F2328"/>
                 </svg>
                 <div class="font-semibold flex-grow">LFGList.CanCreateQuestGroup</div>
-                <svg class="w-8 h-8" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
                 </svg>
               </div>
 
-              <div class="p-2 hidden">
+              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+
                 
-                <details openp>
-                  <summary class="p-2">Arguments</summary>
-                    <table class="border border-gray-200 w-full">
-                      <thead class="bg-gray-200">
-                        <tr>
-                          <th class="p-2 text-left">Name</th>
-                          <th class="p-2 text-left w-64">Type</th>
-                          <th class="p-2 text-left w-32">Nilable</th>
-                        </tr>
-                      </thead>
-                      <tbody>
+                <div>
+                  <h3 class="font-medium pb-2">Arguments</h3>
+                  <table class="border border-gray-200 w-full">
+                    <thead class="bg-gray-200">
+                      <tr>
+                        <th class="p-2 text-left">Name</th>
+                        <th class="p-2 text-left w-64">Type</th>
+                        <th class="p-2 text-left w-32">Nilable</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                    
+                      <tr>
+                        <td class="p-2">questID</td>
+                        <td class="p-2">number</td>
+                        <td class="p-2">false</td>
+                      </tr>
+                    
+                    </tbody>
+                  </table>
+                </div>
+                 <!-- end arguments -->
+                
+                
+                <div>
+                  <h3 class="font-medium pb-2">Returns</h3>
+                  <table class="border border-gray-200 w-full">
+                    <thead class="bg-gray-200">
+                      <tr>
+                        <th class="w-2"></th>
+                        <th class="p-2 text-left">Name</th>
+                        <th class="p-2 text-left w-64">Type</th>
+                        <th class="p-2 text-left w-64">InnerType</th>
+                        <th class="p-2 text-left w-32">Nilable</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                    
+                      <tr>
+                        <td class="p-2"><input type="checkbox" checked></p>
+                        <td class="p-2">canCreate</td>
+                        <td class="p-2">bool</td>
+                        <td class="p-2">nil</td>
+                        <td class="p-2">false</td>
+                      </tr>
+                    
+                    </tbody>
+                  </table>
+                </div>
+                 <!-- end returns -->
+
+                <div> <!-- BEGIN: function call -->
+                  <h3 class="font-medium pb-2">Code example</h3>
+                  <code class="bg-gray-100 block p-2">
+                    
+                      local
                       
-                        <tr>
-                          <td class="p-2">questID</td>
-                          <td class="p-2">number</td>
-                          <td class="p-2">false</td>
-                        </tr>
                       
-                      </tbody>
-                    </table>
-                  </details>
-                 <!-- end arguments loop -->
-              </div>
+                        
+                        canCreate
+                        
+                      
+                      =
+                    
+                    CanCreateQuestGroup
+                    (
+                      
+                        
+                        
+                          
+                          questID
+                          
+                        
+                      
+                    )
+                  </code>
+                </div> <!-- END: function call -->
+              </div> <!-- hidden stuff ends -->
+              
             </div>
           
-            <div class="func border">
-              <div class="flex gap-1 items-center bg-gray-200 p-2">
+            <div class="func border-2">
+              <div class="expand cursor-pointer flex gap-1 items-center bg-gray-200 p-2">
                 <svg class="w-7 h-7" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M7 12.75V11.25H9.38563L10.7931 6.00266C10.797 5.98811 10.8013 5.97377 10.806 5.95965L10.8102 5.94389L10.8146 5.92986C11.1634 4.81245 12.2058 4 13.44 4C14.9588 4 16.19 5.23122 16.19 6.75C16.19 6.91899 16.1747 7.08506 16.1451 7.24669L16.1396 7.2767L15.8408 8.39079L14.392 8.0022L14.6741 6.9505C14.6845 6.88564 14.69 6.81871 14.69 6.75C14.69 6.05964 14.1304 5.5 13.44 5.5C12.8852 5.5 12.413 5.86199 12.2504 6.36445L10.9394 11.25H12V12.75H10.5368L9.48551 16.6678L9.48495 16.6699L9.41212 16.9414C9.4089 16.9535 9.4054 16.9653 9.40164 16.977L9.38363 17.0435L9.38013 17.0549C9.03607 18.1802 7.98975 19 6.75 19C5.23122 19 4 17.7688 4 16.25C4 15.8992 4.08642 15.5956 4.14978 15.373L4.16503 15.3192L4.30629 14.7925L4.38192 14.5349L5.8212 14.9573L5.75052 15.1981L5.6104 15.7206C5.53143 16.0018 5.5 16.1153 5.5 16.25C5.5 16.9404 6.05964 17.5 6.75 17.5C7.30821 17.5 7.78276 17.1335 7.94256 16.6264L8.03671 16.2792L8.03726 16.2772L8.98331 12.75H7Z" fill="#1F2328"/>
                   <path d="M20.0002 17.75L18.9396 18.8107L16.9699 16.841L15.0002 18.8107L13.9396 17.75L15.9093 15.7803L13.9396 13.8107L15.0002 12.75L16.9699 14.7197L18.9396 12.75L20.0002 13.8107L18.0306 15.7803L20.0002 17.75Z" fill="#1F2328"/>
                 </svg>
                 <div class="font-semibold flex-grow">LFGList.ClearApplicationTextFields</div>
-                <svg class="w-8 h-8" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
                 </svg>
               </div>
 
-              <div class="p-2 hidden">
-                 <!-- end arguments loop -->
-              </div>
+              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+
+                 <!-- end arguments -->
+                
+                 <!-- end returns -->
+
+                <div> <!-- BEGIN: function call -->
+                  <h3 class="font-medium pb-2">Code example</h3>
+                  <code class="bg-gray-100 block p-2">
+                    
+                    ClearApplicationTextFields
+                    (
+                      
+                    )
+                  </code>
+                </div> <!-- END: function call -->
+              </div> <!-- hidden stuff ends -->
+              
             </div>
           
-            <div class="func border">
-              <div class="flex gap-1 items-center bg-gray-200 p-2">
+            <div class="func border-2">
+              <div class="expand cursor-pointer flex gap-1 items-center bg-gray-200 p-2">
                 <svg class="w-7 h-7" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M7 12.75V11.25H9.38563L10.7931 6.00266C10.797 5.98811 10.8013 5.97377 10.806 5.95965L10.8102 5.94389L10.8146 5.92986C11.1634 4.81245 12.2058 4 13.44 4C14.9588 4 16.19 5.23122 16.19 6.75C16.19 6.91899 16.1747 7.08506 16.1451 7.24669L16.1396 7.2767L15.8408 8.39079L14.392 8.0022L14.6741 6.9505C14.6845 6.88564 14.69 6.81871 14.69 6.75C14.69 6.05964 14.1304 5.5 13.44 5.5C12.8852 5.5 12.413 5.86199 12.2504 6.36445L10.9394 11.25H12V12.75H10.5368L9.48551 16.6678L9.48495 16.6699L9.41212 16.9414C9.4089 16.9535 9.4054 16.9653 9.40164 16.977L9.38363 17.0435L9.38013 17.0549C9.03607 18.1802 7.98975 19 6.75 19C5.23122 19 4 17.7688 4 16.25C4 15.8992 4.08642 15.5956 4.14978 15.373L4.16503 15.3192L4.30629 14.7925L4.38192 14.5349L5.8212 14.9573L5.75052 15.1981L5.6104 15.7206C5.53143 16.0018 5.5 16.1153 5.5 16.25C5.5 16.9404 6.05964 17.5 6.75 17.5C7.30821 17.5 7.78276 17.1335 7.94256 16.6264L8.03671 16.2792L8.03726 16.2772L8.98331 12.75H7Z" fill="#1F2328"/>
                   <path d="M20.0002 17.75L18.9396 18.8107L16.9699 16.841L15.0002 18.8107L13.9396 17.75L15.9093 15.7803L13.9396 13.8107L15.0002 12.75L16.9699 14.7197L18.9396 12.75L20.0002 13.8107L18.0306 15.7803L20.0002 17.75Z" fill="#1F2328"/>
                 </svg>
                 <div class="font-semibold flex-grow">LFGList.ClearCreationTextFields</div>
-                <svg class="w-8 h-8" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
                 </svg>
               </div>
 
-              <div class="p-2 hidden">
-                 <!-- end arguments loop -->
-              </div>
+              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+
+                 <!-- end arguments -->
+                
+                 <!-- end returns -->
+
+                <div> <!-- BEGIN: function call -->
+                  <h3 class="font-medium pb-2">Code example</h3>
+                  <code class="bg-gray-100 block p-2">
+                    
+                    ClearCreationTextFields
+                    (
+                      
+                    )
+                  </code>
+                </div> <!-- END: function call -->
+              </div> <!-- hidden stuff ends -->
+              
             </div>
           
-            <div class="func border">
-              <div class="flex gap-1 items-center bg-gray-200 p-2">
+            <div class="func border-2">
+              <div class="expand cursor-pointer flex gap-1 items-center bg-gray-200 p-2">
                 <svg class="w-7 h-7" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M7 12.75V11.25H9.38563L10.7931 6.00266C10.797 5.98811 10.8013 5.97377 10.806 5.95965L10.8102 5.94389L10.8146 5.92986C11.1634 4.81245 12.2058 4 13.44 4C14.9588 4 16.19 5.23122 16.19 6.75C16.19 6.91899 16.1747 7.08506 16.1451 7.24669L16.1396 7.2767L15.8408 8.39079L14.392 8.0022L14.6741 6.9505C14.6845 6.88564 14.69 6.81871 14.69 6.75C14.69 6.05964 14.1304 5.5 13.44 5.5C12.8852 5.5 12.413 5.86199 12.2504 6.36445L10.9394 11.25H12V12.75H10.5368L9.48551 16.6678L9.48495 16.6699L9.41212 16.9414C9.4089 16.9535 9.4054 16.9653 9.40164 16.977L9.38363 17.0435L9.38013 17.0549C9.03607 18.1802 7.98975 19 6.75 19C5.23122 19 4 17.7688 4 16.25C4 15.8992 4.08642 15.5956 4.14978 15.373L4.16503 15.3192L4.30629 14.7925L4.38192 14.5349L5.8212 14.9573L5.75052 15.1981L5.6104 15.7206C5.53143 16.0018 5.5 16.1153 5.5 16.25C5.5 16.9404 6.05964 17.5 6.75 17.5C7.30821 17.5 7.78276 17.1335 7.94256 16.6264L8.03671 16.2792L8.03726 16.2772L8.98331 12.75H7Z" fill="#1F2328"/>
                   <path d="M20.0002 17.75L18.9396 18.8107L16.9699 16.841L15.0002 18.8107L13.9396 17.75L15.9093 15.7803L13.9396 13.8107L15.0002 12.75L16.9699 14.7197L18.9396 12.75L20.0002 13.8107L18.0306 15.7803L20.0002 17.75Z" fill="#1F2328"/>
                 </svg>
                 <div class="font-semibold flex-grow">LFGList.ClearSearchTextFields</div>
-                <svg class="w-8 h-8" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
                 </svg>
               </div>
 
-              <div class="p-2 hidden">
-                 <!-- end arguments loop -->
-              </div>
+              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+
+                 <!-- end arguments -->
+                
+                 <!-- end returns -->
+
+                <div> <!-- BEGIN: function call -->
+                  <h3 class="font-medium pb-2">Code example</h3>
+                  <code class="bg-gray-100 block p-2">
+                    
+                    ClearSearchTextFields
+                    (
+                      
+                    )
+                  </code>
+                </div> <!-- END: function call -->
+              </div> <!-- hidden stuff ends -->
+              
             </div>
           
-            <div class="func border">
-              <div class="flex gap-1 items-center bg-gray-200 p-2">
+            <div class="func border-2">
+              <div class="expand cursor-pointer flex gap-1 items-center bg-gray-200 p-2">
                 <svg class="w-7 h-7" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M7 12.75V11.25H9.38563L10.7931 6.00266C10.797 5.98811 10.8013 5.97377 10.806 5.95965L10.8102 5.94389L10.8146 5.92986C11.1634 4.81245 12.2058 4 13.44 4C14.9588 4 16.19 5.23122 16.19 6.75C16.19 6.91899 16.1747 7.08506 16.1451 7.24669L16.1396 7.2767L15.8408 8.39079L14.392 8.0022L14.6741 6.9505C14.6845 6.88564 14.69 6.81871 14.69 6.75C14.69 6.05964 14.1304 5.5 13.44 5.5C12.8852 5.5 12.413 5.86199 12.2504 6.36445L10.9394 11.25H12V12.75H10.5368L9.48551 16.6678L9.48495 16.6699L9.41212 16.9414C9.4089 16.9535 9.4054 16.9653 9.40164 16.977L9.38363 17.0435L9.38013 17.0549C9.03607 18.1802 7.98975 19 6.75 19C5.23122 19 4 17.7688 4 16.25C4 15.8992 4.08642 15.5956 4.14978 15.373L4.16503 15.3192L4.30629 14.7925L4.38192 14.5349L5.8212 14.9573L5.75052 15.1981L5.6104 15.7206C5.53143 16.0018 5.5 16.1153 5.5 16.25C5.5 16.9404 6.05964 17.5 6.75 17.5C7.30821 17.5 7.78276 17.1335 7.94256 16.6264L8.03671 16.2792L8.03726 16.2772L8.98331 12.75H7Z" fill="#1F2328"/>
                   <path d="M20.0002 17.75L18.9396 18.8107L16.9699 16.841L15.0002 18.8107L13.9396 17.75L15.9093 15.7803L13.9396 13.8107L15.0002 12.75L16.9699 14.7197L18.9396 12.75L20.0002 13.8107L18.0306 15.7803L20.0002 17.75Z" fill="#1F2328"/>
                 </svg>
                 <div class="font-semibold flex-grow">LFGList.CopyActiveEntryInfoToCreationFields</div>
-                <svg class="w-8 h-8" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
                 </svg>
               </div>
 
-              <div class="p-2 hidden">
-                 <!-- end arguments loop -->
-              </div>
+              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+
+                 <!-- end arguments -->
+                
+                 <!-- end returns -->
+
+                <div> <!-- BEGIN: function call -->
+                  <h3 class="font-medium pb-2">Code example</h3>
+                  <code class="bg-gray-100 block p-2">
+                    
+                    CopyActiveEntryInfoToCreationFields
+                    (
+                      
+                    )
+                  </code>
+                </div> <!-- END: function call -->
+              </div> <!-- hidden stuff ends -->
+              
             </div>
           
-            <div class="func border">
-              <div class="flex gap-1 items-center bg-gray-200 p-2">
+            <div class="func border-2">
+              <div class="expand cursor-pointer flex gap-1 items-center bg-gray-200 p-2">
                 <svg class="w-7 h-7" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M7 12.75V11.25H9.38563L10.7931 6.00266C10.797 5.98811 10.8013 5.97377 10.806 5.95965L10.8102 5.94389L10.8146 5.92986C11.1634 4.81245 12.2058 4 13.44 4C14.9588 4 16.19 5.23122 16.19 6.75C16.19 6.91899 16.1747 7.08506 16.1451 7.24669L16.1396 7.2767L15.8408 8.39079L14.392 8.0022L14.6741 6.9505C14.6845 6.88564 14.69 6.81871 14.69 6.75C14.69 6.05964 14.1304 5.5 13.44 5.5C12.8852 5.5 12.413 5.86199 12.2504 6.36445L10.9394 11.25H12V12.75H10.5368L9.48551 16.6678L9.48495 16.6699L9.41212 16.9414C9.4089 16.9535 9.4054 16.9653 9.40164 16.977L9.38363 17.0435L9.38013 17.0549C9.03607 18.1802 7.98975 19 6.75 19C5.23122 19 4 17.7688 4 16.25C4 15.8992 4.08642 15.5956 4.14978 15.373L4.16503 15.3192L4.30629 14.7925L4.38192 14.5349L5.8212 14.9573L5.75052 15.1981L5.6104 15.7206C5.53143 16.0018 5.5 16.1153 5.5 16.25C5.5 16.9404 6.05964 17.5 6.75 17.5C7.30821 17.5 7.78276 17.1335 7.94256 16.6264L8.03671 16.2792L8.03726 16.2772L8.98331 12.75H7Z" fill="#1F2328"/>
                   <path d="M20.0002 17.75L18.9396 18.8107L16.9699 16.841L15.0002 18.8107L13.9396 17.75L15.9093 15.7803L13.9396 13.8107L15.0002 12.75L16.9699 14.7197L18.9396 12.75L20.0002 13.8107L18.0306 15.7803L20.0002 17.75Z" fill="#1F2328"/>
                 </svg>
                 <div class="font-semibold flex-grow">LFGList.DoesEntryTitleMatchPrebuiltTitle</div>
-                <svg class="w-8 h-8" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
                 </svg>
               </div>
 
-              <div class="p-2 hidden">
+              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+
                 
-                <details openp>
-                  <summary class="p-2">Arguments</summary>
-                    <table class="border border-gray-200 w-full">
-                      <thead class="bg-gray-200">
-                        <tr>
-                          <th class="p-2 text-left">Name</th>
-                          <th class="p-2 text-left w-64">Type</th>
-                          <th class="p-2 text-left w-32">Nilable</th>
-                        </tr>
-                      </thead>
-                      <tbody>
+                <div>
+                  <h3 class="font-medium pb-2">Arguments</h3>
+                  <table class="border border-gray-200 w-full">
+                    <thead class="bg-gray-200">
+                      <tr>
+                        <th class="p-2 text-left">Name</th>
+                        <th class="p-2 text-left w-64">Type</th>
+                        <th class="p-2 text-left w-32">Nilable</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                    
+                      <tr>
+                        <td class="p-2">activityID</td>
+                        <td class="p-2">number</td>
+                        <td class="p-2">false</td>
+                      </tr>
+                    
+                      <tr>
+                        <td class="p-2">groupID</td>
+                        <td class="p-2">number</td>
+                        <td class="p-2">false</td>
+                      </tr>
+                    
+                      <tr>
+                        <td class="p-2">playstyle</td>
+                        <td class="p-2">LFGEntryPlaystyle</td>
+                        <td class="p-2">true</td>
+                      </tr>
+                    
+                    </tbody>
+                  </table>
+                </div>
+                 <!-- end arguments -->
+                
+                
+                <div>
+                  <h3 class="font-medium pb-2">Returns</h3>
+                  <table class="border border-gray-200 w-full">
+                    <thead class="bg-gray-200">
+                      <tr>
+                        <th class="w-2"></th>
+                        <th class="p-2 text-left">Name</th>
+                        <th class="p-2 text-left w-64">Type</th>
+                        <th class="p-2 text-left w-64">InnerType</th>
+                        <th class="p-2 text-left w-32">Nilable</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                    
+                      <tr>
+                        <td class="p-2"><input type="checkbox" checked></p>
+                        <td class="p-2">matches</td>
+                        <td class="p-2">bool</td>
+                        <td class="p-2">nil</td>
+                        <td class="p-2">false</td>
+                      </tr>
+                    
+                    </tbody>
+                  </table>
+                </div>
+                 <!-- end returns -->
+
+                <div> <!-- BEGIN: function call -->
+                  <h3 class="font-medium pb-2">Code example</h3>
+                  <code class="bg-gray-100 block p-2">
+                    
+                      local
                       
-                        <tr>
-                          <td class="p-2">activityID</td>
-                          <td class="p-2">number</td>
-                          <td class="p-2">false</td>
-                        </tr>
                       
-                        <tr>
-                          <td class="p-2">groupID</td>
-                          <td class="p-2">number</td>
-                          <td class="p-2">false</td>
-                        </tr>
+                        
+                        matches
+                        
                       
-                        <tr>
-                          <td class="p-2">playstyle</td>
-                          <td class="p-2">LFGEntryPlaystyle</td>
-                          <td class="p-2">true</td>
-                        </tr>
+                      =
+                    
+                    DoesEntryTitleMatchPrebuiltTitle
+                    (
                       
-                      </tbody>
-                    </table>
-                  </details>
-                 <!-- end arguments loop -->
-              </div>
+                        
+                        
+                          
+                          activityID
+                          
+                        
+                          ,
+                          groupID
+                          
+                        
+                          ,
+                          playstyle
+                          
+                        
+                      
+                    )
+                  </code>
+                </div> <!-- END: function call -->
+              </div> <!-- hidden stuff ends -->
+              
             </div>
           
-            <div class="func border">
-              <div class="flex gap-1 items-center bg-gray-200 p-2">
+            <div class="func border-2">
+              <div class="expand cursor-pointer flex gap-1 items-center bg-gray-200 p-2">
                 <svg class="w-7 h-7" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M7 12.75V11.25H9.38563L10.7931 6.00266C10.797 5.98811 10.8013 5.97377 10.806 5.95965L10.8102 5.94389L10.8146 5.92986C11.1634 4.81245 12.2058 4 13.44 4C14.9588 4 16.19 5.23122 16.19 6.75C16.19 6.91899 16.1747 7.08506 16.1451 7.24669L16.1396 7.2767L15.8408 8.39079L14.392 8.0022L14.6741 6.9505C14.6845 6.88564 14.69 6.81871 14.69 6.75C14.69 6.05964 14.1304 5.5 13.44 5.5C12.8852 5.5 12.413 5.86199 12.2504 6.36445L10.9394 11.25H12V12.75H10.5368L9.48551 16.6678L9.48495 16.6699L9.41212 16.9414C9.4089 16.9535 9.4054 16.9653 9.40164 16.977L9.38363 17.0435L9.38013 17.0549C9.03607 18.1802 7.98975 19 6.75 19C5.23122 19 4 17.7688 4 16.25C4 15.8992 4.08642 15.5956 4.14978 15.373L4.16503 15.3192L4.30629 14.7925L4.38192 14.5349L5.8212 14.9573L5.75052 15.1981L5.6104 15.7206C5.53143 16.0018 5.5 16.1153 5.5 16.25C5.5 16.9404 6.05964 17.5 6.75 17.5C7.30821 17.5 7.78276 17.1335 7.94256 16.6264L8.03671 16.2792L8.03726 16.2772L8.98331 12.75H7Z" fill="#1F2328"/>
                   <path d="M20.0002 17.75L18.9396 18.8107L16.9699 16.841L15.0002 18.8107L13.9396 17.75L15.9093 15.7803L13.9396 13.8107L15.0002 12.75L16.9699 14.7197L18.9396 12.75L20.0002 13.8107L18.0306 15.7803L20.0002 17.75Z" fill="#1F2328"/>
                 </svg>
                 <div class="font-semibold flex-grow">LFGList.GetActiveEntryInfo</div>
-                <svg class="w-8 h-8" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
                 </svg>
               </div>
 
-              <div class="p-2 hidden">
-                 <!-- end arguments loop -->
-              </div>
+              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+
+                 <!-- end arguments -->
+                
+                
+                <div>
+                  <h3 class="font-medium pb-2">Returns</h3>
+                  <table class="border border-gray-200 w-full">
+                    <thead class="bg-gray-200">
+                      <tr>
+                        <th class="w-2"></th>
+                        <th class="p-2 text-left">Name</th>
+                        <th class="p-2 text-left w-64">Type</th>
+                        <th class="p-2 text-left w-64">InnerType</th>
+                        <th class="p-2 text-left w-32">Nilable</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                    
+                      <tr>
+                        <td class="p-2"><input type="checkbox" checked></p>
+                        <td class="p-2">entryData</td>
+                        <td class="p-2">LfgEntryData</td>
+                        <td class="p-2">nil</td>
+                        <td class="p-2">false</td>
+                      </tr>
+                    
+                    </tbody>
+                  </table>
+                </div>
+                 <!-- end returns -->
+
+                <div> <!-- BEGIN: function call -->
+                  <h3 class="font-medium pb-2">Code example</h3>
+                  <code class="bg-gray-100 block p-2">
+                    
+                      local
+                      
+                      
+                        
+                        entryData
+                        
+                      
+                      =
+                    
+                    GetActiveEntryInfo
+                    (
+                      
+                    )
+                  </code>
+                </div> <!-- END: function call -->
+              </div> <!-- hidden stuff ends -->
+              
             </div>
           
-            <div class="func border">
-              <div class="flex gap-1 items-center bg-gray-200 p-2">
+            <div class="func border-2">
+              <div class="expand cursor-pointer flex gap-1 items-center bg-gray-200 p-2">
                 <svg class="w-7 h-7" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M7 12.75V11.25H9.38563L10.7931 6.00266C10.797 5.98811 10.8013 5.97377 10.806 5.95965L10.8102 5.94389L10.8146 5.92986C11.1634 4.81245 12.2058 4 13.44 4C14.9588 4 16.19 5.23122 16.19 6.75C16.19 6.91899 16.1747 7.08506 16.1451 7.24669L16.1396 7.2767L15.8408 8.39079L14.392 8.0022L14.6741 6.9505C14.6845 6.88564 14.69 6.81871 14.69 6.75C14.69 6.05964 14.1304 5.5 13.44 5.5C12.8852 5.5 12.413 5.86199 12.2504 6.36445L10.9394 11.25H12V12.75H10.5368L9.48551 16.6678L9.48495 16.6699L9.41212 16.9414C9.4089 16.9535 9.4054 16.9653 9.40164 16.977L9.38363 17.0435L9.38013 17.0549C9.03607 18.1802 7.98975 19 6.75 19C5.23122 19 4 17.7688 4 16.25C4 15.8992 4.08642 15.5956 4.14978 15.373L4.16503 15.3192L4.30629 14.7925L4.38192 14.5349L5.8212 14.9573L5.75052 15.1981L5.6104 15.7206C5.53143 16.0018 5.5 16.1153 5.5 16.25C5.5 16.9404 6.05964 17.5 6.75 17.5C7.30821 17.5 7.78276 17.1335 7.94256 16.6264L8.03671 16.2792L8.03726 16.2772L8.98331 12.75H7Z" fill="#1F2328"/>
                   <path d="M20.0002 17.75L18.9396 18.8107L16.9699 16.841L15.0002 18.8107L13.9396 17.75L15.9093 15.7803L13.9396 13.8107L15.0002 12.75L16.9699 14.7197L18.9396 12.75L20.0002 13.8107L18.0306 15.7803L20.0002 17.75Z" fill="#1F2328"/>
                 </svg>
                 <div class="font-semibold flex-grow">LFGList.GetActivityFullName</div>
-                <svg class="w-8 h-8" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
                 </svg>
               </div>
 
-              <div class="p-2 hidden">
+              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+
                 
-                <details openp>
-                  <summary class="p-2">Arguments</summary>
-                    <table class="border border-gray-200 w-full">
-                      <thead class="bg-gray-200">
-                        <tr>
-                          <th class="p-2 text-left">Name</th>
-                          <th class="p-2 text-left w-64">Type</th>
-                          <th class="p-2 text-left w-32">Nilable</th>
-                        </tr>
-                      </thead>
-                      <tbody>
+                <div>
+                  <h3 class="font-medium pb-2">Arguments</h3>
+                  <table class="border border-gray-200 w-full">
+                    <thead class="bg-gray-200">
+                      <tr>
+                        <th class="p-2 text-left">Name</th>
+                        <th class="p-2 text-left w-64">Type</th>
+                        <th class="p-2 text-left w-32">Nilable</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                    
+                      <tr>
+                        <td class="p-2">activityID</td>
+                        <td class="p-2">number</td>
+                        <td class="p-2">false</td>
+                      </tr>
+                    
+                      <tr>
+                        <td class="p-2">questID</td>
+                        <td class="p-2">number</td>
+                        <td class="p-2">true</td>
+                      </tr>
+                    
+                      <tr>
+                        <td class="p-2">showWarmode</td>
+                        <td class="p-2">bool</td>
+                        <td class="p-2">true</td>
+                      </tr>
+                    
+                    </tbody>
+                  </table>
+                </div>
+                 <!-- end arguments -->
+                
+                
+                <div>
+                  <h3 class="font-medium pb-2">Returns</h3>
+                  <table class="border border-gray-200 w-full">
+                    <thead class="bg-gray-200">
+                      <tr>
+                        <th class="w-2"></th>
+                        <th class="p-2 text-left">Name</th>
+                        <th class="p-2 text-left w-64">Type</th>
+                        <th class="p-2 text-left w-64">InnerType</th>
+                        <th class="p-2 text-left w-32">Nilable</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                    
+                      <tr>
+                        <td class="p-2"><input type="checkbox" checked></p>
+                        <td class="p-2">fullName</td>
+                        <td class="p-2">string</td>
+                        <td class="p-2">nil</td>
+                        <td class="p-2">false</td>
+                      </tr>
+                    
+                    </tbody>
+                  </table>
+                </div>
+                 <!-- end returns -->
+
+                <div> <!-- BEGIN: function call -->
+                  <h3 class="font-medium pb-2">Code example</h3>
+                  <code class="bg-gray-100 block p-2">
+                    
+                      local
                       
-                        <tr>
-                          <td class="p-2">activityID</td>
-                          <td class="p-2">number</td>
-                          <td class="p-2">false</td>
-                        </tr>
                       
-                        <tr>
-                          <td class="p-2">questID</td>
-                          <td class="p-2">number</td>
-                          <td class="p-2">true</td>
-                        </tr>
+                        
+                        fullName
+                        
                       
-                        <tr>
-                          <td class="p-2">showWarmode</td>
-                          <td class="p-2">bool</td>
-                          <td class="p-2">true</td>
-                        </tr>
+                      =
+                    
+                    GetActivityFullName
+                    (
                       
-                      </tbody>
-                    </table>
-                  </details>
-                 <!-- end arguments loop -->
-              </div>
+                        
+                        
+                          
+                          activityID
+                          
+                        
+                          ,
+                          questID
+                          
+                        
+                          ,
+                          showWarmode
+                          
+                        
+                      
+                    )
+                  </code>
+                </div> <!-- END: function call -->
+              </div> <!-- hidden stuff ends -->
+              
             </div>
           
-            <div class="func border">
-              <div class="flex gap-1 items-center bg-gray-200 p-2">
+            <div class="func border-2">
+              <div class="expand cursor-pointer flex gap-1 items-center bg-gray-200 p-2">
                 <svg class="w-7 h-7" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M7 12.75V11.25H9.38563L10.7931 6.00266C10.797 5.98811 10.8013 5.97377 10.806 5.95965L10.8102 5.94389L10.8146 5.92986C11.1634 4.81245 12.2058 4 13.44 4C14.9588 4 16.19 5.23122 16.19 6.75C16.19 6.91899 16.1747 7.08506 16.1451 7.24669L16.1396 7.2767L15.8408 8.39079L14.392 8.0022L14.6741 6.9505C14.6845 6.88564 14.69 6.81871 14.69 6.75C14.69 6.05964 14.1304 5.5 13.44 5.5C12.8852 5.5 12.413 5.86199 12.2504 6.36445L10.9394 11.25H12V12.75H10.5368L9.48551 16.6678L9.48495 16.6699L9.41212 16.9414C9.4089 16.9535 9.4054 16.9653 9.40164 16.977L9.38363 17.0435L9.38013 17.0549C9.03607 18.1802 7.98975 19 6.75 19C5.23122 19 4 17.7688 4 16.25C4 15.8992 4.08642 15.5956 4.14978 15.373L4.16503 15.3192L4.30629 14.7925L4.38192 14.5349L5.8212 14.9573L5.75052 15.1981L5.6104 15.7206C5.53143 16.0018 5.5 16.1153 5.5 16.25C5.5 16.9404 6.05964 17.5 6.75 17.5C7.30821 17.5 7.78276 17.1335 7.94256 16.6264L8.03671 16.2792L8.03726 16.2772L8.98331 12.75H7Z" fill="#1F2328"/>
                   <path d="M20.0002 17.75L18.9396 18.8107L16.9699 16.841L15.0002 18.8107L13.9396 17.75L15.9093 15.7803L13.9396 13.8107L15.0002 12.75L16.9699 14.7197L18.9396 12.75L20.0002 13.8107L18.0306 15.7803L20.0002 17.75Z" fill="#1F2328"/>
                 </svg>
                 <div class="font-semibold flex-grow">LFGList.GetActivityGroupInfo</div>
-                <svg class="w-8 h-8" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
                 </svg>
               </div>
 
-              <div class="p-2 hidden">
+              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+
                 
-                <details openp>
-                  <summary class="p-2">Arguments</summary>
-                    <table class="border border-gray-200 w-full">
-                      <thead class="bg-gray-200">
-                        <tr>
-                          <th class="p-2 text-left">Name</th>
-                          <th class="p-2 text-left w-64">Type</th>
-                          <th class="p-2 text-left w-32">Nilable</th>
-                        </tr>
-                      </thead>
-                      <tbody>
+                <div>
+                  <h3 class="font-medium pb-2">Arguments</h3>
+                  <table class="border border-gray-200 w-full">
+                    <thead class="bg-gray-200">
+                      <tr>
+                        <th class="p-2 text-left">Name</th>
+                        <th class="p-2 text-left w-64">Type</th>
+                        <th class="p-2 text-left w-32">Nilable</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                    
+                      <tr>
+                        <td class="p-2">groupID</td>
+                        <td class="p-2">number</td>
+                        <td class="p-2">false</td>
+                      </tr>
+                    
+                    </tbody>
+                  </table>
+                </div>
+                 <!-- end arguments -->
+                
+                
+                <div>
+                  <h3 class="font-medium pb-2">Returns</h3>
+                  <table class="border border-gray-200 w-full">
+                    <thead class="bg-gray-200">
+                      <tr>
+                        <th class="w-2"></th>
+                        <th class="p-2 text-left">Name</th>
+                        <th class="p-2 text-left w-64">Type</th>
+                        <th class="p-2 text-left w-64">InnerType</th>
+                        <th class="p-2 text-left w-32">Nilable</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                    
+                      <tr>
+                        <td class="p-2"><input type="checkbox" checked></p>
+                        <td class="p-2">name</td>
+                        <td class="p-2">string</td>
+                        <td class="p-2">nil</td>
+                        <td class="p-2">false</td>
+                      </tr>
+                    
+                      <tr>
+                        <td class="p-2"><input type="checkbox" checked></p>
+                        <td class="p-2">orderIndex</td>
+                        <td class="p-2">number</td>
+                        <td class="p-2">nil</td>
+                        <td class="p-2">false</td>
+                      </tr>
+                    
+                    </tbody>
+                  </table>
+                </div>
+                 <!-- end returns -->
+
+                <div> <!-- BEGIN: function call -->
+                  <h3 class="font-medium pb-2">Code example</h3>
+                  <code class="bg-gray-100 block p-2">
+                    
+                      local
                       
-                        <tr>
-                          <td class="p-2">groupID</td>
-                          <td class="p-2">number</td>
-                          <td class="p-2">false</td>
-                        </tr>
                       
-                      </tbody>
-                    </table>
-                  </details>
-                 <!-- end arguments loop -->
-              </div>
+                        
+                        name
+                        
+                      
+                        ,
+                        orderIndex
+                        
+                      
+                      =
+                    
+                    GetActivityGroupInfo
+                    (
+                      
+                        
+                        
+                          
+                          groupID
+                          
+                        
+                      
+                    )
+                  </code>
+                </div> <!-- END: function call -->
+              </div> <!-- hidden stuff ends -->
+              
             </div>
           
-            <div class="func border">
-              <div class="flex gap-1 items-center bg-gray-200 p-2">
+            <div class="func border-2">
+              <div class="expand cursor-pointer flex gap-1 items-center bg-gray-200 p-2">
                 <svg class="w-7 h-7" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M7 12.75V11.25H9.38563L10.7931 6.00266C10.797 5.98811 10.8013 5.97377 10.806 5.95965L10.8102 5.94389L10.8146 5.92986C11.1634 4.81245 12.2058 4 13.44 4C14.9588 4 16.19 5.23122 16.19 6.75C16.19 6.91899 16.1747 7.08506 16.1451 7.24669L16.1396 7.2767L15.8408 8.39079L14.392 8.0022L14.6741 6.9505C14.6845 6.88564 14.69 6.81871 14.69 6.75C14.69 6.05964 14.1304 5.5 13.44 5.5C12.8852 5.5 12.413 5.86199 12.2504 6.36445L10.9394 11.25H12V12.75H10.5368L9.48551 16.6678L9.48495 16.6699L9.41212 16.9414C9.4089 16.9535 9.4054 16.9653 9.40164 16.977L9.38363 17.0435L9.38013 17.0549C9.03607 18.1802 7.98975 19 6.75 19C5.23122 19 4 17.7688 4 16.25C4 15.8992 4.08642 15.5956 4.14978 15.373L4.16503 15.3192L4.30629 14.7925L4.38192 14.5349L5.8212 14.9573L5.75052 15.1981L5.6104 15.7206C5.53143 16.0018 5.5 16.1153 5.5 16.25C5.5 16.9404 6.05964 17.5 6.75 17.5C7.30821 17.5 7.78276 17.1335 7.94256 16.6264L8.03671 16.2792L8.03726 16.2772L8.98331 12.75H7Z" fill="#1F2328"/>
                   <path d="M20.0002 17.75L18.9396 18.8107L16.9699 16.841L15.0002 18.8107L13.9396 17.75L15.9093 15.7803L13.9396 13.8107L15.0002 12.75L16.9699 14.7197L18.9396 12.75L20.0002 13.8107L18.0306 15.7803L20.0002 17.75Z" fill="#1F2328"/>
                 </svg>
                 <div class="font-semibold flex-grow">LFGList.GetActivityInfoTable</div>
-                <svg class="w-8 h-8" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
                 </svg>
               </div>
 
-              <div class="p-2 hidden">
+              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+
                 
-                <details openp>
-                  <summary class="p-2">Arguments</summary>
-                    <table class="border border-gray-200 w-full">
-                      <thead class="bg-gray-200">
-                        <tr>
-                          <th class="p-2 text-left">Name</th>
-                          <th class="p-2 text-left w-64">Type</th>
-                          <th class="p-2 text-left w-32">Nilable</th>
-                        </tr>
-                      </thead>
-                      <tbody>
+                <div>
+                  <h3 class="font-medium pb-2">Arguments</h3>
+                  <table class="border border-gray-200 w-full">
+                    <thead class="bg-gray-200">
+                      <tr>
+                        <th class="p-2 text-left">Name</th>
+                        <th class="p-2 text-left w-64">Type</th>
+                        <th class="p-2 text-left w-32">Nilable</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                    
+                      <tr>
+                        <td class="p-2">activityID</td>
+                        <td class="p-2">number</td>
+                        <td class="p-2">false</td>
+                      </tr>
+                    
+                      <tr>
+                        <td class="p-2">questID</td>
+                        <td class="p-2">number</td>
+                        <td class="p-2">true</td>
+                      </tr>
+                    
+                      <tr>
+                        <td class="p-2">showWarmode</td>
+                        <td class="p-2">bool</td>
+                        <td class="p-2">true</td>
+                      </tr>
+                    
+                    </tbody>
+                  </table>
+                </div>
+                 <!-- end arguments -->
+                
+                
+                <div>
+                  <h3 class="font-medium pb-2">Returns</h3>
+                  <table class="border border-gray-200 w-full">
+                    <thead class="bg-gray-200">
+                      <tr>
+                        <th class="w-2"></th>
+                        <th class="p-2 text-left">Name</th>
+                        <th class="p-2 text-left w-64">Type</th>
+                        <th class="p-2 text-left w-64">InnerType</th>
+                        <th class="p-2 text-left w-32">Nilable</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                    
+                      <tr>
+                        <td class="p-2"><input type="checkbox" checked></p>
+                        <td class="p-2">activityInfo</td>
+                        <td class="p-2">GroupFinderActivityInfo</td>
+                        <td class="p-2">nil</td>
+                        <td class="p-2">false</td>
+                      </tr>
+                    
+                    </tbody>
+                  </table>
+                </div>
+                 <!-- end returns -->
+
+                <div> <!-- BEGIN: function call -->
+                  <h3 class="font-medium pb-2">Code example</h3>
+                  <code class="bg-gray-100 block p-2">
+                    
+                      local
                       
-                        <tr>
-                          <td class="p-2">activityID</td>
-                          <td class="p-2">number</td>
-                          <td class="p-2">false</td>
-                        </tr>
                       
-                        <tr>
-                          <td class="p-2">questID</td>
-                          <td class="p-2">number</td>
-                          <td class="p-2">true</td>
-                        </tr>
+                        
+                        activityInfo
+                        
                       
-                        <tr>
-                          <td class="p-2">showWarmode</td>
-                          <td class="p-2">bool</td>
-                          <td class="p-2">true</td>
-                        </tr>
+                      =
+                    
+                    GetActivityInfoTable
+                    (
                       
-                      </tbody>
-                    </table>
-                  </details>
-                 <!-- end arguments loop -->
-              </div>
+                        
+                        
+                          
+                          activityID
+                          
+                        
+                          ,
+                          questID
+                          
+                        
+                          ,
+                          showWarmode
+                          
+                        
+                      
+                    )
+                  </code>
+                </div> <!-- END: function call -->
+              </div> <!-- hidden stuff ends -->
+              
             </div>
           
-            <div class="func border">
-              <div class="flex gap-1 items-center bg-gray-200 p-2">
+            <div class="func border-2">
+              <div class="expand cursor-pointer flex gap-1 items-center bg-gray-200 p-2">
                 <svg class="w-7 h-7" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M7 12.75V11.25H9.38563L10.7931 6.00266C10.797 5.98811 10.8013 5.97377 10.806 5.95965L10.8102 5.94389L10.8146 5.92986C11.1634 4.81245 12.2058 4 13.44 4C14.9588 4 16.19 5.23122 16.19 6.75C16.19 6.91899 16.1747 7.08506 16.1451 7.24669L16.1396 7.2767L15.8408 8.39079L14.392 8.0022L14.6741 6.9505C14.6845 6.88564 14.69 6.81871 14.69 6.75C14.69 6.05964 14.1304 5.5 13.44 5.5C12.8852 5.5 12.413 5.86199 12.2504 6.36445L10.9394 11.25H12V12.75H10.5368L9.48551 16.6678L9.48495 16.6699L9.41212 16.9414C9.4089 16.9535 9.4054 16.9653 9.40164 16.977L9.38363 17.0435L9.38013 17.0549C9.03607 18.1802 7.98975 19 6.75 19C5.23122 19 4 17.7688 4 16.25C4 15.8992 4.08642 15.5956 4.14978 15.373L4.16503 15.3192L4.30629 14.7925L4.38192 14.5349L5.8212 14.9573L5.75052 15.1981L5.6104 15.7206C5.53143 16.0018 5.5 16.1153 5.5 16.25C5.5 16.9404 6.05964 17.5 6.75 17.5C7.30821 17.5 7.78276 17.1335 7.94256 16.6264L8.03671 16.2792L8.03726 16.2772L8.98331 12.75H7Z" fill="#1F2328"/>
                   <path d="M20.0002 17.75L18.9396 18.8107L16.9699 16.841L15.0002 18.8107L13.9396 17.75L15.9093 15.7803L13.9396 13.8107L15.0002 12.75L16.9699 14.7197L18.9396 12.75L20.0002 13.8107L18.0306 15.7803L20.0002 17.75Z" fill="#1F2328"/>
                 </svg>
                 <div class="font-semibold flex-grow">LFGList.GetApplicantDungeonScoreForListing</div>
-                <svg class="w-8 h-8" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
                 </svg>
               </div>
 
-              <div class="p-2 hidden">
+              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+
                 
-                <details openp>
-                  <summary class="p-2">Arguments</summary>
-                    <table class="border border-gray-200 w-full">
-                      <thead class="bg-gray-200">
-                        <tr>
-                          <th class="p-2 text-left">Name</th>
-                          <th class="p-2 text-left w-64">Type</th>
-                          <th class="p-2 text-left w-32">Nilable</th>
-                        </tr>
-                      </thead>
-                      <tbody>
+                <div>
+                  <h3 class="font-medium pb-2">Arguments</h3>
+                  <table class="border border-gray-200 w-full">
+                    <thead class="bg-gray-200">
+                      <tr>
+                        <th class="p-2 text-left">Name</th>
+                        <th class="p-2 text-left w-64">Type</th>
+                        <th class="p-2 text-left w-32">Nilable</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                    
+                      <tr>
+                        <td class="p-2">localID</td>
+                        <td class="p-2">number</td>
+                        <td class="p-2">false</td>
+                      </tr>
+                    
+                      <tr>
+                        <td class="p-2">applicantIndex</td>
+                        <td class="p-2">luaIndex</td>
+                        <td class="p-2">false</td>
+                      </tr>
+                    
+                      <tr>
+                        <td class="p-2">activityID</td>
+                        <td class="p-2">number</td>
+                        <td class="p-2">false</td>
+                      </tr>
+                    
+                    </tbody>
+                  </table>
+                </div>
+                 <!-- end arguments -->
+                
+                
+                <div>
+                  <h3 class="font-medium pb-2">Returns</h3>
+                  <table class="border border-gray-200 w-full">
+                    <thead class="bg-gray-200">
+                      <tr>
+                        <th class="w-2"></th>
+                        <th class="p-2 text-left">Name</th>
+                        <th class="p-2 text-left w-64">Type</th>
+                        <th class="p-2 text-left w-64">InnerType</th>
+                        <th class="p-2 text-left w-32">Nilable</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                    
+                      <tr>
+                        <td class="p-2"><input type="checkbox" checked></p>
+                        <td class="p-2">bestDungeonScoreForListing</td>
+                        <td class="p-2">BestDungeonScoreMapInfo</td>
+                        <td class="p-2">nil</td>
+                        <td class="p-2">false</td>
+                      </tr>
+                    
+                    </tbody>
+                  </table>
+                </div>
+                 <!-- end returns -->
+
+                <div> <!-- BEGIN: function call -->
+                  <h3 class="font-medium pb-2">Code example</h3>
+                  <code class="bg-gray-100 block p-2">
+                    
+                      local
                       
-                        <tr>
-                          <td class="p-2">localID</td>
-                          <td class="p-2">number</td>
-                          <td class="p-2">false</td>
-                        </tr>
                       
-                        <tr>
-                          <td class="p-2">applicantIndex</td>
-                          <td class="p-2">luaIndex</td>
-                          <td class="p-2">false</td>
-                        </tr>
+                        
+                        bestDungeonScoreForListing
+                        
                       
-                        <tr>
-                          <td class="p-2">activityID</td>
-                          <td class="p-2">number</td>
-                          <td class="p-2">false</td>
-                        </tr>
+                      =
+                    
+                    GetApplicantDungeonScoreForListing
+                    (
                       
-                      </tbody>
-                    </table>
-                  </details>
-                 <!-- end arguments loop -->
-              </div>
+                        
+                        
+                          
+                          localID
+                          
+                        
+                          ,
+                          applicantIndex
+                          
+                        
+                          ,
+                          activityID
+                          
+                        
+                      
+                    )
+                  </code>
+                </div> <!-- END: function call -->
+              </div> <!-- hidden stuff ends -->
+              
             </div>
           
-            <div class="func border">
-              <div class="flex gap-1 items-center bg-gray-200 p-2">
+            <div class="func border-2">
+              <div class="expand cursor-pointer flex gap-1 items-center bg-gray-200 p-2">
                 <svg class="w-7 h-7" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M7 12.75V11.25H9.38563L10.7931 6.00266C10.797 5.98811 10.8013 5.97377 10.806 5.95965L10.8102 5.94389L10.8146 5.92986C11.1634 4.81245 12.2058 4 13.44 4C14.9588 4 16.19 5.23122 16.19 6.75C16.19 6.91899 16.1747 7.08506 16.1451 7.24669L16.1396 7.2767L15.8408 8.39079L14.392 8.0022L14.6741 6.9505C14.6845 6.88564 14.69 6.81871 14.69 6.75C14.69 6.05964 14.1304 5.5 13.44 5.5C12.8852 5.5 12.413 5.86199 12.2504 6.36445L10.9394 11.25H12V12.75H10.5368L9.48551 16.6678L9.48495 16.6699L9.41212 16.9414C9.4089 16.9535 9.4054 16.9653 9.40164 16.977L9.38363 17.0435L9.38013 17.0549C9.03607 18.1802 7.98975 19 6.75 19C5.23122 19 4 17.7688 4 16.25C4 15.8992 4.08642 15.5956 4.14978 15.373L4.16503 15.3192L4.30629 14.7925L4.38192 14.5349L5.8212 14.9573L5.75052 15.1981L5.6104 15.7206C5.53143 16.0018 5.5 16.1153 5.5 16.25C5.5 16.9404 6.05964 17.5 6.75 17.5C7.30821 17.5 7.78276 17.1335 7.94256 16.6264L8.03671 16.2792L8.03726 16.2772L8.98331 12.75H7Z" fill="#1F2328"/>
                   <path d="M20.0002 17.75L18.9396 18.8107L16.9699 16.841L15.0002 18.8107L13.9396 17.75L15.9093 15.7803L13.9396 13.8107L15.0002 12.75L16.9699 14.7197L18.9396 12.75L20.0002 13.8107L18.0306 15.7803L20.0002 17.75Z" fill="#1F2328"/>
                 </svg>
                 <div class="font-semibold flex-grow">LFGList.GetApplicantInfo</div>
-                <svg class="w-8 h-8" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
                 </svg>
               </div>
 
-              <div class="p-2 hidden">
+              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+
                 
-                <details openp>
-                  <summary class="p-2">Arguments</summary>
-                    <table class="border border-gray-200 w-full">
-                      <thead class="bg-gray-200">
-                        <tr>
-                          <th class="p-2 text-left">Name</th>
-                          <th class="p-2 text-left w-64">Type</th>
-                          <th class="p-2 text-left w-32">Nilable</th>
-                        </tr>
-                      </thead>
-                      <tbody>
+                <div>
+                  <h3 class="font-medium pb-2">Arguments</h3>
+                  <table class="border border-gray-200 w-full">
+                    <thead class="bg-gray-200">
+                      <tr>
+                        <th class="p-2 text-left">Name</th>
+                        <th class="p-2 text-left w-64">Type</th>
+                        <th class="p-2 text-left w-32">Nilable</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                    
+                      <tr>
+                        <td class="p-2">applicantID</td>
+                        <td class="p-2">number</td>
+                        <td class="p-2">false</td>
+                      </tr>
+                    
+                    </tbody>
+                  </table>
+                </div>
+                 <!-- end arguments -->
+                
+                
+                <div>
+                  <h3 class="font-medium pb-2">Returns</h3>
+                  <table class="border border-gray-200 w-full">
+                    <thead class="bg-gray-200">
+                      <tr>
+                        <th class="w-2"></th>
+                        <th class="p-2 text-left">Name</th>
+                        <th class="p-2 text-left w-64">Type</th>
+                        <th class="p-2 text-left w-64">InnerType</th>
+                        <th class="p-2 text-left w-32">Nilable</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                    
+                      <tr>
+                        <td class="p-2"><input type="checkbox" checked></p>
+                        <td class="p-2">applicantData</td>
+                        <td class="p-2">LfgApplicantData</td>
+                        <td class="p-2">nil</td>
+                        <td class="p-2">false</td>
+                      </tr>
+                    
+                    </tbody>
+                  </table>
+                </div>
+                 <!-- end returns -->
+
+                <div> <!-- BEGIN: function call -->
+                  <h3 class="font-medium pb-2">Code example</h3>
+                  <code class="bg-gray-100 block p-2">
+                    
+                      local
                       
-                        <tr>
-                          <td class="p-2">applicantID</td>
-                          <td class="p-2">number</td>
-                          <td class="p-2">false</td>
-                        </tr>
                       
-                      </tbody>
-                    </table>
-                  </details>
-                 <!-- end arguments loop -->
-              </div>
+                        
+                        applicantData
+                        
+                      
+                      =
+                    
+                    GetApplicantInfo
+                    (
+                      
+                        
+                        
+                          
+                          applicantID
+                          
+                        
+                      
+                    )
+                  </code>
+                </div> <!-- END: function call -->
+              </div> <!-- hidden stuff ends -->
+              
             </div>
           
-            <div class="func border">
-              <div class="flex gap-1 items-center bg-gray-200 p-2">
+            <div class="func border-2">
+              <div class="expand cursor-pointer flex gap-1 items-center bg-gray-200 p-2">
                 <svg class="w-7 h-7" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M7 12.75V11.25H9.38563L10.7931 6.00266C10.797 5.98811 10.8013 5.97377 10.806 5.95965L10.8102 5.94389L10.8146 5.92986C11.1634 4.81245 12.2058 4 13.44 4C14.9588 4 16.19 5.23122 16.19 6.75C16.19 6.91899 16.1747 7.08506 16.1451 7.24669L16.1396 7.2767L15.8408 8.39079L14.392 8.0022L14.6741 6.9505C14.6845 6.88564 14.69 6.81871 14.69 6.75C14.69 6.05964 14.1304 5.5 13.44 5.5C12.8852 5.5 12.413 5.86199 12.2504 6.36445L10.9394 11.25H12V12.75H10.5368L9.48551 16.6678L9.48495 16.6699L9.41212 16.9414C9.4089 16.9535 9.4054 16.9653 9.40164 16.977L9.38363 17.0435L9.38013 17.0549C9.03607 18.1802 7.98975 19 6.75 19C5.23122 19 4 17.7688 4 16.25C4 15.8992 4.08642 15.5956 4.14978 15.373L4.16503 15.3192L4.30629 14.7925L4.38192 14.5349L5.8212 14.9573L5.75052 15.1981L5.6104 15.7206C5.53143 16.0018 5.5 16.1153 5.5 16.25C5.5 16.9404 6.05964 17.5 6.75 17.5C7.30821 17.5 7.78276 17.1335 7.94256 16.6264L8.03671 16.2792L8.03726 16.2772L8.98331 12.75H7Z" fill="#1F2328"/>
                   <path d="M20.0002 17.75L18.9396 18.8107L16.9699 16.841L15.0002 18.8107L13.9396 17.75L15.9093 15.7803L13.9396 13.8107L15.0002 12.75L16.9699 14.7197L18.9396 12.75L20.0002 13.8107L18.0306 15.7803L20.0002 17.75Z" fill="#1F2328"/>
                 </svg>
                 <div class="font-semibold flex-grow">LFGList.GetApplicantPvpRatingInfoForListing</div>
-                <svg class="w-8 h-8" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
                 </svg>
               </div>
 
-              <div class="p-2 hidden">
+              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+
                 
-                <details openp>
-                  <summary class="p-2">Arguments</summary>
-                    <table class="border border-gray-200 w-full">
-                      <thead class="bg-gray-200">
-                        <tr>
-                          <th class="p-2 text-left">Name</th>
-                          <th class="p-2 text-left w-64">Type</th>
-                          <th class="p-2 text-left w-32">Nilable</th>
-                        </tr>
-                      </thead>
-                      <tbody>
+                <div>
+                  <h3 class="font-medium pb-2">Arguments</h3>
+                  <table class="border border-gray-200 w-full">
+                    <thead class="bg-gray-200">
+                      <tr>
+                        <th class="p-2 text-left">Name</th>
+                        <th class="p-2 text-left w-64">Type</th>
+                        <th class="p-2 text-left w-32">Nilable</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                    
+                      <tr>
+                        <td class="p-2">localID</td>
+                        <td class="p-2">number</td>
+                        <td class="p-2">false</td>
+                      </tr>
+                    
+                      <tr>
+                        <td class="p-2">applicantIndex</td>
+                        <td class="p-2">luaIndex</td>
+                        <td class="p-2">false</td>
+                      </tr>
+                    
+                      <tr>
+                        <td class="p-2">activityID</td>
+                        <td class="p-2">number</td>
+                        <td class="p-2">false</td>
+                      </tr>
+                    
+                    </tbody>
+                  </table>
+                </div>
+                 <!-- end arguments -->
+                
+                
+                <div>
+                  <h3 class="font-medium pb-2">Returns</h3>
+                  <table class="border border-gray-200 w-full">
+                    <thead class="bg-gray-200">
+                      <tr>
+                        <th class="w-2"></th>
+                        <th class="p-2 text-left">Name</th>
+                        <th class="p-2 text-left w-64">Type</th>
+                        <th class="p-2 text-left w-64">InnerType</th>
+                        <th class="p-2 text-left w-32">Nilable</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                    
+                      <tr>
+                        <td class="p-2"><input type="checkbox" checked></p>
+                        <td class="p-2">pvpRatingInfo</td>
+                        <td class="p-2">PvpRatingInfo</td>
+                        <td class="p-2">nil</td>
+                        <td class="p-2">false</td>
+                      </tr>
+                    
+                    </tbody>
+                  </table>
+                </div>
+                 <!-- end returns -->
+
+                <div> <!-- BEGIN: function call -->
+                  <h3 class="font-medium pb-2">Code example</h3>
+                  <code class="bg-gray-100 block p-2">
+                    
+                      local
                       
-                        <tr>
-                          <td class="p-2">localID</td>
-                          <td class="p-2">number</td>
-                          <td class="p-2">false</td>
-                        </tr>
                       
-                        <tr>
-                          <td class="p-2">applicantIndex</td>
-                          <td class="p-2">luaIndex</td>
-                          <td class="p-2">false</td>
-                        </tr>
+                        
+                        pvpRatingInfo
+                        
                       
-                        <tr>
-                          <td class="p-2">activityID</td>
-                          <td class="p-2">number</td>
-                          <td class="p-2">false</td>
-                        </tr>
+                      =
+                    
+                    GetApplicantPvpRatingInfoForListing
+                    (
                       
-                      </tbody>
-                    </table>
-                  </details>
-                 <!-- end arguments loop -->
-              </div>
+                        
+                        
+                          
+                          localID
+                          
+                        
+                          ,
+                          applicantIndex
+                          
+                        
+                          ,
+                          activityID
+                          
+                        
+                      
+                    )
+                  </code>
+                </div> <!-- END: function call -->
+              </div> <!-- hidden stuff ends -->
+              
             </div>
           
-            <div class="func border">
-              <div class="flex gap-1 items-center bg-gray-200 p-2">
+            <div class="func border-2">
+              <div class="expand cursor-pointer flex gap-1 items-center bg-gray-200 p-2">
                 <svg class="w-7 h-7" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M7 12.75V11.25H9.38563L10.7931 6.00266C10.797 5.98811 10.8013 5.97377 10.806 5.95965L10.8102 5.94389L10.8146 5.92986C11.1634 4.81245 12.2058 4 13.44 4C14.9588 4 16.19 5.23122 16.19 6.75C16.19 6.91899 16.1747 7.08506 16.1451 7.24669L16.1396 7.2767L15.8408 8.39079L14.392 8.0022L14.6741 6.9505C14.6845 6.88564 14.69 6.81871 14.69 6.75C14.69 6.05964 14.1304 5.5 13.44 5.5C12.8852 5.5 12.413 5.86199 12.2504 6.36445L10.9394 11.25H12V12.75H10.5368L9.48551 16.6678L9.48495 16.6699L9.41212 16.9414C9.4089 16.9535 9.4054 16.9653 9.40164 16.977L9.38363 17.0435L9.38013 17.0549C9.03607 18.1802 7.98975 19 6.75 19C5.23122 19 4 17.7688 4 16.25C4 15.8992 4.08642 15.5956 4.14978 15.373L4.16503 15.3192L4.30629 14.7925L4.38192 14.5349L5.8212 14.9573L5.75052 15.1981L5.6104 15.7206C5.53143 16.0018 5.5 16.1153 5.5 16.25C5.5 16.9404 6.05964 17.5 6.75 17.5C7.30821 17.5 7.78276 17.1335 7.94256 16.6264L8.03671 16.2792L8.03726 16.2772L8.98331 12.75H7Z" fill="#1F2328"/>
                   <path d="M20.0002 17.75L18.9396 18.8107L16.9699 16.841L15.0002 18.8107L13.9396 17.75L15.9093 15.7803L13.9396 13.8107L15.0002 12.75L16.9699 14.7197L18.9396 12.75L20.0002 13.8107L18.0306 15.7803L20.0002 17.75Z" fill="#1F2328"/>
                 </svg>
                 <div class="font-semibold flex-grow">LFGList.GetFilteredSearchResults</div>
-                <svg class="w-8 h-8" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
                 </svg>
               </div>
 
-              <div class="p-2 hidden">
-                 <!-- end arguments loop -->
-              </div>
+              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+
+                 <!-- end arguments -->
+                
+                
+                <div>
+                  <h3 class="font-medium pb-2">Returns</h3>
+                  <table class="border border-gray-200 w-full">
+                    <thead class="bg-gray-200">
+                      <tr>
+                        <th class="w-2"></th>
+                        <th class="p-2 text-left">Name</th>
+                        <th class="p-2 text-left w-64">Type</th>
+                        <th class="p-2 text-left w-64">InnerType</th>
+                        <th class="p-2 text-left w-32">Nilable</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                    
+                      <tr>
+                        <td class="p-2"><input type="checkbox" checked></p>
+                        <td class="p-2">totalResultsFound</td>
+                        <td class="p-2">number</td>
+                        <td class="p-2">nil</td>
+                        <td class="p-2">false</td>
+                      </tr>
+                    
+                      <tr>
+                        <td class="p-2"><input type="checkbox" checked></p>
+                        <td class="p-2">filteredResults</td>
+                        <td class="p-2">table</td>
+                        <td class="p-2">number</td>
+                        <td class="p-2">false</td>
+                      </tr>
+                    
+                    </tbody>
+                  </table>
+                </div>
+                 <!-- end returns -->
+
+                <div> <!-- BEGIN: function call -->
+                  <h3 class="font-medium pb-2">Code example</h3>
+                  <code class="bg-gray-100 block p-2">
+                    
+                      local
+                      
+                      
+                        
+                        totalResultsFound
+                        
+                      
+                        ,
+                        filteredResults
+                        
+                      
+                      =
+                    
+                    GetFilteredSearchResults
+                    (
+                      
+                    )
+                  </code>
+                </div> <!-- END: function call -->
+              </div> <!-- hidden stuff ends -->
+              
             </div>
           
-            <div class="func border">
-              <div class="flex gap-1 items-center bg-gray-200 p-2">
+            <div class="func border-2">
+              <div class="expand cursor-pointer flex gap-1 items-center bg-gray-200 p-2">
                 <svg class="w-7 h-7" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M7 12.75V11.25H9.38563L10.7931 6.00266C10.797 5.98811 10.8013 5.97377 10.806 5.95965L10.8102 5.94389L10.8146 5.92986C11.1634 4.81245 12.2058 4 13.44 4C14.9588 4 16.19 5.23122 16.19 6.75C16.19 6.91899 16.1747 7.08506 16.1451 7.24669L16.1396 7.2767L15.8408 8.39079L14.392 8.0022L14.6741 6.9505C14.6845 6.88564 14.69 6.81871 14.69 6.75C14.69 6.05964 14.1304 5.5 13.44 5.5C12.8852 5.5 12.413 5.86199 12.2504 6.36445L10.9394 11.25H12V12.75H10.5368L9.48551 16.6678L9.48495 16.6699L9.41212 16.9414C9.4089 16.9535 9.4054 16.9653 9.40164 16.977L9.38363 17.0435L9.38013 17.0549C9.03607 18.1802 7.98975 19 6.75 19C5.23122 19 4 17.7688 4 16.25C4 15.8992 4.08642 15.5956 4.14978 15.373L4.16503 15.3192L4.30629 14.7925L4.38192 14.5349L5.8212 14.9573L5.75052 15.1981L5.6104 15.7206C5.53143 16.0018 5.5 16.1153 5.5 16.25C5.5 16.9404 6.05964 17.5 6.75 17.5C7.30821 17.5 7.78276 17.1335 7.94256 16.6264L8.03671 16.2792L8.03726 16.2772L8.98331 12.75H7Z" fill="#1F2328"/>
                   <path d="M20.0002 17.75L18.9396 18.8107L16.9699 16.841L15.0002 18.8107L13.9396 17.75L15.9093 15.7803L13.9396 13.8107L15.0002 12.75L16.9699 14.7197L18.9396 12.75L20.0002 13.8107L18.0306 15.7803L20.0002 17.75Z" fill="#1F2328"/>
                 </svg>
                 <div class="font-semibold flex-grow">LFGList.GetKeystoneForActivity</div>
-                <svg class="w-8 h-8" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
                 </svg>
               </div>
 
-              <div class="p-2 hidden">
+              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+
                 
-                <details openp>
-                  <summary class="p-2">Arguments</summary>
-                    <table class="border border-gray-200 w-full">
-                      <thead class="bg-gray-200">
-                        <tr>
-                          <th class="p-2 text-left">Name</th>
-                          <th class="p-2 text-left w-64">Type</th>
-                          <th class="p-2 text-left w-32">Nilable</th>
-                        </tr>
-                      </thead>
-                      <tbody>
+                <div>
+                  <h3 class="font-medium pb-2">Arguments</h3>
+                  <table class="border border-gray-200 w-full">
+                    <thead class="bg-gray-200">
+                      <tr>
+                        <th class="p-2 text-left">Name</th>
+                        <th class="p-2 text-left w-64">Type</th>
+                        <th class="p-2 text-left w-32">Nilable</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                    
+                      <tr>
+                        <td class="p-2">activityID</td>
+                        <td class="p-2">number</td>
+                        <td class="p-2">false</td>
+                      </tr>
+                    
+                    </tbody>
+                  </table>
+                </div>
+                 <!-- end arguments -->
+                
+                
+                <div>
+                  <h3 class="font-medium pb-2">Returns</h3>
+                  <table class="border border-gray-200 w-full">
+                    <thead class="bg-gray-200">
+                      <tr>
+                        <th class="w-2"></th>
+                        <th class="p-2 text-left">Name</th>
+                        <th class="p-2 text-left w-64">Type</th>
+                        <th class="p-2 text-left w-64">InnerType</th>
+                        <th class="p-2 text-left w-32">Nilable</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                    
+                      <tr>
+                        <td class="p-2"><input type="checkbox" checked></p>
+                        <td class="p-2">level</td>
+                        <td class="p-2">number</td>
+                        <td class="p-2">nil</td>
+                        <td class="p-2">false</td>
+                      </tr>
+                    
+                    </tbody>
+                  </table>
+                </div>
+                 <!-- end returns -->
+
+                <div> <!-- BEGIN: function call -->
+                  <h3 class="font-medium pb-2">Code example</h3>
+                  <code class="bg-gray-100 block p-2">
+                    
+                      local
                       
-                        <tr>
-                          <td class="p-2">activityID</td>
-                          <td class="p-2">number</td>
-                          <td class="p-2">false</td>
-                        </tr>
                       
-                      </tbody>
-                    </table>
-                  </details>
-                 <!-- end arguments loop -->
-              </div>
+                        
+                        level
+                        
+                      
+                      =
+                    
+                    GetKeystoneForActivity
+                    (
+                      
+                        
+                        
+                          
+                          activityID
+                          
+                        
+                      
+                    )
+                  </code>
+                </div> <!-- END: function call -->
+              </div> <!-- hidden stuff ends -->
+              
             </div>
           
-            <div class="func border">
-              <div class="flex gap-1 items-center bg-gray-200 p-2">
+            <div class="func border-2">
+              <div class="expand cursor-pointer flex gap-1 items-center bg-gray-200 p-2">
                 <svg class="w-7 h-7" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M7 12.75V11.25H9.38563L10.7931 6.00266C10.797 5.98811 10.8013 5.97377 10.806 5.95965L10.8102 5.94389L10.8146 5.92986C11.1634 4.81245 12.2058 4 13.44 4C14.9588 4 16.19 5.23122 16.19 6.75C16.19 6.91899 16.1747 7.08506 16.1451 7.24669L16.1396 7.2767L15.8408 8.39079L14.392 8.0022L14.6741 6.9505C14.6845 6.88564 14.69 6.81871 14.69 6.75C14.69 6.05964 14.1304 5.5 13.44 5.5C12.8852 5.5 12.413 5.86199 12.2504 6.36445L10.9394 11.25H12V12.75H10.5368L9.48551 16.6678L9.48495 16.6699L9.41212 16.9414C9.4089 16.9535 9.4054 16.9653 9.40164 16.977L9.38363 17.0435L9.38013 17.0549C9.03607 18.1802 7.98975 19 6.75 19C5.23122 19 4 17.7688 4 16.25C4 15.8992 4.08642 15.5956 4.14978 15.373L4.16503 15.3192L4.30629 14.7925L4.38192 14.5349L5.8212 14.9573L5.75052 15.1981L5.6104 15.7206C5.53143 16.0018 5.5 16.1153 5.5 16.25C5.5 16.9404 6.05964 17.5 6.75 17.5C7.30821 17.5 7.78276 17.1335 7.94256 16.6264L8.03671 16.2792L8.03726 16.2772L8.98331 12.75H7Z" fill="#1F2328"/>
                   <path d="M20.0002 17.75L18.9396 18.8107L16.9699 16.841L15.0002 18.8107L13.9396 17.75L15.9093 15.7803L13.9396 13.8107L15.0002 12.75L16.9699 14.7197L18.9396 12.75L20.0002 13.8107L18.0306 15.7803L20.0002 17.75Z" fill="#1F2328"/>
                 </svg>
                 <div class="font-semibold flex-grow">LFGList.GetLfgCategoryInfo</div>
-                <svg class="w-8 h-8" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
                 </svg>
               </div>
 
-              <div class="p-2 hidden">
+              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+
                 
-                <details openp>
-                  <summary class="p-2">Arguments</summary>
-                    <table class="border border-gray-200 w-full">
-                      <thead class="bg-gray-200">
-                        <tr>
-                          <th class="p-2 text-left">Name</th>
-                          <th class="p-2 text-left w-64">Type</th>
-                          <th class="p-2 text-left w-32">Nilable</th>
-                        </tr>
-                      </thead>
-                      <tbody>
+                <div>
+                  <h3 class="font-medium pb-2">Arguments</h3>
+                  <table class="border border-gray-200 w-full">
+                    <thead class="bg-gray-200">
+                      <tr>
+                        <th class="p-2 text-left">Name</th>
+                        <th class="p-2 text-left w-64">Type</th>
+                        <th class="p-2 text-left w-32">Nilable</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                    
+                      <tr>
+                        <td class="p-2">categoryID</td>
+                        <td class="p-2">number</td>
+                        <td class="p-2">false</td>
+                      </tr>
+                    
+                    </tbody>
+                  </table>
+                </div>
+                 <!-- end arguments -->
+                
+                
+                <div>
+                  <h3 class="font-medium pb-2">Returns</h3>
+                  <table class="border border-gray-200 w-full">
+                    <thead class="bg-gray-200">
+                      <tr>
+                        <th class="w-2"></th>
+                        <th class="p-2 text-left">Name</th>
+                        <th class="p-2 text-left w-64">Type</th>
+                        <th class="p-2 text-left w-64">InnerType</th>
+                        <th class="p-2 text-left w-32">Nilable</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                    
+                      <tr>
+                        <td class="p-2"><input type="checkbox" checked></p>
+                        <td class="p-2">categoryData</td>
+                        <td class="p-2">LfgCategoryData</td>
+                        <td class="p-2">nil</td>
+                        <td class="p-2">false</td>
+                      </tr>
+                    
+                    </tbody>
+                  </table>
+                </div>
+                 <!-- end returns -->
+
+                <div> <!-- BEGIN: function call -->
+                  <h3 class="font-medium pb-2">Code example</h3>
+                  <code class="bg-gray-100 block p-2">
+                    
+                      local
                       
-                        <tr>
-                          <td class="p-2">categoryID</td>
-                          <td class="p-2">number</td>
-                          <td class="p-2">false</td>
-                        </tr>
                       
-                      </tbody>
-                    </table>
-                  </details>
-                 <!-- end arguments loop -->
-              </div>
+                        
+                        categoryData
+                        
+                      
+                      =
+                    
+                    GetLfgCategoryInfo
+                    (
+                      
+                        
+                        
+                          
+                          categoryID
+                          
+                        
+                      
+                    )
+                  </code>
+                </div> <!-- END: function call -->
+              </div> <!-- hidden stuff ends -->
+              
             </div>
           
-            <div class="func border">
-              <div class="flex gap-1 items-center bg-gray-200 p-2">
+            <div class="func border-2">
+              <div class="expand cursor-pointer flex gap-1 items-center bg-gray-200 p-2">
                 <svg class="w-7 h-7" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M7 12.75V11.25H9.38563L10.7931 6.00266C10.797 5.98811 10.8013 5.97377 10.806 5.95965L10.8102 5.94389L10.8146 5.92986C11.1634 4.81245 12.2058 4 13.44 4C14.9588 4 16.19 5.23122 16.19 6.75C16.19 6.91899 16.1747 7.08506 16.1451 7.24669L16.1396 7.2767L15.8408 8.39079L14.392 8.0022L14.6741 6.9505C14.6845 6.88564 14.69 6.81871 14.69 6.75C14.69 6.05964 14.1304 5.5 13.44 5.5C12.8852 5.5 12.413 5.86199 12.2504 6.36445L10.9394 11.25H12V12.75H10.5368L9.48551 16.6678L9.48495 16.6699L9.41212 16.9414C9.4089 16.9535 9.4054 16.9653 9.40164 16.977L9.38363 17.0435L9.38013 17.0549C9.03607 18.1802 7.98975 19 6.75 19C5.23122 19 4 17.7688 4 16.25C4 15.8992 4.08642 15.5956 4.14978 15.373L4.16503 15.3192L4.30629 14.7925L4.38192 14.5349L5.8212 14.9573L5.75052 15.1981L5.6104 15.7206C5.53143 16.0018 5.5 16.1153 5.5 16.25C5.5 16.9404 6.05964 17.5 6.75 17.5C7.30821 17.5 7.78276 17.1335 7.94256 16.6264L8.03671 16.2792L8.03726 16.2772L8.98331 12.75H7Z" fill="#1F2328"/>
                   <path d="M20.0002 17.75L18.9396 18.8107L16.9699 16.841L15.0002 18.8107L13.9396 17.75L15.9093 15.7803L13.9396 13.8107L15.0002 12.75L16.9699 14.7197L18.9396 12.75L20.0002 13.8107L18.0306 15.7803L20.0002 17.75Z" fill="#1F2328"/>
                 </svg>
                 <div class="font-semibold flex-grow">LFGList.GetOwnedKeystoneActivityAndGroupAndLevel</div>
-                <svg class="w-8 h-8" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
                 </svg>
               </div>
 
-              <div class="p-2 hidden">
+              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+
                 
-                <details openp>
-                  <summary class="p-2">Arguments</summary>
-                    <table class="border border-gray-200 w-full">
-                      <thead class="bg-gray-200">
-                        <tr>
-                          <th class="p-2 text-left">Name</th>
-                          <th class="p-2 text-left w-64">Type</th>
-                          <th class="p-2 text-left w-32">Nilable</th>
-                        </tr>
-                      </thead>
-                      <tbody>
+                <div>
+                  <h3 class="font-medium pb-2">Arguments</h3>
+                  <table class="border border-gray-200 w-full">
+                    <thead class="bg-gray-200">
+                      <tr>
+                        <th class="p-2 text-left">Name</th>
+                        <th class="p-2 text-left w-64">Type</th>
+                        <th class="p-2 text-left w-32">Nilable</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                    
+                      <tr>
+                        <td class="p-2">getTimewalking</td>
+                        <td class="p-2">bool</td>
+                        <td class="p-2">false</td>
+                      </tr>
+                    
+                    </tbody>
+                  </table>
+                </div>
+                 <!-- end arguments -->
+                
+                
+                <div>
+                  <h3 class="font-medium pb-2">Returns</h3>
+                  <table class="border border-gray-200 w-full">
+                    <thead class="bg-gray-200">
+                      <tr>
+                        <th class="w-2"></th>
+                        <th class="p-2 text-left">Name</th>
+                        <th class="p-2 text-left w-64">Type</th>
+                        <th class="p-2 text-left w-64">InnerType</th>
+                        <th class="p-2 text-left w-32">Nilable</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                    
+                      <tr>
+                        <td class="p-2"><input type="checkbox" checked></p>
+                        <td class="p-2">activityID</td>
+                        <td class="p-2">number</td>
+                        <td class="p-2">nil</td>
+                        <td class="p-2">false</td>
+                      </tr>
+                    
+                      <tr>
+                        <td class="p-2"><input type="checkbox" checked></p>
+                        <td class="p-2">groupID</td>
+                        <td class="p-2">number</td>
+                        <td class="p-2">nil</td>
+                        <td class="p-2">false</td>
+                      </tr>
+                    
+                      <tr>
+                        <td class="p-2"><input type="checkbox" checked></p>
+                        <td class="p-2">keystoneLevel</td>
+                        <td class="p-2">number</td>
+                        <td class="p-2">nil</td>
+                        <td class="p-2">false</td>
+                      </tr>
+                    
+                    </tbody>
+                  </table>
+                </div>
+                 <!-- end returns -->
+
+                <div> <!-- BEGIN: function call -->
+                  <h3 class="font-medium pb-2">Code example</h3>
+                  <code class="bg-gray-100 block p-2">
+                    
+                      local
                       
-                        <tr>
-                          <td class="p-2">getTimewalking</td>
-                          <td class="p-2">bool</td>
-                          <td class="p-2">false</td>
-                        </tr>
                       
-                      </tbody>
-                    </table>
-                  </details>
-                 <!-- end arguments loop -->
-              </div>
+                        
+                        activityID
+                        
+                      
+                        ,
+                        groupID
+                        
+                      
+                        ,
+                        keystoneLevel
+                        
+                      
+                      =
+                    
+                    GetOwnedKeystoneActivityAndGroupAndLevel
+                    (
+                      
+                        
+                        
+                          
+                          getTimewalking
+                          
+                        
+                      
+                    )
+                  </code>
+                </div> <!-- END: function call -->
+              </div> <!-- hidden stuff ends -->
+              
             </div>
           
-            <div class="func border">
-              <div class="flex gap-1 items-center bg-gray-200 p-2">
+            <div class="func border-2">
+              <div class="expand cursor-pointer flex gap-1 items-center bg-gray-200 p-2">
                 <svg class="w-7 h-7" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M7 12.75V11.25H9.38563L10.7931 6.00266C10.797 5.98811 10.8013 5.97377 10.806 5.95965L10.8102 5.94389L10.8146 5.92986C11.1634 4.81245 12.2058 4 13.44 4C14.9588 4 16.19 5.23122 16.19 6.75C16.19 6.91899 16.1747 7.08506 16.1451 7.24669L16.1396 7.2767L15.8408 8.39079L14.392 8.0022L14.6741 6.9505C14.6845 6.88564 14.69 6.81871 14.69 6.75C14.69 6.05964 14.1304 5.5 13.44 5.5C12.8852 5.5 12.413 5.86199 12.2504 6.36445L10.9394 11.25H12V12.75H10.5368L9.48551 16.6678L9.48495 16.6699L9.41212 16.9414C9.4089 16.9535 9.4054 16.9653 9.40164 16.977L9.38363 17.0435L9.38013 17.0549C9.03607 18.1802 7.98975 19 6.75 19C5.23122 19 4 17.7688 4 16.25C4 15.8992 4.08642 15.5956 4.14978 15.373L4.16503 15.3192L4.30629 14.7925L4.38192 14.5349L5.8212 14.9573L5.75052 15.1981L5.6104 15.7206C5.53143 16.0018 5.5 16.1153 5.5 16.25C5.5 16.9404 6.05964 17.5 6.75 17.5C7.30821 17.5 7.78276 17.1335 7.94256 16.6264L8.03671 16.2792L8.03726 16.2772L8.98331 12.75H7Z" fill="#1F2328"/>
                   <path d="M20.0002 17.75L18.9396 18.8107L16.9699 16.841L15.0002 18.8107L13.9396 17.75L15.9093 15.7803L13.9396 13.8107L15.0002 12.75L16.9699 14.7197L18.9396 12.75L20.0002 13.8107L18.0306 15.7803L20.0002 17.75Z" fill="#1F2328"/>
                 </svg>
                 <div class="font-semibold flex-grow">LFGList.GetPlaystyleString</div>
-                <svg class="w-8 h-8" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
                 </svg>
               </div>
 
-              <div class="p-2 hidden">
+              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+
                 
-                <details openp>
-                  <summary class="p-2">Arguments</summary>
-                    <table class="border border-gray-200 w-full">
-                      <thead class="bg-gray-200">
-                        <tr>
-                          <th class="p-2 text-left">Name</th>
-                          <th class="p-2 text-left w-64">Type</th>
-                          <th class="p-2 text-left w-32">Nilable</th>
-                        </tr>
-                      </thead>
-                      <tbody>
+                <div>
+                  <h3 class="font-medium pb-2">Arguments</h3>
+                  <table class="border border-gray-200 w-full">
+                    <thead class="bg-gray-200">
+                      <tr>
+                        <th class="p-2 text-left">Name</th>
+                        <th class="p-2 text-left w-64">Type</th>
+                        <th class="p-2 text-left w-32">Nilable</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                    
+                      <tr>
+                        <td class="p-2">playstyle</td>
+                        <td class="p-2">LFGEntryPlaystyle</td>
+                        <td class="p-2">false</td>
+                      </tr>
+                    
+                      <tr>
+                        <td class="p-2">activityInfo</td>
+                        <td class="p-2">GroupFinderActivityInfo</td>
+                        <td class="p-2">false</td>
+                      </tr>
+                    
+                    </tbody>
+                  </table>
+                </div>
+                 <!-- end arguments -->
+                
+                
+                <div>
+                  <h3 class="font-medium pb-2">Returns</h3>
+                  <table class="border border-gray-200 w-full">
+                    <thead class="bg-gray-200">
+                      <tr>
+                        <th class="w-2"></th>
+                        <th class="p-2 text-left">Name</th>
+                        <th class="p-2 text-left w-64">Type</th>
+                        <th class="p-2 text-left w-64">InnerType</th>
+                        <th class="p-2 text-left w-32">Nilable</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                    
+                      <tr>
+                        <td class="p-2"><input type="checkbox" checked></p>
+                        <td class="p-2">playstyleString</td>
+                        <td class="p-2">string</td>
+                        <td class="p-2">nil</td>
+                        <td class="p-2">false</td>
+                      </tr>
+                    
+                    </tbody>
+                  </table>
+                </div>
+                 <!-- end returns -->
+
+                <div> <!-- BEGIN: function call -->
+                  <h3 class="font-medium pb-2">Code example</h3>
+                  <code class="bg-gray-100 block p-2">
+                    
+                      local
                       
-                        <tr>
-                          <td class="p-2">playstyle</td>
-                          <td class="p-2">LFGEntryPlaystyle</td>
-                          <td class="p-2">false</td>
-                        </tr>
                       
-                        <tr>
-                          <td class="p-2">activityInfo</td>
-                          <td class="p-2">GroupFinderActivityInfo</td>
-                          <td class="p-2">false</td>
-                        </tr>
+                        
+                        playstyleString
+                        
                       
-                      </tbody>
-                    </table>
-                  </details>
-                 <!-- end arguments loop -->
-              </div>
+                      =
+                    
+                    GetPlaystyleString
+                    (
+                      
+                        
+                        
+                          
+                          playstyle
+                          
+                        
+                          ,
+                          activityInfo
+                          
+                        
+                      
+                    )
+                  </code>
+                </div> <!-- END: function call -->
+              </div> <!-- hidden stuff ends -->
+              
             </div>
           
-            <div class="func border">
-              <div class="flex gap-1 items-center bg-gray-200 p-2">
+            <div class="func border-2">
+              <div class="expand cursor-pointer flex gap-1 items-center bg-gray-200 p-2">
                 <svg class="w-7 h-7" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M7 12.75V11.25H9.38563L10.7931 6.00266C10.797 5.98811 10.8013 5.97377 10.806 5.95965L10.8102 5.94389L10.8146 5.92986C11.1634 4.81245 12.2058 4 13.44 4C14.9588 4 16.19 5.23122 16.19 6.75C16.19 6.91899 16.1747 7.08506 16.1451 7.24669L16.1396 7.2767L15.8408 8.39079L14.392 8.0022L14.6741 6.9505C14.6845 6.88564 14.69 6.81871 14.69 6.75C14.69 6.05964 14.1304 5.5 13.44 5.5C12.8852 5.5 12.413 5.86199 12.2504 6.36445L10.9394 11.25H12V12.75H10.5368L9.48551 16.6678L9.48495 16.6699L9.41212 16.9414C9.4089 16.9535 9.4054 16.9653 9.40164 16.977L9.38363 17.0435L9.38013 17.0549C9.03607 18.1802 7.98975 19 6.75 19C5.23122 19 4 17.7688 4 16.25C4 15.8992 4.08642 15.5956 4.14978 15.373L4.16503 15.3192L4.30629 14.7925L4.38192 14.5349L5.8212 14.9573L5.75052 15.1981L5.6104 15.7206C5.53143 16.0018 5.5 16.1153 5.5 16.25C5.5 16.9404 6.05964 17.5 6.75 17.5C7.30821 17.5 7.78276 17.1335 7.94256 16.6264L8.03671 16.2792L8.03726 16.2772L8.98331 12.75H7Z" fill="#1F2328"/>
                   <path d="M20.0002 17.75L18.9396 18.8107L16.9699 16.841L15.0002 18.8107L13.9396 17.75L15.9093 15.7803L13.9396 13.8107L15.0002 12.75L16.9699 14.7197L18.9396 12.75L20.0002 13.8107L18.0306 15.7803L20.0002 17.75Z" fill="#1F2328"/>
                 </svg>
                 <div class="font-semibold flex-grow">LFGList.GetRoles</div>
-                <svg class="w-8 h-8" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
                 </svg>
               </div>
 
-              <div class="p-2 hidden">
-                 <!-- end arguments loop -->
-              </div>
+              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+
+                 <!-- end arguments -->
+                
+                
+                <div>
+                  <h3 class="font-medium pb-2">Returns</h3>
+                  <table class="border border-gray-200 w-full">
+                    <thead class="bg-gray-200">
+                      <tr>
+                        <th class="w-2"></th>
+                        <th class="p-2 text-left">Name</th>
+                        <th class="p-2 text-left w-64">Type</th>
+                        <th class="p-2 text-left w-64">InnerType</th>
+                        <th class="p-2 text-left w-32">Nilable</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                    
+                      <tr>
+                        <td class="p-2"><input type="checkbox" checked></p>
+                        <td class="p-2">roles</td>
+                        <td class="p-2">LFGRoles</td>
+                        <td class="p-2">nil</td>
+                        <td class="p-2">false</td>
+                      </tr>
+                    
+                    </tbody>
+                  </table>
+                </div>
+                 <!-- end returns -->
+
+                <div> <!-- BEGIN: function call -->
+                  <h3 class="font-medium pb-2">Code example</h3>
+                  <code class="bg-gray-100 block p-2">
+                    
+                      local
+                      
+                      
+                        
+                        roles
+                        
+                      
+                      =
+                    
+                    GetRoles
+                    (
+                      
+                    )
+                  </code>
+                </div> <!-- END: function call -->
+              </div> <!-- hidden stuff ends -->
+              
             </div>
           
-            <div class="func border">
-              <div class="flex gap-1 items-center bg-gray-200 p-2">
+            <div class="func border-2">
+              <div class="expand cursor-pointer flex gap-1 items-center bg-gray-200 p-2">
                 <svg class="w-7 h-7" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M7 12.75V11.25H9.38563L10.7931 6.00266C10.797 5.98811 10.8013 5.97377 10.806 5.95965L10.8102 5.94389L10.8146 5.92986C11.1634 4.81245 12.2058 4 13.44 4C14.9588 4 16.19 5.23122 16.19 6.75C16.19 6.91899 16.1747 7.08506 16.1451 7.24669L16.1396 7.2767L15.8408 8.39079L14.392 8.0022L14.6741 6.9505C14.6845 6.88564 14.69 6.81871 14.69 6.75C14.69 6.05964 14.1304 5.5 13.44 5.5C12.8852 5.5 12.413 5.86199 12.2504 6.36445L10.9394 11.25H12V12.75H10.5368L9.48551 16.6678L9.48495 16.6699L9.41212 16.9414C9.4089 16.9535 9.4054 16.9653 9.40164 16.977L9.38363 17.0435L9.38013 17.0549C9.03607 18.1802 7.98975 19 6.75 19C5.23122 19 4 17.7688 4 16.25C4 15.8992 4.08642 15.5956 4.14978 15.373L4.16503 15.3192L4.30629 14.7925L4.38192 14.5349L5.8212 14.9573L5.75052 15.1981L5.6104 15.7206C5.53143 16.0018 5.5 16.1153 5.5 16.25C5.5 16.9404 6.05964 17.5 6.75 17.5C7.30821 17.5 7.78276 17.1335 7.94256 16.6264L8.03671 16.2792L8.03726 16.2772L8.98331 12.75H7Z" fill="#1F2328"/>
                   <path d="M20.0002 17.75L18.9396 18.8107L16.9699 16.841L15.0002 18.8107L13.9396 17.75L15.9093 15.7803L13.9396 13.8107L15.0002 12.75L16.9699 14.7197L18.9396 12.75L20.0002 13.8107L18.0306 15.7803L20.0002 17.75Z" fill="#1F2328"/>
                 </svg>
                 <div class="font-semibold flex-grow">LFGList.GetSavedRoles</div>
-                <svg class="w-8 h-8" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
                 </svg>
               </div>
 
-              <div class="p-2 hidden">
-                 <!-- end arguments loop -->
-              </div>
+              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+
+                 <!-- end arguments -->
+                
+                
+                <div>
+                  <h3 class="font-medium pb-2">Returns</h3>
+                  <table class="border border-gray-200 w-full">
+                    <thead class="bg-gray-200">
+                      <tr>
+                        <th class="w-2"></th>
+                        <th class="p-2 text-left">Name</th>
+                        <th class="p-2 text-left w-64">Type</th>
+                        <th class="p-2 text-left w-64">InnerType</th>
+                        <th class="p-2 text-left w-32">Nilable</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                    
+                      <tr>
+                        <td class="p-2"><input type="checkbox" checked></p>
+                        <td class="p-2">roles</td>
+                        <td class="p-2">LFGRoles</td>
+                        <td class="p-2">nil</td>
+                        <td class="p-2">false</td>
+                      </tr>
+                    
+                    </tbody>
+                  </table>
+                </div>
+                 <!-- end returns -->
+
+                <div> <!-- BEGIN: function call -->
+                  <h3 class="font-medium pb-2">Code example</h3>
+                  <code class="bg-gray-100 block p-2">
+                    
+                      local
+                      
+                      
+                        
+                        roles
+                        
+                      
+                      =
+                    
+                    GetSavedRoles
+                    (
+                      
+                    )
+                  </code>
+                </div> <!-- END: function call -->
+              </div> <!-- hidden stuff ends -->
+              
             </div>
           
-            <div class="func border">
-              <div class="flex gap-1 items-center bg-gray-200 p-2">
+            <div class="func border-2">
+              <div class="expand cursor-pointer flex gap-1 items-center bg-gray-200 p-2">
                 <svg class="w-7 h-7" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M7 12.75V11.25H9.38563L10.7931 6.00266C10.797 5.98811 10.8013 5.97377 10.806 5.95965L10.8102 5.94389L10.8146 5.92986C11.1634 4.81245 12.2058 4 13.44 4C14.9588 4 16.19 5.23122 16.19 6.75C16.19 6.91899 16.1747 7.08506 16.1451 7.24669L16.1396 7.2767L15.8408 8.39079L14.392 8.0022L14.6741 6.9505C14.6845 6.88564 14.69 6.81871 14.69 6.75C14.69 6.05964 14.1304 5.5 13.44 5.5C12.8852 5.5 12.413 5.86199 12.2504 6.36445L10.9394 11.25H12V12.75H10.5368L9.48551 16.6678L9.48495 16.6699L9.41212 16.9414C9.4089 16.9535 9.4054 16.9653 9.40164 16.977L9.38363 17.0435L9.38013 17.0549C9.03607 18.1802 7.98975 19 6.75 19C5.23122 19 4 17.7688 4 16.25C4 15.8992 4.08642 15.5956 4.14978 15.373L4.16503 15.3192L4.30629 14.7925L4.38192 14.5349L5.8212 14.9573L5.75052 15.1981L5.6104 15.7206C5.53143 16.0018 5.5 16.1153 5.5 16.25C5.5 16.9404 6.05964 17.5 6.75 17.5C7.30821 17.5 7.78276 17.1335 7.94256 16.6264L8.03671 16.2792L8.03726 16.2772L8.98331 12.75H7Z" fill="#1F2328"/>
                   <path d="M20.0002 17.75L18.9396 18.8107L16.9699 16.841L15.0002 18.8107L13.9396 17.75L15.9093 15.7803L13.9396 13.8107L15.0002 12.75L16.9699 14.7197L18.9396 12.75L20.0002 13.8107L18.0306 15.7803L20.0002 17.75Z" fill="#1F2328"/>
                 </svg>
                 <div class="font-semibold flex-grow">LFGList.GetSearchResultInfo</div>
-                <svg class="w-8 h-8" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
                 </svg>
               </div>
 
-              <div class="p-2 hidden">
+              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+
                 
-                <details openp>
-                  <summary class="p-2">Arguments</summary>
-                    <table class="border border-gray-200 w-full">
-                      <thead class="bg-gray-200">
-                        <tr>
-                          <th class="p-2 text-left">Name</th>
-                          <th class="p-2 text-left w-64">Type</th>
-                          <th class="p-2 text-left w-32">Nilable</th>
-                        </tr>
-                      </thead>
-                      <tbody>
+                <div>
+                  <h3 class="font-medium pb-2">Arguments</h3>
+                  <table class="border border-gray-200 w-full">
+                    <thead class="bg-gray-200">
+                      <tr>
+                        <th class="p-2 text-left">Name</th>
+                        <th class="p-2 text-left w-64">Type</th>
+                        <th class="p-2 text-left w-32">Nilable</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                    
+                      <tr>
+                        <td class="p-2">searchResultID</td>
+                        <td class="p-2">number</td>
+                        <td class="p-2">false</td>
+                      </tr>
+                    
+                    </tbody>
+                  </table>
+                </div>
+                 <!-- end arguments -->
+                
+                
+                <div>
+                  <h3 class="font-medium pb-2">Returns</h3>
+                  <table class="border border-gray-200 w-full">
+                    <thead class="bg-gray-200">
+                      <tr>
+                        <th class="w-2"></th>
+                        <th class="p-2 text-left">Name</th>
+                        <th class="p-2 text-left w-64">Type</th>
+                        <th class="p-2 text-left w-64">InnerType</th>
+                        <th class="p-2 text-left w-32">Nilable</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                    
+                      <tr>
+                        <td class="p-2"><input type="checkbox" checked></p>
+                        <td class="p-2">searchResultData</td>
+                        <td class="p-2">LfgSearchResultData</td>
+                        <td class="p-2">nil</td>
+                        <td class="p-2">false</td>
+                      </tr>
+                    
+                    </tbody>
+                  </table>
+                </div>
+                 <!-- end returns -->
+
+                <div> <!-- BEGIN: function call -->
+                  <h3 class="font-medium pb-2">Code example</h3>
+                  <code class="bg-gray-100 block p-2">
+                    
+                      local
                       
-                        <tr>
-                          <td class="p-2">searchResultID</td>
-                          <td class="p-2">number</td>
-                          <td class="p-2">false</td>
-                        </tr>
                       
-                      </tbody>
-                    </table>
-                  </details>
-                 <!-- end arguments loop -->
-              </div>
+                        
+                        searchResultData
+                        
+                      
+                      =
+                    
+                    GetSearchResultInfo
+                    (
+                      
+                        
+                        
+                          
+                          searchResultID
+                          
+                        
+                      
+                    )
+                  </code>
+                </div> <!-- END: function call -->
+              </div> <!-- hidden stuff ends -->
+              
             </div>
           
-            <div class="func border">
-              <div class="flex gap-1 items-center bg-gray-200 p-2">
+            <div class="func border-2">
+              <div class="expand cursor-pointer flex gap-1 items-center bg-gray-200 p-2">
                 <svg class="w-7 h-7" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M7 12.75V11.25H9.38563L10.7931 6.00266C10.797 5.98811 10.8013 5.97377 10.806 5.95965L10.8102 5.94389L10.8146 5.92986C11.1634 4.81245 12.2058 4 13.44 4C14.9588 4 16.19 5.23122 16.19 6.75C16.19 6.91899 16.1747 7.08506 16.1451 7.24669L16.1396 7.2767L15.8408 8.39079L14.392 8.0022L14.6741 6.9505C14.6845 6.88564 14.69 6.81871 14.69 6.75C14.69 6.05964 14.1304 5.5 13.44 5.5C12.8852 5.5 12.413 5.86199 12.2504 6.36445L10.9394 11.25H12V12.75H10.5368L9.48551 16.6678L9.48495 16.6699L9.41212 16.9414C9.4089 16.9535 9.4054 16.9653 9.40164 16.977L9.38363 17.0435L9.38013 17.0549C9.03607 18.1802 7.98975 19 6.75 19C5.23122 19 4 17.7688 4 16.25C4 15.8992 4.08642 15.5956 4.14978 15.373L4.16503 15.3192L4.30629 14.7925L4.38192 14.5349L5.8212 14.9573L5.75052 15.1981L5.6104 15.7206C5.53143 16.0018 5.5 16.1153 5.5 16.25C5.5 16.9404 6.05964 17.5 6.75 17.5C7.30821 17.5 7.78276 17.1335 7.94256 16.6264L8.03671 16.2792L8.03726 16.2772L8.98331 12.75H7Z" fill="#1F2328"/>
                   <path d="M20.0002 17.75L18.9396 18.8107L16.9699 16.841L15.0002 18.8107L13.9396 17.75L15.9093 15.7803L13.9396 13.8107L15.0002 12.75L16.9699 14.7197L18.9396 12.75L20.0002 13.8107L18.0306 15.7803L20.0002 17.75Z" fill="#1F2328"/>
                 </svg>
                 <div class="font-semibold flex-grow">LFGList.GetSearchResults</div>
-                <svg class="w-8 h-8" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
                 </svg>
               </div>
 
-              <div class="p-2 hidden">
-                 <!-- end arguments loop -->
-              </div>
+              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+
+                 <!-- end arguments -->
+                
+                
+                <div>
+                  <h3 class="font-medium pb-2">Returns</h3>
+                  <table class="border border-gray-200 w-full">
+                    <thead class="bg-gray-200">
+                      <tr>
+                        <th class="w-2"></th>
+                        <th class="p-2 text-left">Name</th>
+                        <th class="p-2 text-left w-64">Type</th>
+                        <th class="p-2 text-left w-64">InnerType</th>
+                        <th class="p-2 text-left w-32">Nilable</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                    
+                      <tr>
+                        <td class="p-2"><input type="checkbox" checked></p>
+                        <td class="p-2">totalResultsFound</td>
+                        <td class="p-2">number</td>
+                        <td class="p-2">nil</td>
+                        <td class="p-2">false</td>
+                      </tr>
+                    
+                      <tr>
+                        <td class="p-2"><input type="checkbox" checked></p>
+                        <td class="p-2">results</td>
+                        <td class="p-2">table</td>
+                        <td class="p-2">number</td>
+                        <td class="p-2">false</td>
+                      </tr>
+                    
+                    </tbody>
+                  </table>
+                </div>
+                 <!-- end returns -->
+
+                <div> <!-- BEGIN: function call -->
+                  <h3 class="font-medium pb-2">Code example</h3>
+                  <code class="bg-gray-100 block p-2">
+                    
+                      local
+                      
+                      
+                        
+                        totalResultsFound
+                        
+                      
+                        ,
+                        results
+                        
+                      
+                      =
+                    
+                    GetSearchResults
+                    (
+                      
+                    )
+                  </code>
+                </div> <!-- END: function call -->
+              </div> <!-- hidden stuff ends -->
+              
             </div>
           
-            <div class="func border">
-              <div class="flex gap-1 items-center bg-gray-200 p-2">
+            <div class="func border-2">
+              <div class="expand cursor-pointer flex gap-1 items-center bg-gray-200 p-2">
                 <svg class="w-7 h-7" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M7 12.75V11.25H9.38563L10.7931 6.00266C10.797 5.98811 10.8013 5.97377 10.806 5.95965L10.8102 5.94389L10.8146 5.92986C11.1634 4.81245 12.2058 4 13.44 4C14.9588 4 16.19 5.23122 16.19 6.75C16.19 6.91899 16.1747 7.08506 16.1451 7.24669L16.1396 7.2767L15.8408 8.39079L14.392 8.0022L14.6741 6.9505C14.6845 6.88564 14.69 6.81871 14.69 6.75C14.69 6.05964 14.1304 5.5 13.44 5.5C12.8852 5.5 12.413 5.86199 12.2504 6.36445L10.9394 11.25H12V12.75H10.5368L9.48551 16.6678L9.48495 16.6699L9.41212 16.9414C9.4089 16.9535 9.4054 16.9653 9.40164 16.977L9.38363 17.0435L9.38013 17.0549C9.03607 18.1802 7.98975 19 6.75 19C5.23122 19 4 17.7688 4 16.25C4 15.8992 4.08642 15.5956 4.14978 15.373L4.16503 15.3192L4.30629 14.7925L4.38192 14.5349L5.8212 14.9573L5.75052 15.1981L5.6104 15.7206C5.53143 16.0018 5.5 16.1153 5.5 16.25C5.5 16.9404 6.05964 17.5 6.75 17.5C7.30821 17.5 7.78276 17.1335 7.94256 16.6264L8.03671 16.2792L8.03726 16.2772L8.98331 12.75H7Z" fill="#1F2328"/>
                   <path d="M20.0002 17.75L18.9396 18.8107L16.9699 16.841L15.0002 18.8107L13.9396 17.75L15.9093 15.7803L13.9396 13.8107L15.0002 12.75L16.9699 14.7197L18.9396 12.75L20.0002 13.8107L18.0306 15.7803L20.0002 17.75Z" fill="#1F2328"/>
                 </svg>
                 <div class="font-semibold flex-grow">LFGList.HasActiveEntryInfo</div>
-                <svg class="w-8 h-8" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
                 </svg>
               </div>
 
-              <div class="p-2 hidden">
-                 <!-- end arguments loop -->
-              </div>
+              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+
+                 <!-- end arguments -->
+                
+                
+                <div>
+                  <h3 class="font-medium pb-2">Returns</h3>
+                  <table class="border border-gray-200 w-full">
+                    <thead class="bg-gray-200">
+                      <tr>
+                        <th class="w-2"></th>
+                        <th class="p-2 text-left">Name</th>
+                        <th class="p-2 text-left w-64">Type</th>
+                        <th class="p-2 text-left w-64">InnerType</th>
+                        <th class="p-2 text-left w-32">Nilable</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                    
+                      <tr>
+                        <td class="p-2"><input type="checkbox" checked></p>
+                        <td class="p-2">hasActiveEntryInfo</td>
+                        <td class="p-2">bool</td>
+                        <td class="p-2">nil</td>
+                        <td class="p-2">false</td>
+                      </tr>
+                    
+                    </tbody>
+                  </table>
+                </div>
+                 <!-- end returns -->
+
+                <div> <!-- BEGIN: function call -->
+                  <h3 class="font-medium pb-2">Code example</h3>
+                  <code class="bg-gray-100 block p-2">
+                    
+                      local
+                      
+                      
+                        
+                        hasActiveEntryInfo
+                        
+                      
+                      =
+                    
+                    HasActiveEntryInfo
+                    (
+                      
+                    )
+                  </code>
+                </div> <!-- END: function call -->
+              </div> <!-- hidden stuff ends -->
+              
             </div>
           
-            <div class="func border">
-              <div class="flex gap-1 items-center bg-gray-200 p-2">
+            <div class="func border-2">
+              <div class="expand cursor-pointer flex gap-1 items-center bg-gray-200 p-2">
                 <svg class="w-7 h-7" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M7 12.75V11.25H9.38563L10.7931 6.00266C10.797 5.98811 10.8013 5.97377 10.806 5.95965L10.8102 5.94389L10.8146 5.92986C11.1634 4.81245 12.2058 4 13.44 4C14.9588 4 16.19 5.23122 16.19 6.75C16.19 6.91899 16.1747 7.08506 16.1451 7.24669L16.1396 7.2767L15.8408 8.39079L14.392 8.0022L14.6741 6.9505C14.6845 6.88564 14.69 6.81871 14.69 6.75C14.69 6.05964 14.1304 5.5 13.44 5.5C12.8852 5.5 12.413 5.86199 12.2504 6.36445L10.9394 11.25H12V12.75H10.5368L9.48551 16.6678L9.48495 16.6699L9.41212 16.9414C9.4089 16.9535 9.4054 16.9653 9.40164 16.977L9.38363 17.0435L9.38013 17.0549C9.03607 18.1802 7.98975 19 6.75 19C5.23122 19 4 17.7688 4 16.25C4 15.8992 4.08642 15.5956 4.14978 15.373L4.16503 15.3192L4.30629 14.7925L4.38192 14.5349L5.8212 14.9573L5.75052 15.1981L5.6104 15.7206C5.53143 16.0018 5.5 16.1153 5.5 16.25C5.5 16.9404 6.05964 17.5 6.75 17.5C7.30821 17.5 7.78276 17.1335 7.94256 16.6264L8.03671 16.2792L8.03726 16.2772L8.98331 12.75H7Z" fill="#1F2328"/>
                   <path d="M20.0002 17.75L18.9396 18.8107L16.9699 16.841L15.0002 18.8107L13.9396 17.75L15.9093 15.7803L13.9396 13.8107L15.0002 12.75L16.9699 14.7197L18.9396 12.75L20.0002 13.8107L18.0306 15.7803L20.0002 17.75Z" fill="#1F2328"/>
                 </svg>
                 <div class="font-semibold flex-grow">LFGList.HasSearchResultInfo</div>
-                <svg class="w-8 h-8" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
                 </svg>
               </div>
 
-              <div class="p-2 hidden">
+              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+
                 
-                <details openp>
-                  <summary class="p-2">Arguments</summary>
-                    <table class="border border-gray-200 w-full">
-                      <thead class="bg-gray-200">
-                        <tr>
-                          <th class="p-2 text-left">Name</th>
-                          <th class="p-2 text-left w-64">Type</th>
-                          <th class="p-2 text-left w-32">Nilable</th>
-                        </tr>
-                      </thead>
-                      <tbody>
+                <div>
+                  <h3 class="font-medium pb-2">Arguments</h3>
+                  <table class="border border-gray-200 w-full">
+                    <thead class="bg-gray-200">
+                      <tr>
+                        <th class="p-2 text-left">Name</th>
+                        <th class="p-2 text-left w-64">Type</th>
+                        <th class="p-2 text-left w-32">Nilable</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                    
+                      <tr>
+                        <td class="p-2">searchResultID</td>
+                        <td class="p-2">number</td>
+                        <td class="p-2">false</td>
+                      </tr>
+                    
+                    </tbody>
+                  </table>
+                </div>
+                 <!-- end arguments -->
+                
+                
+                <div>
+                  <h3 class="font-medium pb-2">Returns</h3>
+                  <table class="border border-gray-200 w-full">
+                    <thead class="bg-gray-200">
+                      <tr>
+                        <th class="w-2"></th>
+                        <th class="p-2 text-left">Name</th>
+                        <th class="p-2 text-left w-64">Type</th>
+                        <th class="p-2 text-left w-64">InnerType</th>
+                        <th class="p-2 text-left w-32">Nilable</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                    
+                      <tr>
+                        <td class="p-2"><input type="checkbox" checked></p>
+                        <td class="p-2">hasSearchResultInfo</td>
+                        <td class="p-2">bool</td>
+                        <td class="p-2">nil</td>
+                        <td class="p-2">false</td>
+                      </tr>
+                    
+                    </tbody>
+                  </table>
+                </div>
+                 <!-- end returns -->
+
+                <div> <!-- BEGIN: function call -->
+                  <h3 class="font-medium pb-2">Code example</h3>
+                  <code class="bg-gray-100 block p-2">
+                    
+                      local
                       
-                        <tr>
-                          <td class="p-2">searchResultID</td>
-                          <td class="p-2">number</td>
-                          <td class="p-2">false</td>
-                        </tr>
                       
-                      </tbody>
-                    </table>
-                  </details>
-                 <!-- end arguments loop -->
-              </div>
+                        
+                        hasSearchResultInfo
+                        
+                      
+                      =
+                    
+                    HasSearchResultInfo
+                    (
+                      
+                        
+                        
+                          
+                          searchResultID
+                          
+                        
+                      
+                    )
+                  </code>
+                </div> <!-- END: function call -->
+              </div> <!-- hidden stuff ends -->
+              
             </div>
           
-            <div class="func border">
-              <div class="flex gap-1 items-center bg-gray-200 p-2">
+            <div class="func border-2">
+              <div class="expand cursor-pointer flex gap-1 items-center bg-gray-200 p-2">
                 <svg class="w-7 h-7" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M7 12.75V11.25H9.38563L10.7931 6.00266C10.797 5.98811 10.8013 5.97377 10.806 5.95965L10.8102 5.94389L10.8146 5.92986C11.1634 4.81245 12.2058 4 13.44 4C14.9588 4 16.19 5.23122 16.19 6.75C16.19 6.91899 16.1747 7.08506 16.1451 7.24669L16.1396 7.2767L15.8408 8.39079L14.392 8.0022L14.6741 6.9505C14.6845 6.88564 14.69 6.81871 14.69 6.75C14.69 6.05964 14.1304 5.5 13.44 5.5C12.8852 5.5 12.413 5.86199 12.2504 6.36445L10.9394 11.25H12V12.75H10.5368L9.48551 16.6678L9.48495 16.6699L9.41212 16.9414C9.4089 16.9535 9.4054 16.9653 9.40164 16.977L9.38363 17.0435L9.38013 17.0549C9.03607 18.1802 7.98975 19 6.75 19C5.23122 19 4 17.7688 4 16.25C4 15.8992 4.08642 15.5956 4.14978 15.373L4.16503 15.3192L4.30629 14.7925L4.38192 14.5349L5.8212 14.9573L5.75052 15.1981L5.6104 15.7206C5.53143 16.0018 5.5 16.1153 5.5 16.25C5.5 16.9404 6.05964 17.5 6.75 17.5C7.30821 17.5 7.78276 17.1335 7.94256 16.6264L8.03671 16.2792L8.03726 16.2772L8.98331 12.75H7Z" fill="#1F2328"/>
                   <path d="M20.0002 17.75L18.9396 18.8107L16.9699 16.841L15.0002 18.8107L13.9396 17.75L15.9093 15.7803L13.9396 13.8107L15.0002 12.75L16.9699 14.7197L18.9396 12.75L20.0002 13.8107L18.0306 15.7803L20.0002 17.75Z" fill="#1F2328"/>
                 </svg>
                 <div class="font-semibold flex-grow">LFGList.IsPlayerAuthenticatedForLFG</div>
-                <svg class="w-8 h-8" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
                 </svg>
               </div>
 
-              <div class="p-2 hidden">
+              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+
                 
-                <details openp>
-                  <summary class="p-2">Arguments</summary>
-                    <table class="border border-gray-200 w-full">
-                      <thead class="bg-gray-200">
-                        <tr>
-                          <th class="p-2 text-left">Name</th>
-                          <th class="p-2 text-left w-64">Type</th>
-                          <th class="p-2 text-left w-32">Nilable</th>
-                        </tr>
-                      </thead>
-                      <tbody>
+                <div>
+                  <h3 class="font-medium pb-2">Arguments</h3>
+                  <table class="border border-gray-200 w-full">
+                    <thead class="bg-gray-200">
+                      <tr>
+                        <th class="p-2 text-left">Name</th>
+                        <th class="p-2 text-left w-64">Type</th>
+                        <th class="p-2 text-left w-32">Nilable</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                    
+                      <tr>
+                        <td class="p-2">activityID</td>
+                        <td class="p-2">number</td>
+                        <td class="p-2">true</td>
+                      </tr>
+                    
+                    </tbody>
+                  </table>
+                </div>
+                 <!-- end arguments -->
+                
+                
+                <div>
+                  <h3 class="font-medium pb-2">Returns</h3>
+                  <table class="border border-gray-200 w-full">
+                    <thead class="bg-gray-200">
+                      <tr>
+                        <th class="w-2"></th>
+                        <th class="p-2 text-left">Name</th>
+                        <th class="p-2 text-left w-64">Type</th>
+                        <th class="p-2 text-left w-64">InnerType</th>
+                        <th class="p-2 text-left w-32">Nilable</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                    
+                      <tr>
+                        <td class="p-2"><input type="checkbox" checked></p>
+                        <td class="p-2">isAuthenticated</td>
+                        <td class="p-2">bool</td>
+                        <td class="p-2">nil</td>
+                        <td class="p-2">false</td>
+                      </tr>
+                    
+                    </tbody>
+                  </table>
+                </div>
+                 <!-- end returns -->
+
+                <div> <!-- BEGIN: function call -->
+                  <h3 class="font-medium pb-2">Code example</h3>
+                  <code class="bg-gray-100 block p-2">
+                    
+                      local
                       
-                        <tr>
-                          <td class="p-2">activityID</td>
-                          <td class="p-2">number</td>
-                          <td class="p-2">true</td>
-                        </tr>
                       
-                      </tbody>
-                    </table>
-                  </details>
-                 <!-- end arguments loop -->
-              </div>
+                        
+                        isAuthenticated
+                        
+                      
+                      =
+                    
+                    IsPlayerAuthenticatedForLFG
+                    (
+                      
+                        
+                        
+                          
+                          activityID
+                          
+                        
+                      
+                    )
+                  </code>
+                </div> <!-- END: function call -->
+              </div> <!-- hidden stuff ends -->
+              
             </div>
           
-            <div class="func border">
-              <div class="flex gap-1 items-center bg-gray-200 p-2">
+            <div class="func border-2">
+              <div class="expand cursor-pointer flex gap-1 items-center bg-gray-200 p-2">
                 <svg class="w-7 h-7" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M7 12.75V11.25H9.38563L10.7931 6.00266C10.797 5.98811 10.8013 5.97377 10.806 5.95965L10.8102 5.94389L10.8146 5.92986C11.1634 4.81245 12.2058 4 13.44 4C14.9588 4 16.19 5.23122 16.19 6.75C16.19 6.91899 16.1747 7.08506 16.1451 7.24669L16.1396 7.2767L15.8408 8.39079L14.392 8.0022L14.6741 6.9505C14.6845 6.88564 14.69 6.81871 14.69 6.75C14.69 6.05964 14.1304 5.5 13.44 5.5C12.8852 5.5 12.413 5.86199 12.2504 6.36445L10.9394 11.25H12V12.75H10.5368L9.48551 16.6678L9.48495 16.6699L9.41212 16.9414C9.4089 16.9535 9.4054 16.9653 9.40164 16.977L9.38363 17.0435L9.38013 17.0549C9.03607 18.1802 7.98975 19 6.75 19C5.23122 19 4 17.7688 4 16.25C4 15.8992 4.08642 15.5956 4.14978 15.373L4.16503 15.3192L4.30629 14.7925L4.38192 14.5349L5.8212 14.9573L5.75052 15.1981L5.6104 15.7206C5.53143 16.0018 5.5 16.1153 5.5 16.25C5.5 16.9404 6.05964 17.5 6.75 17.5C7.30821 17.5 7.78276 17.1335 7.94256 16.6264L8.03671 16.2792L8.03726 16.2772L8.98331 12.75H7Z" fill="#1F2328"/>
                   <path d="M20.0002 17.75L18.9396 18.8107L16.9699 16.841L15.0002 18.8107L13.9396 17.75L15.9093 15.7803L13.9396 13.8107L15.0002 12.75L16.9699 14.7197L18.9396 12.75L20.0002 13.8107L18.0306 15.7803L20.0002 17.75Z" fill="#1F2328"/>
                 </svg>
                 <div class="font-semibold flex-grow">LFGList.Search</div>
-                <svg class="w-8 h-8" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
                 </svg>
               </div>
 
-              <div class="p-2 hidden">
+              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+
                 
-                <details openp>
-                  <summary class="p-2">Arguments</summary>
-                    <table class="border border-gray-200 w-full">
-                      <thead class="bg-gray-200">
-                        <tr>
-                          <th class="p-2 text-left">Name</th>
-                          <th class="p-2 text-left w-64">Type</th>
-                          <th class="p-2 text-left w-32">Nilable</th>
-                        </tr>
-                      </thead>
-                      <tbody>
+                <div>
+                  <h3 class="font-medium pb-2">Arguments</h3>
+                  <table class="border border-gray-200 w-full">
+                    <thead class="bg-gray-200">
+                      <tr>
+                        <th class="p-2 text-left">Name</th>
+                        <th class="p-2 text-left w-64">Type</th>
+                        <th class="p-2 text-left w-32">Nilable</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                    
+                      <tr>
+                        <td class="p-2">categoryID</td>
+                        <td class="p-2">number</td>
+                        <td class="p-2">false</td>
+                      </tr>
+                    
+                      <tr>
+                        <td class="p-2">filter</td>
+                        <td class="p-2">number</td>
+                        <td class="p-2">false</td>
+                      </tr>
+                    
+                      <tr>
+                        <td class="p-2">preferredFilters</td>
+                        <td class="p-2">number</td>
+                        <td class="p-2">false</td>
+                      </tr>
+                    
+                      <tr>
+                        <td class="p-2">languageFilter</td>
+                        <td class="p-2">WowLocale</td>
+                        <td class="p-2">true</td>
+                      </tr>
+                    
+                      <tr>
+                        <td class="p-2">searchCrossFactionListings</td>
+                        <td class="p-2">bool</td>
+                        <td class="p-2">true</td>
+                      </tr>
+                    
+                    </tbody>
+                  </table>
+                </div>
+                 <!-- end arguments -->
+                
+                 <!-- end returns -->
+
+                <div> <!-- BEGIN: function call -->
+                  <h3 class="font-medium pb-2">Code example</h3>
+                  <code class="bg-gray-100 block p-2">
+                    
+                    Search
+                    (
                       
-                        <tr>
-                          <td class="p-2">categoryID</td>
-                          <td class="p-2">number</td>
-                          <td class="p-2">false</td>
-                        </tr>
+                        
+                        
+                          
+                          categoryID
+                          
+                        
+                          ,
+                          filter
+                          
+                        
+                          ,
+                          preferredFilters
+                          
+                        
+                          ,
+                          languageFilter
+                          
+                        
+                          ,
+                          searchCrossFactionListings
+                          
+                        
                       
-                        <tr>
-                          <td class="p-2">filter</td>
-                          <td class="p-2">number</td>
-                          <td class="p-2">false</td>
-                        </tr>
-                      
-                        <tr>
-                          <td class="p-2">preferredFilters</td>
-                          <td class="p-2">number</td>
-                          <td class="p-2">false</td>
-                        </tr>
-                      
-                        <tr>
-                          <td class="p-2">languageFilter</td>
-                          <td class="p-2">WowLocale</td>
-                          <td class="p-2">true</td>
-                        </tr>
-                      
-                        <tr>
-                          <td class="p-2">searchCrossFactionListings</td>
-                          <td class="p-2">bool</td>
-                          <td class="p-2">true</td>
-                        </tr>
-                      
-                      </tbody>
-                    </table>
-                  </details>
-                 <!-- end arguments loop -->
-              </div>
+                    )
+                  </code>
+                </div> <!-- END: function call -->
+              </div> <!-- hidden stuff ends -->
+              
             </div>
           
-            <div class="func border">
-              <div class="flex gap-1 items-center bg-gray-200 p-2">
+            <div class="func border-2">
+              <div class="expand cursor-pointer flex gap-1 items-center bg-gray-200 p-2">
                 <svg class="w-7 h-7" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M7 12.75V11.25H9.38563L10.7931 6.00266C10.797 5.98811 10.8013 5.97377 10.806 5.95965L10.8102 5.94389L10.8146 5.92986C11.1634 4.81245 12.2058 4 13.44 4C14.9588 4 16.19 5.23122 16.19 6.75C16.19 6.91899 16.1747 7.08506 16.1451 7.24669L16.1396 7.2767L15.8408 8.39079L14.392 8.0022L14.6741 6.9505C14.6845 6.88564 14.69 6.81871 14.69 6.75C14.69 6.05964 14.1304 5.5 13.44 5.5C12.8852 5.5 12.413 5.86199 12.2504 6.36445L10.9394 11.25H12V12.75H10.5368L9.48551 16.6678L9.48495 16.6699L9.41212 16.9414C9.4089 16.9535 9.4054 16.9653 9.40164 16.977L9.38363 17.0435L9.38013 17.0549C9.03607 18.1802 7.98975 19 6.75 19C5.23122 19 4 17.7688 4 16.25C4 15.8992 4.08642 15.5956 4.14978 15.373L4.16503 15.3192L4.30629 14.7925L4.38192 14.5349L5.8212 14.9573L5.75052 15.1981L5.6104 15.7206C5.53143 16.0018 5.5 16.1153 5.5 16.25C5.5 16.9404 6.05964 17.5 6.75 17.5C7.30821 17.5 7.78276 17.1335 7.94256 16.6264L8.03671 16.2792L8.03726 16.2772L8.98331 12.75H7Z" fill="#1F2328"/>
                   <path d="M20.0002 17.75L18.9396 18.8107L16.9699 16.841L15.0002 18.8107L13.9396 17.75L15.9093 15.7803L13.9396 13.8107L15.0002 12.75L16.9699 14.7197L18.9396 12.75L20.0002 13.8107L18.0306 15.7803L20.0002 17.75Z" fill="#1F2328"/>
                 </svg>
                 <div class="font-semibold flex-grow">LFGList.SetEntryTitle</div>
-                <svg class="w-8 h-8" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
                 </svg>
               </div>
 
-              <div class="p-2 hidden">
+              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+
                 
-                <details openp>
-                  <summary class="p-2">Arguments</summary>
-                    <table class="border border-gray-200 w-full">
-                      <thead class="bg-gray-200">
-                        <tr>
-                          <th class="p-2 text-left">Name</th>
-                          <th class="p-2 text-left w-64">Type</th>
-                          <th class="p-2 text-left w-32">Nilable</th>
-                        </tr>
-                      </thead>
-                      <tbody>
+                <div>
+                  <h3 class="font-medium pb-2">Arguments</h3>
+                  <table class="border border-gray-200 w-full">
+                    <thead class="bg-gray-200">
+                      <tr>
+                        <th class="p-2 text-left">Name</th>
+                        <th class="p-2 text-left w-64">Type</th>
+                        <th class="p-2 text-left w-32">Nilable</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                    
+                      <tr>
+                        <td class="p-2">activityID</td>
+                        <td class="p-2">number</td>
+                        <td class="p-2">false</td>
+                      </tr>
+                    
+                      <tr>
+                        <td class="p-2">groupID</td>
+                        <td class="p-2">number</td>
+                        <td class="p-2">false</td>
+                      </tr>
+                    
+                      <tr>
+                        <td class="p-2">playstyle</td>
+                        <td class="p-2">LFGEntryPlaystyle</td>
+                        <td class="p-2">true</td>
+                      </tr>
+                    
+                    </tbody>
+                  </table>
+                </div>
+                 <!-- end arguments -->
+                
+                 <!-- end returns -->
+
+                <div> <!-- BEGIN: function call -->
+                  <h3 class="font-medium pb-2">Code example</h3>
+                  <code class="bg-gray-100 block p-2">
+                    
+                    SetEntryTitle
+                    (
                       
-                        <tr>
-                          <td class="p-2">activityID</td>
-                          <td class="p-2">number</td>
-                          <td class="p-2">false</td>
-                        </tr>
+                        
+                        
+                          
+                          activityID
+                          
+                        
+                          ,
+                          groupID
+                          
+                        
+                          ,
+                          playstyle
+                          
+                        
                       
-                        <tr>
-                          <td class="p-2">groupID</td>
-                          <td class="p-2">number</td>
-                          <td class="p-2">false</td>
-                        </tr>
-                      
-                        <tr>
-                          <td class="p-2">playstyle</td>
-                          <td class="p-2">LFGEntryPlaystyle</td>
-                          <td class="p-2">true</td>
-                        </tr>
-                      
-                      </tbody>
-                    </table>
-                  </details>
-                 <!-- end arguments loop -->
-              </div>
+                    )
+                  </code>
+                </div> <!-- END: function call -->
+              </div> <!-- hidden stuff ends -->
+              
             </div>
           
-            <div class="func border">
-              <div class="flex gap-1 items-center bg-gray-200 p-2">
+            <div class="func border-2">
+              <div class="expand cursor-pointer flex gap-1 items-center bg-gray-200 p-2">
                 <svg class="w-7 h-7" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M7 12.75V11.25H9.38563L10.7931 6.00266C10.797 5.98811 10.8013 5.97377 10.806 5.95965L10.8102 5.94389L10.8146 5.92986C11.1634 4.81245 12.2058 4 13.44 4C14.9588 4 16.19 5.23122 16.19 6.75C16.19 6.91899 16.1747 7.08506 16.1451 7.24669L16.1396 7.2767L15.8408 8.39079L14.392 8.0022L14.6741 6.9505C14.6845 6.88564 14.69 6.81871 14.69 6.75C14.69 6.05964 14.1304 5.5 13.44 5.5C12.8852 5.5 12.413 5.86199 12.2504 6.36445L10.9394 11.25H12V12.75H10.5368L9.48551 16.6678L9.48495 16.6699L9.41212 16.9414C9.4089 16.9535 9.4054 16.9653 9.40164 16.977L9.38363 17.0435L9.38013 17.0549C9.03607 18.1802 7.98975 19 6.75 19C5.23122 19 4 17.7688 4 16.25C4 15.8992 4.08642 15.5956 4.14978 15.373L4.16503 15.3192L4.30629 14.7925L4.38192 14.5349L5.8212 14.9573L5.75052 15.1981L5.6104 15.7206C5.53143 16.0018 5.5 16.1153 5.5 16.25C5.5 16.9404 6.05964 17.5 6.75 17.5C7.30821 17.5 7.78276 17.1335 7.94256 16.6264L8.03671 16.2792L8.03726 16.2772L8.98331 12.75H7Z" fill="#1F2328"/>
                   <path d="M20.0002 17.75L18.9396 18.8107L16.9699 16.841L15.0002 18.8107L13.9396 17.75L15.9093 15.7803L13.9396 13.8107L15.0002 12.75L16.9699 14.7197L18.9396 12.75L20.0002 13.8107L18.0306 15.7803L20.0002 17.75Z" fill="#1F2328"/>
                 </svg>
                 <div class="font-semibold flex-grow">LFGList.SetRoles</div>
-                <svg class="w-8 h-8" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
                 </svg>
               </div>
 
-              <div class="p-2 hidden">
+              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+
                 
-                <details openp>
-                  <summary class="p-2">Arguments</summary>
-                    <table class="border border-gray-200 w-full">
-                      <thead class="bg-gray-200">
-                        <tr>
-                          <th class="p-2 text-left">Name</th>
-                          <th class="p-2 text-left w-64">Type</th>
-                          <th class="p-2 text-left w-32">Nilable</th>
-                        </tr>
-                      </thead>
-                      <tbody>
+                <div>
+                  <h3 class="font-medium pb-2">Arguments</h3>
+                  <table class="border border-gray-200 w-full">
+                    <thead class="bg-gray-200">
+                      <tr>
+                        <th class="p-2 text-left">Name</th>
+                        <th class="p-2 text-left w-64">Type</th>
+                        <th class="p-2 text-left w-32">Nilable</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                    
+                      <tr>
+                        <td class="p-2">roles</td>
+                        <td class="p-2">LFGRoles</td>
+                        <td class="p-2">false</td>
+                      </tr>
+                    
+                    </tbody>
+                  </table>
+                </div>
+                 <!-- end arguments -->
+                
+                
+                <div>
+                  <h3 class="font-medium pb-2">Returns</h3>
+                  <table class="border border-gray-200 w-full">
+                    <thead class="bg-gray-200">
+                      <tr>
+                        <th class="w-2"></th>
+                        <th class="p-2 text-left">Name</th>
+                        <th class="p-2 text-left w-64">Type</th>
+                        <th class="p-2 text-left w-64">InnerType</th>
+                        <th class="p-2 text-left w-32">Nilable</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                    
+                      <tr>
+                        <td class="p-2"><input type="checkbox" checked></p>
+                        <td class="p-2">success</td>
+                        <td class="p-2">bool</td>
+                        <td class="p-2">nil</td>
+                        <td class="p-2">false</td>
+                      </tr>
+                    
+                    </tbody>
+                  </table>
+                </div>
+                 <!-- end returns -->
+
+                <div> <!-- BEGIN: function call -->
+                  <h3 class="font-medium pb-2">Code example</h3>
+                  <code class="bg-gray-100 block p-2">
+                    
+                      local
                       
-                        <tr>
-                          <td class="p-2">roles</td>
-                          <td class="p-2">LFGRoles</td>
-                          <td class="p-2">false</td>
-                        </tr>
                       
-                      </tbody>
-                    </table>
-                  </details>
-                 <!-- end arguments loop -->
-              </div>
+                        
+                        success
+                        
+                      
+                      =
+                    
+                    SetRoles
+                    (
+                      
+                        
+                        
+                          
+                          roles
+                          
+                        
+                      
+                    )
+                  </code>
+                </div> <!-- END: function call -->
+              </div> <!-- hidden stuff ends -->
+              
             </div>
           
-            <div class="func border">
-              <div class="flex gap-1 items-center bg-gray-200 p-2">
+            <div class="func border-2">
+              <div class="expand cursor-pointer flex gap-1 items-center bg-gray-200 p-2">
                 <svg class="w-7 h-7" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M7 12.75V11.25H9.38563L10.7931 6.00266C10.797 5.98811 10.8013 5.97377 10.806 5.95965L10.8102 5.94389L10.8146 5.92986C11.1634 4.81245 12.2058 4 13.44 4C14.9588 4 16.19 5.23122 16.19 6.75C16.19 6.91899 16.1747 7.08506 16.1451 7.24669L16.1396 7.2767L15.8408 8.39079L14.392 8.0022L14.6741 6.9505C14.6845 6.88564 14.69 6.81871 14.69 6.75C14.69 6.05964 14.1304 5.5 13.44 5.5C12.8852 5.5 12.413 5.86199 12.2504 6.36445L10.9394 11.25H12V12.75H10.5368L9.48551 16.6678L9.48495 16.6699L9.41212 16.9414C9.4089 16.9535 9.4054 16.9653 9.40164 16.977L9.38363 17.0435L9.38013 17.0549C9.03607 18.1802 7.98975 19 6.75 19C5.23122 19 4 17.7688 4 16.25C4 15.8992 4.08642 15.5956 4.14978 15.373L4.16503 15.3192L4.30629 14.7925L4.38192 14.5349L5.8212 14.9573L5.75052 15.1981L5.6104 15.7206C5.53143 16.0018 5.5 16.1153 5.5 16.25C5.5 16.9404 6.05964 17.5 6.75 17.5C7.30821 17.5 7.78276 17.1335 7.94256 16.6264L8.03671 16.2792L8.03726 16.2772L8.98331 12.75H7Z" fill="#1F2328"/>
                   <path d="M20.0002 17.75L18.9396 18.8107L16.9699 16.841L15.0002 18.8107L13.9396 17.75L15.9093 15.7803L13.9396 13.8107L15.0002 12.75L16.9699 14.7197L18.9396 12.75L20.0002 13.8107L18.0306 15.7803L20.0002 17.75Z" fill="#1F2328"/>
                 </svg>
                 <div class="font-semibold flex-grow">LFGList.SetSearchToActivity</div>
-                <svg class="w-8 h-8" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
                 </svg>
               </div>
 
-              <div class="p-2 hidden">
+              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+
                 
-                <details openp>
-                  <summary class="p-2">Arguments</summary>
-                    <table class="border border-gray-200 w-full">
-                      <thead class="bg-gray-200">
-                        <tr>
-                          <th class="p-2 text-left">Name</th>
-                          <th class="p-2 text-left w-64">Type</th>
-                          <th class="p-2 text-left w-32">Nilable</th>
-                        </tr>
-                      </thead>
-                      <tbody>
+                <div>
+                  <h3 class="font-medium pb-2">Arguments</h3>
+                  <table class="border border-gray-200 w-full">
+                    <thead class="bg-gray-200">
+                      <tr>
+                        <th class="p-2 text-left">Name</th>
+                        <th class="p-2 text-left w-64">Type</th>
+                        <th class="p-2 text-left w-32">Nilable</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                    
+                      <tr>
+                        <td class="p-2">activityID</td>
+                        <td class="p-2">number</td>
+                        <td class="p-2">false</td>
+                      </tr>
+                    
+                    </tbody>
+                  </table>
+                </div>
+                 <!-- end arguments -->
+                
+                 <!-- end returns -->
+
+                <div> <!-- BEGIN: function call -->
+                  <h3 class="font-medium pb-2">Code example</h3>
+                  <code class="bg-gray-100 block p-2">
+                    
+                    SetSearchToActivity
+                    (
                       
-                        <tr>
-                          <td class="p-2">activityID</td>
-                          <td class="p-2">number</td>
-                          <td class="p-2">false</td>
-                        </tr>
+                        
+                        
+                          
+                          activityID
+                          
+                        
                       
-                      </tbody>
-                    </table>
-                  </details>
-                 <!-- end arguments loop -->
-              </div>
+                    )
+                  </code>
+                </div> <!-- END: function call -->
+              </div> <!-- hidden stuff ends -->
+              
             </div>
           
-            <div class="func border">
-              <div class="flex gap-1 items-center bg-gray-200 p-2">
+            <div class="func border-2">
+              <div class="expand cursor-pointer flex gap-1 items-center bg-gray-200 p-2">
                 <svg class="w-7 h-7" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M7 12.75V11.25H9.38563L10.7931 6.00266C10.797 5.98811 10.8013 5.97377 10.806 5.95965L10.8102 5.94389L10.8146 5.92986C11.1634 4.81245 12.2058 4 13.44 4C14.9588 4 16.19 5.23122 16.19 6.75C16.19 6.91899 16.1747 7.08506 16.1451 7.24669L16.1396 7.2767L15.8408 8.39079L14.392 8.0022L14.6741 6.9505C14.6845 6.88564 14.69 6.81871 14.69 6.75C14.69 6.05964 14.1304 5.5 13.44 5.5C12.8852 5.5 12.413 5.86199 12.2504 6.36445L10.9394 11.25H12V12.75H10.5368L9.48551 16.6678L9.48495 16.6699L9.41212 16.9414C9.4089 16.9535 9.4054 16.9653 9.40164 16.977L9.38363 17.0435L9.38013 17.0549C9.03607 18.1802 7.98975 19 6.75 19C5.23122 19 4 17.7688 4 16.25C4 15.8992 4.08642 15.5956 4.14978 15.373L4.16503 15.3192L4.30629 14.7925L4.38192 14.5349L5.8212 14.9573L5.75052 15.1981L5.6104 15.7206C5.53143 16.0018 5.5 16.1153 5.5 16.25C5.5 16.9404 6.05964 17.5 6.75 17.5C7.30821 17.5 7.78276 17.1335 7.94256 16.6264L8.03671 16.2792L8.03726 16.2772L8.98331 12.75H7Z" fill="#1F2328"/>
                   <path d="M20.0002 17.75L18.9396 18.8107L16.9699 16.841L15.0002 18.8107L13.9396 17.75L15.9093 15.7803L13.9396 13.8107L15.0002 12.75L16.9699 14.7197L18.9396 12.75L20.0002 13.8107L18.0306 15.7803L20.0002 17.75Z" fill="#1F2328"/>
                 </svg>
                 <div class="font-semibold flex-grow">LFGList.SetSearchToQuestID</div>
-                <svg class="w-8 h-8" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
                 </svg>
               </div>
 
-              <div class="p-2 hidden">
+              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+
                 
-                <details openp>
-                  <summary class="p-2">Arguments</summary>
-                    <table class="border border-gray-200 w-full">
-                      <thead class="bg-gray-200">
-                        <tr>
-                          <th class="p-2 text-left">Name</th>
-                          <th class="p-2 text-left w-64">Type</th>
-                          <th class="p-2 text-left w-32">Nilable</th>
-                        </tr>
-                      </thead>
-                      <tbody>
+                <div>
+                  <h3 class="font-medium pb-2">Arguments</h3>
+                  <table class="border border-gray-200 w-full">
+                    <thead class="bg-gray-200">
+                      <tr>
+                        <th class="p-2 text-left">Name</th>
+                        <th class="p-2 text-left w-64">Type</th>
+                        <th class="p-2 text-left w-32">Nilable</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                    
+                      <tr>
+                        <td class="p-2">questID</td>
+                        <td class="p-2">number</td>
+                        <td class="p-2">false</td>
+                      </tr>
+                    
+                    </tbody>
+                  </table>
+                </div>
+                 <!-- end arguments -->
+                
+                 <!-- end returns -->
+
+                <div> <!-- BEGIN: function call -->
+                  <h3 class="font-medium pb-2">Code example</h3>
+                  <code class="bg-gray-100 block p-2">
+                    
+                    SetSearchToQuestID
+                    (
                       
-                        <tr>
-                          <td class="p-2">questID</td>
-                          <td class="p-2">number</td>
-                          <td class="p-2">false</td>
-                        </tr>
+                        
+                        
+                          
+                          questID
+                          
+                        
                       
-                      </tbody>
-                    </table>
-                  </details>
-                 <!-- end arguments loop -->
-              </div>
+                    )
+                  </code>
+                </div> <!-- END: function call -->
+              </div> <!-- hidden stuff ends -->
+              
             </div>
           
-            <div class="func border">
-              <div class="flex gap-1 items-center bg-gray-200 p-2">
+            <div class="func border-2">
+              <div class="expand cursor-pointer flex gap-1 items-center bg-gray-200 p-2">
                 <svg class="w-7 h-7" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M7 12.75V11.25H9.38563L10.7931 6.00266C10.797 5.98811 10.8013 5.97377 10.806 5.95965L10.8102 5.94389L10.8146 5.92986C11.1634 4.81245 12.2058 4 13.44 4C14.9588 4 16.19 5.23122 16.19 6.75C16.19 6.91899 16.1747 7.08506 16.1451 7.24669L16.1396 7.2767L15.8408 8.39079L14.392 8.0022L14.6741 6.9505C14.6845 6.88564 14.69 6.81871 14.69 6.75C14.69 6.05964 14.1304 5.5 13.44 5.5C12.8852 5.5 12.413 5.86199 12.2504 6.36445L10.9394 11.25H12V12.75H10.5368L9.48551 16.6678L9.48495 16.6699L9.41212 16.9414C9.4089 16.9535 9.4054 16.9653 9.40164 16.977L9.38363 17.0435L9.38013 17.0549C9.03607 18.1802 7.98975 19 6.75 19C5.23122 19 4 17.7688 4 16.25C4 15.8992 4.08642 15.5956 4.14978 15.373L4.16503 15.3192L4.30629 14.7925L4.38192 14.5349L5.8212 14.9573L5.75052 15.1981L5.6104 15.7206C5.53143 16.0018 5.5 16.1153 5.5 16.25C5.5 16.9404 6.05964 17.5 6.75 17.5C7.30821 17.5 7.78276 17.1335 7.94256 16.6264L8.03671 16.2792L8.03726 16.2772L8.98331 12.75H7Z" fill="#1F2328"/>
                   <path d="M20.0002 17.75L18.9396 18.8107L16.9699 16.841L15.0002 18.8107L13.9396 17.75L15.9093 15.7803L13.9396 13.8107L15.0002 12.75L16.9699 14.7197L18.9396 12.75L20.0002 13.8107L18.0306 15.7803L20.0002 17.75Z" fill="#1F2328"/>
                 </svg>
                 <div class="font-semibold flex-grow">LFGList.ValidateRequiredDungeonScore</div>
-                <svg class="w-8 h-8" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
                 </svg>
               </div>
 
-              <div class="p-2 hidden">
+              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+
                 
-                <details openp>
-                  <summary class="p-2">Arguments</summary>
-                    <table class="border border-gray-200 w-full">
-                      <thead class="bg-gray-200">
-                        <tr>
-                          <th class="p-2 text-left">Name</th>
-                          <th class="p-2 text-left w-64">Type</th>
-                          <th class="p-2 text-left w-32">Nilable</th>
-                        </tr>
-                      </thead>
-                      <tbody>
+                <div>
+                  <h3 class="font-medium pb-2">Arguments</h3>
+                  <table class="border border-gray-200 w-full">
+                    <thead class="bg-gray-200">
+                      <tr>
+                        <th class="p-2 text-left">Name</th>
+                        <th class="p-2 text-left w-64">Type</th>
+                        <th class="p-2 text-left w-32">Nilable</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                    
+                      <tr>
+                        <td class="p-2">dungeonScore</td>
+                        <td class="p-2">number</td>
+                        <td class="p-2">false</td>
+                      </tr>
+                    
+                    </tbody>
+                  </table>
+                </div>
+                 <!-- end arguments -->
+                
+                
+                <div>
+                  <h3 class="font-medium pb-2">Returns</h3>
+                  <table class="border border-gray-200 w-full">
+                    <thead class="bg-gray-200">
+                      <tr>
+                        <th class="w-2"></th>
+                        <th class="p-2 text-left">Name</th>
+                        <th class="p-2 text-left w-64">Type</th>
+                        <th class="p-2 text-left w-64">InnerType</th>
+                        <th class="p-2 text-left w-32">Nilable</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                    
+                      <tr>
+                        <td class="p-2"><input type="checkbox" checked></p>
+                        <td class="p-2">passes</td>
+                        <td class="p-2">bool</td>
+                        <td class="p-2">nil</td>
+                        <td class="p-2">false</td>
+                      </tr>
+                    
+                    </tbody>
+                  </table>
+                </div>
+                 <!-- end returns -->
+
+                <div> <!-- BEGIN: function call -->
+                  <h3 class="font-medium pb-2">Code example</h3>
+                  <code class="bg-gray-100 block p-2">
+                    
+                      local
                       
-                        <tr>
-                          <td class="p-2">dungeonScore</td>
-                          <td class="p-2">number</td>
-                          <td class="p-2">false</td>
-                        </tr>
                       
-                      </tbody>
-                    </table>
-                  </details>
-                 <!-- end arguments loop -->
-              </div>
+                        
+                        passes
+                        
+                      
+                      =
+                    
+                    ValidateRequiredDungeonScore
+                    (
+                      
+                        
+                        
+                          
+                          dungeonScore
+                          
+                        
+                      
+                    )
+                  </code>
+                </div> <!-- END: function call -->
+              </div> <!-- hidden stuff ends -->
+              
             </div>
           
-            <div class="func border">
-              <div class="flex gap-1 items-center bg-gray-200 p-2">
+            <div class="func border-2">
+              <div class="expand cursor-pointer flex gap-1 items-center bg-gray-200 p-2">
                 <svg class="w-7 h-7" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M7 12.75V11.25H9.38563L10.7931 6.00266C10.797 5.98811 10.8013 5.97377 10.806 5.95965L10.8102 5.94389L10.8146 5.92986C11.1634 4.81245 12.2058 4 13.44 4C14.9588 4 16.19 5.23122 16.19 6.75C16.19 6.91899 16.1747 7.08506 16.1451 7.24669L16.1396 7.2767L15.8408 8.39079L14.392 8.0022L14.6741 6.9505C14.6845 6.88564 14.69 6.81871 14.69 6.75C14.69 6.05964 14.1304 5.5 13.44 5.5C12.8852 5.5 12.413 5.86199 12.2504 6.36445L10.9394 11.25H12V12.75H10.5368L9.48551 16.6678L9.48495 16.6699L9.41212 16.9414C9.4089 16.9535 9.4054 16.9653 9.40164 16.977L9.38363 17.0435L9.38013 17.0549C9.03607 18.1802 7.98975 19 6.75 19C5.23122 19 4 17.7688 4 16.25C4 15.8992 4.08642 15.5956 4.14978 15.373L4.16503 15.3192L4.30629 14.7925L4.38192 14.5349L5.8212 14.9573L5.75052 15.1981L5.6104 15.7206C5.53143 16.0018 5.5 16.1153 5.5 16.25C5.5 16.9404 6.05964 17.5 6.75 17.5C7.30821 17.5 7.78276 17.1335 7.94256 16.6264L8.03671 16.2792L8.03726 16.2772L8.98331 12.75H7Z" fill="#1F2328"/>
                   <path d="M20.0002 17.75L18.9396 18.8107L16.9699 16.841L15.0002 18.8107L13.9396 17.75L15.9093 15.7803L13.9396 13.8107L15.0002 12.75L16.9699 14.7197L18.9396 12.75L20.0002 13.8107L18.0306 15.7803L20.0002 17.75Z" fill="#1F2328"/>
                 </svg>
                 <div class="font-semibold flex-grow">LFGList.ValidateRequiredPvpRatingForActivity</div>
-                <svg class="w-8 h-8" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
                 </svg>
               </div>
 
-              <div class="p-2 hidden">
+              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+
                 
-                <details openp>
-                  <summary class="p-2">Arguments</summary>
-                    <table class="border border-gray-200 w-full">
-                      <thead class="bg-gray-200">
-                        <tr>
-                          <th class="p-2 text-left">Name</th>
-                          <th class="p-2 text-left w-64">Type</th>
-                          <th class="p-2 text-left w-32">Nilable</th>
-                        </tr>
-                      </thead>
-                      <tbody>
+                <div>
+                  <h3 class="font-medium pb-2">Arguments</h3>
+                  <table class="border border-gray-200 w-full">
+                    <thead class="bg-gray-200">
+                      <tr>
+                        <th class="p-2 text-left">Name</th>
+                        <th class="p-2 text-left w-64">Type</th>
+                        <th class="p-2 text-left w-32">Nilable</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                    
+                      <tr>
+                        <td class="p-2">activityID</td>
+                        <td class="p-2">number</td>
+                        <td class="p-2">false</td>
+                      </tr>
+                    
+                      <tr>
+                        <td class="p-2">rating</td>
+                        <td class="p-2">number</td>
+                        <td class="p-2">false</td>
+                      </tr>
+                    
+                    </tbody>
+                  </table>
+                </div>
+                 <!-- end arguments -->
+                
+                
+                <div>
+                  <h3 class="font-medium pb-2">Returns</h3>
+                  <table class="border border-gray-200 w-full">
+                    <thead class="bg-gray-200">
+                      <tr>
+                        <th class="w-2"></th>
+                        <th class="p-2 text-left">Name</th>
+                        <th class="p-2 text-left w-64">Type</th>
+                        <th class="p-2 text-left w-64">InnerType</th>
+                        <th class="p-2 text-left w-32">Nilable</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                    
+                      <tr>
+                        <td class="p-2"><input type="checkbox" checked></p>
+                        <td class="p-2">passes</td>
+                        <td class="p-2">bool</td>
+                        <td class="p-2">nil</td>
+                        <td class="p-2">false</td>
+                      </tr>
+                    
+                    </tbody>
+                  </table>
+                </div>
+                 <!-- end returns -->
+
+                <div> <!-- BEGIN: function call -->
+                  <h3 class="font-medium pb-2">Code example</h3>
+                  <code class="bg-gray-100 block p-2">
+                    
+                      local
                       
-                        <tr>
-                          <td class="p-2">activityID</td>
-                          <td class="p-2">number</td>
-                          <td class="p-2">false</td>
-                        </tr>
                       
-                        <tr>
-                          <td class="p-2">rating</td>
-                          <td class="p-2">number</td>
-                          <td class="p-2">false</td>
-                        </tr>
+                        
+                        passes
+                        
                       
-                      </tbody>
-                    </table>
-                  </details>
-                 <!-- end arguments loop -->
-              </div>
+                      =
+                    
+                    ValidateRequiredPvpRatingForActivity
+                    (
+                      
+                        
+                        
+                          
+                          activityID
+                          
+                        
+                          ,
+                          rating
+                          
+                        
+                      
+                    )
+                  </code>
+                </div> <!-- END: function call -->
+              </div> <!-- hidden stuff ends -->
+              
             </div>
            
           </div>
@@ -1484,5 +3141,30 @@
         
       </div>
     </main>
+
+    <script>
+      window.onload = function() {
+        const expandItems = document.querySelectorAll(".func .expand");
+        if (expandItems) {
+          expandItems.forEach(item => {
+            item.addEventListener("click", evt => {
+              evt.stopPropagation();
+              const func = evt.target.closest(".func");
+              const content = func.querySelector(".content");
+              const chevron = func.querySelector(".chevron");
+              const expand = func.querySelector(".expand");
+              
+              content.classList.toggle("hidden");
+              chevron.classList.toggle("rotate-180");
+              
+              func.classList.toggle("border-gray-400");
+              expand.classList.toggle("bg-gray-400");
+
+              console.log(chevron)
+            });
+          });
+        }
+      }
+    </script>
   </body>
 </html>

@@ -153,5 +153,30 @@
         
       </div>
     </main>
+
+    <script>
+      window.onload = function() {
+        const expandItems = document.querySelectorAll(".func .expand");
+        if (expandItems) {
+          expandItems.forEach(item => {
+            item.addEventListener("click", evt => {
+              evt.stopPropagation();
+              const func = evt.target.closest(".func");
+              const content = func.querySelector(".content");
+              const chevron = func.querySelector(".chevron");
+              const expand = func.querySelector(".expand");
+              
+              content.classList.toggle("hidden");
+              chevron.classList.toggle("rotate-180");
+              
+              func.classList.toggle("border-gray-400");
+              expand.classList.toggle("bg-gray-400");
+
+              console.log(chevron)
+            });
+          });
+        }
+      }
+    </script>
   </body>
 </html>
