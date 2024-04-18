@@ -1,0 +1,4 @@
+* text=auto
+
+public/*.css linguist-vendored
+public/*.html linguist-vendored
