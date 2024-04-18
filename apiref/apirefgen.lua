@@ -4,7 +4,7 @@
 require("luarocks.loader")
 
 local helpers = require("helpers")
-local etlua = require "etlua"
+local etlua = require("etlua")
 
 local BLIZZ_DOCS = "Blizzard_APIDocumentationGenerated"
 local APIREF_OUT_DIRECTORY = "../public/apiref"
