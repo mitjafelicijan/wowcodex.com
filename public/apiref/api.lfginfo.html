@@ -1129,16 +1129,14 @@
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 7.375C7.5 6.33947 8.33947 5.5 9.375 5.5C10.4105 5.5 11.25 6.33947 11.25 7.375V16.625C11.25 18.489 12.761 20 14.625 20C16.489 20 18 18.489 18 16.625V11.8107L19.2197 13.0303L20.2803 11.9697L17.25 8.93934L14.2197 11.9697L15.2803 13.0303L16.5 11.8107V16.625C16.5 17.6605 15.6605 18.5 14.625 18.5C13.5895 18.5 12.75 17.6605 12.75 16.625V7.375C12.75 5.51104 11.239 4 9.375 4C7.51104 4 6 5.51104 6 7.375V9.5H4V15H9.5V9.5H7.5V7.375ZM5.5 11V13.5H8V11H5.5Z" fill="#1F2328"/>
                 </svg>
                 <div class="font-semibold flex-grow">ISLAND_COMPLETED</div>
-                
-                  <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
-                  </svg>
-                
+                <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
+                </svg>
               </div>
 
               <!-- hidden content -->
-              
               <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+                
                 <table class="border border-gray-200 w-full">
                   <thead class="bg-gray-200">
                     <tr>
@@ -1166,15 +1164,17 @@
                   
                   </tbody>
                 </table>
-
                 
-                <div> <!-- BEGIN: function call -->
+                
+                <div>
                   <h3 class="font-medium pb-2 underline">Code example</h3>
                   <code class="bg-gray-100 block p-2">local frame = CreateFrame("Frame")</code>
                   <code class="bg-gray-100 block p-2">frame:RegisterEvent("ISLAND_COMPLETED")</code>
                   <code class="bg-gray-100 block p-2">frame:SetScript("OnEvent", function(self, event, ...)</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;if event == "ISLAND_COMPLETED" then</code>
+                  
                   <code class="bg-gray-100 block p-2">
-                    &nbsp;&nbsp;local
+                    &nbsp;&nbsp;&nbsp;&nbsp;local
                     
                     
                       
@@ -1187,11 +1187,13 @@
                     
                     = ...
                   </code>
+                  
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;&nbsp;&nbsp;-- code goes here</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;end</code>
                   <code class="bg-gray-100 block p-2">end)</code>
-                </div> <!-- END: function call -->
+                </div>
 
               </div>
-              
             </div>
           
             <div class="bucket border">
@@ -1200,11 +1202,28 @@
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 7.375C7.5 6.33947 8.33947 5.5 9.375 5.5C10.4105 5.5 11.25 6.33947 11.25 7.375V16.625C11.25 18.489 12.761 20 14.625 20C16.489 20 18 18.489 18 16.625V11.8107L19.2197 13.0303L20.2803 11.9697L17.25 8.93934L14.2197 11.9697L15.2803 13.0303L16.5 11.8107V16.625C16.5 17.6605 15.6605 18.5 14.625 18.5C13.5895 18.5 12.75 17.6605 12.75 16.625V7.375C12.75 5.51104 11.239 4 9.375 4C7.51104 4 6 5.51104 6 7.375V9.5H4V15H9.5V9.5H7.5V7.375ZM5.5 11V13.5H8V11H5.5Z" fill="#1F2328"/>
                 </svg>
                 <div class="font-semibold flex-grow">LFG_BOOT_PROPOSAL_UPDATE</div>
-                
+                <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
+                </svg>
               </div>
 
               <!-- hidden content -->
-              
+              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+                
+                
+                <div>
+                  <h3 class="font-medium pb-2 underline">Code example</h3>
+                  <code class="bg-gray-100 block p-2">local frame = CreateFrame("Frame")</code>
+                  <code class="bg-gray-100 block p-2">frame:RegisterEvent("LFG_BOOT_PROPOSAL_UPDATE")</code>
+                  <code class="bg-gray-100 block p-2">frame:SetScript("OnEvent", function(self, event, ...)</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;if event == "LFG_BOOT_PROPOSAL_UPDATE" then</code>
+                  
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;&nbsp;&nbsp;-- code goes here</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;end</code>
+                  <code class="bg-gray-100 block p-2">end)</code>
+                </div>
+
+              </div>
             </div>
           
             <div class="bucket border">
@@ -1213,11 +1232,28 @@
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 7.375C7.5 6.33947 8.33947 5.5 9.375 5.5C10.4105 5.5 11.25 6.33947 11.25 7.375V16.625C11.25 18.489 12.761 20 14.625 20C16.489 20 18 18.489 18 16.625V11.8107L19.2197 13.0303L20.2803 11.9697L17.25 8.93934L14.2197 11.9697L15.2803 13.0303L16.5 11.8107V16.625C16.5 17.6605 15.6605 18.5 14.625 18.5C13.5895 18.5 12.75 17.6605 12.75 16.625V7.375C12.75 5.51104 11.239 4 9.375 4C7.51104 4 6 5.51104 6 7.375V9.5H4V15H9.5V9.5H7.5V7.375ZM5.5 11V13.5H8V11H5.5Z" fill="#1F2328"/>
                 </svg>
                 <div class="font-semibold flex-grow">LFG_COMPLETION_REWARD</div>
-                
+                <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
+                </svg>
               </div>
 
               <!-- hidden content -->
-              
+              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+                
+                
+                <div>
+                  <h3 class="font-medium pb-2 underline">Code example</h3>
+                  <code class="bg-gray-100 block p-2">local frame = CreateFrame("Frame")</code>
+                  <code class="bg-gray-100 block p-2">frame:RegisterEvent("LFG_COMPLETION_REWARD")</code>
+                  <code class="bg-gray-100 block p-2">frame:SetScript("OnEvent", function(self, event, ...)</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;if event == "LFG_COMPLETION_REWARD" then</code>
+                  
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;&nbsp;&nbsp;-- code goes here</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;end</code>
+                  <code class="bg-gray-100 block p-2">end)</code>
+                </div>
+
+              </div>
             </div>
           
             <div class="bucket border">
@@ -1226,11 +1262,28 @@
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 7.375C7.5 6.33947 8.33947 5.5 9.375 5.5C10.4105 5.5 11.25 6.33947 11.25 7.375V16.625C11.25 18.489 12.761 20 14.625 20C16.489 20 18 18.489 18 16.625V11.8107L19.2197 13.0303L20.2803 11.9697L17.25 8.93934L14.2197 11.9697L15.2803 13.0303L16.5 11.8107V16.625C16.5 17.6605 15.6605 18.5 14.625 18.5C13.5895 18.5 12.75 17.6605 12.75 16.625V7.375C12.75 5.51104 11.239 4 9.375 4C7.51104 4 6 5.51104 6 7.375V9.5H4V15H9.5V9.5H7.5V7.375ZM5.5 11V13.5H8V11H5.5Z" fill="#1F2328"/>
                 </svg>
                 <div class="font-semibold flex-grow">LFG_ENABLED_STATE_CHANGED</div>
-                
+                <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
+                </svg>
               </div>
 
               <!-- hidden content -->
-              
+              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+                
+                
+                <div>
+                  <h3 class="font-medium pb-2 underline">Code example</h3>
+                  <code class="bg-gray-100 block p-2">local frame = CreateFrame("Frame")</code>
+                  <code class="bg-gray-100 block p-2">frame:RegisterEvent("LFG_ENABLED_STATE_CHANGED")</code>
+                  <code class="bg-gray-100 block p-2">frame:SetScript("OnEvent", function(self, event, ...)</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;if event == "LFG_ENABLED_STATE_CHANGED" then</code>
+                  
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;&nbsp;&nbsp;-- code goes here</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;end</code>
+                  <code class="bg-gray-100 block p-2">end)</code>
+                </div>
+
+              </div>
             </div>
           
             <div class="bucket border">
@@ -1239,16 +1292,14 @@
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 7.375C7.5 6.33947 8.33947 5.5 9.375 5.5C10.4105 5.5 11.25 6.33947 11.25 7.375V16.625C11.25 18.489 12.761 20 14.625 20C16.489 20 18 18.489 18 16.625V11.8107L19.2197 13.0303L20.2803 11.9697L17.25 8.93934L14.2197 11.9697L15.2803 13.0303L16.5 11.8107V16.625C16.5 17.6605 15.6605 18.5 14.625 18.5C13.5895 18.5 12.75 17.6605 12.75 16.625V7.375C12.75 5.51104 11.239 4 9.375 4C7.51104 4 6 5.51104 6 7.375V9.5H4V15H9.5V9.5H7.5V7.375ZM5.5 11V13.5H8V11H5.5Z" fill="#1F2328"/>
                 </svg>
                 <div class="font-semibold flex-grow">LFG_INVALID_ERROR_MESSAGE</div>
-                
-                  <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
-                  </svg>
-                
+                <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
+                </svg>
               </div>
 
               <!-- hidden content -->
-              
               <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+                
                 <table class="border border-gray-200 w-full">
                   <thead class="bg-gray-200">
                     <tr>
@@ -1283,15 +1334,17 @@
                   
                   </tbody>
                 </table>
-
                 
-                <div> <!-- BEGIN: function call -->
+                
+                <div>
                   <h3 class="font-medium pb-2 underline">Code example</h3>
                   <code class="bg-gray-100 block p-2">local frame = CreateFrame("Frame")</code>
                   <code class="bg-gray-100 block p-2">frame:RegisterEvent("LFG_INVALID_ERROR_MESSAGE")</code>
                   <code class="bg-gray-100 block p-2">frame:SetScript("OnEvent", function(self, event, ...)</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;if event == "LFG_INVALID_ERROR_MESSAGE" then</code>
+                  
                   <code class="bg-gray-100 block p-2">
-                    &nbsp;&nbsp;local
+                    &nbsp;&nbsp;&nbsp;&nbsp;local
                     
                     
                       
@@ -1308,11 +1361,13 @@
                     
                     = ...
                   </code>
+                  
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;&nbsp;&nbsp;-- code goes here</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;end</code>
                   <code class="bg-gray-100 block p-2">end)</code>
-                </div> <!-- END: function call -->
+                </div>
 
               </div>
-              
             </div>
           
             <div class="bucket border">
@@ -1321,11 +1376,28 @@
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 7.375C7.5 6.33947 8.33947 5.5 9.375 5.5C10.4105 5.5 11.25 6.33947 11.25 7.375V16.625C11.25 18.489 12.761 20 14.625 20C16.489 20 18 18.489 18 16.625V11.8107L19.2197 13.0303L20.2803 11.9697L17.25 8.93934L14.2197 11.9697L15.2803 13.0303L16.5 11.8107V16.625C16.5 17.6605 15.6605 18.5 14.625 18.5C13.5895 18.5 12.75 17.6605 12.75 16.625V7.375C12.75 5.51104 11.239 4 9.375 4C7.51104 4 6 5.51104 6 7.375V9.5H4V15H9.5V9.5H7.5V7.375ZM5.5 11V13.5H8V11H5.5Z" fill="#1F2328"/>
                 </svg>
                 <div class="font-semibold flex-grow">LFG_LOCK_INFO_RECEIVED</div>
-                
+                <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
+                </svg>
               </div>
 
               <!-- hidden content -->
-              
+              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+                
+                
+                <div>
+                  <h3 class="font-medium pb-2 underline">Code example</h3>
+                  <code class="bg-gray-100 block p-2">local frame = CreateFrame("Frame")</code>
+                  <code class="bg-gray-100 block p-2">frame:RegisterEvent("LFG_LOCK_INFO_RECEIVED")</code>
+                  <code class="bg-gray-100 block p-2">frame:SetScript("OnEvent", function(self, event, ...)</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;if event == "LFG_LOCK_INFO_RECEIVED" then</code>
+                  
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;&nbsp;&nbsp;-- code goes here</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;end</code>
+                  <code class="bg-gray-100 block p-2">end)</code>
+                </div>
+
+              </div>
             </div>
           
             <div class="bucket border">
@@ -1334,16 +1406,14 @@
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 7.375C7.5 6.33947 8.33947 5.5 9.375 5.5C10.4105 5.5 11.25 6.33947 11.25 7.375V16.625C11.25 18.489 12.761 20 14.625 20C16.489 20 18 18.489 18 16.625V11.8107L19.2197 13.0303L20.2803 11.9697L17.25 8.93934L14.2197 11.9697L15.2803 13.0303L16.5 11.8107V16.625C16.5 17.6605 15.6605 18.5 14.625 18.5C13.5895 18.5 12.75 17.6605 12.75 16.625V7.375C12.75 5.51104 11.239 4 9.375 4C7.51104 4 6 5.51104 6 7.375V9.5H4V15H9.5V9.5H7.5V7.375ZM5.5 11V13.5H8V11H5.5Z" fill="#1F2328"/>
                 </svg>
                 <div class="font-semibold flex-grow">LFG_OFFER_CONTINUE</div>
-                
-                  <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
-                  </svg>
-                
+                <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
+                </svg>
               </div>
 
               <!-- hidden content -->
-              
               <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+                
                 <table class="border border-gray-200 w-full">
                   <thead class="bg-gray-200">
                     <tr>
@@ -1378,15 +1448,17 @@
                   
                   </tbody>
                 </table>
-
                 
-                <div> <!-- BEGIN: function call -->
+                
+                <div>
                   <h3 class="font-medium pb-2 underline">Code example</h3>
                   <code class="bg-gray-100 block p-2">local frame = CreateFrame("Frame")</code>
                   <code class="bg-gray-100 block p-2">frame:RegisterEvent("LFG_OFFER_CONTINUE")</code>
                   <code class="bg-gray-100 block p-2">frame:SetScript("OnEvent", function(self, event, ...)</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;if event == "LFG_OFFER_CONTINUE" then</code>
+                  
                   <code class="bg-gray-100 block p-2">
-                    &nbsp;&nbsp;local
+                    &nbsp;&nbsp;&nbsp;&nbsp;local
                     
                     
                       
@@ -1403,11 +1475,13 @@
                     
                     = ...
                   </code>
+                  
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;&nbsp;&nbsp;-- code goes here</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;end</code>
                   <code class="bg-gray-100 block p-2">end)</code>
-                </div> <!-- END: function call -->
+                </div>
 
               </div>
-              
             </div>
           
             <div class="bucket border">
@@ -1416,16 +1490,14 @@
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 7.375C7.5 6.33947 8.33947 5.5 9.375 5.5C10.4105 5.5 11.25 6.33947 11.25 7.375V16.625C11.25 18.489 12.761 20 14.625 20C16.489 20 18 18.489 18 16.625V11.8107L19.2197 13.0303L20.2803 11.9697L17.25 8.93934L14.2197 11.9697L15.2803 13.0303L16.5 11.8107V16.625C16.5 17.6605 15.6605 18.5 14.625 18.5C13.5895 18.5 12.75 17.6605 12.75 16.625V7.375C12.75 5.51104 11.239 4 9.375 4C7.51104 4 6 5.51104 6 7.375V9.5H4V15H9.5V9.5H7.5V7.375ZM5.5 11V13.5H8V11H5.5Z" fill="#1F2328"/>
                 </svg>
                 <div class="font-semibold flex-grow">LFG_OPEN_FROM_GOSSIP</div>
-                
-                  <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
-                  </svg>
-                
+                <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
+                </svg>
               </div>
 
               <!-- hidden content -->
-              
               <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+                
                 <table class="border border-gray-200 w-full">
                   <thead class="bg-gray-200">
                     <tr>
@@ -1446,15 +1518,17 @@
                   
                   </tbody>
                 </table>
-
                 
-                <div> <!-- BEGIN: function call -->
+                
+                <div>
                   <h3 class="font-medium pb-2 underline">Code example</h3>
                   <code class="bg-gray-100 block p-2">local frame = CreateFrame("Frame")</code>
                   <code class="bg-gray-100 block p-2">frame:RegisterEvent("LFG_OPEN_FROM_GOSSIP")</code>
                   <code class="bg-gray-100 block p-2">frame:SetScript("OnEvent", function(self, event, ...)</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;if event == "LFG_OPEN_FROM_GOSSIP" then</code>
+                  
                   <code class="bg-gray-100 block p-2">
-                    &nbsp;&nbsp;local
+                    &nbsp;&nbsp;&nbsp;&nbsp;local
                     
                     
                       
@@ -1463,11 +1537,13 @@
                     
                     = ...
                   </code>
+                  
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;&nbsp;&nbsp;-- code goes here</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;end</code>
                   <code class="bg-gray-100 block p-2">end)</code>
-                </div> <!-- END: function call -->
+                </div>
 
               </div>
-              
             </div>
           
             <div class="bucket border">
@@ -1476,11 +1552,28 @@
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 7.375C7.5 6.33947 8.33947 5.5 9.375 5.5C10.4105 5.5 11.25 6.33947 11.25 7.375V16.625C11.25 18.489 12.761 20 14.625 20C16.489 20 18 18.489 18 16.625V11.8107L19.2197 13.0303L20.2803 11.9697L17.25 8.93934L14.2197 11.9697L15.2803 13.0303L16.5 11.8107V16.625C16.5 17.6605 15.6605 18.5 14.625 18.5C13.5895 18.5 12.75 17.6605 12.75 16.625V7.375C12.75 5.51104 11.239 4 9.375 4C7.51104 4 6 5.51104 6 7.375V9.5H4V15H9.5V9.5H7.5V7.375ZM5.5 11V13.5H8V11H5.5Z" fill="#1F2328"/>
                 </svg>
                 <div class="font-semibold flex-grow">LFG_PROPOSAL_DONE</div>
-                
+                <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
+                </svg>
               </div>
 
               <!-- hidden content -->
-              
+              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+                
+                
+                <div>
+                  <h3 class="font-medium pb-2 underline">Code example</h3>
+                  <code class="bg-gray-100 block p-2">local frame = CreateFrame("Frame")</code>
+                  <code class="bg-gray-100 block p-2">frame:RegisterEvent("LFG_PROPOSAL_DONE")</code>
+                  <code class="bg-gray-100 block p-2">frame:SetScript("OnEvent", function(self, event, ...)</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;if event == "LFG_PROPOSAL_DONE" then</code>
+                  
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;&nbsp;&nbsp;-- code goes here</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;end</code>
+                  <code class="bg-gray-100 block p-2">end)</code>
+                </div>
+
+              </div>
             </div>
           
             <div class="bucket border">
@@ -1489,11 +1582,28 @@
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 7.375C7.5 6.33947 8.33947 5.5 9.375 5.5C10.4105 5.5 11.25 6.33947 11.25 7.375V16.625C11.25 18.489 12.761 20 14.625 20C16.489 20 18 18.489 18 16.625V11.8107L19.2197 13.0303L20.2803 11.9697L17.25 8.93934L14.2197 11.9697L15.2803 13.0303L16.5 11.8107V16.625C16.5 17.6605 15.6605 18.5 14.625 18.5C13.5895 18.5 12.75 17.6605 12.75 16.625V7.375C12.75 5.51104 11.239 4 9.375 4C7.51104 4 6 5.51104 6 7.375V9.5H4V15H9.5V9.5H7.5V7.375ZM5.5 11V13.5H8V11H5.5Z" fill="#1F2328"/>
                 </svg>
                 <div class="font-semibold flex-grow">LFG_PROPOSAL_FAILED</div>
-                
+                <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
+                </svg>
               </div>
 
               <!-- hidden content -->
-              
+              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+                
+                
+                <div>
+                  <h3 class="font-medium pb-2 underline">Code example</h3>
+                  <code class="bg-gray-100 block p-2">local frame = CreateFrame("Frame")</code>
+                  <code class="bg-gray-100 block p-2">frame:RegisterEvent("LFG_PROPOSAL_FAILED")</code>
+                  <code class="bg-gray-100 block p-2">frame:SetScript("OnEvent", function(self, event, ...)</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;if event == "LFG_PROPOSAL_FAILED" then</code>
+                  
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;&nbsp;&nbsp;-- code goes here</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;end</code>
+                  <code class="bg-gray-100 block p-2">end)</code>
+                </div>
+
+              </div>
             </div>
           
             <div class="bucket border">
@@ -1502,11 +1612,28 @@
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 7.375C7.5 6.33947 8.33947 5.5 9.375 5.5C10.4105 5.5 11.25 6.33947 11.25 7.375V16.625C11.25 18.489 12.761 20 14.625 20C16.489 20 18 18.489 18 16.625V11.8107L19.2197 13.0303L20.2803 11.9697L17.25 8.93934L14.2197 11.9697L15.2803 13.0303L16.5 11.8107V16.625C16.5 17.6605 15.6605 18.5 14.625 18.5C13.5895 18.5 12.75 17.6605 12.75 16.625V7.375C12.75 5.51104 11.239 4 9.375 4C7.51104 4 6 5.51104 6 7.375V9.5H4V15H9.5V9.5H7.5V7.375ZM5.5 11V13.5H8V11H5.5Z" fill="#1F2328"/>
                 </svg>
                 <div class="font-semibold flex-grow">LFG_PROPOSAL_SHOW</div>
-                
+                <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
+                </svg>
               </div>
 
               <!-- hidden content -->
-              
+              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+                
+                
+                <div>
+                  <h3 class="font-medium pb-2 underline">Code example</h3>
+                  <code class="bg-gray-100 block p-2">local frame = CreateFrame("Frame")</code>
+                  <code class="bg-gray-100 block p-2">frame:RegisterEvent("LFG_PROPOSAL_SHOW")</code>
+                  <code class="bg-gray-100 block p-2">frame:SetScript("OnEvent", function(self, event, ...)</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;if event == "LFG_PROPOSAL_SHOW" then</code>
+                  
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;&nbsp;&nbsp;-- code goes here</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;end</code>
+                  <code class="bg-gray-100 block p-2">end)</code>
+                </div>
+
+              </div>
             </div>
           
             <div class="bucket border">
@@ -1515,11 +1642,28 @@
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 7.375C7.5 6.33947 8.33947 5.5 9.375 5.5C10.4105 5.5 11.25 6.33947 11.25 7.375V16.625C11.25 18.489 12.761 20 14.625 20C16.489 20 18 18.489 18 16.625V11.8107L19.2197 13.0303L20.2803 11.9697L17.25 8.93934L14.2197 11.9697L15.2803 13.0303L16.5 11.8107V16.625C16.5 17.6605 15.6605 18.5 14.625 18.5C13.5895 18.5 12.75 17.6605 12.75 16.625V7.375C12.75 5.51104 11.239 4 9.375 4C7.51104 4 6 5.51104 6 7.375V9.5H4V15H9.5V9.5H7.5V7.375ZM5.5 11V13.5H8V11H5.5Z" fill="#1F2328"/>
                 </svg>
                 <div class="font-semibold flex-grow">LFG_PROPOSAL_SUCCEEDED</div>
-                
+                <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
+                </svg>
               </div>
 
               <!-- hidden content -->
-              
+              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+                
+                
+                <div>
+                  <h3 class="font-medium pb-2 underline">Code example</h3>
+                  <code class="bg-gray-100 block p-2">local frame = CreateFrame("Frame")</code>
+                  <code class="bg-gray-100 block p-2">frame:RegisterEvent("LFG_PROPOSAL_SUCCEEDED")</code>
+                  <code class="bg-gray-100 block p-2">frame:SetScript("OnEvent", function(self, event, ...)</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;if event == "LFG_PROPOSAL_SUCCEEDED" then</code>
+                  
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;&nbsp;&nbsp;-- code goes here</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;end</code>
+                  <code class="bg-gray-100 block p-2">end)</code>
+                </div>
+
+              </div>
             </div>
           
             <div class="bucket border">
@@ -1528,11 +1672,28 @@
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 7.375C7.5 6.33947 8.33947 5.5 9.375 5.5C10.4105 5.5 11.25 6.33947 11.25 7.375V16.625C11.25 18.489 12.761 20 14.625 20C16.489 20 18 18.489 18 16.625V11.8107L19.2197 13.0303L20.2803 11.9697L17.25 8.93934L14.2197 11.9697L15.2803 13.0303L16.5 11.8107V16.625C16.5 17.6605 15.6605 18.5 14.625 18.5C13.5895 18.5 12.75 17.6605 12.75 16.625V7.375C12.75 5.51104 11.239 4 9.375 4C7.51104 4 6 5.51104 6 7.375V9.5H4V15H9.5V9.5H7.5V7.375ZM5.5 11V13.5H8V11H5.5Z" fill="#1F2328"/>
                 </svg>
                 <div class="font-semibold flex-grow">LFG_PROPOSAL_UPDATE</div>
-                
+                <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
+                </svg>
               </div>
 
               <!-- hidden content -->
-              
+              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+                
+                
+                <div>
+                  <h3 class="font-medium pb-2 underline">Code example</h3>
+                  <code class="bg-gray-100 block p-2">local frame = CreateFrame("Frame")</code>
+                  <code class="bg-gray-100 block p-2">frame:RegisterEvent("LFG_PROPOSAL_UPDATE")</code>
+                  <code class="bg-gray-100 block p-2">frame:SetScript("OnEvent", function(self, event, ...)</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;if event == "LFG_PROPOSAL_UPDATE" then</code>
+                  
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;&nbsp;&nbsp;-- code goes here</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;end</code>
+                  <code class="bg-gray-100 block p-2">end)</code>
+                </div>
+
+              </div>
             </div>
           
             <div class="bucket border">
@@ -1541,11 +1702,28 @@
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 7.375C7.5 6.33947 8.33947 5.5 9.375 5.5C10.4105 5.5 11.25 6.33947 11.25 7.375V16.625C11.25 18.489 12.761 20 14.625 20C16.489 20 18 18.489 18 16.625V11.8107L19.2197 13.0303L20.2803 11.9697L17.25 8.93934L14.2197 11.9697L15.2803 13.0303L16.5 11.8107V16.625C16.5 17.6605 15.6605 18.5 14.625 18.5C13.5895 18.5 12.75 17.6605 12.75 16.625V7.375C12.75 5.51104 11.239 4 9.375 4C7.51104 4 6 5.51104 6 7.375V9.5H4V15H9.5V9.5H7.5V7.375ZM5.5 11V13.5H8V11H5.5Z" fill="#1F2328"/>
                 </svg>
                 <div class="font-semibold flex-grow">LFG_QUEUE_STATUS_UPDATE</div>
-                
+                <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
+                </svg>
               </div>
 
               <!-- hidden content -->
-              
+              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+                
+                
+                <div>
+                  <h3 class="font-medium pb-2 underline">Code example</h3>
+                  <code class="bg-gray-100 block p-2">local frame = CreateFrame("Frame")</code>
+                  <code class="bg-gray-100 block p-2">frame:RegisterEvent("LFG_QUEUE_STATUS_UPDATE")</code>
+                  <code class="bg-gray-100 block p-2">frame:SetScript("OnEvent", function(self, event, ...)</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;if event == "LFG_QUEUE_STATUS_UPDATE" then</code>
+                  
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;&nbsp;&nbsp;-- code goes here</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;end</code>
+                  <code class="bg-gray-100 block p-2">end)</code>
+                </div>
+
+              </div>
             </div>
           
             <div class="bucket border">
@@ -1554,16 +1732,14 @@
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 7.375C7.5 6.33947 8.33947 5.5 9.375 5.5C10.4105 5.5 11.25 6.33947 11.25 7.375V16.625C11.25 18.489 12.761 20 14.625 20C16.489 20 18 18.489 18 16.625V11.8107L19.2197 13.0303L20.2803 11.9697L17.25 8.93934L14.2197 11.9697L15.2803 13.0303L16.5 11.8107V16.625C16.5 17.6605 15.6605 18.5 14.625 18.5C13.5895 18.5 12.75 17.6605 12.75 16.625V7.375C12.75 5.51104 11.239 4 9.375 4C7.51104 4 6 5.51104 6 7.375V9.5H4V15H9.5V9.5H7.5V7.375ZM5.5 11V13.5H8V11H5.5Z" fill="#1F2328"/>
                 </svg>
                 <div class="font-semibold flex-grow">LFG_READY_CHECK_DECLINED</div>
-                
-                  <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
-                  </svg>
-                
+                <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
+                </svg>
               </div>
 
               <!-- hidden content -->
-              
               <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+                
                 <table class="border border-gray-200 w-full">
                   <thead class="bg-gray-200">
                     <tr>
@@ -1584,15 +1760,17 @@
                   
                   </tbody>
                 </table>
-
                 
-                <div> <!-- BEGIN: function call -->
+                
+                <div>
                   <h3 class="font-medium pb-2 underline">Code example</h3>
                   <code class="bg-gray-100 block p-2">local frame = CreateFrame("Frame")</code>
                   <code class="bg-gray-100 block p-2">frame:RegisterEvent("LFG_READY_CHECK_DECLINED")</code>
                   <code class="bg-gray-100 block p-2">frame:SetScript("OnEvent", function(self, event, ...)</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;if event == "LFG_READY_CHECK_DECLINED" then</code>
+                  
                   <code class="bg-gray-100 block p-2">
-                    &nbsp;&nbsp;local
+                    &nbsp;&nbsp;&nbsp;&nbsp;local
                     
                     
                       
@@ -1601,11 +1779,13 @@
                     
                     = ...
                   </code>
+                  
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;&nbsp;&nbsp;-- code goes here</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;end</code>
                   <code class="bg-gray-100 block p-2">end)</code>
-                </div> <!-- END: function call -->
+                </div>
 
               </div>
-              
             </div>
           
             <div class="bucket border">
@@ -1614,11 +1794,28 @@
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 7.375C7.5 6.33947 8.33947 5.5 9.375 5.5C10.4105 5.5 11.25 6.33947 11.25 7.375V16.625C11.25 18.489 12.761 20 14.625 20C16.489 20 18 18.489 18 16.625V11.8107L19.2197 13.0303L20.2803 11.9697L17.25 8.93934L14.2197 11.9697L15.2803 13.0303L16.5 11.8107V16.625C16.5 17.6605 15.6605 18.5 14.625 18.5C13.5895 18.5 12.75 17.6605 12.75 16.625V7.375C12.75 5.51104 11.239 4 9.375 4C7.51104 4 6 5.51104 6 7.375V9.5H4V15H9.5V9.5H7.5V7.375ZM5.5 11V13.5H8V11H5.5Z" fill="#1F2328"/>
                 </svg>
                 <div class="font-semibold flex-grow">LFG_READY_CHECK_HIDE</div>
-                
+                <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
+                </svg>
               </div>
 
               <!-- hidden content -->
-              
+              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+                
+                
+                <div>
+                  <h3 class="font-medium pb-2 underline">Code example</h3>
+                  <code class="bg-gray-100 block p-2">local frame = CreateFrame("Frame")</code>
+                  <code class="bg-gray-100 block p-2">frame:RegisterEvent("LFG_READY_CHECK_HIDE")</code>
+                  <code class="bg-gray-100 block p-2">frame:SetScript("OnEvent", function(self, event, ...)</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;if event == "LFG_READY_CHECK_HIDE" then</code>
+                  
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;&nbsp;&nbsp;-- code goes here</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;end</code>
+                  <code class="bg-gray-100 block p-2">end)</code>
+                </div>
+
+              </div>
             </div>
           
             <div class="bucket border">
@@ -1627,16 +1824,14 @@
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 7.375C7.5 6.33947 8.33947 5.5 9.375 5.5C10.4105 5.5 11.25 6.33947 11.25 7.375V16.625C11.25 18.489 12.761 20 14.625 20C16.489 20 18 18.489 18 16.625V11.8107L19.2197 13.0303L20.2803 11.9697L17.25 8.93934L14.2197 11.9697L15.2803 13.0303L16.5 11.8107V16.625C16.5 17.6605 15.6605 18.5 14.625 18.5C13.5895 18.5 12.75 17.6605 12.75 16.625V7.375C12.75 5.51104 11.239 4 9.375 4C7.51104 4 6 5.51104 6 7.375V9.5H4V15H9.5V9.5H7.5V7.375ZM5.5 11V13.5H8V11H5.5Z" fill="#1F2328"/>
                 </svg>
                 <div class="font-semibold flex-grow">LFG_READY_CHECK_PLAYER_IS_READY</div>
-                
-                  <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
-                  </svg>
-                
+                <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
+                </svg>
               </div>
 
               <!-- hidden content -->
-              
               <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+                
                 <table class="border border-gray-200 w-full">
                   <thead class="bg-gray-200">
                     <tr>
@@ -1657,15 +1852,17 @@
                   
                   </tbody>
                 </table>
-
                 
-                <div> <!-- BEGIN: function call -->
+                
+                <div>
                   <h3 class="font-medium pb-2 underline">Code example</h3>
                   <code class="bg-gray-100 block p-2">local frame = CreateFrame("Frame")</code>
                   <code class="bg-gray-100 block p-2">frame:RegisterEvent("LFG_READY_CHECK_PLAYER_IS_READY")</code>
                   <code class="bg-gray-100 block p-2">frame:SetScript("OnEvent", function(self, event, ...)</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;if event == "LFG_READY_CHECK_PLAYER_IS_READY" then</code>
+                  
                   <code class="bg-gray-100 block p-2">
-                    &nbsp;&nbsp;local
+                    &nbsp;&nbsp;&nbsp;&nbsp;local
                     
                     
                       
@@ -1674,11 +1871,13 @@
                     
                     = ...
                   </code>
+                  
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;&nbsp;&nbsp;-- code goes here</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;end</code>
                   <code class="bg-gray-100 block p-2">end)</code>
-                </div> <!-- END: function call -->
+                </div>
 
               </div>
-              
             </div>
           
             <div class="bucket border">
@@ -1687,16 +1886,14 @@
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 7.375C7.5 6.33947 8.33947 5.5 9.375 5.5C10.4105 5.5 11.25 6.33947 11.25 7.375V16.625C11.25 18.489 12.761 20 14.625 20C16.489 20 18 18.489 18 16.625V11.8107L19.2197 13.0303L20.2803 11.9697L17.25 8.93934L14.2197 11.9697L15.2803 13.0303L16.5 11.8107V16.625C16.5 17.6605 15.6605 18.5 14.625 18.5C13.5895 18.5 12.75 17.6605 12.75 16.625V7.375C12.75 5.51104 11.239 4 9.375 4C7.51104 4 6 5.51104 6 7.375V9.5H4V15H9.5V9.5H7.5V7.375ZM5.5 11V13.5H8V11H5.5Z" fill="#1F2328"/>
                 </svg>
                 <div class="font-semibold flex-grow">LFG_READY_CHECK_SHOW</div>
-                
-                  <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
-                  </svg>
-                
+                <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
+                </svg>
               </div>
 
               <!-- hidden content -->
-              
               <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+                
                 <table class="border border-gray-200 w-full">
                   <thead class="bg-gray-200">
                     <tr>
@@ -1717,15 +1914,17 @@
                   
                   </tbody>
                 </table>
-
                 
-                <div> <!-- BEGIN: function call -->
+                
+                <div>
                   <h3 class="font-medium pb-2 underline">Code example</h3>
                   <code class="bg-gray-100 block p-2">local frame = CreateFrame("Frame")</code>
                   <code class="bg-gray-100 block p-2">frame:RegisterEvent("LFG_READY_CHECK_SHOW")</code>
                   <code class="bg-gray-100 block p-2">frame:SetScript("OnEvent", function(self, event, ...)</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;if event == "LFG_READY_CHECK_SHOW" then</code>
+                  
                   <code class="bg-gray-100 block p-2">
-                    &nbsp;&nbsp;local
+                    &nbsp;&nbsp;&nbsp;&nbsp;local
                     
                     
                       
@@ -1734,11 +1933,13 @@
                     
                     = ...
                   </code>
+                  
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;&nbsp;&nbsp;-- code goes here</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;end</code>
                   <code class="bg-gray-100 block p-2">end)</code>
-                </div> <!-- END: function call -->
+                </div>
 
               </div>
-              
             </div>
           
             <div class="bucket border">
@@ -1747,11 +1948,28 @@
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 7.375C7.5 6.33947 8.33947 5.5 9.375 5.5C10.4105 5.5 11.25 6.33947 11.25 7.375V16.625C11.25 18.489 12.761 20 14.625 20C16.489 20 18 18.489 18 16.625V11.8107L19.2197 13.0303L20.2803 11.9697L17.25 8.93934L14.2197 11.9697L15.2803 13.0303L16.5 11.8107V16.625C16.5 17.6605 15.6605 18.5 14.625 18.5C13.5895 18.5 12.75 17.6605 12.75 16.625V7.375C12.75 5.51104 11.239 4 9.375 4C7.51104 4 6 5.51104 6 7.375V9.5H4V15H9.5V9.5H7.5V7.375ZM5.5 11V13.5H8V11H5.5Z" fill="#1F2328"/>
                 </svg>
                 <div class="font-semibold flex-grow">LFG_READY_CHECK_UPDATE</div>
-                
+                <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
+                </svg>
               </div>
 
               <!-- hidden content -->
-              
+              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+                
+                
+                <div>
+                  <h3 class="font-medium pb-2 underline">Code example</h3>
+                  <code class="bg-gray-100 block p-2">local frame = CreateFrame("Frame")</code>
+                  <code class="bg-gray-100 block p-2">frame:RegisterEvent("LFG_READY_CHECK_UPDATE")</code>
+                  <code class="bg-gray-100 block p-2">frame:SetScript("OnEvent", function(self, event, ...)</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;if event == "LFG_READY_CHECK_UPDATE" then</code>
+                  
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;&nbsp;&nbsp;-- code goes here</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;end</code>
+                  <code class="bg-gray-100 block p-2">end)</code>
+                </div>
+
+              </div>
             </div>
           
             <div class="bucket border">
@@ -1760,11 +1978,28 @@
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 7.375C7.5 6.33947 8.33947 5.5 9.375 5.5C10.4105 5.5 11.25 6.33947 11.25 7.375V16.625C11.25 18.489 12.761 20 14.625 20C16.489 20 18 18.489 18 16.625V11.8107L19.2197 13.0303L20.2803 11.9697L17.25 8.93934L14.2197 11.9697L15.2803 13.0303L16.5 11.8107V16.625C16.5 17.6605 15.6605 18.5 14.625 18.5C13.5895 18.5 12.75 17.6605 12.75 16.625V7.375C12.75 5.51104 11.239 4 9.375 4C7.51104 4 6 5.51104 6 7.375V9.5H4V15H9.5V9.5H7.5V7.375ZM5.5 11V13.5H8V11H5.5Z" fill="#1F2328"/>
                 </svg>
                 <div class="font-semibold flex-grow">LFG_ROLE_CHECK_DECLINED</div>
-                
+                <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
+                </svg>
               </div>
 
               <!-- hidden content -->
-              
+              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+                
+                
+                <div>
+                  <h3 class="font-medium pb-2 underline">Code example</h3>
+                  <code class="bg-gray-100 block p-2">local frame = CreateFrame("Frame")</code>
+                  <code class="bg-gray-100 block p-2">frame:RegisterEvent("LFG_ROLE_CHECK_DECLINED")</code>
+                  <code class="bg-gray-100 block p-2">frame:SetScript("OnEvent", function(self, event, ...)</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;if event == "LFG_ROLE_CHECK_DECLINED" then</code>
+                  
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;&nbsp;&nbsp;-- code goes here</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;end</code>
+                  <code class="bg-gray-100 block p-2">end)</code>
+                </div>
+
+              </div>
             </div>
           
             <div class="bucket border">
@@ -1773,11 +2008,28 @@
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 7.375C7.5 6.33947 8.33947 5.5 9.375 5.5C10.4105 5.5 11.25 6.33947 11.25 7.375V16.625C11.25 18.489 12.761 20 14.625 20C16.489 20 18 18.489 18 16.625V11.8107L19.2197 13.0303L20.2803 11.9697L17.25 8.93934L14.2197 11.9697L15.2803 13.0303L16.5 11.8107V16.625C16.5 17.6605 15.6605 18.5 14.625 18.5C13.5895 18.5 12.75 17.6605 12.75 16.625V7.375C12.75 5.51104 11.239 4 9.375 4C7.51104 4 6 5.51104 6 7.375V9.5H4V15H9.5V9.5H7.5V7.375ZM5.5 11V13.5H8V11H5.5Z" fill="#1F2328"/>
                 </svg>
                 <div class="font-semibold flex-grow">LFG_ROLE_CHECK_HIDE</div>
-                
+                <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
+                </svg>
               </div>
 
               <!-- hidden content -->
-              
+              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+                
+                
+                <div>
+                  <h3 class="font-medium pb-2 underline">Code example</h3>
+                  <code class="bg-gray-100 block p-2">local frame = CreateFrame("Frame")</code>
+                  <code class="bg-gray-100 block p-2">frame:RegisterEvent("LFG_ROLE_CHECK_HIDE")</code>
+                  <code class="bg-gray-100 block p-2">frame:SetScript("OnEvent", function(self, event, ...)</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;if event == "LFG_ROLE_CHECK_HIDE" then</code>
+                  
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;&nbsp;&nbsp;-- code goes here</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;end</code>
+                  <code class="bg-gray-100 block p-2">end)</code>
+                </div>
+
+              </div>
             </div>
           
             <div class="bucket border">
@@ -1786,16 +2038,14 @@
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 7.375C7.5 6.33947 8.33947 5.5 9.375 5.5C10.4105 5.5 11.25 6.33947 11.25 7.375V16.625C11.25 18.489 12.761 20 14.625 20C16.489 20 18 18.489 18 16.625V11.8107L19.2197 13.0303L20.2803 11.9697L17.25 8.93934L14.2197 11.9697L15.2803 13.0303L16.5 11.8107V16.625C16.5 17.6605 15.6605 18.5 14.625 18.5C13.5895 18.5 12.75 17.6605 12.75 16.625V7.375C12.75 5.51104 11.239 4 9.375 4C7.51104 4 6 5.51104 6 7.375V9.5H4V15H9.5V9.5H7.5V7.375ZM5.5 11V13.5H8V11H5.5Z" fill="#1F2328"/>
                 </svg>
                 <div class="font-semibold flex-grow">LFG_ROLE_CHECK_ROLE_CHOSEN</div>
-                
-                  <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
-                  </svg>
-                
+                <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
+                </svg>
               </div>
 
               <!-- hidden content -->
-              
               <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+                
                 <table class="border border-gray-200 w-full">
                   <thead class="bg-gray-200">
                     <tr>
@@ -1837,15 +2087,17 @@
                   
                   </tbody>
                 </table>
-
                 
-                <div> <!-- BEGIN: function call -->
+                
+                <div>
                   <h3 class="font-medium pb-2 underline">Code example</h3>
                   <code class="bg-gray-100 block p-2">local frame = CreateFrame("Frame")</code>
                   <code class="bg-gray-100 block p-2">frame:RegisterEvent("LFG_ROLE_CHECK_ROLE_CHOSEN")</code>
                   <code class="bg-gray-100 block p-2">frame:SetScript("OnEvent", function(self, event, ...)</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;if event == "LFG_ROLE_CHECK_ROLE_CHOSEN" then</code>
+                  
                   <code class="bg-gray-100 block p-2">
-                    &nbsp;&nbsp;local
+                    &nbsp;&nbsp;&nbsp;&nbsp;local
                     
                     
                       
@@ -1866,11 +2118,13 @@
                     
                     = ...
                   </code>
+                  
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;&nbsp;&nbsp;-- code goes here</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;end</code>
                   <code class="bg-gray-100 block p-2">end)</code>
-                </div> <!-- END: function call -->
+                </div>
 
               </div>
-              
             </div>
           
             <div class="bucket border">
@@ -1879,16 +2133,14 @@
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 7.375C7.5 6.33947 8.33947 5.5 9.375 5.5C10.4105 5.5 11.25 6.33947 11.25 7.375V16.625C11.25 18.489 12.761 20 14.625 20C16.489 20 18 18.489 18 16.625V11.8107L19.2197 13.0303L20.2803 11.9697L17.25 8.93934L14.2197 11.9697L15.2803 13.0303L16.5 11.8107V16.625C16.5 17.6605 15.6605 18.5 14.625 18.5C13.5895 18.5 12.75 17.6605 12.75 16.625V7.375C12.75 5.51104 11.239 4 9.375 4C7.51104 4 6 5.51104 6 7.375V9.5H4V15H9.5V9.5H7.5V7.375ZM5.5 11V13.5H8V11H5.5Z" fill="#1F2328"/>
                 </svg>
                 <div class="font-semibold flex-grow">LFG_ROLE_CHECK_SHOW</div>
-                
-                  <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
-                  </svg>
-                
+                <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
+                </svg>
               </div>
 
               <!-- hidden content -->
-              
               <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+                
                 <table class="border border-gray-200 w-full">
                   <thead class="bg-gray-200">
                     <tr>
@@ -1909,15 +2161,17 @@
                   
                   </tbody>
                 </table>
-
                 
-                <div> <!-- BEGIN: function call -->
+                
+                <div>
                   <h3 class="font-medium pb-2 underline">Code example</h3>
                   <code class="bg-gray-100 block p-2">local frame = CreateFrame("Frame")</code>
                   <code class="bg-gray-100 block p-2">frame:RegisterEvent("LFG_ROLE_CHECK_SHOW")</code>
                   <code class="bg-gray-100 block p-2">frame:SetScript("OnEvent", function(self, event, ...)</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;if event == "LFG_ROLE_CHECK_SHOW" then</code>
+                  
                   <code class="bg-gray-100 block p-2">
-                    &nbsp;&nbsp;local
+                    &nbsp;&nbsp;&nbsp;&nbsp;local
                     
                     
                       
@@ -1926,11 +2180,13 @@
                     
                     = ...
                   </code>
+                  
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;&nbsp;&nbsp;-- code goes here</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;end</code>
                   <code class="bg-gray-100 block p-2">end)</code>
-                </div> <!-- END: function call -->
+                </div>
 
               </div>
-              
             </div>
           
             <div class="bucket border">
@@ -1939,11 +2195,28 @@
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 7.375C7.5 6.33947 8.33947 5.5 9.375 5.5C10.4105 5.5 11.25 6.33947 11.25 7.375V16.625C11.25 18.489 12.761 20 14.625 20C16.489 20 18 18.489 18 16.625V11.8107L19.2197 13.0303L20.2803 11.9697L17.25 8.93934L14.2197 11.9697L15.2803 13.0303L16.5 11.8107V16.625C16.5 17.6605 15.6605 18.5 14.625 18.5C13.5895 18.5 12.75 17.6605 12.75 16.625V7.375C12.75 5.51104 11.239 4 9.375 4C7.51104 4 6 5.51104 6 7.375V9.5H4V15H9.5V9.5H7.5V7.375ZM5.5 11V13.5H8V11H5.5Z" fill="#1F2328"/>
                 </svg>
                 <div class="font-semibold flex-grow">LFG_ROLE_CHECK_UPDATE</div>
-                
+                <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
+                </svg>
               </div>
 
               <!-- hidden content -->
-              
+              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+                
+                
+                <div>
+                  <h3 class="font-medium pb-2 underline">Code example</h3>
+                  <code class="bg-gray-100 block p-2">local frame = CreateFrame("Frame")</code>
+                  <code class="bg-gray-100 block p-2">frame:RegisterEvent("LFG_ROLE_CHECK_UPDATE")</code>
+                  <code class="bg-gray-100 block p-2">frame:SetScript("OnEvent", function(self, event, ...)</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;if event == "LFG_ROLE_CHECK_UPDATE" then</code>
+                  
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;&nbsp;&nbsp;-- code goes here</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;end</code>
+                  <code class="bg-gray-100 block p-2">end)</code>
+                </div>
+
+              </div>
             </div>
           
             <div class="bucket border">
@@ -1952,11 +2225,28 @@
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 7.375C7.5 6.33947 8.33947 5.5 9.375 5.5C10.4105 5.5 11.25 6.33947 11.25 7.375V16.625C11.25 18.489 12.761 20 14.625 20C16.489 20 18 18.489 18 16.625V11.8107L19.2197 13.0303L20.2803 11.9697L17.25 8.93934L14.2197 11.9697L15.2803 13.0303L16.5 11.8107V16.625C16.5 17.6605 15.6605 18.5 14.625 18.5C13.5895 18.5 12.75 17.6605 12.75 16.625V7.375C12.75 5.51104 11.239 4 9.375 4C7.51104 4 6 5.51104 6 7.375V9.5H4V15H9.5V9.5H7.5V7.375ZM5.5 11V13.5H8V11H5.5Z" fill="#1F2328"/>
                 </svg>
                 <div class="font-semibold flex-grow">LFG_ROLE_UPDATE</div>
-                
+                <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
+                </svg>
               </div>
 
               <!-- hidden content -->
-              
+              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+                
+                
+                <div>
+                  <h3 class="font-medium pb-2 underline">Code example</h3>
+                  <code class="bg-gray-100 block p-2">local frame = CreateFrame("Frame")</code>
+                  <code class="bg-gray-100 block p-2">frame:RegisterEvent("LFG_ROLE_UPDATE")</code>
+                  <code class="bg-gray-100 block p-2">frame:SetScript("OnEvent", function(self, event, ...)</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;if event == "LFG_ROLE_UPDATE" then</code>
+                  
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;&nbsp;&nbsp;-- code goes here</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;end</code>
+                  <code class="bg-gray-100 block p-2">end)</code>
+                </div>
+
+              </div>
             </div>
           
             <div class="bucket border">
@@ -1965,11 +2255,28 @@
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 7.375C7.5 6.33947 8.33947 5.5 9.375 5.5C10.4105 5.5 11.25 6.33947 11.25 7.375V16.625C11.25 18.489 12.761 20 14.625 20C16.489 20 18 18.489 18 16.625V11.8107L19.2197 13.0303L20.2803 11.9697L17.25 8.93934L14.2197 11.9697L15.2803 13.0303L16.5 11.8107V16.625C16.5 17.6605 15.6605 18.5 14.625 18.5C13.5895 18.5 12.75 17.6605 12.75 16.625V7.375C12.75 5.51104 11.239 4 9.375 4C7.51104 4 6 5.51104 6 7.375V9.5H4V15H9.5V9.5H7.5V7.375ZM5.5 11V13.5H8V11H5.5Z" fill="#1F2328"/>
                 </svg>
                 <div class="font-semibold flex-grow">LFG_UPDATE</div>
-                
+                <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
+                </svg>
               </div>
 
               <!-- hidden content -->
-              
+              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+                
+                
+                <div>
+                  <h3 class="font-medium pb-2 underline">Code example</h3>
+                  <code class="bg-gray-100 block p-2">local frame = CreateFrame("Frame")</code>
+                  <code class="bg-gray-100 block p-2">frame:RegisterEvent("LFG_UPDATE")</code>
+                  <code class="bg-gray-100 block p-2">frame:SetScript("OnEvent", function(self, event, ...)</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;if event == "LFG_UPDATE" then</code>
+                  
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;&nbsp;&nbsp;-- code goes here</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;end</code>
+                  <code class="bg-gray-100 block p-2">end)</code>
+                </div>
+
+              </div>
             </div>
           
             <div class="bucket border">
@@ -1978,11 +2285,28 @@
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 7.375C7.5 6.33947 8.33947 5.5 9.375 5.5C10.4105 5.5 11.25 6.33947 11.25 7.375V16.625C11.25 18.489 12.761 20 14.625 20C16.489 20 18 18.489 18 16.625V11.8107L19.2197 13.0303L20.2803 11.9697L17.25 8.93934L14.2197 11.9697L15.2803 13.0303L16.5 11.8107V16.625C16.5 17.6605 15.6605 18.5 14.625 18.5C13.5895 18.5 12.75 17.6605 12.75 16.625V7.375C12.75 5.51104 11.239 4 9.375 4C7.51104 4 6 5.51104 6 7.375V9.5H4V15H9.5V9.5H7.5V7.375ZM5.5 11V13.5H8V11H5.5Z" fill="#1F2328"/>
                 </svg>
                 <div class="font-semibold flex-grow">LFG_UPDATE_RANDOM_INFO</div>
-                
+                <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
+                </svg>
               </div>
 
               <!-- hidden content -->
-              
+              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+                
+                
+                <div>
+                  <h3 class="font-medium pb-2 underline">Code example</h3>
+                  <code class="bg-gray-100 block p-2">local frame = CreateFrame("Frame")</code>
+                  <code class="bg-gray-100 block p-2">frame:RegisterEvent("LFG_UPDATE_RANDOM_INFO")</code>
+                  <code class="bg-gray-100 block p-2">frame:SetScript("OnEvent", function(self, event, ...)</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;if event == "LFG_UPDATE_RANDOM_INFO" then</code>
+                  
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;&nbsp;&nbsp;-- code goes here</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;end</code>
+                  <code class="bg-gray-100 block p-2">end)</code>
+                </div>
+
+              </div>
             </div>
           
             <div class="bucket border">
@@ -1991,11 +2315,28 @@
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 7.375C7.5 6.33947 8.33947 5.5 9.375 5.5C10.4105 5.5 11.25 6.33947 11.25 7.375V16.625C11.25 18.489 12.761 20 14.625 20C16.489 20 18 18.489 18 16.625V11.8107L19.2197 13.0303L20.2803 11.9697L17.25 8.93934L14.2197 11.9697L15.2803 13.0303L16.5 11.8107V16.625C16.5 17.6605 15.6605 18.5 14.625 18.5C13.5895 18.5 12.75 17.6605 12.75 16.625V7.375C12.75 5.51104 11.239 4 9.375 4C7.51104 4 6 5.51104 6 7.375V9.5H4V15H9.5V9.5H7.5V7.375ZM5.5 11V13.5H8V11H5.5Z" fill="#1F2328"/>
                 </svg>
                 <div class="font-semibold flex-grow">SHOW_LFG_EXPAND_SEARCH_PROMPT</div>
-                
+                <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
+                </svg>
               </div>
 
               <!-- hidden content -->
-              
+              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+                
+                
+                <div>
+                  <h3 class="font-medium pb-2 underline">Code example</h3>
+                  <code class="bg-gray-100 block p-2">local frame = CreateFrame("Frame")</code>
+                  <code class="bg-gray-100 block p-2">frame:RegisterEvent("SHOW_LFG_EXPAND_SEARCH_PROMPT")</code>
+                  <code class="bg-gray-100 block p-2">frame:SetScript("OnEvent", function(self, event, ...)</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;if event == "SHOW_LFG_EXPAND_SEARCH_PROMPT" then</code>
+                  
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;&nbsp;&nbsp;-- code goes here</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;end</code>
+                  <code class="bg-gray-100 block p-2">end)</code>
+                </div>
+
+              </div>
             </div>
           
             <div class="bucket border">
@@ -2004,11 +2345,28 @@
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 7.375C7.5 6.33947 8.33947 5.5 9.375 5.5C10.4105 5.5 11.25 6.33947 11.25 7.375V16.625C11.25 18.489 12.761 20 14.625 20C16.489 20 18 18.489 18 16.625V11.8107L19.2197 13.0303L20.2803 11.9697L17.25 8.93934L14.2197 11.9697L15.2803 13.0303L16.5 11.8107V16.625C16.5 17.6605 15.6605 18.5 14.625 18.5C13.5895 18.5 12.75 17.6605 12.75 16.625V7.375C12.75 5.51104 11.239 4 9.375 4C7.51104 4 6 5.51104 6 7.375V9.5H4V15H9.5V9.5H7.5V7.375ZM5.5 11V13.5H8V11H5.5Z" fill="#1F2328"/>
                 </svg>
                 <div class="font-semibold flex-grow">UPDATE_LFG_LIST</div>
-                
+                <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
+                </svg>
               </div>
 
               <!-- hidden content -->
-              
+              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+                
+                
+                <div>
+                  <h3 class="font-medium pb-2 underline">Code example</h3>
+                  <code class="bg-gray-100 block p-2">local frame = CreateFrame("Frame")</code>
+                  <code class="bg-gray-100 block p-2">frame:RegisterEvent("UPDATE_LFG_LIST")</code>
+                  <code class="bg-gray-100 block p-2">frame:SetScript("OnEvent", function(self, event, ...)</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;if event == "UPDATE_LFG_LIST" then</code>
+                  
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;&nbsp;&nbsp;-- code goes here</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;end</code>
+                  <code class="bg-gray-100 block p-2">end)</code>
+                </div>
+
+              </div>
             </div>
           
             <div class="bucket border">
@@ -2017,16 +2375,14 @@
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 7.375C7.5 6.33947 8.33947 5.5 9.375 5.5C10.4105 5.5 11.25 6.33947 11.25 7.375V16.625C11.25 18.489 12.761 20 14.625 20C16.489 20 18 18.489 18 16.625V11.8107L19.2197 13.0303L20.2803 11.9697L17.25 8.93934L14.2197 11.9697L15.2803 13.0303L16.5 11.8107V16.625C16.5 17.6605 15.6605 18.5 14.625 18.5C13.5895 18.5 12.75 17.6605 12.75 16.625V7.375C12.75 5.51104 11.239 4 9.375 4C7.51104 4 6 5.51104 6 7.375V9.5H4V15H9.5V9.5H7.5V7.375ZM5.5 11V13.5H8V11H5.5Z" fill="#1F2328"/>
                 </svg>
                 <div class="font-semibold flex-grow">WARFRONT_COMPLETED</div>
-                
-                  <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
-                  </svg>
-                
+                <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
+                </svg>
               </div>
 
               <!-- hidden content -->
-              
               <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+                
                 <table class="border border-gray-200 w-full">
                   <thead class="bg-gray-200">
                     <tr>
@@ -2054,15 +2410,17 @@
                   
                   </tbody>
                 </table>
-
                 
-                <div> <!-- BEGIN: function call -->
+                
+                <div>
                   <h3 class="font-medium pb-2 underline">Code example</h3>
                   <code class="bg-gray-100 block p-2">local frame = CreateFrame("Frame")</code>
                   <code class="bg-gray-100 block p-2">frame:RegisterEvent("WARFRONT_COMPLETED")</code>
                   <code class="bg-gray-100 block p-2">frame:SetScript("OnEvent", function(self, event, ...)</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;if event == "WARFRONT_COMPLETED" then</code>
+                  
                   <code class="bg-gray-100 block p-2">
-                    &nbsp;&nbsp;local
+                    &nbsp;&nbsp;&nbsp;&nbsp;local
                     
                     
                       
@@ -2075,11 +2433,13 @@
                     
                     = ...
                   </code>
+                  
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;&nbsp;&nbsp;-- code goes here</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;end</code>
                   <code class="bg-gray-100 block p-2">end)</code>
-                </div> <!-- END: function call -->
+                </div>
 
               </div>
-              
             </div>
           
           </div>

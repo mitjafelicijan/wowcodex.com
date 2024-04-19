@@ -6255,11 +6255,28 @@
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 7.375C7.5 6.33947 8.33947 5.5 9.375 5.5C10.4105 5.5 11.25 6.33947 11.25 7.375V16.625C11.25 18.489 12.761 20 14.625 20C16.489 20 18 18.489 18 16.625V11.8107L19.2197 13.0303L20.2803 11.9697L17.25 8.93934L14.2197 11.9697L15.2803 13.0303L16.5 11.8107V16.625C16.5 17.6605 15.6605 18.5 14.625 18.5C13.5895 18.5 12.75 17.6605 12.75 16.625V7.375C12.75 5.51104 11.239 4 9.375 4C7.51104 4 6 5.51104 6 7.375V9.5H4V15H9.5V9.5H7.5V7.375ZM5.5 11V13.5H8V11H5.5Z" fill="#1F2328"/>
                 </svg>
                 <div class="font-semibold flex-grow">VOICE_CHAT_ACTIVE_INPUT_DEVICE_UPDATED</div>
-                
+                <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
+                </svg>
               </div>
 
               <!-- hidden content -->
-              
+              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+                
+                
+                <div>
+                  <h3 class="font-medium pb-2 underline">Code example</h3>
+                  <code class="bg-gray-100 block p-2">local frame = CreateFrame("Frame")</code>
+                  <code class="bg-gray-100 block p-2">frame:RegisterEvent("VOICE_CHAT_ACTIVE_INPUT_DEVICE_UPDATED")</code>
+                  <code class="bg-gray-100 block p-2">frame:SetScript("OnEvent", function(self, event, ...)</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;if event == "VOICE_CHAT_ACTIVE_INPUT_DEVICE_UPDATED" then</code>
+                  
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;&nbsp;&nbsp;-- code goes here</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;end</code>
+                  <code class="bg-gray-100 block p-2">end)</code>
+                </div>
+
+              </div>
             </div>
           
             <div class="bucket border">
@@ -6268,11 +6285,28 @@
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 7.375C7.5 6.33947 8.33947 5.5 9.375 5.5C10.4105 5.5 11.25 6.33947 11.25 7.375V16.625C11.25 18.489 12.761 20 14.625 20C16.489 20 18 18.489 18 16.625V11.8107L19.2197 13.0303L20.2803 11.9697L17.25 8.93934L14.2197 11.9697L15.2803 13.0303L16.5 11.8107V16.625C16.5 17.6605 15.6605 18.5 14.625 18.5C13.5895 18.5 12.75 17.6605 12.75 16.625V7.375C12.75 5.51104 11.239 4 9.375 4C7.51104 4 6 5.51104 6 7.375V9.5H4V15H9.5V9.5H7.5V7.375ZM5.5 11V13.5H8V11H5.5Z" fill="#1F2328"/>
                 </svg>
                 <div class="font-semibold flex-grow">VOICE_CHAT_ACTIVE_OUTPUT_DEVICE_UPDATED</div>
-                
+                <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
+                </svg>
               </div>
 
               <!-- hidden content -->
-              
+              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+                
+                
+                <div>
+                  <h3 class="font-medium pb-2 underline">Code example</h3>
+                  <code class="bg-gray-100 block p-2">local frame = CreateFrame("Frame")</code>
+                  <code class="bg-gray-100 block p-2">frame:RegisterEvent("VOICE_CHAT_ACTIVE_OUTPUT_DEVICE_UPDATED")</code>
+                  <code class="bg-gray-100 block p-2">frame:SetScript("OnEvent", function(self, event, ...)</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;if event == "VOICE_CHAT_ACTIVE_OUTPUT_DEVICE_UPDATED" then</code>
+                  
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;&nbsp;&nbsp;-- code goes here</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;end</code>
+                  <code class="bg-gray-100 block p-2">end)</code>
+                </div>
+
+              </div>
             </div>
           
             <div class="bucket border">
@@ -6281,16 +6315,14 @@
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 7.375C7.5 6.33947 8.33947 5.5 9.375 5.5C10.4105 5.5 11.25 6.33947 11.25 7.375V16.625C11.25 18.489 12.761 20 14.625 20C16.489 20 18 18.489 18 16.625V11.8107L19.2197 13.0303L20.2803 11.9697L17.25 8.93934L14.2197 11.9697L15.2803 13.0303L16.5 11.8107V16.625C16.5 17.6605 15.6605 18.5 14.625 18.5C13.5895 18.5 12.75 17.6605 12.75 16.625V7.375C12.75 5.51104 11.239 4 9.375 4C7.51104 4 6 5.51104 6 7.375V9.5H4V15H9.5V9.5H7.5V7.375ZM5.5 11V13.5H8V11H5.5Z" fill="#1F2328"/>
                 </svg>
                 <div class="font-semibold flex-grow">VOICE_CHAT_AUDIO_CAPTURE_ENERGY</div>
-                
-                  <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
-                  </svg>
-                
+                <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
+                </svg>
               </div>
 
               <!-- hidden content -->
-              
               <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+                
                 <table class="border border-gray-200 w-full">
                   <thead class="bg-gray-200">
                     <tr>
@@ -6318,15 +6350,17 @@
                   
                   </tbody>
                 </table>
-
                 
-                <div> <!-- BEGIN: function call -->
+                
+                <div>
                   <h3 class="font-medium pb-2 underline">Code example</h3>
                   <code class="bg-gray-100 block p-2">local frame = CreateFrame("Frame")</code>
                   <code class="bg-gray-100 block p-2">frame:RegisterEvent("VOICE_CHAT_AUDIO_CAPTURE_ENERGY")</code>
                   <code class="bg-gray-100 block p-2">frame:SetScript("OnEvent", function(self, event, ...)</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;if event == "VOICE_CHAT_AUDIO_CAPTURE_ENERGY" then</code>
+                  
                   <code class="bg-gray-100 block p-2">
-                    &nbsp;&nbsp;local
+                    &nbsp;&nbsp;&nbsp;&nbsp;local
                     
                     
                       
@@ -6339,11 +6373,13 @@
                     
                     = ...
                   </code>
+                  
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;&nbsp;&nbsp;-- code goes here</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;end</code>
                   <code class="bg-gray-100 block p-2">end)</code>
-                </div> <!-- END: function call -->
+                </div>
 
               </div>
-              
             </div>
           
             <div class="bucket border">
@@ -6352,11 +6388,28 @@
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 7.375C7.5 6.33947 8.33947 5.5 9.375 5.5C10.4105 5.5 11.25 6.33947 11.25 7.375V16.625C11.25 18.489 12.761 20 14.625 20C16.489 20 18 18.489 18 16.625V11.8107L19.2197 13.0303L20.2803 11.9697L17.25 8.93934L14.2197 11.9697L15.2803 13.0303L16.5 11.8107V16.625C16.5 17.6605 15.6605 18.5 14.625 18.5C13.5895 18.5 12.75 17.6605 12.75 16.625V7.375C12.75 5.51104 11.239 4 9.375 4C7.51104 4 6 5.51104 6 7.375V9.5H4V15H9.5V9.5H7.5V7.375ZM5.5 11V13.5H8V11H5.5Z" fill="#1F2328"/>
                 </svg>
                 <div class="font-semibold flex-grow">VOICE_CHAT_AUDIO_CAPTURE_STARTED</div>
-                
+                <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
+                </svg>
               </div>
 
               <!-- hidden content -->
-              
+              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+                
+                
+                <div>
+                  <h3 class="font-medium pb-2 underline">Code example</h3>
+                  <code class="bg-gray-100 block p-2">local frame = CreateFrame("Frame")</code>
+                  <code class="bg-gray-100 block p-2">frame:RegisterEvent("VOICE_CHAT_AUDIO_CAPTURE_STARTED")</code>
+                  <code class="bg-gray-100 block p-2">frame:SetScript("OnEvent", function(self, event, ...)</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;if event == "VOICE_CHAT_AUDIO_CAPTURE_STARTED" then</code>
+                  
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;&nbsp;&nbsp;-- code goes here</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;end</code>
+                  <code class="bg-gray-100 block p-2">end)</code>
+                </div>
+
+              </div>
             </div>
           
             <div class="bucket border">
@@ -6365,11 +6418,28 @@
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 7.375C7.5 6.33947 8.33947 5.5 9.375 5.5C10.4105 5.5 11.25 6.33947 11.25 7.375V16.625C11.25 18.489 12.761 20 14.625 20C16.489 20 18 18.489 18 16.625V11.8107L19.2197 13.0303L20.2803 11.9697L17.25 8.93934L14.2197 11.9697L15.2803 13.0303L16.5 11.8107V16.625C16.5 17.6605 15.6605 18.5 14.625 18.5C13.5895 18.5 12.75 17.6605 12.75 16.625V7.375C12.75 5.51104 11.239 4 9.375 4C7.51104 4 6 5.51104 6 7.375V9.5H4V15H9.5V9.5H7.5V7.375ZM5.5 11V13.5H8V11H5.5Z" fill="#1F2328"/>
                 </svg>
                 <div class="font-semibold flex-grow">VOICE_CHAT_AUDIO_CAPTURE_STOPPED</div>
-                
+                <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
+                </svg>
               </div>
 
               <!-- hidden content -->
-              
+              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+                
+                
+                <div>
+                  <h3 class="font-medium pb-2 underline">Code example</h3>
+                  <code class="bg-gray-100 block p-2">local frame = CreateFrame("Frame")</code>
+                  <code class="bg-gray-100 block p-2">frame:RegisterEvent("VOICE_CHAT_AUDIO_CAPTURE_STOPPED")</code>
+                  <code class="bg-gray-100 block p-2">frame:SetScript("OnEvent", function(self, event, ...)</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;if event == "VOICE_CHAT_AUDIO_CAPTURE_STOPPED" then</code>
+                  
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;&nbsp;&nbsp;-- code goes here</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;end</code>
+                  <code class="bg-gray-100 block p-2">end)</code>
+                </div>
+
+              </div>
             </div>
           
             <div class="bucket border">
@@ -6378,16 +6448,14 @@
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 7.375C7.5 6.33947 8.33947 5.5 9.375 5.5C10.4105 5.5 11.25 6.33947 11.25 7.375V16.625C11.25 18.489 12.761 20 14.625 20C16.489 20 18 18.489 18 16.625V11.8107L19.2197 13.0303L20.2803 11.9697L17.25 8.93934L14.2197 11.9697L15.2803 13.0303L16.5 11.8107V16.625C16.5 17.6605 15.6605 18.5 14.625 18.5C13.5895 18.5 12.75 17.6605 12.75 16.625V7.375C12.75 5.51104 11.239 4 9.375 4C7.51104 4 6 5.51104 6 7.375V9.5H4V15H9.5V9.5H7.5V7.375ZM5.5 11V13.5H8V11H5.5Z" fill="#1F2328"/>
                 </svg>
                 <div class="font-semibold flex-grow">VOICE_CHAT_CHANNEL_ACTIVATED</div>
-                
-                  <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
-                  </svg>
-                
+                <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
+                </svg>
               </div>
 
               <!-- hidden content -->
-              
               <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+                
                 <table class="border border-gray-200 w-full">
                   <thead class="bg-gray-200">
                     <tr>
@@ -6408,15 +6476,17 @@
                   
                   </tbody>
                 </table>
-
                 
-                <div> <!-- BEGIN: function call -->
+                
+                <div>
                   <h3 class="font-medium pb-2 underline">Code example</h3>
                   <code class="bg-gray-100 block p-2">local frame = CreateFrame("Frame")</code>
                   <code class="bg-gray-100 block p-2">frame:RegisterEvent("VOICE_CHAT_CHANNEL_ACTIVATED")</code>
                   <code class="bg-gray-100 block p-2">frame:SetScript("OnEvent", function(self, event, ...)</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;if event == "VOICE_CHAT_CHANNEL_ACTIVATED" then</code>
+                  
                   <code class="bg-gray-100 block p-2">
-                    &nbsp;&nbsp;local
+                    &nbsp;&nbsp;&nbsp;&nbsp;local
                     
                     
                       
@@ -6425,11 +6495,13 @@
                     
                     = ...
                   </code>
+                  
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;&nbsp;&nbsp;-- code goes here</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;end</code>
                   <code class="bg-gray-100 block p-2">end)</code>
-                </div> <!-- END: function call -->
+                </div>
 
               </div>
-              
             </div>
           
             <div class="bucket border">
@@ -6438,16 +6510,14 @@
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 7.375C7.5 6.33947 8.33947 5.5 9.375 5.5C10.4105 5.5 11.25 6.33947 11.25 7.375V16.625C11.25 18.489 12.761 20 14.625 20C16.489 20 18 18.489 18 16.625V11.8107L19.2197 13.0303L20.2803 11.9697L17.25 8.93934L14.2197 11.9697L15.2803 13.0303L16.5 11.8107V16.625C16.5 17.6605 15.6605 18.5 14.625 18.5C13.5895 18.5 12.75 17.6605 12.75 16.625V7.375C12.75 5.51104 11.239 4 9.375 4C7.51104 4 6 5.51104 6 7.375V9.5H4V15H9.5V9.5H7.5V7.375ZM5.5 11V13.5H8V11H5.5Z" fill="#1F2328"/>
                 </svg>
                 <div class="font-semibold flex-grow">VOICE_CHAT_CHANNEL_DEACTIVATED</div>
-                
-                  <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
-                  </svg>
-                
+                <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
+                </svg>
               </div>
 
               <!-- hidden content -->
-              
               <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+                
                 <table class="border border-gray-200 w-full">
                   <thead class="bg-gray-200">
                     <tr>
@@ -6468,15 +6538,17 @@
                   
                   </tbody>
                 </table>
-
                 
-                <div> <!-- BEGIN: function call -->
+                
+                <div>
                   <h3 class="font-medium pb-2 underline">Code example</h3>
                   <code class="bg-gray-100 block p-2">local frame = CreateFrame("Frame")</code>
                   <code class="bg-gray-100 block p-2">frame:RegisterEvent("VOICE_CHAT_CHANNEL_DEACTIVATED")</code>
                   <code class="bg-gray-100 block p-2">frame:SetScript("OnEvent", function(self, event, ...)</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;if event == "VOICE_CHAT_CHANNEL_DEACTIVATED" then</code>
+                  
                   <code class="bg-gray-100 block p-2">
-                    &nbsp;&nbsp;local
+                    &nbsp;&nbsp;&nbsp;&nbsp;local
                     
                     
                       
@@ -6485,11 +6557,13 @@
                     
                     = ...
                   </code>
+                  
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;&nbsp;&nbsp;-- code goes here</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;end</code>
                   <code class="bg-gray-100 block p-2">end)</code>
-                </div> <!-- END: function call -->
+                </div>
 
               </div>
-              
             </div>
           
             <div class="bucket border">
@@ -6498,16 +6572,14 @@
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 7.375C7.5 6.33947 8.33947 5.5 9.375 5.5C10.4105 5.5 11.25 6.33947 11.25 7.375V16.625C11.25 18.489 12.761 20 14.625 20C16.489 20 18 18.489 18 16.625V11.8107L19.2197 13.0303L20.2803 11.9697L17.25 8.93934L14.2197 11.9697L15.2803 13.0303L16.5 11.8107V16.625C16.5 17.6605 15.6605 18.5 14.625 18.5C13.5895 18.5 12.75 17.6605 12.75 16.625V7.375C12.75 5.51104 11.239 4 9.375 4C7.51104 4 6 5.51104 6 7.375V9.5H4V15H9.5V9.5H7.5V7.375ZM5.5 11V13.5H8V11H5.5Z" fill="#1F2328"/>
                 </svg>
                 <div class="font-semibold flex-grow">VOICE_CHAT_CHANNEL_DISPLAY_NAME_CHANGED</div>
-                
-                  <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
-                  </svg>
-                
+                <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
+                </svg>
               </div>
 
               <!-- hidden content -->
-              
               <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+                
                 <table class="border border-gray-200 w-full">
                   <thead class="bg-gray-200">
                     <tr>
@@ -6535,15 +6607,17 @@
                   
                   </tbody>
                 </table>
-
                 
-                <div> <!-- BEGIN: function call -->
+                
+                <div>
                   <h3 class="font-medium pb-2 underline">Code example</h3>
                   <code class="bg-gray-100 block p-2">local frame = CreateFrame("Frame")</code>
                   <code class="bg-gray-100 block p-2">frame:RegisterEvent("VOICE_CHAT_CHANNEL_DISPLAY_NAME_CHANGED")</code>
                   <code class="bg-gray-100 block p-2">frame:SetScript("OnEvent", function(self, event, ...)</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;if event == "VOICE_CHAT_CHANNEL_DISPLAY_NAME_CHANGED" then</code>
+                  
                   <code class="bg-gray-100 block p-2">
-                    &nbsp;&nbsp;local
+                    &nbsp;&nbsp;&nbsp;&nbsp;local
                     
                     
                       
@@ -6556,11 +6630,13 @@
                     
                     = ...
                   </code>
+                  
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;&nbsp;&nbsp;-- code goes here</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;end</code>
                   <code class="bg-gray-100 block p-2">end)</code>
-                </div> <!-- END: function call -->
+                </div>
 
               </div>
-              
             </div>
           
             <div class="bucket border">
@@ -6569,16 +6645,14 @@
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 7.375C7.5 6.33947 8.33947 5.5 9.375 5.5C10.4105 5.5 11.25 6.33947 11.25 7.375V16.625C11.25 18.489 12.761 20 14.625 20C16.489 20 18 18.489 18 16.625V11.8107L19.2197 13.0303L20.2803 11.9697L17.25 8.93934L14.2197 11.9697L15.2803 13.0303L16.5 11.8107V16.625C16.5 17.6605 15.6605 18.5 14.625 18.5C13.5895 18.5 12.75 17.6605 12.75 16.625V7.375C12.75 5.51104 11.239 4 9.375 4C7.51104 4 6 5.51104 6 7.375V9.5H4V15H9.5V9.5H7.5V7.375ZM5.5 11V13.5H8V11H5.5Z" fill="#1F2328"/>
                 </svg>
                 <div class="font-semibold flex-grow">VOICE_CHAT_CHANNEL_JOINED</div>
-                
-                  <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
-                  </svg>
-                
+                <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
+                </svg>
               </div>
 
               <!-- hidden content -->
-              
               <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+                
                 <table class="border border-gray-200 w-full">
                   <thead class="bg-gray-200">
                     <tr>
@@ -6627,15 +6701,17 @@
                   
                   </tbody>
                 </table>
-
                 
-                <div> <!-- BEGIN: function call -->
+                
+                <div>
                   <h3 class="font-medium pb-2 underline">Code example</h3>
                   <code class="bg-gray-100 block p-2">local frame = CreateFrame("Frame")</code>
                   <code class="bg-gray-100 block p-2">frame:RegisterEvent("VOICE_CHAT_CHANNEL_JOINED")</code>
                   <code class="bg-gray-100 block p-2">frame:SetScript("OnEvent", function(self, event, ...)</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;if event == "VOICE_CHAT_CHANNEL_JOINED" then</code>
+                  
                   <code class="bg-gray-100 block p-2">
-                    &nbsp;&nbsp;local
+                    &nbsp;&nbsp;&nbsp;&nbsp;local
                     
                     
                       
@@ -6660,11 +6736,13 @@
                     
                     = ...
                   </code>
+                  
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;&nbsp;&nbsp;-- code goes here</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;end</code>
                   <code class="bg-gray-100 block p-2">end)</code>
-                </div> <!-- END: function call -->
+                </div>
 
               </div>
-              
             </div>
           
             <div class="bucket border">
@@ -6673,16 +6751,14 @@
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 7.375C7.5 6.33947 8.33947 5.5 9.375 5.5C10.4105 5.5 11.25 6.33947 11.25 7.375V16.625C11.25 18.489 12.761 20 14.625 20C16.489 20 18 18.489 18 16.625V11.8107L19.2197 13.0303L20.2803 11.9697L17.25 8.93934L14.2197 11.9697L15.2803 13.0303L16.5 11.8107V16.625C16.5 17.6605 15.6605 18.5 14.625 18.5C13.5895 18.5 12.75 17.6605 12.75 16.625V7.375C12.75 5.51104 11.239 4 9.375 4C7.51104 4 6 5.51104 6 7.375V9.5H4V15H9.5V9.5H7.5V7.375ZM5.5 11V13.5H8V11H5.5Z" fill="#1F2328"/>
                 </svg>
                 <div class="font-semibold flex-grow">VOICE_CHAT_CHANNEL_MEMBER_ACTIVE_STATE_CHANGED</div>
-                
-                  <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
-                  </svg>
-                
+                <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
+                </svg>
               </div>
 
               <!-- hidden content -->
-              
               <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+                
                 <table class="border border-gray-200 w-full">
                   <thead class="bg-gray-200">
                     <tr>
@@ -6717,15 +6793,17 @@
                   
                   </tbody>
                 </table>
-
                 
-                <div> <!-- BEGIN: function call -->
+                
+                <div>
                   <h3 class="font-medium pb-2 underline">Code example</h3>
                   <code class="bg-gray-100 block p-2">local frame = CreateFrame("Frame")</code>
                   <code class="bg-gray-100 block p-2">frame:RegisterEvent("VOICE_CHAT_CHANNEL_MEMBER_ACTIVE_STATE_CHANGED")</code>
                   <code class="bg-gray-100 block p-2">frame:SetScript("OnEvent", function(self, event, ...)</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;if event == "VOICE_CHAT_CHANNEL_MEMBER_ACTIVE_STATE_CHANGED" then</code>
+                  
                   <code class="bg-gray-100 block p-2">
-                    &nbsp;&nbsp;local
+                    &nbsp;&nbsp;&nbsp;&nbsp;local
                     
                     
                       
@@ -6742,11 +6820,13 @@
                     
                     = ...
                   </code>
+                  
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;&nbsp;&nbsp;-- code goes here</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;end</code>
                   <code class="bg-gray-100 block p-2">end)</code>
-                </div> <!-- END: function call -->
+                </div>
 
               </div>
-              
             </div>
           
             <div class="bucket border">
@@ -6755,16 +6835,14 @@
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 7.375C7.5 6.33947 8.33947 5.5 9.375 5.5C10.4105 5.5 11.25 6.33947 11.25 7.375V16.625C11.25 18.489 12.761 20 14.625 20C16.489 20 18 18.489 18 16.625V11.8107L19.2197 13.0303L20.2803 11.9697L17.25 8.93934L14.2197 11.9697L15.2803 13.0303L16.5 11.8107V16.625C16.5 17.6605 15.6605 18.5 14.625 18.5C13.5895 18.5 12.75 17.6605 12.75 16.625V7.375C12.75 5.51104 11.239 4 9.375 4C7.51104 4 6 5.51104 6 7.375V9.5H4V15H9.5V9.5H7.5V7.375ZM5.5 11V13.5H8V11H5.5Z" fill="#1F2328"/>
                 </svg>
                 <div class="font-semibold flex-grow">VOICE_CHAT_CHANNEL_MEMBER_ADDED</div>
-                
-                  <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
-                  </svg>
-                
+                <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
+                </svg>
               </div>
 
               <!-- hidden content -->
-              
               <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+                
                 <table class="border border-gray-200 w-full">
                   <thead class="bg-gray-200">
                     <tr>
@@ -6792,15 +6870,17 @@
                   
                   </tbody>
                 </table>
-
                 
-                <div> <!-- BEGIN: function call -->
+                
+                <div>
                   <h3 class="font-medium pb-2 underline">Code example</h3>
                   <code class="bg-gray-100 block p-2">local frame = CreateFrame("Frame")</code>
                   <code class="bg-gray-100 block p-2">frame:RegisterEvent("VOICE_CHAT_CHANNEL_MEMBER_ADDED")</code>
                   <code class="bg-gray-100 block p-2">frame:SetScript("OnEvent", function(self, event, ...)</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;if event == "VOICE_CHAT_CHANNEL_MEMBER_ADDED" then</code>
+                  
                   <code class="bg-gray-100 block p-2">
-                    &nbsp;&nbsp;local
+                    &nbsp;&nbsp;&nbsp;&nbsp;local
                     
                     
                       
@@ -6813,11 +6893,13 @@
                     
                     = ...
                   </code>
+                  
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;&nbsp;&nbsp;-- code goes here</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;end</code>
                   <code class="bg-gray-100 block p-2">end)</code>
-                </div> <!-- END: function call -->
+                </div>
 
               </div>
-              
             </div>
           
             <div class="bucket border">
@@ -6826,16 +6908,14 @@
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 7.375C7.5 6.33947 8.33947 5.5 9.375 5.5C10.4105 5.5 11.25 6.33947 11.25 7.375V16.625C11.25 18.489 12.761 20 14.625 20C16.489 20 18 18.489 18 16.625V11.8107L19.2197 13.0303L20.2803 11.9697L17.25 8.93934L14.2197 11.9697L15.2803 13.0303L16.5 11.8107V16.625C16.5 17.6605 15.6605 18.5 14.625 18.5C13.5895 18.5 12.75 17.6605 12.75 16.625V7.375C12.75 5.51104 11.239 4 9.375 4C7.51104 4 6 5.51104 6 7.375V9.5H4V15H9.5V9.5H7.5V7.375ZM5.5 11V13.5H8V11H5.5Z" fill="#1F2328"/>
                 </svg>
                 <div class="font-semibold flex-grow">VOICE_CHAT_CHANNEL_MEMBER_ENERGY_CHANGED</div>
-                
-                  <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
-                  </svg>
-                
+                <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
+                </svg>
               </div>
 
               <!-- hidden content -->
-              
               <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+                
                 <table class="border border-gray-200 w-full">
                   <thead class="bg-gray-200">
                     <tr>
@@ -6870,15 +6950,17 @@
                   
                   </tbody>
                 </table>
-
                 
-                <div> <!-- BEGIN: function call -->
+                
+                <div>
                   <h3 class="font-medium pb-2 underline">Code example</h3>
                   <code class="bg-gray-100 block p-2">local frame = CreateFrame("Frame")</code>
                   <code class="bg-gray-100 block p-2">frame:RegisterEvent("VOICE_CHAT_CHANNEL_MEMBER_ENERGY_CHANGED")</code>
                   <code class="bg-gray-100 block p-2">frame:SetScript("OnEvent", function(self, event, ...)</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;if event == "VOICE_CHAT_CHANNEL_MEMBER_ENERGY_CHANGED" then</code>
+                  
                   <code class="bg-gray-100 block p-2">
-                    &nbsp;&nbsp;local
+                    &nbsp;&nbsp;&nbsp;&nbsp;local
                     
                     
                       
@@ -6895,11 +6977,13 @@
                     
                     = ...
                   </code>
+                  
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;&nbsp;&nbsp;-- code goes here</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;end</code>
                   <code class="bg-gray-100 block p-2">end)</code>
-                </div> <!-- END: function call -->
+                </div>
 
               </div>
-              
             </div>
           
             <div class="bucket border">
@@ -6908,16 +6992,14 @@
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 7.375C7.5 6.33947 8.33947 5.5 9.375 5.5C10.4105 5.5 11.25 6.33947 11.25 7.375V16.625C11.25 18.489 12.761 20 14.625 20C16.489 20 18 18.489 18 16.625V11.8107L19.2197 13.0303L20.2803 11.9697L17.25 8.93934L14.2197 11.9697L15.2803 13.0303L16.5 11.8107V16.625C16.5 17.6605 15.6605 18.5 14.625 18.5C13.5895 18.5 12.75 17.6605 12.75 16.625V7.375C12.75 5.51104 11.239 4 9.375 4C7.51104 4 6 5.51104 6 7.375V9.5H4V15H9.5V9.5H7.5V7.375ZM5.5 11V13.5H8V11H5.5Z" fill="#1F2328"/>
                 </svg>
                 <div class="font-semibold flex-grow">VOICE_CHAT_CHANNEL_MEMBER_GUID_UPDATED</div>
-                
-                  <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
-                  </svg>
-                
+                <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
+                </svg>
               </div>
 
               <!-- hidden content -->
-              
               <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+                
                 <table class="border border-gray-200 w-full">
                   <thead class="bg-gray-200">
                     <tr>
@@ -6945,15 +7027,17 @@
                   
                   </tbody>
                 </table>
-
                 
-                <div> <!-- BEGIN: function call -->
+                
+                <div>
                   <h3 class="font-medium pb-2 underline">Code example</h3>
                   <code class="bg-gray-100 block p-2">local frame = CreateFrame("Frame")</code>
                   <code class="bg-gray-100 block p-2">frame:RegisterEvent("VOICE_CHAT_CHANNEL_MEMBER_GUID_UPDATED")</code>
                   <code class="bg-gray-100 block p-2">frame:SetScript("OnEvent", function(self, event, ...)</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;if event == "VOICE_CHAT_CHANNEL_MEMBER_GUID_UPDATED" then</code>
+                  
                   <code class="bg-gray-100 block p-2">
-                    &nbsp;&nbsp;local
+                    &nbsp;&nbsp;&nbsp;&nbsp;local
                     
                     
                       
@@ -6966,11 +7050,13 @@
                     
                     = ...
                   </code>
+                  
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;&nbsp;&nbsp;-- code goes here</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;end</code>
                   <code class="bg-gray-100 block p-2">end)</code>
-                </div> <!-- END: function call -->
+                </div>
 
               </div>
-              
             </div>
           
             <div class="bucket border">
@@ -6979,16 +7065,14 @@
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 7.375C7.5 6.33947 8.33947 5.5 9.375 5.5C10.4105 5.5 11.25 6.33947 11.25 7.375V16.625C11.25 18.489 12.761 20 14.625 20C16.489 20 18 18.489 18 16.625V11.8107L19.2197 13.0303L20.2803 11.9697L17.25 8.93934L14.2197 11.9697L15.2803 13.0303L16.5 11.8107V16.625C16.5 17.6605 15.6605 18.5 14.625 18.5C13.5895 18.5 12.75 17.6605 12.75 16.625V7.375C12.75 5.51104 11.239 4 9.375 4C7.51104 4 6 5.51104 6 7.375V9.5H4V15H9.5V9.5H7.5V7.375ZM5.5 11V13.5H8V11H5.5Z" fill="#1F2328"/>
                 </svg>
                 <div class="font-semibold flex-grow">VOICE_CHAT_CHANNEL_MEMBER_MUTE_FOR_ALL_CHANGED</div>
-                
-                  <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
-                  </svg>
-                
+                <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
+                </svg>
               </div>
 
               <!-- hidden content -->
-              
               <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+                
                 <table class="border border-gray-200 w-full">
                   <thead class="bg-gray-200">
                     <tr>
@@ -7023,15 +7107,17 @@
                   
                   </tbody>
                 </table>
-
                 
-                <div> <!-- BEGIN: function call -->
+                
+                <div>
                   <h3 class="font-medium pb-2 underline">Code example</h3>
                   <code class="bg-gray-100 block p-2">local frame = CreateFrame("Frame")</code>
                   <code class="bg-gray-100 block p-2">frame:RegisterEvent("VOICE_CHAT_CHANNEL_MEMBER_MUTE_FOR_ALL_CHANGED")</code>
                   <code class="bg-gray-100 block p-2">frame:SetScript("OnEvent", function(self, event, ...)</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;if event == "VOICE_CHAT_CHANNEL_MEMBER_MUTE_FOR_ALL_CHANGED" then</code>
+                  
                   <code class="bg-gray-100 block p-2">
-                    &nbsp;&nbsp;local
+                    &nbsp;&nbsp;&nbsp;&nbsp;local
                     
                     
                       
@@ -7048,11 +7134,13 @@
                     
                     = ...
                   </code>
+                  
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;&nbsp;&nbsp;-- code goes here</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;end</code>
                   <code class="bg-gray-100 block p-2">end)</code>
-                </div> <!-- END: function call -->
+                </div>
 
               </div>
-              
             </div>
           
             <div class="bucket border">
@@ -7061,16 +7149,14 @@
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 7.375C7.5 6.33947 8.33947 5.5 9.375 5.5C10.4105 5.5 11.25 6.33947 11.25 7.375V16.625C11.25 18.489 12.761 20 14.625 20C16.489 20 18 18.489 18 16.625V11.8107L19.2197 13.0303L20.2803 11.9697L17.25 8.93934L14.2197 11.9697L15.2803 13.0303L16.5 11.8107V16.625C16.5 17.6605 15.6605 18.5 14.625 18.5C13.5895 18.5 12.75 17.6605 12.75 16.625V7.375C12.75 5.51104 11.239 4 9.375 4C7.51104 4 6 5.51104 6 7.375V9.5H4V15H9.5V9.5H7.5V7.375ZM5.5 11V13.5H8V11H5.5Z" fill="#1F2328"/>
                 </svg>
                 <div class="font-semibold flex-grow">VOICE_CHAT_CHANNEL_MEMBER_MUTE_FOR_ME_CHANGED</div>
-                
-                  <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
-                  </svg>
-                
+                <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
+                </svg>
               </div>
 
               <!-- hidden content -->
-              
               <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+                
                 <table class="border border-gray-200 w-full">
                   <thead class="bg-gray-200">
                     <tr>
@@ -7105,15 +7191,17 @@
                   
                   </tbody>
                 </table>
-
                 
-                <div> <!-- BEGIN: function call -->
+                
+                <div>
                   <h3 class="font-medium pb-2 underline">Code example</h3>
                   <code class="bg-gray-100 block p-2">local frame = CreateFrame("Frame")</code>
                   <code class="bg-gray-100 block p-2">frame:RegisterEvent("VOICE_CHAT_CHANNEL_MEMBER_MUTE_FOR_ME_CHANGED")</code>
                   <code class="bg-gray-100 block p-2">frame:SetScript("OnEvent", function(self, event, ...)</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;if event == "VOICE_CHAT_CHANNEL_MEMBER_MUTE_FOR_ME_CHANGED" then</code>
+                  
                   <code class="bg-gray-100 block p-2">
-                    &nbsp;&nbsp;local
+                    &nbsp;&nbsp;&nbsp;&nbsp;local
                     
                     
                       
@@ -7130,11 +7218,13 @@
                     
                     = ...
                   </code>
+                  
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;&nbsp;&nbsp;-- code goes here</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;end</code>
                   <code class="bg-gray-100 block p-2">end)</code>
-                </div> <!-- END: function call -->
+                </div>
 
               </div>
-              
             </div>
           
             <div class="bucket border">
@@ -7143,16 +7233,14 @@
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 7.375C7.5 6.33947 8.33947 5.5 9.375 5.5C10.4105 5.5 11.25 6.33947 11.25 7.375V16.625C11.25 18.489 12.761 20 14.625 20C16.489 20 18 18.489 18 16.625V11.8107L19.2197 13.0303L20.2803 11.9697L17.25 8.93934L14.2197 11.9697L15.2803 13.0303L16.5 11.8107V16.625C16.5 17.6605 15.6605 18.5 14.625 18.5C13.5895 18.5 12.75 17.6605 12.75 16.625V7.375C12.75 5.51104 11.239 4 9.375 4C7.51104 4 6 5.51104 6 7.375V9.5H4V15H9.5V9.5H7.5V7.375ZM5.5 11V13.5H8V11H5.5Z" fill="#1F2328"/>
                 </svg>
                 <div class="font-semibold flex-grow">VOICE_CHAT_CHANNEL_MEMBER_REMOVED</div>
-                
-                  <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
-                  </svg>
-                
+                <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
+                </svg>
               </div>
 
               <!-- hidden content -->
-              
               <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+                
                 <table class="border border-gray-200 w-full">
                   <thead class="bg-gray-200">
                     <tr>
@@ -7180,15 +7268,17 @@
                   
                   </tbody>
                 </table>
-
                 
-                <div> <!-- BEGIN: function call -->
+                
+                <div>
                   <h3 class="font-medium pb-2 underline">Code example</h3>
                   <code class="bg-gray-100 block p-2">local frame = CreateFrame("Frame")</code>
                   <code class="bg-gray-100 block p-2">frame:RegisterEvent("VOICE_CHAT_CHANNEL_MEMBER_REMOVED")</code>
                   <code class="bg-gray-100 block p-2">frame:SetScript("OnEvent", function(self, event, ...)</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;if event == "VOICE_CHAT_CHANNEL_MEMBER_REMOVED" then</code>
+                  
                   <code class="bg-gray-100 block p-2">
-                    &nbsp;&nbsp;local
+                    &nbsp;&nbsp;&nbsp;&nbsp;local
                     
                     
                       
@@ -7201,11 +7291,13 @@
                     
                     = ...
                   </code>
+                  
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;&nbsp;&nbsp;-- code goes here</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;end</code>
                   <code class="bg-gray-100 block p-2">end)</code>
-                </div> <!-- END: function call -->
+                </div>
 
               </div>
-              
             </div>
           
             <div class="bucket border">
@@ -7214,16 +7306,14 @@
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 7.375C7.5 6.33947 8.33947 5.5 9.375 5.5C10.4105 5.5 11.25 6.33947 11.25 7.375V16.625C11.25 18.489 12.761 20 14.625 20C16.489 20 18 18.489 18 16.625V11.8107L19.2197 13.0303L20.2803 11.9697L17.25 8.93934L14.2197 11.9697L15.2803 13.0303L16.5 11.8107V16.625C16.5 17.6605 15.6605 18.5 14.625 18.5C13.5895 18.5 12.75 17.6605 12.75 16.625V7.375C12.75 5.51104 11.239 4 9.375 4C7.51104 4 6 5.51104 6 7.375V9.5H4V15H9.5V9.5H7.5V7.375ZM5.5 11V13.5H8V11H5.5Z" fill="#1F2328"/>
                 </svg>
                 <div class="font-semibold flex-grow">VOICE_CHAT_CHANNEL_MEMBER_SILENCED_CHANGED</div>
-                
-                  <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
-                  </svg>
-                
+                <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
+                </svg>
               </div>
 
               <!-- hidden content -->
-              
               <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+                
                 <table class="border border-gray-200 w-full">
                   <thead class="bg-gray-200">
                     <tr>
@@ -7258,15 +7348,17 @@
                   
                   </tbody>
                 </table>
-
                 
-                <div> <!-- BEGIN: function call -->
+                
+                <div>
                   <h3 class="font-medium pb-2 underline">Code example</h3>
                   <code class="bg-gray-100 block p-2">local frame = CreateFrame("Frame")</code>
                   <code class="bg-gray-100 block p-2">frame:RegisterEvent("VOICE_CHAT_CHANNEL_MEMBER_SILENCED_CHANGED")</code>
                   <code class="bg-gray-100 block p-2">frame:SetScript("OnEvent", function(self, event, ...)</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;if event == "VOICE_CHAT_CHANNEL_MEMBER_SILENCED_CHANGED" then</code>
+                  
                   <code class="bg-gray-100 block p-2">
-                    &nbsp;&nbsp;local
+                    &nbsp;&nbsp;&nbsp;&nbsp;local
                     
                     
                       
@@ -7283,11 +7375,13 @@
                     
                     = ...
                   </code>
+                  
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;&nbsp;&nbsp;-- code goes here</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;end</code>
                   <code class="bg-gray-100 block p-2">end)</code>
-                </div> <!-- END: function call -->
+                </div>
 
               </div>
-              
             </div>
           
             <div class="bucket border">
@@ -7296,16 +7390,14 @@
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 7.375C7.5 6.33947 8.33947 5.5 9.375 5.5C10.4105 5.5 11.25 6.33947 11.25 7.375V16.625C11.25 18.489 12.761 20 14.625 20C16.489 20 18 18.489 18 16.625V11.8107L19.2197 13.0303L20.2803 11.9697L17.25 8.93934L14.2197 11.9697L15.2803 13.0303L16.5 11.8107V16.625C16.5 17.6605 15.6605 18.5 14.625 18.5C13.5895 18.5 12.75 17.6605 12.75 16.625V7.375C12.75 5.51104 11.239 4 9.375 4C7.51104 4 6 5.51104 6 7.375V9.5H4V15H9.5V9.5H7.5V7.375ZM5.5 11V13.5H8V11H5.5Z" fill="#1F2328"/>
                 </svg>
                 <div class="font-semibold flex-grow">VOICE_CHAT_CHANNEL_MEMBER_SPEAKING_STATE_CHANGED</div>
-                
-                  <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
-                  </svg>
-                
+                <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
+                </svg>
               </div>
 
               <!-- hidden content -->
-              
               <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+                
                 <table class="border border-gray-200 w-full">
                   <thead class="bg-gray-200">
                     <tr>
@@ -7340,15 +7432,17 @@
                   
                   </tbody>
                 </table>
-
                 
-                <div> <!-- BEGIN: function call -->
+                
+                <div>
                   <h3 class="font-medium pb-2 underline">Code example</h3>
                   <code class="bg-gray-100 block p-2">local frame = CreateFrame("Frame")</code>
                   <code class="bg-gray-100 block p-2">frame:RegisterEvent("VOICE_CHAT_CHANNEL_MEMBER_SPEAKING_STATE_CHANGED")</code>
                   <code class="bg-gray-100 block p-2">frame:SetScript("OnEvent", function(self, event, ...)</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;if event == "VOICE_CHAT_CHANNEL_MEMBER_SPEAKING_STATE_CHANGED" then</code>
+                  
                   <code class="bg-gray-100 block p-2">
-                    &nbsp;&nbsp;local
+                    &nbsp;&nbsp;&nbsp;&nbsp;local
                     
                     
                       
@@ -7365,11 +7459,13 @@
                     
                     = ...
                   </code>
+                  
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;&nbsp;&nbsp;-- code goes here</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;end</code>
                   <code class="bg-gray-100 block p-2">end)</code>
-                </div> <!-- END: function call -->
+                </div>
 
               </div>
-              
             </div>
           
             <div class="bucket border">
@@ -7378,16 +7474,14 @@
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 7.375C7.5 6.33947 8.33947 5.5 9.375 5.5C10.4105 5.5 11.25 6.33947 11.25 7.375V16.625C11.25 18.489 12.761 20 14.625 20C16.489 20 18 18.489 18 16.625V11.8107L19.2197 13.0303L20.2803 11.9697L17.25 8.93934L14.2197 11.9697L15.2803 13.0303L16.5 11.8107V16.625C16.5 17.6605 15.6605 18.5 14.625 18.5C13.5895 18.5 12.75 17.6605 12.75 16.625V7.375C12.75 5.51104 11.239 4 9.375 4C7.51104 4 6 5.51104 6 7.375V9.5H4V15H9.5V9.5H7.5V7.375ZM5.5 11V13.5H8V11H5.5Z" fill="#1F2328"/>
                 </svg>
                 <div class="font-semibold flex-grow">VOICE_CHAT_CHANNEL_MEMBER_STT_MESSAGE</div>
-                
-                  <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
-                  </svg>
-                
+                <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
+                </svg>
               </div>
 
               <!-- hidden content -->
-              
               <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+                
                 <table class="border border-gray-200 w-full">
                   <thead class="bg-gray-200">
                     <tr>
@@ -7429,15 +7523,17 @@
                   
                   </tbody>
                 </table>
-
                 
-                <div> <!-- BEGIN: function call -->
+                
+                <div>
                   <h3 class="font-medium pb-2 underline">Code example</h3>
                   <code class="bg-gray-100 block p-2">local frame = CreateFrame("Frame")</code>
                   <code class="bg-gray-100 block p-2">frame:RegisterEvent("VOICE_CHAT_CHANNEL_MEMBER_STT_MESSAGE")</code>
                   <code class="bg-gray-100 block p-2">frame:SetScript("OnEvent", function(self, event, ...)</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;if event == "VOICE_CHAT_CHANNEL_MEMBER_STT_MESSAGE" then</code>
+                  
                   <code class="bg-gray-100 block p-2">
-                    &nbsp;&nbsp;local
+                    &nbsp;&nbsp;&nbsp;&nbsp;local
                     
                     
                       
@@ -7458,11 +7554,13 @@
                     
                     = ...
                   </code>
+                  
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;&nbsp;&nbsp;-- code goes here</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;end</code>
                   <code class="bg-gray-100 block p-2">end)</code>
-                </div> <!-- END: function call -->
+                </div>
 
               </div>
-              
             </div>
           
             <div class="bucket border">
@@ -7471,16 +7569,14 @@
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 7.375C7.5 6.33947 8.33947 5.5 9.375 5.5C10.4105 5.5 11.25 6.33947 11.25 7.375V16.625C11.25 18.489 12.761 20 14.625 20C16.489 20 18 18.489 18 16.625V11.8107L19.2197 13.0303L20.2803 11.9697L17.25 8.93934L14.2197 11.9697L15.2803 13.0303L16.5 11.8107V16.625C16.5 17.6605 15.6605 18.5 14.625 18.5C13.5895 18.5 12.75 17.6605 12.75 16.625V7.375C12.75 5.51104 11.239 4 9.375 4C7.51104 4 6 5.51104 6 7.375V9.5H4V15H9.5V9.5H7.5V7.375ZM5.5 11V13.5H8V11H5.5Z" fill="#1F2328"/>
                 </svg>
                 <div class="font-semibold flex-grow">VOICE_CHAT_CHANNEL_MEMBER_VOLUME_CHANGED</div>
-                
-                  <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
-                  </svg>
-                
+                <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
+                </svg>
               </div>
 
               <!-- hidden content -->
-              
               <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+                
                 <table class="border border-gray-200 w-full">
                   <thead class="bg-gray-200">
                     <tr>
@@ -7515,15 +7611,17 @@
                   
                   </tbody>
                 </table>
-
                 
-                <div> <!-- BEGIN: function call -->
+                
+                <div>
                   <h3 class="font-medium pb-2 underline">Code example</h3>
                   <code class="bg-gray-100 block p-2">local frame = CreateFrame("Frame")</code>
                   <code class="bg-gray-100 block p-2">frame:RegisterEvent("VOICE_CHAT_CHANNEL_MEMBER_VOLUME_CHANGED")</code>
                   <code class="bg-gray-100 block p-2">frame:SetScript("OnEvent", function(self, event, ...)</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;if event == "VOICE_CHAT_CHANNEL_MEMBER_VOLUME_CHANGED" then</code>
+                  
                   <code class="bg-gray-100 block p-2">
-                    &nbsp;&nbsp;local
+                    &nbsp;&nbsp;&nbsp;&nbsp;local
                     
                     
                       
@@ -7540,11 +7638,13 @@
                     
                     = ...
                   </code>
+                  
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;&nbsp;&nbsp;-- code goes here</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;end</code>
                   <code class="bg-gray-100 block p-2">end)</code>
-                </div> <!-- END: function call -->
+                </div>
 
               </div>
-              
             </div>
           
             <div class="bucket border">
@@ -7553,16 +7653,14 @@
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 7.375C7.5 6.33947 8.33947 5.5 9.375 5.5C10.4105 5.5 11.25 6.33947 11.25 7.375V16.625C11.25 18.489 12.761 20 14.625 20C16.489 20 18 18.489 18 16.625V11.8107L19.2197 13.0303L20.2803 11.9697L17.25 8.93934L14.2197 11.9697L15.2803 13.0303L16.5 11.8107V16.625C16.5 17.6605 15.6605 18.5 14.625 18.5C13.5895 18.5 12.75 17.6605 12.75 16.625V7.375C12.75 5.51104 11.239 4 9.375 4C7.51104 4 6 5.51104 6 7.375V9.5H4V15H9.5V9.5H7.5V7.375ZM5.5 11V13.5H8V11H5.5Z" fill="#1F2328"/>
                 </svg>
                 <div class="font-semibold flex-grow">VOICE_CHAT_CHANNEL_MUTE_STATE_CHANGED</div>
-                
-                  <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
-                  </svg>
-                
+                <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
+                </svg>
               </div>
 
               <!-- hidden content -->
-              
               <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+                
                 <table class="border border-gray-200 w-full">
                   <thead class="bg-gray-200">
                     <tr>
@@ -7590,15 +7688,17 @@
                   
                   </tbody>
                 </table>
-
                 
-                <div> <!-- BEGIN: function call -->
+                
+                <div>
                   <h3 class="font-medium pb-2 underline">Code example</h3>
                   <code class="bg-gray-100 block p-2">local frame = CreateFrame("Frame")</code>
                   <code class="bg-gray-100 block p-2">frame:RegisterEvent("VOICE_CHAT_CHANNEL_MUTE_STATE_CHANGED")</code>
                   <code class="bg-gray-100 block p-2">frame:SetScript("OnEvent", function(self, event, ...)</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;if event == "VOICE_CHAT_CHANNEL_MUTE_STATE_CHANGED" then</code>
+                  
                   <code class="bg-gray-100 block p-2">
-                    &nbsp;&nbsp;local
+                    &nbsp;&nbsp;&nbsp;&nbsp;local
                     
                     
                       
@@ -7611,11 +7711,13 @@
                     
                     = ...
                   </code>
+                  
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;&nbsp;&nbsp;-- code goes here</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;end</code>
                   <code class="bg-gray-100 block p-2">end)</code>
-                </div> <!-- END: function call -->
+                </div>
 
               </div>
-              
             </div>
           
             <div class="bucket border">
@@ -7624,16 +7726,14 @@
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 7.375C7.5 6.33947 8.33947 5.5 9.375 5.5C10.4105 5.5 11.25 6.33947 11.25 7.375V16.625C11.25 18.489 12.761 20 14.625 20C16.489 20 18 18.489 18 16.625V11.8107L19.2197 13.0303L20.2803 11.9697L17.25 8.93934L14.2197 11.9697L15.2803 13.0303L16.5 11.8107V16.625C16.5 17.6605 15.6605 18.5 14.625 18.5C13.5895 18.5 12.75 17.6605 12.75 16.625V7.375C12.75 5.51104 11.239 4 9.375 4C7.51104 4 6 5.51104 6 7.375V9.5H4V15H9.5V9.5H7.5V7.375ZM5.5 11V13.5H8V11H5.5Z" fill="#1F2328"/>
                 </svg>
                 <div class="font-semibold flex-grow">VOICE_CHAT_CHANNEL_PTT_CHANGED</div>
-                
-                  <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
-                  </svg>
-                
+                <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
+                </svg>
               </div>
 
               <!-- hidden content -->
-              
               <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+                
                 <table class="border border-gray-200 w-full">
                   <thead class="bg-gray-200">
                     <tr>
@@ -7661,15 +7761,17 @@
                   
                   </tbody>
                 </table>
-
                 
-                <div> <!-- BEGIN: function call -->
+                
+                <div>
                   <h3 class="font-medium pb-2 underline">Code example</h3>
                   <code class="bg-gray-100 block p-2">local frame = CreateFrame("Frame")</code>
                   <code class="bg-gray-100 block p-2">frame:RegisterEvent("VOICE_CHAT_CHANNEL_PTT_CHANGED")</code>
                   <code class="bg-gray-100 block p-2">frame:SetScript("OnEvent", function(self, event, ...)</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;if event == "VOICE_CHAT_CHANNEL_PTT_CHANGED" then</code>
+                  
                   <code class="bg-gray-100 block p-2">
-                    &nbsp;&nbsp;local
+                    &nbsp;&nbsp;&nbsp;&nbsp;local
                     
                     
                       
@@ -7682,11 +7784,13 @@
                     
                     = ...
                   </code>
+                  
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;&nbsp;&nbsp;-- code goes here</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;end</code>
                   <code class="bg-gray-100 block p-2">end)</code>
-                </div> <!-- END: function call -->
+                </div>
 
               </div>
-              
             </div>
           
             <div class="bucket border">
@@ -7695,16 +7799,14 @@
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 7.375C7.5 6.33947 8.33947 5.5 9.375 5.5C10.4105 5.5 11.25 6.33947 11.25 7.375V16.625C11.25 18.489 12.761 20 14.625 20C16.489 20 18 18.489 18 16.625V11.8107L19.2197 13.0303L20.2803 11.9697L17.25 8.93934L14.2197 11.9697L15.2803 13.0303L16.5 11.8107V16.625C16.5 17.6605 15.6605 18.5 14.625 18.5C13.5895 18.5 12.75 17.6605 12.75 16.625V7.375C12.75 5.51104 11.239 4 9.375 4C7.51104 4 6 5.51104 6 7.375V9.5H4V15H9.5V9.5H7.5V7.375ZM5.5 11V13.5H8V11H5.5Z" fill="#1F2328"/>
                 </svg>
                 <div class="font-semibold flex-grow">VOICE_CHAT_CHANNEL_REMOVED</div>
-                
-                  <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
-                  </svg>
-                
+                <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
+                </svg>
               </div>
 
               <!-- hidden content -->
-              
               <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+                
                 <table class="border border-gray-200 w-full">
                   <thead class="bg-gray-200">
                     <tr>
@@ -7725,15 +7827,17 @@
                   
                   </tbody>
                 </table>
-
                 
-                <div> <!-- BEGIN: function call -->
+                
+                <div>
                   <h3 class="font-medium pb-2 underline">Code example</h3>
                   <code class="bg-gray-100 block p-2">local frame = CreateFrame("Frame")</code>
                   <code class="bg-gray-100 block p-2">frame:RegisterEvent("VOICE_CHAT_CHANNEL_REMOVED")</code>
                   <code class="bg-gray-100 block p-2">frame:SetScript("OnEvent", function(self, event, ...)</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;if event == "VOICE_CHAT_CHANNEL_REMOVED" then</code>
+                  
                   <code class="bg-gray-100 block p-2">
-                    &nbsp;&nbsp;local
+                    &nbsp;&nbsp;&nbsp;&nbsp;local
                     
                     
                       
@@ -7742,11 +7846,13 @@
                     
                     = ...
                   </code>
+                  
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;&nbsp;&nbsp;-- code goes here</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;end</code>
                   <code class="bg-gray-100 block p-2">end)</code>
-                </div> <!-- END: function call -->
+                </div>
 
               </div>
-              
             </div>
           
             <div class="bucket border">
@@ -7755,16 +7861,14 @@
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 7.375C7.5 6.33947 8.33947 5.5 9.375 5.5C10.4105 5.5 11.25 6.33947 11.25 7.375V16.625C11.25 18.489 12.761 20 14.625 20C16.489 20 18 18.489 18 16.625V11.8107L19.2197 13.0303L20.2803 11.9697L17.25 8.93934L14.2197 11.9697L15.2803 13.0303L16.5 11.8107V16.625C16.5 17.6605 15.6605 18.5 14.625 18.5C13.5895 18.5 12.75 17.6605 12.75 16.625V7.375C12.75 5.51104 11.239 4 9.375 4C7.51104 4 6 5.51104 6 7.375V9.5H4V15H9.5V9.5H7.5V7.375ZM5.5 11V13.5H8V11H5.5Z" fill="#1F2328"/>
                 </svg>
                 <div class="font-semibold flex-grow">VOICE_CHAT_CHANNEL_TRANSCRIBING_CHANGED</div>
-                
-                  <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
-                  </svg>
-                
+                <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
+                </svg>
               </div>
 
               <!-- hidden content -->
-              
               <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+                
                 <table class="border border-gray-200 w-full">
                   <thead class="bg-gray-200">
                     <tr>
@@ -7792,15 +7896,17 @@
                   
                   </tbody>
                 </table>
-
                 
-                <div> <!-- BEGIN: function call -->
+                
+                <div>
                   <h3 class="font-medium pb-2 underline">Code example</h3>
                   <code class="bg-gray-100 block p-2">local frame = CreateFrame("Frame")</code>
                   <code class="bg-gray-100 block p-2">frame:RegisterEvent("VOICE_CHAT_CHANNEL_TRANSCRIBING_CHANGED")</code>
                   <code class="bg-gray-100 block p-2">frame:SetScript("OnEvent", function(self, event, ...)</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;if event == "VOICE_CHAT_CHANNEL_TRANSCRIBING_CHANGED" then</code>
+                  
                   <code class="bg-gray-100 block p-2">
-                    &nbsp;&nbsp;local
+                    &nbsp;&nbsp;&nbsp;&nbsp;local
                     
                     
                       
@@ -7813,11 +7919,13 @@
                     
                     = ...
                   </code>
+                  
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;&nbsp;&nbsp;-- code goes here</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;end</code>
                   <code class="bg-gray-100 block p-2">end)</code>
-                </div> <!-- END: function call -->
+                </div>
 
               </div>
-              
             </div>
           
             <div class="bucket border">
@@ -7826,16 +7934,14 @@
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 7.375C7.5 6.33947 8.33947 5.5 9.375 5.5C10.4105 5.5 11.25 6.33947 11.25 7.375V16.625C11.25 18.489 12.761 20 14.625 20C16.489 20 18 18.489 18 16.625V11.8107L19.2197 13.0303L20.2803 11.9697L17.25 8.93934L14.2197 11.9697L15.2803 13.0303L16.5 11.8107V16.625C16.5 17.6605 15.6605 18.5 14.625 18.5C13.5895 18.5 12.75 17.6605 12.75 16.625V7.375C12.75 5.51104 11.239 4 9.375 4C7.51104 4 6 5.51104 6 7.375V9.5H4V15H9.5V9.5H7.5V7.375ZM5.5 11V13.5H8V11H5.5Z" fill="#1F2328"/>
                 </svg>
                 <div class="font-semibold flex-grow">VOICE_CHAT_CHANNEL_TRANSMIT_CHANGED</div>
-                
-                  <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
-                  </svg>
-                
+                <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
+                </svg>
               </div>
 
               <!-- hidden content -->
-              
               <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+                
                 <table class="border border-gray-200 w-full">
                   <thead class="bg-gray-200">
                     <tr>
@@ -7863,15 +7969,17 @@
                   
                   </tbody>
                 </table>
-
                 
-                <div> <!-- BEGIN: function call -->
+                
+                <div>
                   <h3 class="font-medium pb-2 underline">Code example</h3>
                   <code class="bg-gray-100 block p-2">local frame = CreateFrame("Frame")</code>
                   <code class="bg-gray-100 block p-2">frame:RegisterEvent("VOICE_CHAT_CHANNEL_TRANSMIT_CHANGED")</code>
                   <code class="bg-gray-100 block p-2">frame:SetScript("OnEvent", function(self, event, ...)</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;if event == "VOICE_CHAT_CHANNEL_TRANSMIT_CHANGED" then</code>
+                  
                   <code class="bg-gray-100 block p-2">
-                    &nbsp;&nbsp;local
+                    &nbsp;&nbsp;&nbsp;&nbsp;local
                     
                     
                       
@@ -7884,11 +7992,13 @@
                     
                     = ...
                   </code>
+                  
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;&nbsp;&nbsp;-- code goes here</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;end</code>
                   <code class="bg-gray-100 block p-2">end)</code>
-                </div> <!-- END: function call -->
+                </div>
 
               </div>
-              
             </div>
           
             <div class="bucket border">
@@ -7897,16 +8007,14 @@
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 7.375C7.5 6.33947 8.33947 5.5 9.375 5.5C10.4105 5.5 11.25 6.33947 11.25 7.375V16.625C11.25 18.489 12.761 20 14.625 20C16.489 20 18 18.489 18 16.625V11.8107L19.2197 13.0303L20.2803 11.9697L17.25 8.93934L14.2197 11.9697L15.2803 13.0303L16.5 11.8107V16.625C16.5 17.6605 15.6605 18.5 14.625 18.5C13.5895 18.5 12.75 17.6605 12.75 16.625V7.375C12.75 5.51104 11.239 4 9.375 4C7.51104 4 6 5.51104 6 7.375V9.5H4V15H9.5V9.5H7.5V7.375ZM5.5 11V13.5H8V11H5.5Z" fill="#1F2328"/>
                 </svg>
                 <div class="font-semibold flex-grow">VOICE_CHAT_CHANNEL_VOLUME_CHANGED</div>
-                
-                  <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
-                  </svg>
-                
+                <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
+                </svg>
               </div>
 
               <!-- hidden content -->
-              
               <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+                
                 <table class="border border-gray-200 w-full">
                   <thead class="bg-gray-200">
                     <tr>
@@ -7934,15 +8042,17 @@
                   
                   </tbody>
                 </table>
-
                 
-                <div> <!-- BEGIN: function call -->
+                
+                <div>
                   <h3 class="font-medium pb-2 underline">Code example</h3>
                   <code class="bg-gray-100 block p-2">local frame = CreateFrame("Frame")</code>
                   <code class="bg-gray-100 block p-2">frame:RegisterEvent("VOICE_CHAT_CHANNEL_VOLUME_CHANGED")</code>
                   <code class="bg-gray-100 block p-2">frame:SetScript("OnEvent", function(self, event, ...)</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;if event == "VOICE_CHAT_CHANNEL_VOLUME_CHANGED" then</code>
+                  
                   <code class="bg-gray-100 block p-2">
-                    &nbsp;&nbsp;local
+                    &nbsp;&nbsp;&nbsp;&nbsp;local
                     
                     
                       
@@ -7955,11 +8065,13 @@
                     
                     = ...
                   </code>
+                  
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;&nbsp;&nbsp;-- code goes here</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;end</code>
                   <code class="bg-gray-100 block p-2">end)</code>
-                </div> <!-- END: function call -->
+                </div>
 
               </div>
-              
             </div>
           
             <div class="bucket border">
@@ -7968,16 +8080,14 @@
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 7.375C7.5 6.33947 8.33947 5.5 9.375 5.5C10.4105 5.5 11.25 6.33947 11.25 7.375V16.625C11.25 18.489 12.761 20 14.625 20C16.489 20 18 18.489 18 16.625V11.8107L19.2197 13.0303L20.2803 11.9697L17.25 8.93934L14.2197 11.9697L15.2803 13.0303L16.5 11.8107V16.625C16.5 17.6605 15.6605 18.5 14.625 18.5C13.5895 18.5 12.75 17.6605 12.75 16.625V7.375C12.75 5.51104 11.239 4 9.375 4C7.51104 4 6 5.51104 6 7.375V9.5H4V15H9.5V9.5H7.5V7.375ZM5.5 11V13.5H8V11H5.5Z" fill="#1F2328"/>
                 </svg>
                 <div class="font-semibold flex-grow">VOICE_CHAT_COMMUNICATION_MODE_CHANGED</div>
-                
-                  <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
-                  </svg>
-                
+                <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
+                </svg>
               </div>
 
               <!-- hidden content -->
-              
               <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+                
                 <table class="border border-gray-200 w-full">
                   <thead class="bg-gray-200">
                     <tr>
@@ -7998,15 +8108,17 @@
                   
                   </tbody>
                 </table>
-
                 
-                <div> <!-- BEGIN: function call -->
+                
+                <div>
                   <h3 class="font-medium pb-2 underline">Code example</h3>
                   <code class="bg-gray-100 block p-2">local frame = CreateFrame("Frame")</code>
                   <code class="bg-gray-100 block p-2">frame:RegisterEvent("VOICE_CHAT_COMMUNICATION_MODE_CHANGED")</code>
                   <code class="bg-gray-100 block p-2">frame:SetScript("OnEvent", function(self, event, ...)</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;if event == "VOICE_CHAT_COMMUNICATION_MODE_CHANGED" then</code>
+                  
                   <code class="bg-gray-100 block p-2">
-                    &nbsp;&nbsp;local
+                    &nbsp;&nbsp;&nbsp;&nbsp;local
                     
                     
                       
@@ -8015,11 +8127,13 @@
                     
                     = ...
                   </code>
+                  
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;&nbsp;&nbsp;-- code goes here</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;end</code>
                   <code class="bg-gray-100 block p-2">end)</code>
-                </div> <!-- END: function call -->
+                </div>
 
               </div>
-              
             </div>
           
             <div class="bucket border">
@@ -8028,11 +8142,28 @@
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 7.375C7.5 6.33947 8.33947 5.5 9.375 5.5C10.4105 5.5 11.25 6.33947 11.25 7.375V16.625C11.25 18.489 12.761 20 14.625 20C16.489 20 18 18.489 18 16.625V11.8107L19.2197 13.0303L20.2803 11.9697L17.25 8.93934L14.2197 11.9697L15.2803 13.0303L16.5 11.8107V16.625C16.5 17.6605 15.6605 18.5 14.625 18.5C13.5895 18.5 12.75 17.6605 12.75 16.625V7.375C12.75 5.51104 11.239 4 9.375 4C7.51104 4 6 5.51104 6 7.375V9.5H4V15H9.5V9.5H7.5V7.375ZM5.5 11V13.5H8V11H5.5Z" fill="#1F2328"/>
                 </svg>
                 <div class="font-semibold flex-grow">VOICE_CHAT_CONNECTION_SUCCESS</div>
-                
+                <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
+                </svg>
               </div>
 
               <!-- hidden content -->
-              
+              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+                
+                
+                <div>
+                  <h3 class="font-medium pb-2 underline">Code example</h3>
+                  <code class="bg-gray-100 block p-2">local frame = CreateFrame("Frame")</code>
+                  <code class="bg-gray-100 block p-2">frame:RegisterEvent("VOICE_CHAT_CONNECTION_SUCCESS")</code>
+                  <code class="bg-gray-100 block p-2">frame:SetScript("OnEvent", function(self, event, ...)</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;if event == "VOICE_CHAT_CONNECTION_SUCCESS" then</code>
+                  
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;&nbsp;&nbsp;-- code goes here</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;end</code>
+                  <code class="bg-gray-100 block p-2">end)</code>
+                </div>
+
+              </div>
             </div>
           
             <div class="bucket border">
@@ -8041,16 +8172,14 @@
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 7.375C7.5 6.33947 8.33947 5.5 9.375 5.5C10.4105 5.5 11.25 6.33947 11.25 7.375V16.625C11.25 18.489 12.761 20 14.625 20C16.489 20 18 18.489 18 16.625V11.8107L19.2197 13.0303L20.2803 11.9697L17.25 8.93934L14.2197 11.9697L15.2803 13.0303L16.5 11.8107V16.625C16.5 17.6605 15.6605 18.5 14.625 18.5C13.5895 18.5 12.75 17.6605 12.75 16.625V7.375C12.75 5.51104 11.239 4 9.375 4C7.51104 4 6 5.51104 6 7.375V9.5H4V15H9.5V9.5H7.5V7.375ZM5.5 11V13.5H8V11H5.5Z" fill="#1F2328"/>
                 </svg>
                 <div class="font-semibold flex-grow">VOICE_CHAT_DEAFENED_CHANGED</div>
-                
-                  <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
-                  </svg>
-                
+                <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
+                </svg>
               </div>
 
               <!-- hidden content -->
-              
               <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+                
                 <table class="border border-gray-200 w-full">
                   <thead class="bg-gray-200">
                     <tr>
@@ -8071,15 +8200,17 @@
                   
                   </tbody>
                 </table>
-
                 
-                <div> <!-- BEGIN: function call -->
+                
+                <div>
                   <h3 class="font-medium pb-2 underline">Code example</h3>
                   <code class="bg-gray-100 block p-2">local frame = CreateFrame("Frame")</code>
                   <code class="bg-gray-100 block p-2">frame:RegisterEvent("VOICE_CHAT_DEAFENED_CHANGED")</code>
                   <code class="bg-gray-100 block p-2">frame:SetScript("OnEvent", function(self, event, ...)</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;if event == "VOICE_CHAT_DEAFENED_CHANGED" then</code>
+                  
                   <code class="bg-gray-100 block p-2">
-                    &nbsp;&nbsp;local
+                    &nbsp;&nbsp;&nbsp;&nbsp;local
                     
                     
                       
@@ -8088,11 +8219,13 @@
                     
                     = ...
                   </code>
+                  
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;&nbsp;&nbsp;-- code goes here</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;end</code>
                   <code class="bg-gray-100 block p-2">end)</code>
-                </div> <!-- END: function call -->
+                </div>
 
               </div>
-              
             </div>
           
             <div class="bucket border">
@@ -8101,16 +8234,14 @@
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 7.375C7.5 6.33947 8.33947 5.5 9.375 5.5C10.4105 5.5 11.25 6.33947 11.25 7.375V16.625C11.25 18.489 12.761 20 14.625 20C16.489 20 18 18.489 18 16.625V11.8107L19.2197 13.0303L20.2803 11.9697L17.25 8.93934L14.2197 11.9697L15.2803 13.0303L16.5 11.8107V16.625C16.5 17.6605 15.6605 18.5 14.625 18.5C13.5895 18.5 12.75 17.6605 12.75 16.625V7.375C12.75 5.51104 11.239 4 9.375 4C7.51104 4 6 5.51104 6 7.375V9.5H4V15H9.5V9.5H7.5V7.375ZM5.5 11V13.5H8V11H5.5Z" fill="#1F2328"/>
                 </svg>
                 <div class="font-semibold flex-grow">VOICE_CHAT_ERROR</div>
-                
-                  <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
-                  </svg>
-                
+                <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
+                </svg>
               </div>
 
               <!-- hidden content -->
-              
               <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+                
                 <table class="border border-gray-200 w-full">
                   <thead class="bg-gray-200">
                     <tr>
@@ -8138,15 +8269,17 @@
                   
                   </tbody>
                 </table>
-
                 
-                <div> <!-- BEGIN: function call -->
+                
+                <div>
                   <h3 class="font-medium pb-2 underline">Code example</h3>
                   <code class="bg-gray-100 block p-2">local frame = CreateFrame("Frame")</code>
                   <code class="bg-gray-100 block p-2">frame:RegisterEvent("VOICE_CHAT_ERROR")</code>
                   <code class="bg-gray-100 block p-2">frame:SetScript("OnEvent", function(self, event, ...)</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;if event == "VOICE_CHAT_ERROR" then</code>
+                  
                   <code class="bg-gray-100 block p-2">
-                    &nbsp;&nbsp;local
+                    &nbsp;&nbsp;&nbsp;&nbsp;local
                     
                     
                       
@@ -8159,11 +8292,13 @@
                     
                     = ...
                   </code>
+                  
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;&nbsp;&nbsp;-- code goes here</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;end</code>
                   <code class="bg-gray-100 block p-2">end)</code>
-                </div> <!-- END: function call -->
+                </div>
 
               </div>
-              
             </div>
           
             <div class="bucket border">
@@ -8172,11 +8307,28 @@
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 7.375C7.5 6.33947 8.33947 5.5 9.375 5.5C10.4105 5.5 11.25 6.33947 11.25 7.375V16.625C11.25 18.489 12.761 20 14.625 20C16.489 20 18 18.489 18 16.625V11.8107L19.2197 13.0303L20.2803 11.9697L17.25 8.93934L14.2197 11.9697L15.2803 13.0303L16.5 11.8107V16.625C16.5 17.6605 15.6605 18.5 14.625 18.5C13.5895 18.5 12.75 17.6605 12.75 16.625V7.375C12.75 5.51104 11.239 4 9.375 4C7.51104 4 6 5.51104 6 7.375V9.5H4V15H9.5V9.5H7.5V7.375ZM5.5 11V13.5H8V11H5.5Z" fill="#1F2328"/>
                 </svg>
                 <div class="font-semibold flex-grow">VOICE_CHAT_INPUT_DEVICES_UPDATED</div>
-                
+                <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
+                </svg>
               </div>
 
               <!-- hidden content -->
-              
+              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+                
+                
+                <div>
+                  <h3 class="font-medium pb-2 underline">Code example</h3>
+                  <code class="bg-gray-100 block p-2">local frame = CreateFrame("Frame")</code>
+                  <code class="bg-gray-100 block p-2">frame:RegisterEvent("VOICE_CHAT_INPUT_DEVICES_UPDATED")</code>
+                  <code class="bg-gray-100 block p-2">frame:SetScript("OnEvent", function(self, event, ...)</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;if event == "VOICE_CHAT_INPUT_DEVICES_UPDATED" then</code>
+                  
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;&nbsp;&nbsp;-- code goes here</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;end</code>
+                  <code class="bg-gray-100 block p-2">end)</code>
+                </div>
+
+              </div>
             </div>
           
             <div class="bucket border">
@@ -8185,16 +8337,14 @@
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 7.375C7.5 6.33947 8.33947 5.5 9.375 5.5C10.4105 5.5 11.25 6.33947 11.25 7.375V16.625C11.25 18.489 12.761 20 14.625 20C16.489 20 18 18.489 18 16.625V11.8107L19.2197 13.0303L20.2803 11.9697L17.25 8.93934L14.2197 11.9697L15.2803 13.0303L16.5 11.8107V16.625C16.5 17.6605 15.6605 18.5 14.625 18.5C13.5895 18.5 12.75 17.6605 12.75 16.625V7.375C12.75 5.51104 11.239 4 9.375 4C7.51104 4 6 5.51104 6 7.375V9.5H4V15H9.5V9.5H7.5V7.375ZM5.5 11V13.5H8V11H5.5Z" fill="#1F2328"/>
                 </svg>
                 <div class="font-semibold flex-grow">VOICE_CHAT_LOGIN</div>
-                
-                  <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
-                  </svg>
-                
+                <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
+                </svg>
               </div>
 
               <!-- hidden content -->
-              
               <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+                
                 <table class="border border-gray-200 w-full">
                   <thead class="bg-gray-200">
                     <tr>
@@ -8215,15 +8365,17 @@
                   
                   </tbody>
                 </table>
-
                 
-                <div> <!-- BEGIN: function call -->
+                
+                <div>
                   <h3 class="font-medium pb-2 underline">Code example</h3>
                   <code class="bg-gray-100 block p-2">local frame = CreateFrame("Frame")</code>
                   <code class="bg-gray-100 block p-2">frame:RegisterEvent("VOICE_CHAT_LOGIN")</code>
                   <code class="bg-gray-100 block p-2">frame:SetScript("OnEvent", function(self, event, ...)</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;if event == "VOICE_CHAT_LOGIN" then</code>
+                  
                   <code class="bg-gray-100 block p-2">
-                    &nbsp;&nbsp;local
+                    &nbsp;&nbsp;&nbsp;&nbsp;local
                     
                     
                       
@@ -8232,11 +8384,13 @@
                     
                     = ...
                   </code>
+                  
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;&nbsp;&nbsp;-- code goes here</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;end</code>
                   <code class="bg-gray-100 block p-2">end)</code>
-                </div> <!-- END: function call -->
+                </div>
 
               </div>
-              
             </div>
           
             <div class="bucket border">
@@ -8245,16 +8399,14 @@
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 7.375C7.5 6.33947 8.33947 5.5 9.375 5.5C10.4105 5.5 11.25 6.33947 11.25 7.375V16.625C11.25 18.489 12.761 20 14.625 20C16.489 20 18 18.489 18 16.625V11.8107L19.2197 13.0303L20.2803 11.9697L17.25 8.93934L14.2197 11.9697L15.2803 13.0303L16.5 11.8107V16.625C16.5 17.6605 15.6605 18.5 14.625 18.5C13.5895 18.5 12.75 17.6605 12.75 16.625V7.375C12.75 5.51104 11.239 4 9.375 4C7.51104 4 6 5.51104 6 7.375V9.5H4V15H9.5V9.5H7.5V7.375ZM5.5 11V13.5H8V11H5.5Z" fill="#1F2328"/>
                 </svg>
                 <div class="font-semibold flex-grow">VOICE_CHAT_LOGOUT</div>
-                
-                  <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
-                  </svg>
-                
+                <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
+                </svg>
               </div>
 
               <!-- hidden content -->
-              
               <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+                
                 <table class="border border-gray-200 w-full">
                   <thead class="bg-gray-200">
                     <tr>
@@ -8275,15 +8427,17 @@
                   
                   </tbody>
                 </table>
-
                 
-                <div> <!-- BEGIN: function call -->
+                
+                <div>
                   <h3 class="font-medium pb-2 underline">Code example</h3>
                   <code class="bg-gray-100 block p-2">local frame = CreateFrame("Frame")</code>
                   <code class="bg-gray-100 block p-2">frame:RegisterEvent("VOICE_CHAT_LOGOUT")</code>
                   <code class="bg-gray-100 block p-2">frame:SetScript("OnEvent", function(self, event, ...)</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;if event == "VOICE_CHAT_LOGOUT" then</code>
+                  
                   <code class="bg-gray-100 block p-2">
-                    &nbsp;&nbsp;local
+                    &nbsp;&nbsp;&nbsp;&nbsp;local
                     
                     
                       
@@ -8292,11 +8446,13 @@
                     
                     = ...
                   </code>
+                  
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;&nbsp;&nbsp;-- code goes here</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;end</code>
                   <code class="bg-gray-100 block p-2">end)</code>
-                </div> <!-- END: function call -->
+                </div>
 
               </div>
-              
             </div>
           
             <div class="bucket border">
@@ -8305,16 +8461,14 @@
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 7.375C7.5 6.33947 8.33947 5.5 9.375 5.5C10.4105 5.5 11.25 6.33947 11.25 7.375V16.625C11.25 18.489 12.761 20 14.625 20C16.489 20 18 18.489 18 16.625V11.8107L19.2197 13.0303L20.2803 11.9697L17.25 8.93934L14.2197 11.9697L15.2803 13.0303L16.5 11.8107V16.625C16.5 17.6605 15.6605 18.5 14.625 18.5C13.5895 18.5 12.75 17.6605 12.75 16.625V7.375C12.75 5.51104 11.239 4 9.375 4C7.51104 4 6 5.51104 6 7.375V9.5H4V15H9.5V9.5H7.5V7.375ZM5.5 11V13.5H8V11H5.5Z" fill="#1F2328"/>
                 </svg>
                 <div class="font-semibold flex-grow">VOICE_CHAT_MUTED_CHANGED</div>
-                
-                  <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
-                  </svg>
-                
+                <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
+                </svg>
               </div>
 
               <!-- hidden content -->
-              
               <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+                
                 <table class="border border-gray-200 w-full">
                   <thead class="bg-gray-200">
                     <tr>
@@ -8335,15 +8489,17 @@
                   
                   </tbody>
                 </table>
-
                 
-                <div> <!-- BEGIN: function call -->
+                
+                <div>
                   <h3 class="font-medium pb-2 underline">Code example</h3>
                   <code class="bg-gray-100 block p-2">local frame = CreateFrame("Frame")</code>
                   <code class="bg-gray-100 block p-2">frame:RegisterEvent("VOICE_CHAT_MUTED_CHANGED")</code>
                   <code class="bg-gray-100 block p-2">frame:SetScript("OnEvent", function(self, event, ...)</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;if event == "VOICE_CHAT_MUTED_CHANGED" then</code>
+                  
                   <code class="bg-gray-100 block p-2">
-                    &nbsp;&nbsp;local
+                    &nbsp;&nbsp;&nbsp;&nbsp;local
                     
                     
                       
@@ -8352,11 +8508,13 @@
                     
                     = ...
                   </code>
+                  
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;&nbsp;&nbsp;-- code goes here</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;end</code>
                   <code class="bg-gray-100 block p-2">end)</code>
-                </div> <!-- END: function call -->
+                </div>
 
               </div>
-              
             </div>
           
             <div class="bucket border">
@@ -8365,11 +8523,28 @@
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 7.375C7.5 6.33947 8.33947 5.5 9.375 5.5C10.4105 5.5 11.25 6.33947 11.25 7.375V16.625C11.25 18.489 12.761 20 14.625 20C16.489 20 18 18.489 18 16.625V11.8107L19.2197 13.0303L20.2803 11.9697L17.25 8.93934L14.2197 11.9697L15.2803 13.0303L16.5 11.8107V16.625C16.5 17.6605 15.6605 18.5 14.625 18.5C13.5895 18.5 12.75 17.6605 12.75 16.625V7.375C12.75 5.51104 11.239 4 9.375 4C7.51104 4 6 5.51104 6 7.375V9.5H4V15H9.5V9.5H7.5V7.375ZM5.5 11V13.5H8V11H5.5Z" fill="#1F2328"/>
                 </svg>
                 <div class="font-semibold flex-grow">VOICE_CHAT_OUTPUT_DEVICES_UPDATED</div>
-                
+                <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
+                </svg>
               </div>
 
               <!-- hidden content -->
-              
+              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+                
+                
+                <div>
+                  <h3 class="font-medium pb-2 underline">Code example</h3>
+                  <code class="bg-gray-100 block p-2">local frame = CreateFrame("Frame")</code>
+                  <code class="bg-gray-100 block p-2">frame:RegisterEvent("VOICE_CHAT_OUTPUT_DEVICES_UPDATED")</code>
+                  <code class="bg-gray-100 block p-2">frame:SetScript("OnEvent", function(self, event, ...)</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;if event == "VOICE_CHAT_OUTPUT_DEVICES_UPDATED" then</code>
+                  
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;&nbsp;&nbsp;-- code goes here</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;end</code>
+                  <code class="bg-gray-100 block p-2">end)</code>
+                </div>
+
+              </div>
             </div>
           
             <div class="bucket border">
@@ -8378,16 +8553,14 @@
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 7.375C7.5 6.33947 8.33947 5.5 9.375 5.5C10.4105 5.5 11.25 6.33947 11.25 7.375V16.625C11.25 18.489 12.761 20 14.625 20C16.489 20 18 18.489 18 16.625V11.8107L19.2197 13.0303L20.2803 11.9697L17.25 8.93934L14.2197 11.9697L15.2803 13.0303L16.5 11.8107V16.625C16.5 17.6605 15.6605 18.5 14.625 18.5C13.5895 18.5 12.75 17.6605 12.75 16.625V7.375C12.75 5.51104 11.239 4 9.375 4C7.51104 4 6 5.51104 6 7.375V9.5H4V15H9.5V9.5H7.5V7.375ZM5.5 11V13.5H8V11H5.5Z" fill="#1F2328"/>
                 </svg>
                 <div class="font-semibold flex-grow">VOICE_CHAT_PENDING_CHANNEL_JOIN_STATE</div>
-                
-                  <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
-                  </svg>
-                
+                <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
+                </svg>
               </div>
 
               <!-- hidden content -->
-              
               <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+                
                 <table class="border border-gray-200 w-full">
                   <thead class="bg-gray-200">
                     <tr>
@@ -8429,15 +8602,17 @@
                   
                   </tbody>
                 </table>
-
                 
-                <div> <!-- BEGIN: function call -->
+                
+                <div>
                   <h3 class="font-medium pb-2 underline">Code example</h3>
                   <code class="bg-gray-100 block p-2">local frame = CreateFrame("Frame")</code>
                   <code class="bg-gray-100 block p-2">frame:RegisterEvent("VOICE_CHAT_PENDING_CHANNEL_JOIN_STATE")</code>
                   <code class="bg-gray-100 block p-2">frame:SetScript("OnEvent", function(self, event, ...)</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;if event == "VOICE_CHAT_PENDING_CHANNEL_JOIN_STATE" then</code>
+                  
                   <code class="bg-gray-100 block p-2">
-                    &nbsp;&nbsp;local
+                    &nbsp;&nbsp;&nbsp;&nbsp;local
                     
                     
                       
@@ -8458,11 +8633,13 @@
                     
                     = ...
                   </code>
+                  
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;&nbsp;&nbsp;-- code goes here</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;end</code>
                   <code class="bg-gray-100 block p-2">end)</code>
-                </div> <!-- END: function call -->
+                </div>
 
               </div>
-              
             </div>
           
             <div class="bucket border">
@@ -8471,16 +8648,14 @@
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 7.375C7.5 6.33947 8.33947 5.5 9.375 5.5C10.4105 5.5 11.25 6.33947 11.25 7.375V16.625C11.25 18.489 12.761 20 14.625 20C16.489 20 18 18.489 18 16.625V11.8107L19.2197 13.0303L20.2803 11.9697L17.25 8.93934L14.2197 11.9697L15.2803 13.0303L16.5 11.8107V16.625C16.5 17.6605 15.6605 18.5 14.625 18.5C13.5895 18.5 12.75 17.6605 12.75 16.625V7.375C12.75 5.51104 11.239 4 9.375 4C7.51104 4 6 5.51104 6 7.375V9.5H4V15H9.5V9.5H7.5V7.375ZM5.5 11V13.5H8V11H5.5Z" fill="#1F2328"/>
                 </svg>
                 <div class="font-semibold flex-grow">VOICE_CHAT_PTT_BUTTON_PRESSED_STATE_CHANGED</div>
-                
-                  <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
-                  </svg>
-                
+                <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
+                </svg>
               </div>
 
               <!-- hidden content -->
-              
               <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+                
                 <table class="border border-gray-200 w-full">
                   <thead class="bg-gray-200">
                     <tr>
@@ -8501,15 +8676,17 @@
                   
                   </tbody>
                 </table>
-
                 
-                <div> <!-- BEGIN: function call -->
+                
+                <div>
                   <h3 class="font-medium pb-2 underline">Code example</h3>
                   <code class="bg-gray-100 block p-2">local frame = CreateFrame("Frame")</code>
                   <code class="bg-gray-100 block p-2">frame:RegisterEvent("VOICE_CHAT_PTT_BUTTON_PRESSED_STATE_CHANGED")</code>
                   <code class="bg-gray-100 block p-2">frame:SetScript("OnEvent", function(self, event, ...)</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;if event == "VOICE_CHAT_PTT_BUTTON_PRESSED_STATE_CHANGED" then</code>
+                  
                   <code class="bg-gray-100 block p-2">
-                    &nbsp;&nbsp;local
+                    &nbsp;&nbsp;&nbsp;&nbsp;local
                     
                     
                       
@@ -8518,11 +8695,13 @@
                     
                     = ...
                   </code>
+                  
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;&nbsp;&nbsp;-- code goes here</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;end</code>
                   <code class="bg-gray-100 block p-2">end)</code>
-                </div> <!-- END: function call -->
+                </div>
 
               </div>
-              
             </div>
           
             <div class="bucket border">
@@ -8531,16 +8710,14 @@
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 7.375C7.5 6.33947 8.33947 5.5 9.375 5.5C10.4105 5.5 11.25 6.33947 11.25 7.375V16.625C11.25 18.489 12.761 20 14.625 20C16.489 20 18 18.489 18 16.625V11.8107L19.2197 13.0303L20.2803 11.9697L17.25 8.93934L14.2197 11.9697L15.2803 13.0303L16.5 11.8107V16.625C16.5 17.6605 15.6605 18.5 14.625 18.5C13.5895 18.5 12.75 17.6605 12.75 16.625V7.375C12.75 5.51104 11.239 4 9.375 4C7.51104 4 6 5.51104 6 7.375V9.5H4V15H9.5V9.5H7.5V7.375ZM5.5 11V13.5H8V11H5.5Z" fill="#1F2328"/>
                 </svg>
                 <div class="font-semibold flex-grow">VOICE_CHAT_SILENCED_CHANGED</div>
-                
-                  <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
-                  </svg>
-                
+                <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
+                </svg>
               </div>
 
               <!-- hidden content -->
-              
               <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+                
                 <table class="border border-gray-200 w-full">
                   <thead class="bg-gray-200">
                     <tr>
@@ -8561,15 +8738,17 @@
                   
                   </tbody>
                 </table>
-
                 
-                <div> <!-- BEGIN: function call -->
+                
+                <div>
                   <h3 class="font-medium pb-2 underline">Code example</h3>
                   <code class="bg-gray-100 block p-2">local frame = CreateFrame("Frame")</code>
                   <code class="bg-gray-100 block p-2">frame:RegisterEvent("VOICE_CHAT_SILENCED_CHANGED")</code>
                   <code class="bg-gray-100 block p-2">frame:SetScript("OnEvent", function(self, event, ...)</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;if event == "VOICE_CHAT_SILENCED_CHANGED" then</code>
+                  
                   <code class="bg-gray-100 block p-2">
-                    &nbsp;&nbsp;local
+                    &nbsp;&nbsp;&nbsp;&nbsp;local
                     
                     
                       
@@ -8578,11 +8757,13 @@
                     
                     = ...
                   </code>
+                  
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;&nbsp;&nbsp;-- code goes here</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;end</code>
                   <code class="bg-gray-100 block p-2">end)</code>
-                </div> <!-- END: function call -->
+                </div>
 
               </div>
-              
             </div>
           
             <div class="bucket border">
@@ -8591,11 +8772,28 @@
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 7.375C7.5 6.33947 8.33947 5.5 9.375 5.5C10.4105 5.5 11.25 6.33947 11.25 7.375V16.625C11.25 18.489 12.761 20 14.625 20C16.489 20 18 18.489 18 16.625V11.8107L19.2197 13.0303L20.2803 11.9697L17.25 8.93934L14.2197 11.9697L15.2803 13.0303L16.5 11.8107V16.625C16.5 17.6605 15.6605 18.5 14.625 18.5C13.5895 18.5 12.75 17.6605 12.75 16.625V7.375C12.75 5.51104 11.239 4 9.375 4C7.51104 4 6 5.51104 6 7.375V9.5H4V15H9.5V9.5H7.5V7.375ZM5.5 11V13.5H8V11H5.5Z" fill="#1F2328"/>
                 </svg>
                 <div class="font-semibold flex-grow">VOICE_CHAT_SPEAK_FOR_ME_ACTIVE_STATUS_UPDATED</div>
-                
+                <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
+                </svg>
               </div>
 
               <!-- hidden content -->
-              
+              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+                
+                
+                <div>
+                  <h3 class="font-medium pb-2 underline">Code example</h3>
+                  <code class="bg-gray-100 block p-2">local frame = CreateFrame("Frame")</code>
+                  <code class="bg-gray-100 block p-2">frame:RegisterEvent("VOICE_CHAT_SPEAK_FOR_ME_ACTIVE_STATUS_UPDATED")</code>
+                  <code class="bg-gray-100 block p-2">frame:SetScript("OnEvent", function(self, event, ...)</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;if event == "VOICE_CHAT_SPEAK_FOR_ME_ACTIVE_STATUS_UPDATED" then</code>
+                  
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;&nbsp;&nbsp;-- code goes here</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;end</code>
+                  <code class="bg-gray-100 block p-2">end)</code>
+                </div>
+
+              </div>
             </div>
           
             <div class="bucket border">
@@ -8604,11 +8802,28 @@
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 7.375C7.5 6.33947 8.33947 5.5 9.375 5.5C10.4105 5.5 11.25 6.33947 11.25 7.375V16.625C11.25 18.489 12.761 20 14.625 20C16.489 20 18 18.489 18 16.625V11.8107L19.2197 13.0303L20.2803 11.9697L17.25 8.93934L14.2197 11.9697L15.2803 13.0303L16.5 11.8107V16.625C16.5 17.6605 15.6605 18.5 14.625 18.5C13.5895 18.5 12.75 17.6605 12.75 16.625V7.375C12.75 5.51104 11.239 4 9.375 4C7.51104 4 6 5.51104 6 7.375V9.5H4V15H9.5V9.5H7.5V7.375ZM5.5 11V13.5H8V11H5.5Z" fill="#1F2328"/>
                 </svg>
                 <div class="font-semibold flex-grow">VOICE_CHAT_SPEAK_FOR_ME_FEATURE_STATUS_UPDATED</div>
-                
+                <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
+                </svg>
               </div>
 
               <!-- hidden content -->
-              
+              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+                
+                
+                <div>
+                  <h3 class="font-medium pb-2 underline">Code example</h3>
+                  <code class="bg-gray-100 block p-2">local frame = CreateFrame("Frame")</code>
+                  <code class="bg-gray-100 block p-2">frame:RegisterEvent("VOICE_CHAT_SPEAK_FOR_ME_FEATURE_STATUS_UPDATED")</code>
+                  <code class="bg-gray-100 block p-2">frame:SetScript("OnEvent", function(self, event, ...)</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;if event == "VOICE_CHAT_SPEAK_FOR_ME_FEATURE_STATUS_UPDATED" then</code>
+                  
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;&nbsp;&nbsp;-- code goes here</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;end</code>
+                  <code class="bg-gray-100 block p-2">end)</code>
+                </div>
+
+              </div>
             </div>
           
             <div class="bucket border">
@@ -8617,16 +8832,14 @@
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 7.375C7.5 6.33947 8.33947 5.5 9.375 5.5C10.4105 5.5 11.25 6.33947 11.25 7.375V16.625C11.25 18.489 12.761 20 14.625 20C16.489 20 18 18.489 18 16.625V11.8107L19.2197 13.0303L20.2803 11.9697L17.25 8.93934L14.2197 11.9697L15.2803 13.0303L16.5 11.8107V16.625C16.5 17.6605 15.6605 18.5 14.625 18.5C13.5895 18.5 12.75 17.6605 12.75 16.625V7.375C12.75 5.51104 11.239 4 9.375 4C7.51104 4 6 5.51104 6 7.375V9.5H4V15H9.5V9.5H7.5V7.375ZM5.5 11V13.5H8V11H5.5Z" fill="#1F2328"/>
                 </svg>
                 <div class="font-semibold flex-grow">VOICE_CHAT_TTS_PLAYBACK_FAILED</div>
-                
-                  <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
-                  </svg>
-                
+                <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
+                </svg>
               </div>
 
               <!-- hidden content -->
-              
               <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+                
                 <table class="border border-gray-200 w-full">
                   <thead class="bg-gray-200">
                     <tr>
@@ -8661,15 +8874,17 @@
                   
                   </tbody>
                 </table>
-
                 
-                <div> <!-- BEGIN: function call -->
+                
+                <div>
                   <h3 class="font-medium pb-2 underline">Code example</h3>
                   <code class="bg-gray-100 block p-2">local frame = CreateFrame("Frame")</code>
                   <code class="bg-gray-100 block p-2">frame:RegisterEvent("VOICE_CHAT_TTS_PLAYBACK_FAILED")</code>
                   <code class="bg-gray-100 block p-2">frame:SetScript("OnEvent", function(self, event, ...)</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;if event == "VOICE_CHAT_TTS_PLAYBACK_FAILED" then</code>
+                  
                   <code class="bg-gray-100 block p-2">
-                    &nbsp;&nbsp;local
+                    &nbsp;&nbsp;&nbsp;&nbsp;local
                     
                     
                       
@@ -8686,11 +8901,13 @@
                     
                     = ...
                   </code>
+                  
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;&nbsp;&nbsp;-- code goes here</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;end</code>
                   <code class="bg-gray-100 block p-2">end)</code>
-                </div> <!-- END: function call -->
+                </div>
 
               </div>
-              
             </div>
           
             <div class="bucket border">
@@ -8699,16 +8916,14 @@
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 7.375C7.5 6.33947 8.33947 5.5 9.375 5.5C10.4105 5.5 11.25 6.33947 11.25 7.375V16.625C11.25 18.489 12.761 20 14.625 20C16.489 20 18 18.489 18 16.625V11.8107L19.2197 13.0303L20.2803 11.9697L17.25 8.93934L14.2197 11.9697L15.2803 13.0303L16.5 11.8107V16.625C16.5 17.6605 15.6605 18.5 14.625 18.5C13.5895 18.5 12.75 17.6605 12.75 16.625V7.375C12.75 5.51104 11.239 4 9.375 4C7.51104 4 6 5.51104 6 7.375V9.5H4V15H9.5V9.5H7.5V7.375ZM5.5 11V13.5H8V11H5.5Z" fill="#1F2328"/>
                 </svg>
                 <div class="font-semibold flex-grow">VOICE_CHAT_TTS_PLAYBACK_FINISHED</div>
-                
-                  <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
-                  </svg>
-                
+                <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
+                </svg>
               </div>
 
               <!-- hidden content -->
-              
               <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+                
                 <table class="border border-gray-200 w-full">
                   <thead class="bg-gray-200">
                     <tr>
@@ -8743,15 +8958,17 @@
                   
                   </tbody>
                 </table>
-
                 
-                <div> <!-- BEGIN: function call -->
+                
+                <div>
                   <h3 class="font-medium pb-2 underline">Code example</h3>
                   <code class="bg-gray-100 block p-2">local frame = CreateFrame("Frame")</code>
                   <code class="bg-gray-100 block p-2">frame:RegisterEvent("VOICE_CHAT_TTS_PLAYBACK_FINISHED")</code>
                   <code class="bg-gray-100 block p-2">frame:SetScript("OnEvent", function(self, event, ...)</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;if event == "VOICE_CHAT_TTS_PLAYBACK_FINISHED" then</code>
+                  
                   <code class="bg-gray-100 block p-2">
-                    &nbsp;&nbsp;local
+                    &nbsp;&nbsp;&nbsp;&nbsp;local
                     
                     
                       
@@ -8768,11 +8985,13 @@
                     
                     = ...
                   </code>
+                  
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;&nbsp;&nbsp;-- code goes here</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;end</code>
                   <code class="bg-gray-100 block p-2">end)</code>
-                </div> <!-- END: function call -->
+                </div>
 
               </div>
-              
             </div>
           
             <div class="bucket border">
@@ -8781,16 +9000,14 @@
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 7.375C7.5 6.33947 8.33947 5.5 9.375 5.5C10.4105 5.5 11.25 6.33947 11.25 7.375V16.625C11.25 18.489 12.761 20 14.625 20C16.489 20 18 18.489 18 16.625V11.8107L19.2197 13.0303L20.2803 11.9697L17.25 8.93934L14.2197 11.9697L15.2803 13.0303L16.5 11.8107V16.625C16.5 17.6605 15.6605 18.5 14.625 18.5C13.5895 18.5 12.75 17.6605 12.75 16.625V7.375C12.75 5.51104 11.239 4 9.375 4C7.51104 4 6 5.51104 6 7.375V9.5H4V15H9.5V9.5H7.5V7.375ZM5.5 11V13.5H8V11H5.5Z" fill="#1F2328"/>
                 </svg>
                 <div class="font-semibold flex-grow">VOICE_CHAT_TTS_PLAYBACK_STARTED</div>
-                
-                  <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
-                  </svg>
-                
+                <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
+                </svg>
               </div>
 
               <!-- hidden content -->
-              
               <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+                
                 <table class="border border-gray-200 w-full">
                   <thead class="bg-gray-200">
                     <tr>
@@ -8832,15 +9049,17 @@
                   
                   </tbody>
                 </table>
-
                 
-                <div> <!-- BEGIN: function call -->
+                
+                <div>
                   <h3 class="font-medium pb-2 underline">Code example</h3>
                   <code class="bg-gray-100 block p-2">local frame = CreateFrame("Frame")</code>
                   <code class="bg-gray-100 block p-2">frame:RegisterEvent("VOICE_CHAT_TTS_PLAYBACK_STARTED")</code>
                   <code class="bg-gray-100 block p-2">frame:SetScript("OnEvent", function(self, event, ...)</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;if event == "VOICE_CHAT_TTS_PLAYBACK_STARTED" then</code>
+                  
                   <code class="bg-gray-100 block p-2">
-                    &nbsp;&nbsp;local
+                    &nbsp;&nbsp;&nbsp;&nbsp;local
                     
                     
                       
@@ -8861,11 +9080,13 @@
                     
                     = ...
                   </code>
+                  
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;&nbsp;&nbsp;-- code goes here</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;end</code>
                   <code class="bg-gray-100 block p-2">end)</code>
-                </div> <!-- END: function call -->
+                </div>
 
               </div>
-              
             </div>
           
             <div class="bucket border">
@@ -8874,16 +9095,14 @@
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 7.375C7.5 6.33947 8.33947 5.5 9.375 5.5C10.4105 5.5 11.25 6.33947 11.25 7.375V16.625C11.25 18.489 12.761 20 14.625 20C16.489 20 18 18.489 18 16.625V11.8107L19.2197 13.0303L20.2803 11.9697L17.25 8.93934L14.2197 11.9697L15.2803 13.0303L16.5 11.8107V16.625C16.5 17.6605 15.6605 18.5 14.625 18.5C13.5895 18.5 12.75 17.6605 12.75 16.625V7.375C12.75 5.51104 11.239 4 9.375 4C7.51104 4 6 5.51104 6 7.375V9.5H4V15H9.5V9.5H7.5V7.375ZM5.5 11V13.5H8V11H5.5Z" fill="#1F2328"/>
                 </svg>
                 <div class="font-semibold flex-grow">VOICE_CHAT_TTS_SPEAK_TEXT_UPDATE</div>
-                
-                  <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
-                  </svg>
-                
+                <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
+                </svg>
               </div>
 
               <!-- hidden content -->
-              
               <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+                
                 <table class="border border-gray-200 w-full">
                   <thead class="bg-gray-200">
                     <tr>
@@ -8911,15 +9130,17 @@
                   
                   </tbody>
                 </table>
-
                 
-                <div> <!-- BEGIN: function call -->
+                
+                <div>
                   <h3 class="font-medium pb-2 underline">Code example</h3>
                   <code class="bg-gray-100 block p-2">local frame = CreateFrame("Frame")</code>
                   <code class="bg-gray-100 block p-2">frame:RegisterEvent("VOICE_CHAT_TTS_SPEAK_TEXT_UPDATE")</code>
                   <code class="bg-gray-100 block p-2">frame:SetScript("OnEvent", function(self, event, ...)</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;if event == "VOICE_CHAT_TTS_SPEAK_TEXT_UPDATE" then</code>
+                  
                   <code class="bg-gray-100 block p-2">
-                    &nbsp;&nbsp;local
+                    &nbsp;&nbsp;&nbsp;&nbsp;local
                     
                     
                       
@@ -8932,11 +9153,13 @@
                     
                     = ...
                   </code>
+                  
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;&nbsp;&nbsp;-- code goes here</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;end</code>
                   <code class="bg-gray-100 block p-2">end)</code>
-                </div> <!-- END: function call -->
+                </div>
 
               </div>
-              
             </div>
           
             <div class="bucket border">
@@ -8945,11 +9168,28 @@
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 7.375C7.5 6.33947 8.33947 5.5 9.375 5.5C10.4105 5.5 11.25 6.33947 11.25 7.375V16.625C11.25 18.489 12.761 20 14.625 20C16.489 20 18 18.489 18 16.625V11.8107L19.2197 13.0303L20.2803 11.9697L17.25 8.93934L14.2197 11.9697L15.2803 13.0303L16.5 11.8107V16.625C16.5 17.6605 15.6605 18.5 14.625 18.5C13.5895 18.5 12.75 17.6605 12.75 16.625V7.375C12.75 5.51104 11.239 4 9.375 4C7.51104 4 6 5.51104 6 7.375V9.5H4V15H9.5V9.5H7.5V7.375ZM5.5 11V13.5H8V11H5.5Z" fill="#1F2328"/>
                 </svg>
                 <div class="font-semibold flex-grow">VOICE_CHAT_TTS_VOICES_UPDATE</div>
-                
+                <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
+                </svg>
               </div>
 
               <!-- hidden content -->
-              
+              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+                
+                
+                <div>
+                  <h3 class="font-medium pb-2 underline">Code example</h3>
+                  <code class="bg-gray-100 block p-2">local frame = CreateFrame("Frame")</code>
+                  <code class="bg-gray-100 block p-2">frame:RegisterEvent("VOICE_CHAT_TTS_VOICES_UPDATE")</code>
+                  <code class="bg-gray-100 block p-2">frame:SetScript("OnEvent", function(self, event, ...)</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;if event == "VOICE_CHAT_TTS_VOICES_UPDATE" then</code>
+                  
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;&nbsp;&nbsp;-- code goes here</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;end</code>
+                  <code class="bg-gray-100 block p-2">end)</code>
+                </div>
+
+              </div>
             </div>
           
             <div class="bucket border">
@@ -8958,11 +9198,28 @@
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 7.375C7.5 6.33947 8.33947 5.5 9.375 5.5C10.4105 5.5 11.25 6.33947 11.25 7.375V16.625C11.25 18.489 12.761 20 14.625 20C16.489 20 18 18.489 18 16.625V11.8107L19.2197 13.0303L20.2803 11.9697L17.25 8.93934L14.2197 11.9697L15.2803 13.0303L16.5 11.8107V16.625C16.5 17.6605 15.6605 18.5 14.625 18.5C13.5895 18.5 12.75 17.6605 12.75 16.625V7.375C12.75 5.51104 11.239 4 9.375 4C7.51104 4 6 5.51104 6 7.375V9.5H4V15H9.5V9.5H7.5V7.375ZM5.5 11V13.5H8V11H5.5Z" fill="#1F2328"/>
                 </svg>
                 <div class="font-semibold flex-grow">VOICE_CHAT_VAD_SETTINGS_UPDATED</div>
-                
+                <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
+                </svg>
               </div>
 
               <!-- hidden content -->
-              
+              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+                
+                
+                <div>
+                  <h3 class="font-medium pb-2 underline">Code example</h3>
+                  <code class="bg-gray-100 block p-2">local frame = CreateFrame("Frame")</code>
+                  <code class="bg-gray-100 block p-2">frame:RegisterEvent("VOICE_CHAT_VAD_SETTINGS_UPDATED")</code>
+                  <code class="bg-gray-100 block p-2">frame:SetScript("OnEvent", function(self, event, ...)</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;if event == "VOICE_CHAT_VAD_SETTINGS_UPDATED" then</code>
+                  
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;&nbsp;&nbsp;-- code goes here</code>
+                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;end</code>
+                  <code class="bg-gray-100 block p-2">end)</code>
+                </div>
+
+              </div>
             </div>
           
           </div>
