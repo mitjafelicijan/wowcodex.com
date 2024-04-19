@@ -28,7 +28,7 @@
           <% for _, section in pairs(sections) do %>
             <tr class="hover:bg-gray-50">
               <td class="p-2">
-                <a class="underline text-indigo-900" href="/apiref/api.<%= string.lower(section.Name) %>.html"><%= section.Name %></a>
+                <a class="underline text-indigo-900 font-medium" href="/apiref/api.<%= string.lower(section.Name) %>.html"><%= section.Name %></a>
               </td>
               <td class="p-2"><%= section.Namespace or "" %></td>
               <td class="p-2"><%= #section.Functions %></td>

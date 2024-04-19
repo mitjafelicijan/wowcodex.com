@@ -12,6 +12,7 @@
 
     <main class="main-container mx-auto flex flex-col gap-8">
       <div class="section flex flex-col gap-6">
+        <a href="./">« Back</a>
         <h2 class="font-bold text-4xl">
           <a id="Screen">Screen</a>
         </h2>
@@ -22,30 +23,29 @@
 
          <!-- end table loop -->
         
-         <!-- end signals loop -->
-        
+         <!-- end events loop -->
       </div>
     </main>
 
     <script>
       window.onload = function() {
-        const expandItems = document.querySelectorAll(".func .expand");
+        const expandItems = document.querySelectorAll(".bucket .expand");
         if (expandItems) {
           expandItems.forEach(item => {
             item.addEventListener("click", evt => {
               evt.stopPropagation();
-              const func = evt.target.closest(".func");
-              const content = func.querySelector(".content");
-              const chevron = func.querySelector(".chevron");
-              const expand = func.querySelector(".expand");
-              
-              content.classList.toggle("hidden");
-              chevron.classList.toggle("rotate-180");
-              
-              func.classList.toggle("border-gray-400");
-              expand.classList.toggle("bg-gray-400");
+              const bucket = evt.target.closest(".bucket");
+              const content = bucket.querySelector(".content");
+              const chevron = bucket.querySelector(".chevron");
+              const expand = bucket.querySelector(".expand");
 
-              console.log(chevron)
+              if (bucket && content && chevron && expand) {
+                content.classList.toggle("hidden");
+                chevron.classList.toggle("rotate-180");
+              
+                bucket.classList.toggle("border-gray-400");
+                expand.classList.toggle("bg-gray-400");
+              }
             });
           });
         }

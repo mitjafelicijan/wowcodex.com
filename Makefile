@@ -1,3 +1,5 @@
+MAKEFLAGS=-j6
+
 default:
 	@echo "Check targets!"
 
@@ -7,11 +9,17 @@ install:
 		luarocks install --local "$$package"; \
 	done < packages.txt
 
-build:
-	cp -Rf assets public
+server:
+	cd public && npx --yes browser-sync start --server --watch --no-open
+
+index.build:
 	cp templates/index.html public/
+
+apiref.dev: apiref.watch server
+
+apiref.build:
+	cp -Rf assets public
 	cd apiref && lua apirefgen.lua
 
-server: build
-	cd public && npx --yes browser-sync start --server --watch --no-open --directory
-	# cd public && python3 -m http.server 6969
+apiref.watch:
+	find . \( -name "*.lua" -o -name "*.html" \)  -not -path "./public/*" | entr -r make apiref.build

@@ -12,6 +12,7 @@
 
     <main class="main-container mx-auto flex flex-col gap-8">
       <div class="section flex flex-col gap-6">
+        <a href="./">« Back</a>
         <h2 class="font-bold text-4xl">
           <a id="ScriptWarnings">ScriptWarnings</a>
         </h2>
@@ -28,43 +29,101 @@
           <h2 class="font-semibold text-2xl">Events</h2>
           <div class="flex flex-col gap-4">
           
-            <div class="func border">
-              <div class="flex gap-1 items-center bg-gray-200 p-2">
+            <div class="bucket border">
+              <div class="expand cursor-pointer flex gap-1 items-center bg-gray-200 p-2">
                 <svg class="w-7 h-7" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 7.375C7.5 6.33947 8.33947 5.5 9.375 5.5C10.4105 5.5 11.25 6.33947 11.25 7.375V16.625C11.25 18.489 12.761 20 14.625 20C16.489 20 18 18.489 18 16.625V11.8107L19.2197 13.0303L20.2803 11.9697L17.25 8.93934L14.2197 11.9697L15.2803 13.0303L16.5 11.8107V16.625C16.5 17.6605 15.6605 18.5 14.625 18.5C13.5895 18.5 12.75 17.6605 12.75 16.625V7.375C12.75 5.51104 11.239 4 9.375 4C7.51104 4 6 5.51104 6 7.375V9.5H4V15H9.5V9.5H7.5V7.375ZM5.5 11V13.5H8V11H5.5Z" fill="#1F2328"/>
                 </svg>
                 <div class="font-semibold flex-grow">LUA_WARNING</div>
-                <svg class="w-8 h-8" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
-                </svg>
+                
+                  <svg class="w-8 h-8 transform chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 16.0609L5.96956 10.0278L7.03046 8.96739L12 13.9391L16.9696 8.96739L18.0305 10.0278L12 16.0609Z" fill="#1F2328"/>
+                  </svg>
+                
               </div>
+
+              <!-- hidden content -->
+              
+              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+                <table class="border border-gray-200 w-full">
+                  <thead class="bg-gray-200">
+                    <tr>
+                      <th class="w-2"></th>
+                      <th class="p-2 text-left">Name</th>
+                      <th class="p-2 text-left w-64">Type</th>
+                      <th class="p-2 text-left w-32">Nilable</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                  
+                    <tr>
+                      <td class="p-2"><input type="checkbox" checked></p>
+                      <td class="p-2">warnType</td>
+                      <td class="p-2">number</td>
+                      <td class="p-2">false</td>
+                    </tr>
+                  
+                    <tr>
+                      <td class="p-2"><input type="checkbox" checked></p>
+                      <td class="p-2">warningText</td>
+                      <td class="p-2">cstring</td>
+                      <td class="p-2">false</td>
+                    </tr>
+                  
+                  </tbody>
+                </table>
+
+                
+                <div> <!-- BEGIN: function call -->
+                  <h3 class="font-medium pb-2 underline">Code example</h3>
+                  <code class="bg-gray-100 block p-2">local frame = CreateFrame("Frame")</code>
+                  <code class="bg-gray-100 block p-2">frame:RegisterEvent("LUA_WARNING")</code>
+                  <code class="bg-gray-100 block p-2">frame:SetScript("OnEvent", function(self, event, ...)</code>
+                  <code class="bg-gray-100 block p-2">
+                    &nbsp;&nbsp;local
+                    
+                    
+                      
+                      warnType
+                      
+                    
+                      ,
+                      warningText
+                      
+                    
+                    = ...
+                  </code>
+                  <code class="bg-gray-100 block p-2">end)</code>
+                </div> <!-- END: function call -->
+
+              </div>
+              
             </div>
           
           </div>
-         <!-- end signals loop -->
-        
+         <!-- end events loop -->
       </div>
     </main>
 
     <script>
       window.onload = function() {
-        const expandItems = document.querySelectorAll(".func .expand");
+        const expandItems = document.querySelectorAll(".bucket .expand");
         if (expandItems) {
           expandItems.forEach(item => {
             item.addEventListener("click", evt => {
               evt.stopPropagation();
-              const func = evt.target.closest(".func");
-              const content = func.querySelector(".content");
-              const chevron = func.querySelector(".chevron");
-              const expand = func.querySelector(".expand");
-              
-              content.classList.toggle("hidden");
-              chevron.classList.toggle("rotate-180");
-              
-              func.classList.toggle("border-gray-400");
-              expand.classList.toggle("bg-gray-400");
+              const bucket = evt.target.closest(".bucket");
+              const content = bucket.querySelector(".content");
+              const chevron = bucket.querySelector(".chevron");
+              const expand = bucket.querySelector(".expand");
 
-              console.log(chevron)
+              if (bucket && content && chevron && expand) {
+                content.classList.toggle("hidden");
+                chevron.classList.toggle("rotate-180");
+              
+                bucket.classList.toggle("border-gray-400");
+                expand.classList.toggle("bg-gray-400");
+              }
             });
           });
         }
