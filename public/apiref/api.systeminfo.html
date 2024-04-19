@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>SystemInfo - WoW API</title>
     <link rel="stylesheet" href="/assets/tailwind.v2.min.css">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
     <style>
       .main-container { max-width: 1600px; }
       code.hljs { padding: 0!important; }
@@ -30,7 +31,7 @@
           <div class="flex flex-col gap-4">
           
             <div class="bucket border-2">
-              <div class="expand cursor-pointer flex gap-1 items-center bg-gray-200 p-2">
+              <div class="expand cursor-pointer flex gap-1 items-center bg-gray-200 p-2 select-none">
                 <svg class="w-7 h-7" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M7 12.75V11.25H9.38563L10.7931 6.00266C10.797 5.98811 10.8013 5.97377 10.806 5.95965L10.8102 5.94389L10.8146 5.92986C11.1634 4.81245 12.2058 4 13.44 4C14.9588 4 16.19 5.23122 16.19 6.75C16.19 6.91899 16.1747 7.08506 16.1451 7.24669L16.1396 7.2767L15.8408 8.39079L14.392 8.0022L14.6741 6.9505C14.6845 6.88564 14.69 6.81871 14.69 6.75C14.69 6.05964 14.1304 5.5 13.44 5.5C12.8852 5.5 12.413 5.86199 12.2504 6.36445L10.9394 11.25H12V12.75H10.5368L9.48551 16.6678L9.48495 16.6699L9.41212 16.9414C9.4089 16.9535 9.4054 16.9653 9.40164 16.977L9.38363 17.0435L9.38013 17.0549C9.03607 18.1802 7.98975 19 6.75 19C5.23122 19 4 17.7688 4 16.25C4 15.8992 4.08642 15.5956 4.14978 15.373L4.16503 15.3192L4.30629 14.7925L4.38192 14.5349L5.8212 14.9573L5.75052 15.1981L5.6104 15.7206C5.53143 16.0018 5.5 16.1153 5.5 16.25C5.5 16.9404 6.05964 17.5 6.75 17.5C7.30821 17.5 7.78276 17.1335 7.94256 16.6264L8.03671 16.2792L8.03726 16.2772L8.98331 12.75H7Z" fill="#1F2328"/>
                   <path d="M20.0002 17.75L18.9396 18.8107L16.9699 16.841L15.0002 18.8107L13.9396 17.75L15.9093 15.7803L13.9396 13.8107L15.0002 12.75L16.9699 14.7197L18.9396 12.75L20.0002 13.8107L18.0306 15.7803L20.0002 17.75Z" fill="#1F2328"/>
@@ -41,13 +42,13 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="SystemInfo" data-name="GetFrameStack"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-prefix-spaces="0" data-namespace="SystemInfo" data-name="GetFrameStack"> <!-- hidden stuff begins -->
 
                  <!-- end arguments -->
                 
                 
                 <div>
-                  <h3 class="font-medium pb-2 underline">Returns</h3>
+                  <h3 class="font-medium pb-2 underline">Return values</h3>
                   <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
@@ -71,27 +72,27 @@
                     </tbody>
                   </table>
                 </div>
-                 <!-- end returns -->
+                
 
-                <div> <!-- BEGIN: function call -->
-                  <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <pre class="code-snippet"></pre>
-                </div> <!-- END: function call -->
-              </div> <!-- hidden stuff ends -->
+                <div>
+                  <h3 class="font-medium pb-2 underline">Code snippet</h3>
+                  <pre class="code-snippet p-2 bg-gray-200"></pre>
+                </div>
+              </div>
               
             </div>
            
           </div>
          <!-- end function loop -->
 
-         <!-- end table loop -->
+         <!-- END: section.Tables -->
         
         
           <h2 class="font-semibold text-2xl">Events</h2>
           <div class="flex flex-col gap-4">
           
             <div class="bucket border">
-              <div class="expand cursor-pointer flex gap-1 items-center bg-gray-200 p-2">
+              <div class="expand cursor-pointer flex gap-1 items-center bg-gray-200 p-2 select-none">
                 <svg class="w-7 h-7" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 7.375C7.5 6.33947 8.33947 5.5 9.375 5.5C10.4105 5.5 11.25 6.33947 11.25 7.375V16.625C11.25 18.489 12.761 20 14.625 20C16.489 20 18 18.489 18 16.625V11.8107L19.2197 13.0303L20.2803 11.9697L17.25 8.93934L14.2197 11.9697L15.2803 13.0303L16.5 11.8107V16.625C16.5 17.6605 15.6605 18.5 14.625 18.5C13.5895 18.5 12.75 17.6605 12.75 16.625V7.375C12.75 5.51104 11.239 4 9.375 4C7.51104 4 6 5.51104 6 7.375V9.5H4V15H9.5V9.5H7.5V7.375ZM5.5 11V13.5H8V11H5.5Z" fill="#1F2328"/>
                 </svg>
@@ -102,26 +103,28 @@
               </div>
 
               <!-- hidden content -->
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-prefix-spaces="4">
                 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">local frame = CreateFrame("Frame")</code>
-                  <code class="bg-gray-100 block p-2">frame:RegisterEvent("CAPTUREFRAMES_FAILED")</code>
-                  <code class="bg-gray-100 block p-2">frame:SetScript("OnEvent", function(self, event, ...)</code>
-                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;if event == "CAPTUREFRAMES_FAILED" then</code>
-                  
-                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;&nbsp;&nbsp;-- code goes here</code>
-                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;end</code>
-                  <code class="bg-gray-100 block p-2">end)</code>
+                  <pre class="hljs p-2 flex flex-col">
+                    <code class="language-lua">local frame = CreateFrame("Frame")</code>
+                    <code class="language-lua">frame:RegisterEvent("CAPTUREFRAMES_FAILED")</code>
+                    <code class="language-lua">frame:SetScript("OnEvent", function(self, event, ...)</code>
+                    <code class="language-lua">  if event == "CAPTUREFRAMES_FAILED" then</code>
+                    <code class="code-snippet"></code>
+                    <code class="language-lua">     -- code goes here</code>
+                    <code class="language-lua">  end</code>
+                    <code class="language-lua">end)</code>
+                  </pre>
                 </div>
 
               </div>
             </div>
           
             <div class="bucket border">
-              <div class="expand cursor-pointer flex gap-1 items-center bg-gray-200 p-2">
+              <div class="expand cursor-pointer flex gap-1 items-center bg-gray-200 p-2 select-none">
                 <svg class="w-7 h-7" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 7.375C7.5 6.33947 8.33947 5.5 9.375 5.5C10.4105 5.5 11.25 6.33947 11.25 7.375V16.625C11.25 18.489 12.761 20 14.625 20C16.489 20 18 18.489 18 16.625V11.8107L19.2197 13.0303L20.2803 11.9697L17.25 8.93934L14.2197 11.9697L15.2803 13.0303L16.5 11.8107V16.625C16.5 17.6605 15.6605 18.5 14.625 18.5C13.5895 18.5 12.75 17.6605 12.75 16.625V7.375C12.75 5.51104 11.239 4 9.375 4C7.51104 4 6 5.51104 6 7.375V9.5H4V15H9.5V9.5H7.5V7.375ZM5.5 11V13.5H8V11H5.5Z" fill="#1F2328"/>
                 </svg>
@@ -132,26 +135,28 @@
               </div>
 
               <!-- hidden content -->
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-prefix-spaces="4">
                 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">local frame = CreateFrame("Frame")</code>
-                  <code class="bg-gray-100 block p-2">frame:RegisterEvent("CAPTUREFRAMES_SUCCEEDED")</code>
-                  <code class="bg-gray-100 block p-2">frame:SetScript("OnEvent", function(self, event, ...)</code>
-                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;if event == "CAPTUREFRAMES_SUCCEEDED" then</code>
-                  
-                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;&nbsp;&nbsp;-- code goes here</code>
-                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;end</code>
-                  <code class="bg-gray-100 block p-2">end)</code>
+                  <pre class="hljs p-2 flex flex-col">
+                    <code class="language-lua">local frame = CreateFrame("Frame")</code>
+                    <code class="language-lua">frame:RegisterEvent("CAPTUREFRAMES_SUCCEEDED")</code>
+                    <code class="language-lua">frame:SetScript("OnEvent", function(self, event, ...)</code>
+                    <code class="language-lua">  if event == "CAPTUREFRAMES_SUCCEEDED" then</code>
+                    <code class="code-snippet"></code>
+                    <code class="language-lua">     -- code goes here</code>
+                    <code class="language-lua">  end</code>
+                    <code class="language-lua">end)</code>
+                  </pre>
                 </div>
 
               </div>
             </div>
           
             <div class="bucket border">
-              <div class="expand cursor-pointer flex gap-1 items-center bg-gray-200 p-2">
+              <div class="expand cursor-pointer flex gap-1 items-center bg-gray-200 p-2 select-none">
                 <svg class="w-7 h-7" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 7.375C7.5 6.33947 8.33947 5.5 9.375 5.5C10.4105 5.5 11.25 6.33947 11.25 7.375V16.625C11.25 18.489 12.761 20 14.625 20C16.489 20 18 18.489 18 16.625V11.8107L19.2197 13.0303L20.2803 11.9697L17.25 8.93934L14.2197 11.9697L15.2803 13.0303L16.5 11.8107V16.625C16.5 17.6605 15.6605 18.5 14.625 18.5C13.5895 18.5 12.75 17.6605 12.75 16.625V7.375C12.75 5.51104 11.239 4 9.375 4C7.51104 4 6 5.51104 6 7.375V9.5H4V15H9.5V9.5H7.5V7.375ZM5.5 11V13.5H8V11H5.5Z" fill="#1F2328"/>
                 </svg>
@@ -162,26 +167,28 @@
               </div>
 
               <!-- hidden content -->
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-prefix-spaces="4">
                 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">local frame = CreateFrame("Frame")</code>
-                  <code class="bg-gray-100 block p-2">frame:RegisterEvent("DISABLE_TAXI_BENCHMARK")</code>
-                  <code class="bg-gray-100 block p-2">frame:SetScript("OnEvent", function(self, event, ...)</code>
-                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;if event == "DISABLE_TAXI_BENCHMARK" then</code>
-                  
-                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;&nbsp;&nbsp;-- code goes here</code>
-                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;end</code>
-                  <code class="bg-gray-100 block p-2">end)</code>
+                  <pre class="hljs p-2 flex flex-col">
+                    <code class="language-lua">local frame = CreateFrame("Frame")</code>
+                    <code class="language-lua">frame:RegisterEvent("DISABLE_TAXI_BENCHMARK")</code>
+                    <code class="language-lua">frame:SetScript("OnEvent", function(self, event, ...)</code>
+                    <code class="language-lua">  if event == "DISABLE_TAXI_BENCHMARK" then</code>
+                    <code class="code-snippet"></code>
+                    <code class="language-lua">     -- code goes here</code>
+                    <code class="language-lua">  end</code>
+                    <code class="language-lua">end)</code>
+                  </pre>
                 </div>
 
               </div>
             </div>
           
             <div class="bucket border">
-              <div class="expand cursor-pointer flex gap-1 items-center bg-gray-200 p-2">
+              <div class="expand cursor-pointer flex gap-1 items-center bg-gray-200 p-2 select-none">
                 <svg class="w-7 h-7" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 7.375C7.5 6.33947 8.33947 5.5 9.375 5.5C10.4105 5.5 11.25 6.33947 11.25 7.375V16.625C11.25 18.489 12.761 20 14.625 20C16.489 20 18 18.489 18 16.625V11.8107L19.2197 13.0303L20.2803 11.9697L17.25 8.93934L14.2197 11.9697L15.2803 13.0303L16.5 11.8107V16.625C16.5 17.6605 15.6605 18.5 14.625 18.5C13.5895 18.5 12.75 17.6605 12.75 16.625V7.375C12.75 5.51104 11.239 4 9.375 4C7.51104 4 6 5.51104 6 7.375V9.5H4V15H9.5V9.5H7.5V7.375ZM5.5 11V13.5H8V11H5.5Z" fill="#1F2328"/>
                 </svg>
@@ -192,26 +199,28 @@
               </div>
 
               <!-- hidden content -->
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-prefix-spaces="4">
                 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">local frame = CreateFrame("Frame")</code>
-                  <code class="bg-gray-100 block p-2">frame:RegisterEvent("ENABLE_TAXI_BENCHMARK")</code>
-                  <code class="bg-gray-100 block p-2">frame:SetScript("OnEvent", function(self, event, ...)</code>
-                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;if event == "ENABLE_TAXI_BENCHMARK" then</code>
-                  
-                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;&nbsp;&nbsp;-- code goes here</code>
-                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;end</code>
-                  <code class="bg-gray-100 block p-2">end)</code>
+                  <pre class="hljs p-2 flex flex-col">
+                    <code class="language-lua">local frame = CreateFrame("Frame")</code>
+                    <code class="language-lua">frame:RegisterEvent("ENABLE_TAXI_BENCHMARK")</code>
+                    <code class="language-lua">frame:SetScript("OnEvent", function(self, event, ...)</code>
+                    <code class="language-lua">  if event == "ENABLE_TAXI_BENCHMARK" then</code>
+                    <code class="code-snippet"></code>
+                    <code class="language-lua">     -- code goes here</code>
+                    <code class="language-lua">  end</code>
+                    <code class="language-lua">end)</code>
+                  </pre>
                 </div>
 
               </div>
             </div>
           
             <div class="bucket border">
-              <div class="expand cursor-pointer flex gap-1 items-center bg-gray-200 p-2">
+              <div class="expand cursor-pointer flex gap-1 items-center bg-gray-200 p-2 select-none">
                 <svg class="w-7 h-7" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 7.375C7.5 6.33947 8.33947 5.5 9.375 5.5C10.4105 5.5 11.25 6.33947 11.25 7.375V16.625C11.25 18.489 12.761 20 14.625 20C16.489 20 18 18.489 18 16.625V11.8107L19.2197 13.0303L20.2803 11.9697L17.25 8.93934L14.2197 11.9697L15.2803 13.0303L16.5 11.8107V16.625C16.5 17.6605 15.6605 18.5 14.625 18.5C13.5895 18.5 12.75 17.6605 12.75 16.625V7.375C12.75 5.51104 11.239 4 9.375 4C7.51104 4 6 5.51104 6 7.375V9.5H4V15H9.5V9.5H7.5V7.375ZM5.5 11V13.5H8V11H5.5Z" fill="#1F2328"/>
                 </svg>
@@ -222,26 +231,28 @@
               </div>
 
               <!-- hidden content -->
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-prefix-spaces="4">
                 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">local frame = CreateFrame("Frame")</code>
-                  <code class="bg-gray-100 block p-2">frame:RegisterEvent("FIRST_FRAME_RENDERED")</code>
-                  <code class="bg-gray-100 block p-2">frame:SetScript("OnEvent", function(self, event, ...)</code>
-                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;if event == "FIRST_FRAME_RENDERED" then</code>
-                  
-                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;&nbsp;&nbsp;-- code goes here</code>
-                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;end</code>
-                  <code class="bg-gray-100 block p-2">end)</code>
+                  <pre class="hljs p-2 flex flex-col">
+                    <code class="language-lua">local frame = CreateFrame("Frame")</code>
+                    <code class="language-lua">frame:RegisterEvent("FIRST_FRAME_RENDERED")</code>
+                    <code class="language-lua">frame:SetScript("OnEvent", function(self, event, ...)</code>
+                    <code class="language-lua">  if event == "FIRST_FRAME_RENDERED" then</code>
+                    <code class="code-snippet"></code>
+                    <code class="language-lua">     -- code goes here</code>
+                    <code class="language-lua">  end</code>
+                    <code class="language-lua">end)</code>
+                  </pre>
                 </div>
 
               </div>
             </div>
           
             <div class="bucket border">
-              <div class="expand cursor-pointer flex gap-1 items-center bg-gray-200 p-2">
+              <div class="expand cursor-pointer flex gap-1 items-center bg-gray-200 p-2 select-none">
                 <svg class="w-7 h-7" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 7.375C7.5 6.33947 8.33947 5.5 9.375 5.5C10.4105 5.5 11.25 6.33947 11.25 7.375V16.625C11.25 18.489 12.761 20 14.625 20C16.489 20 18 18.489 18 16.625V11.8107L19.2197 13.0303L20.2803 11.9697L17.25 8.93934L14.2197 11.9697L15.2803 13.0303L16.5 11.8107V16.625C16.5 17.6605 15.6605 18.5 14.625 18.5C13.5895 18.5 12.75 17.6605 12.75 16.625V7.375C12.75 5.51104 11.239 4 9.375 4C7.51104 4 6 5.51104 6 7.375V9.5H4V15H9.5V9.5H7.5V7.375ZM5.5 11V13.5H8V11H5.5Z" fill="#1F2328"/>
                 </svg>
@@ -252,9 +263,9 @@
               </div>
 
               <!-- hidden content -->
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-prefix-spaces="4">
                 
-                <table class="border border-gray-200 w-full">
+                <table class="definition-return border border-gray-200 w-full">
                   <thead class="bg-gray-200">
                     <tr>
                       <th class="w-2"></th>
@@ -278,32 +289,23 @@
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">local frame = CreateFrame("Frame")</code>
-                  <code class="bg-gray-100 block p-2">frame:RegisterEvent("GENERIC_ERROR")</code>
-                  <code class="bg-gray-100 block p-2">frame:SetScript("OnEvent", function(self, event, ...)</code>
-                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;if event == "GENERIC_ERROR" then</code>
-                  
-                  <code class="bg-gray-100 block p-2">
-                    &nbsp;&nbsp;&nbsp;&nbsp;local
-                    
-                    
-                      
-                      errorMessage
-                      
-                    
-                    = ...
-                  </code>
-                  
-                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;&nbsp;&nbsp;-- code goes here</code>
-                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;end</code>
-                  <code class="bg-gray-100 block p-2">end)</code>
+                  <pre class="hljs p-2 flex flex-col">
+                    <code class="language-lua">local frame = CreateFrame("Frame")</code>
+                    <code class="language-lua">frame:RegisterEvent("GENERIC_ERROR")</code>
+                    <code class="language-lua">frame:SetScript("OnEvent", function(self, event, ...)</code>
+                    <code class="language-lua">  if event == "GENERIC_ERROR" then</code>
+                    <code class="code-snippet"></code>
+                    <code class="language-lua">     -- code goes here</code>
+                    <code class="language-lua">  end</code>
+                    <code class="language-lua">end)</code>
+                  </pre>
                 </div>
 
               </div>
             </div>
           
             <div class="bucket border">
-              <div class="expand cursor-pointer flex gap-1 items-center bg-gray-200 p-2">
+              <div class="expand cursor-pointer flex gap-1 items-center bg-gray-200 p-2 select-none">
                 <svg class="w-7 h-7" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 7.375C7.5 6.33947 8.33947 5.5 9.375 5.5C10.4105 5.5 11.25 6.33947 11.25 7.375V16.625C11.25 18.489 12.761 20 14.625 20C16.489 20 18 18.489 18 16.625V11.8107L19.2197 13.0303L20.2803 11.9697L17.25 8.93934L14.2197 11.9697L15.2803 13.0303L16.5 11.8107V16.625C16.5 17.6605 15.6605 18.5 14.625 18.5C13.5895 18.5 12.75 17.6605 12.75 16.625V7.375C12.75 5.51104 11.239 4 9.375 4C7.51104 4 6 5.51104 6 7.375V9.5H4V15H9.5V9.5H7.5V7.375ZM5.5 11V13.5H8V11H5.5Z" fill="#1F2328"/>
                 </svg>
@@ -314,9 +316,9 @@
               </div>
 
               <!-- hidden content -->
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-prefix-spaces="4">
                 
-                <table class="border border-gray-200 w-full">
+                <table class="definition-return border border-gray-200 w-full">
                   <thead class="bg-gray-200">
                     <tr>
                       <th class="w-2"></th>
@@ -340,32 +342,23 @@
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">local frame = CreateFrame("Frame")</code>
-                  <code class="bg-gray-100 block p-2">frame:RegisterEvent("GLOBAL_MOUSE_DOWN")</code>
-                  <code class="bg-gray-100 block p-2">frame:SetScript("OnEvent", function(self, event, ...)</code>
-                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;if event == "GLOBAL_MOUSE_DOWN" then</code>
-                  
-                  <code class="bg-gray-100 block p-2">
-                    &nbsp;&nbsp;&nbsp;&nbsp;local
-                    
-                    
-                      
-                      button
-                      
-                    
-                    = ...
-                  </code>
-                  
-                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;&nbsp;&nbsp;-- code goes here</code>
-                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;end</code>
-                  <code class="bg-gray-100 block p-2">end)</code>
+                  <pre class="hljs p-2 flex flex-col">
+                    <code class="language-lua">local frame = CreateFrame("Frame")</code>
+                    <code class="language-lua">frame:RegisterEvent("GLOBAL_MOUSE_DOWN")</code>
+                    <code class="language-lua">frame:SetScript("OnEvent", function(self, event, ...)</code>
+                    <code class="language-lua">  if event == "GLOBAL_MOUSE_DOWN" then</code>
+                    <code class="code-snippet"></code>
+                    <code class="language-lua">     -- code goes here</code>
+                    <code class="language-lua">  end</code>
+                    <code class="language-lua">end)</code>
+                  </pre>
                 </div>
 
               </div>
             </div>
           
             <div class="bucket border">
-              <div class="expand cursor-pointer flex gap-1 items-center bg-gray-200 p-2">
+              <div class="expand cursor-pointer flex gap-1 items-center bg-gray-200 p-2 select-none">
                 <svg class="w-7 h-7" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 7.375C7.5 6.33947 8.33947 5.5 9.375 5.5C10.4105 5.5 11.25 6.33947 11.25 7.375V16.625C11.25 18.489 12.761 20 14.625 20C16.489 20 18 18.489 18 16.625V11.8107L19.2197 13.0303L20.2803 11.9697L17.25 8.93934L14.2197 11.9697L15.2803 13.0303L16.5 11.8107V16.625C16.5 17.6605 15.6605 18.5 14.625 18.5C13.5895 18.5 12.75 17.6605 12.75 16.625V7.375C12.75 5.51104 11.239 4 9.375 4C7.51104 4 6 5.51104 6 7.375V9.5H4V15H9.5V9.5H7.5V7.375ZM5.5 11V13.5H8V11H5.5Z" fill="#1F2328"/>
                 </svg>
@@ -376,9 +369,9 @@
               </div>
 
               <!-- hidden content -->
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-prefix-spaces="4">
                 
-                <table class="border border-gray-200 w-full">
+                <table class="definition-return border border-gray-200 w-full">
                   <thead class="bg-gray-200">
                     <tr>
                       <th class="w-2"></th>
@@ -402,32 +395,23 @@
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">local frame = CreateFrame("Frame")</code>
-                  <code class="bg-gray-100 block p-2">frame:RegisterEvent("GLOBAL_MOUSE_UP")</code>
-                  <code class="bg-gray-100 block p-2">frame:SetScript("OnEvent", function(self, event, ...)</code>
-                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;if event == "GLOBAL_MOUSE_UP" then</code>
-                  
-                  <code class="bg-gray-100 block p-2">
-                    &nbsp;&nbsp;&nbsp;&nbsp;local
-                    
-                    
-                      
-                      button
-                      
-                    
-                    = ...
-                  </code>
-                  
-                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;&nbsp;&nbsp;-- code goes here</code>
-                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;end</code>
-                  <code class="bg-gray-100 block p-2">end)</code>
+                  <pre class="hljs p-2 flex flex-col">
+                    <code class="language-lua">local frame = CreateFrame("Frame")</code>
+                    <code class="language-lua">frame:RegisterEvent("GLOBAL_MOUSE_UP")</code>
+                    <code class="language-lua">frame:SetScript("OnEvent", function(self, event, ...)</code>
+                    <code class="language-lua">  if event == "GLOBAL_MOUSE_UP" then</code>
+                    <code class="code-snippet"></code>
+                    <code class="language-lua">     -- code goes here</code>
+                    <code class="language-lua">  end</code>
+                    <code class="language-lua">end)</code>
+                  </pre>
                 </div>
 
               </div>
             </div>
           
             <div class="bucket border">
-              <div class="expand cursor-pointer flex gap-1 items-center bg-gray-200 p-2">
+              <div class="expand cursor-pointer flex gap-1 items-center bg-gray-200 p-2 select-none">
                 <svg class="w-7 h-7" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 7.375C7.5 6.33947 8.33947 5.5 9.375 5.5C10.4105 5.5 11.25 6.33947 11.25 7.375V16.625C11.25 18.489 12.761 20 14.625 20C16.489 20 18 18.489 18 16.625V11.8107L19.2197 13.0303L20.2803 11.9697L17.25 8.93934L14.2197 11.9697L15.2803 13.0303L16.5 11.8107V16.625C16.5 17.6605 15.6605 18.5 14.625 18.5C13.5895 18.5 12.75 17.6605 12.75 16.625V7.375C12.75 5.51104 11.239 4 9.375 4C7.51104 4 6 5.51104 6 7.375V9.5H4V15H9.5V9.5H7.5V7.375ZM5.5 11V13.5H8V11H5.5Z" fill="#1F2328"/>
                 </svg>
@@ -438,26 +422,28 @@
               </div>
 
               <!-- hidden content -->
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-prefix-spaces="4">
                 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">local frame = CreateFrame("Frame")</code>
-                  <code class="bg-gray-100 block p-2">frame:RegisterEvent("INITIAL_HOTFIXES_APPLIED")</code>
-                  <code class="bg-gray-100 block p-2">frame:SetScript("OnEvent", function(self, event, ...)</code>
-                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;if event == "INITIAL_HOTFIXES_APPLIED" then</code>
-                  
-                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;&nbsp;&nbsp;-- code goes here</code>
-                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;end</code>
-                  <code class="bg-gray-100 block p-2">end)</code>
+                  <pre class="hljs p-2 flex flex-col">
+                    <code class="language-lua">local frame = CreateFrame("Frame")</code>
+                    <code class="language-lua">frame:RegisterEvent("INITIAL_HOTFIXES_APPLIED")</code>
+                    <code class="language-lua">frame:SetScript("OnEvent", function(self, event, ...)</code>
+                    <code class="language-lua">  if event == "INITIAL_HOTFIXES_APPLIED" then</code>
+                    <code class="code-snippet"></code>
+                    <code class="language-lua">     -- code goes here</code>
+                    <code class="language-lua">  end</code>
+                    <code class="language-lua">end)</code>
+                  </pre>
                 </div>
 
               </div>
             </div>
           
             <div class="bucket border">
-              <div class="expand cursor-pointer flex gap-1 items-center bg-gray-200 p-2">
+              <div class="expand cursor-pointer flex gap-1 items-center bg-gray-200 p-2 select-none">
                 <svg class="w-7 h-7" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 7.375C7.5 6.33947 8.33947 5.5 9.375 5.5C10.4105 5.5 11.25 6.33947 11.25 7.375V16.625C11.25 18.489 12.761 20 14.625 20C16.489 20 18 18.489 18 16.625V11.8107L19.2197 13.0303L20.2803 11.9697L17.25 8.93934L14.2197 11.9697L15.2803 13.0303L16.5 11.8107V16.625C16.5 17.6605 15.6605 18.5 14.625 18.5C13.5895 18.5 12.75 17.6605 12.75 16.625V7.375C12.75 5.51104 11.239 4 9.375 4C7.51104 4 6 5.51104 6 7.375V9.5H4V15H9.5V9.5H7.5V7.375ZM5.5 11V13.5H8V11H5.5Z" fill="#1F2328"/>
                 </svg>
@@ -468,9 +454,9 @@
               </div>
 
               <!-- hidden content -->
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-prefix-spaces="4">
                 
-                <table class="border border-gray-200 w-full">
+                <table class="definition-return border border-gray-200 w-full">
                   <thead class="bg-gray-200">
                     <tr>
                       <th class="w-2"></th>
@@ -494,32 +480,23 @@
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">local frame = CreateFrame("Frame")</code>
-                  <code class="bg-gray-100 block p-2">frame:RegisterEvent("LOC_RESULT")</code>
-                  <code class="bg-gray-100 block p-2">frame:SetScript("OnEvent", function(self, event, ...)</code>
-                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;if event == "LOC_RESULT" then</code>
-                  
-                  <code class="bg-gray-100 block p-2">
-                    &nbsp;&nbsp;&nbsp;&nbsp;local
-                    
-                    
-                      
-                      result
-                      
-                    
-                    = ...
-                  </code>
-                  
-                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;&nbsp;&nbsp;-- code goes here</code>
-                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;end</code>
-                  <code class="bg-gray-100 block p-2">end)</code>
+                  <pre class="hljs p-2 flex flex-col">
+                    <code class="language-lua">local frame = CreateFrame("Frame")</code>
+                    <code class="language-lua">frame:RegisterEvent("LOC_RESULT")</code>
+                    <code class="language-lua">frame:SetScript("OnEvent", function(self, event, ...)</code>
+                    <code class="language-lua">  if event == "LOC_RESULT" then</code>
+                    <code class="code-snippet"></code>
+                    <code class="language-lua">     -- code goes here</code>
+                    <code class="language-lua">  end</code>
+                    <code class="language-lua">end)</code>
+                  </pre>
                 </div>
 
               </div>
             </div>
           
             <div class="bucket border">
-              <div class="expand cursor-pointer flex gap-1 items-center bg-gray-200 p-2">
+              <div class="expand cursor-pointer flex gap-1 items-center bg-gray-200 p-2 select-none">
                 <svg class="w-7 h-7" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 7.375C7.5 6.33947 8.33947 5.5 9.375 5.5C10.4105 5.5 11.25 6.33947 11.25 7.375V16.625C11.25 18.489 12.761 20 14.625 20C16.489 20 18 18.489 18 16.625V11.8107L19.2197 13.0303L20.2803 11.9697L17.25 8.93934L14.2197 11.9697L15.2803 13.0303L16.5 11.8107V16.625C16.5 17.6605 15.6605 18.5 14.625 18.5C13.5895 18.5 12.75 17.6605 12.75 16.625V7.375C12.75 5.51104 11.239 4 9.375 4C7.51104 4 6 5.51104 6 7.375V9.5H4V15H9.5V9.5H7.5V7.375ZM5.5 11V13.5H8V11H5.5Z" fill="#1F2328"/>
                 </svg>
@@ -530,26 +507,28 @@
               </div>
 
               <!-- hidden content -->
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-prefix-spaces="4">
                 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">local frame = CreateFrame("Frame")</code>
-                  <code class="bg-gray-100 block p-2">frame:RegisterEvent("LOGOUT_CANCEL")</code>
-                  <code class="bg-gray-100 block p-2">frame:SetScript("OnEvent", function(self, event, ...)</code>
-                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;if event == "LOGOUT_CANCEL" then</code>
-                  
-                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;&nbsp;&nbsp;-- code goes here</code>
-                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;end</code>
-                  <code class="bg-gray-100 block p-2">end)</code>
+                  <pre class="hljs p-2 flex flex-col">
+                    <code class="language-lua">local frame = CreateFrame("Frame")</code>
+                    <code class="language-lua">frame:RegisterEvent("LOGOUT_CANCEL")</code>
+                    <code class="language-lua">frame:SetScript("OnEvent", function(self, event, ...)</code>
+                    <code class="language-lua">  if event == "LOGOUT_CANCEL" then</code>
+                    <code class="code-snippet"></code>
+                    <code class="language-lua">     -- code goes here</code>
+                    <code class="language-lua">  end</code>
+                    <code class="language-lua">end)</code>
+                  </pre>
                 </div>
 
               </div>
             </div>
           
             <div class="bucket border">
-              <div class="expand cursor-pointer flex gap-1 items-center bg-gray-200 p-2">
+              <div class="expand cursor-pointer flex gap-1 items-center bg-gray-200 p-2 select-none">
                 <svg class="w-7 h-7" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 7.375C7.5 6.33947 8.33947 5.5 9.375 5.5C10.4105 5.5 11.25 6.33947 11.25 7.375V16.625C11.25 18.489 12.761 20 14.625 20C16.489 20 18 18.489 18 16.625V11.8107L19.2197 13.0303L20.2803 11.9697L17.25 8.93934L14.2197 11.9697L15.2803 13.0303L16.5 11.8107V16.625C16.5 17.6605 15.6605 18.5 14.625 18.5C13.5895 18.5 12.75 17.6605 12.75 16.625V7.375C12.75 5.51104 11.239 4 9.375 4C7.51104 4 6 5.51104 6 7.375V9.5H4V15H9.5V9.5H7.5V7.375ZM5.5 11V13.5H8V11H5.5Z" fill="#1F2328"/>
                 </svg>
@@ -560,26 +539,28 @@
               </div>
 
               <!-- hidden content -->
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-prefix-spaces="4">
                 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">local frame = CreateFrame("Frame")</code>
-                  <code class="bg-gray-100 block p-2">frame:RegisterEvent("PLAYER_CAMPING")</code>
-                  <code class="bg-gray-100 block p-2">frame:SetScript("OnEvent", function(self, event, ...)</code>
-                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;if event == "PLAYER_CAMPING" then</code>
-                  
-                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;&nbsp;&nbsp;-- code goes here</code>
-                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;end</code>
-                  <code class="bg-gray-100 block p-2">end)</code>
+                  <pre class="hljs p-2 flex flex-col">
+                    <code class="language-lua">local frame = CreateFrame("Frame")</code>
+                    <code class="language-lua">frame:RegisterEvent("PLAYER_CAMPING")</code>
+                    <code class="language-lua">frame:SetScript("OnEvent", function(self, event, ...)</code>
+                    <code class="language-lua">  if event == "PLAYER_CAMPING" then</code>
+                    <code class="code-snippet"></code>
+                    <code class="language-lua">     -- code goes here</code>
+                    <code class="language-lua">  end</code>
+                    <code class="language-lua">end)</code>
+                  </pre>
                 </div>
 
               </div>
             </div>
           
             <div class="bucket border">
-              <div class="expand cursor-pointer flex gap-1 items-center bg-gray-200 p-2">
+              <div class="expand cursor-pointer flex gap-1 items-center bg-gray-200 p-2 select-none">
                 <svg class="w-7 h-7" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 7.375C7.5 6.33947 8.33947 5.5 9.375 5.5C10.4105 5.5 11.25 6.33947 11.25 7.375V16.625C11.25 18.489 12.761 20 14.625 20C16.489 20 18 18.489 18 16.625V11.8107L19.2197 13.0303L20.2803 11.9697L17.25 8.93934L14.2197 11.9697L15.2803 13.0303L16.5 11.8107V16.625C16.5 17.6605 15.6605 18.5 14.625 18.5C13.5895 18.5 12.75 17.6605 12.75 16.625V7.375C12.75 5.51104 11.239 4 9.375 4C7.51104 4 6 5.51104 6 7.375V9.5H4V15H9.5V9.5H7.5V7.375ZM5.5 11V13.5H8V11H5.5Z" fill="#1F2328"/>
                 </svg>
@@ -590,9 +571,9 @@
               </div>
 
               <!-- hidden content -->
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-prefix-spaces="4">
                 
-                <table class="border border-gray-200 w-full">
+                <table class="definition-return border border-gray-200 w-full">
                   <thead class="bg-gray-200">
                     <tr>
                       <th class="w-2"></th>
@@ -623,36 +604,23 @@
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">local frame = CreateFrame("Frame")</code>
-                  <code class="bg-gray-100 block p-2">frame:RegisterEvent("PLAYER_ENTERING_WORLD")</code>
-                  <code class="bg-gray-100 block p-2">frame:SetScript("OnEvent", function(self, event, ...)</code>
-                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;if event == "PLAYER_ENTERING_WORLD" then</code>
-                  
-                  <code class="bg-gray-100 block p-2">
-                    &nbsp;&nbsp;&nbsp;&nbsp;local
-                    
-                    
-                      
-                      isInitialLogin
-                      
-                    
-                      ,
-                      isReloadingUi
-                      
-                    
-                    = ...
-                  </code>
-                  
-                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;&nbsp;&nbsp;-- code goes here</code>
-                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;end</code>
-                  <code class="bg-gray-100 block p-2">end)</code>
+                  <pre class="hljs p-2 flex flex-col">
+                    <code class="language-lua">local frame = CreateFrame("Frame")</code>
+                    <code class="language-lua">frame:RegisterEvent("PLAYER_ENTERING_WORLD")</code>
+                    <code class="language-lua">frame:SetScript("OnEvent", function(self, event, ...)</code>
+                    <code class="language-lua">  if event == "PLAYER_ENTERING_WORLD" then</code>
+                    <code class="code-snippet"></code>
+                    <code class="language-lua">     -- code goes here</code>
+                    <code class="language-lua">  end</code>
+                    <code class="language-lua">end)</code>
+                  </pre>
                 </div>
 
               </div>
             </div>
           
             <div class="bucket border">
-              <div class="expand cursor-pointer flex gap-1 items-center bg-gray-200 p-2">
+              <div class="expand cursor-pointer flex gap-1 items-center bg-gray-200 p-2 select-none">
                 <svg class="w-7 h-7" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 7.375C7.5 6.33947 8.33947 5.5 9.375 5.5C10.4105 5.5 11.25 6.33947 11.25 7.375V16.625C11.25 18.489 12.761 20 14.625 20C16.489 20 18 18.489 18 16.625V11.8107L19.2197 13.0303L20.2803 11.9697L17.25 8.93934L14.2197 11.9697L15.2803 13.0303L16.5 11.8107V16.625C16.5 17.6605 15.6605 18.5 14.625 18.5C13.5895 18.5 12.75 17.6605 12.75 16.625V7.375C12.75 5.51104 11.239 4 9.375 4C7.51104 4 6 5.51104 6 7.375V9.5H4V15H9.5V9.5H7.5V7.375ZM5.5 11V13.5H8V11H5.5Z" fill="#1F2328"/>
                 </svg>
@@ -663,26 +631,28 @@
               </div>
 
               <!-- hidden content -->
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-prefix-spaces="4">
                 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">local frame = CreateFrame("Frame")</code>
-                  <code class="bg-gray-100 block p-2">frame:RegisterEvent("PLAYER_LEAVING_WORLD")</code>
-                  <code class="bg-gray-100 block p-2">frame:SetScript("OnEvent", function(self, event, ...)</code>
-                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;if event == "PLAYER_LEAVING_WORLD" then</code>
-                  
-                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;&nbsp;&nbsp;-- code goes here</code>
-                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;end</code>
-                  <code class="bg-gray-100 block p-2">end)</code>
+                  <pre class="hljs p-2 flex flex-col">
+                    <code class="language-lua">local frame = CreateFrame("Frame")</code>
+                    <code class="language-lua">frame:RegisterEvent("PLAYER_LEAVING_WORLD")</code>
+                    <code class="language-lua">frame:SetScript("OnEvent", function(self, event, ...)</code>
+                    <code class="language-lua">  if event == "PLAYER_LEAVING_WORLD" then</code>
+                    <code class="code-snippet"></code>
+                    <code class="language-lua">     -- code goes here</code>
+                    <code class="language-lua">  end</code>
+                    <code class="language-lua">end)</code>
+                  </pre>
                 </div>
 
               </div>
             </div>
           
             <div class="bucket border">
-              <div class="expand cursor-pointer flex gap-1 items-center bg-gray-200 p-2">
+              <div class="expand cursor-pointer flex gap-1 items-center bg-gray-200 p-2 select-none">
                 <svg class="w-7 h-7" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 7.375C7.5 6.33947 8.33947 5.5 9.375 5.5C10.4105 5.5 11.25 6.33947 11.25 7.375V16.625C11.25 18.489 12.761 20 14.625 20C16.489 20 18 18.489 18 16.625V11.8107L19.2197 13.0303L20.2803 11.9697L17.25 8.93934L14.2197 11.9697L15.2803 13.0303L16.5 11.8107V16.625C16.5 17.6605 15.6605 18.5 14.625 18.5C13.5895 18.5 12.75 17.6605 12.75 16.625V7.375C12.75 5.51104 11.239 4 9.375 4C7.51104 4 6 5.51104 6 7.375V9.5H4V15H9.5V9.5H7.5V7.375ZM5.5 11V13.5H8V11H5.5Z" fill="#1F2328"/>
                 </svg>
@@ -693,26 +663,28 @@
               </div>
 
               <!-- hidden content -->
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-prefix-spaces="4">
                 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">local frame = CreateFrame("Frame")</code>
-                  <code class="bg-gray-100 block p-2">frame:RegisterEvent("PLAYER_LOGIN")</code>
-                  <code class="bg-gray-100 block p-2">frame:SetScript("OnEvent", function(self, event, ...)</code>
-                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;if event == "PLAYER_LOGIN" then</code>
-                  
-                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;&nbsp;&nbsp;-- code goes here</code>
-                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;end</code>
-                  <code class="bg-gray-100 block p-2">end)</code>
+                  <pre class="hljs p-2 flex flex-col">
+                    <code class="language-lua">local frame = CreateFrame("Frame")</code>
+                    <code class="language-lua">frame:RegisterEvent("PLAYER_LOGIN")</code>
+                    <code class="language-lua">frame:SetScript("OnEvent", function(self, event, ...)</code>
+                    <code class="language-lua">  if event == "PLAYER_LOGIN" then</code>
+                    <code class="code-snippet"></code>
+                    <code class="language-lua">     -- code goes here</code>
+                    <code class="language-lua">  end</code>
+                    <code class="language-lua">end)</code>
+                  </pre>
                 </div>
 
               </div>
             </div>
           
             <div class="bucket border">
-              <div class="expand cursor-pointer flex gap-1 items-center bg-gray-200 p-2">
+              <div class="expand cursor-pointer flex gap-1 items-center bg-gray-200 p-2 select-none">
                 <svg class="w-7 h-7" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 7.375C7.5 6.33947 8.33947 5.5 9.375 5.5C10.4105 5.5 11.25 6.33947 11.25 7.375V16.625C11.25 18.489 12.761 20 14.625 20C16.489 20 18 18.489 18 16.625V11.8107L19.2197 13.0303L20.2803 11.9697L17.25 8.93934L14.2197 11.9697L15.2803 13.0303L16.5 11.8107V16.625C16.5 17.6605 15.6605 18.5 14.625 18.5C13.5895 18.5 12.75 17.6605 12.75 16.625V7.375C12.75 5.51104 11.239 4 9.375 4C7.51104 4 6 5.51104 6 7.375V9.5H4V15H9.5V9.5H7.5V7.375ZM5.5 11V13.5H8V11H5.5Z" fill="#1F2328"/>
                 </svg>
@@ -723,26 +695,28 @@
               </div>
 
               <!-- hidden content -->
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-prefix-spaces="4">
                 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">local frame = CreateFrame("Frame")</code>
-                  <code class="bg-gray-100 block p-2">frame:RegisterEvent("PLAYER_LOGOUT")</code>
-                  <code class="bg-gray-100 block p-2">frame:SetScript("OnEvent", function(self, event, ...)</code>
-                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;if event == "PLAYER_LOGOUT" then</code>
-                  
-                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;&nbsp;&nbsp;-- code goes here</code>
-                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;end</code>
-                  <code class="bg-gray-100 block p-2">end)</code>
+                  <pre class="hljs p-2 flex flex-col">
+                    <code class="language-lua">local frame = CreateFrame("Frame")</code>
+                    <code class="language-lua">frame:RegisterEvent("PLAYER_LOGOUT")</code>
+                    <code class="language-lua">frame:SetScript("OnEvent", function(self, event, ...)</code>
+                    <code class="language-lua">  if event == "PLAYER_LOGOUT" then</code>
+                    <code class="code-snippet"></code>
+                    <code class="language-lua">     -- code goes here</code>
+                    <code class="language-lua">  end</code>
+                    <code class="language-lua">end)</code>
+                  </pre>
                 </div>
 
               </div>
             </div>
           
             <div class="bucket border">
-              <div class="expand cursor-pointer flex gap-1 items-center bg-gray-200 p-2">
+              <div class="expand cursor-pointer flex gap-1 items-center bg-gray-200 p-2 select-none">
                 <svg class="w-7 h-7" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 7.375C7.5 6.33947 8.33947 5.5 9.375 5.5C10.4105 5.5 11.25 6.33947 11.25 7.375V16.625C11.25 18.489 12.761 20 14.625 20C16.489 20 18 18.489 18 16.625V11.8107L19.2197 13.0303L20.2803 11.9697L17.25 8.93934L14.2197 11.9697L15.2803 13.0303L16.5 11.8107V16.625C16.5 17.6605 15.6605 18.5 14.625 18.5C13.5895 18.5 12.75 17.6605 12.75 16.625V7.375C12.75 5.51104 11.239 4 9.375 4C7.51104 4 6 5.51104 6 7.375V9.5H4V15H9.5V9.5H7.5V7.375ZM5.5 11V13.5H8V11H5.5Z" fill="#1F2328"/>
                 </svg>
@@ -753,26 +727,28 @@
               </div>
 
               <!-- hidden content -->
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-prefix-spaces="4">
                 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">local frame = CreateFrame("Frame")</code>
-                  <code class="bg-gray-100 block p-2">frame:RegisterEvent("PLAYER_QUITING")</code>
-                  <code class="bg-gray-100 block p-2">frame:SetScript("OnEvent", function(self, event, ...)</code>
-                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;if event == "PLAYER_QUITING" then</code>
-                  
-                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;&nbsp;&nbsp;-- code goes here</code>
-                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;end</code>
-                  <code class="bg-gray-100 block p-2">end)</code>
+                  <pre class="hljs p-2 flex flex-col">
+                    <code class="language-lua">local frame = CreateFrame("Frame")</code>
+                    <code class="language-lua">frame:RegisterEvent("PLAYER_QUITING")</code>
+                    <code class="language-lua">frame:SetScript("OnEvent", function(self, event, ...)</code>
+                    <code class="language-lua">  if event == "PLAYER_QUITING" then</code>
+                    <code class="code-snippet"></code>
+                    <code class="language-lua">     -- code goes here</code>
+                    <code class="language-lua">  end</code>
+                    <code class="language-lua">end)</code>
+                  </pre>
                 </div>
 
               </div>
             </div>
           
             <div class="bucket border">
-              <div class="expand cursor-pointer flex gap-1 items-center bg-gray-200 p-2">
+              <div class="expand cursor-pointer flex gap-1 items-center bg-gray-200 p-2 select-none">
                 <svg class="w-7 h-7" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 7.375C7.5 6.33947 8.33947 5.5 9.375 5.5C10.4105 5.5 11.25 6.33947 11.25 7.375V16.625C11.25 18.489 12.761 20 14.625 20C16.489 20 18 18.489 18 16.625V11.8107L19.2197 13.0303L20.2803 11.9697L17.25 8.93934L14.2197 11.9697L15.2803 13.0303L16.5 11.8107V16.625C16.5 17.6605 15.6605 18.5 14.625 18.5C13.5895 18.5 12.75 17.6605 12.75 16.625V7.375C12.75 5.51104 11.239 4 9.375 4C7.51104 4 6 5.51104 6 7.375V9.5H4V15H9.5V9.5H7.5V7.375ZM5.5 11V13.5H8V11H5.5Z" fill="#1F2328"/>
                 </svg>
@@ -783,26 +759,28 @@
               </div>
 
               <!-- hidden content -->
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-prefix-spaces="4">
                 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">local frame = CreateFrame("Frame")</code>
-                  <code class="bg-gray-100 block p-2">frame:RegisterEvent("SEARCH_DB_LOADED")</code>
-                  <code class="bg-gray-100 block p-2">frame:SetScript("OnEvent", function(self, event, ...)</code>
-                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;if event == "SEARCH_DB_LOADED" then</code>
-                  
-                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;&nbsp;&nbsp;-- code goes here</code>
-                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;end</code>
-                  <code class="bg-gray-100 block p-2">end)</code>
+                  <pre class="hljs p-2 flex flex-col">
+                    <code class="language-lua">local frame = CreateFrame("Frame")</code>
+                    <code class="language-lua">frame:RegisterEvent("SEARCH_DB_LOADED")</code>
+                    <code class="language-lua">frame:SetScript("OnEvent", function(self, event, ...)</code>
+                    <code class="language-lua">  if event == "SEARCH_DB_LOADED" then</code>
+                    <code class="code-snippet"></code>
+                    <code class="language-lua">     -- code goes here</code>
+                    <code class="language-lua">  end</code>
+                    <code class="language-lua">end)</code>
+                  </pre>
                 </div>
 
               </div>
             </div>
           
             <div class="bucket border">
-              <div class="expand cursor-pointer flex gap-1 items-center bg-gray-200 p-2">
+              <div class="expand cursor-pointer flex gap-1 items-center bg-gray-200 p-2 select-none">
                 <svg class="w-7 h-7" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 7.375C7.5 6.33947 8.33947 5.5 9.375 5.5C10.4105 5.5 11.25 6.33947 11.25 7.375V16.625C11.25 18.489 12.761 20 14.625 20C16.489 20 18 18.489 18 16.625V11.8107L19.2197 13.0303L20.2803 11.9697L17.25 8.93934L14.2197 11.9697L15.2803 13.0303L16.5 11.8107V16.625C16.5 17.6605 15.6605 18.5 14.625 18.5C13.5895 18.5 12.75 17.6605 12.75 16.625V7.375C12.75 5.51104 11.239 4 9.375 4C7.51104 4 6 5.51104 6 7.375V9.5H4V15H9.5V9.5H7.5V7.375ZM5.5 11V13.5H8V11H5.5Z" fill="#1F2328"/>
                 </svg>
@@ -813,9 +791,9 @@
               </div>
 
               <!-- hidden content -->
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-prefix-spaces="4">
                 
-                <table class="border border-gray-200 w-full">
+                <table class="definition-return border border-gray-200 w-full">
                   <thead class="bg-gray-200">
                     <tr>
                       <th class="w-2"></th>
@@ -839,32 +817,23 @@
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">local frame = CreateFrame("Frame")</code>
-                  <code class="bg-gray-100 block p-2">frame:RegisterEvent("STREAMING_ICON")</code>
-                  <code class="bg-gray-100 block p-2">frame:SetScript("OnEvent", function(self, event, ...)</code>
-                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;if event == "STREAMING_ICON" then</code>
-                  
-                  <code class="bg-gray-100 block p-2">
-                    &nbsp;&nbsp;&nbsp;&nbsp;local
-                    
-                    
-                      
-                      streamingStatus
-                      
-                    
-                    = ...
-                  </code>
-                  
-                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;&nbsp;&nbsp;-- code goes here</code>
-                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;end</code>
-                  <code class="bg-gray-100 block p-2">end)</code>
+                  <pre class="hljs p-2 flex flex-col">
+                    <code class="language-lua">local frame = CreateFrame("Frame")</code>
+                    <code class="language-lua">frame:RegisterEvent("STREAMING_ICON")</code>
+                    <code class="language-lua">frame:SetScript("OnEvent", function(self, event, ...)</code>
+                    <code class="language-lua">  if event == "STREAMING_ICON" then</code>
+                    <code class="code-snippet"></code>
+                    <code class="language-lua">     -- code goes here</code>
+                    <code class="language-lua">  end</code>
+                    <code class="language-lua">end)</code>
+                  </pre>
                 </div>
 
               </div>
             </div>
           
             <div class="bucket border">
-              <div class="expand cursor-pointer flex gap-1 items-center bg-gray-200 p-2">
+              <div class="expand cursor-pointer flex gap-1 items-center bg-gray-200 p-2 select-none">
                 <svg class="w-7 h-7" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 7.375C7.5 6.33947 8.33947 5.5 9.375 5.5C10.4105 5.5 11.25 6.33947 11.25 7.375V16.625C11.25 18.489 12.761 20 14.625 20C16.489 20 18 18.489 18 16.625V11.8107L19.2197 13.0303L20.2803 11.9697L17.25 8.93934L14.2197 11.9697L15.2803 13.0303L16.5 11.8107V16.625C16.5 17.6605 15.6605 18.5 14.625 18.5C13.5895 18.5 12.75 17.6605 12.75 16.625V7.375C12.75 5.51104 11.239 4 9.375 4C7.51104 4 6 5.51104 6 7.375V9.5H4V15H9.5V9.5H7.5V7.375ZM5.5 11V13.5H8V11H5.5Z" fill="#1F2328"/>
                 </svg>
@@ -875,9 +844,9 @@
               </div>
 
               <!-- hidden content -->
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-prefix-spaces="4">
                 
-                <table class="border border-gray-200 w-full">
+                <table class="definition-return border border-gray-200 w-full">
                   <thead class="bg-gray-200">
                     <tr>
                       <th class="w-2"></th>
@@ -922,44 +891,23 @@
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">local frame = CreateFrame("Frame")</code>
-                  <code class="bg-gray-100 block p-2">frame:RegisterEvent("SYSMSG")</code>
-                  <code class="bg-gray-100 block p-2">frame:SetScript("OnEvent", function(self, event, ...)</code>
-                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;if event == "SYSMSG" then</code>
-                  
-                  <code class="bg-gray-100 block p-2">
-                    &nbsp;&nbsp;&nbsp;&nbsp;local
-                    
-                    
-                      
-                      string
-                      
-                    
-                      ,
-                      r
-                      
-                    
-                      ,
-                      g
-                      
-                    
-                      ,
-                      b
-                      
-                    
-                    = ...
-                  </code>
-                  
-                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;&nbsp;&nbsp;-- code goes here</code>
-                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;end</code>
-                  <code class="bg-gray-100 block p-2">end)</code>
+                  <pre class="hljs p-2 flex flex-col">
+                    <code class="language-lua">local frame = CreateFrame("Frame")</code>
+                    <code class="language-lua">frame:RegisterEvent("SYSMSG")</code>
+                    <code class="language-lua">frame:SetScript("OnEvent", function(self, event, ...)</code>
+                    <code class="language-lua">  if event == "SYSMSG" then</code>
+                    <code class="code-snippet"></code>
+                    <code class="language-lua">     -- code goes here</code>
+                    <code class="language-lua">  end</code>
+                    <code class="language-lua">end)</code>
+                  </pre>
                 </div>
 
               </div>
             </div>
           
             <div class="bucket border">
-              <div class="expand cursor-pointer flex gap-1 items-center bg-gray-200 p-2">
+              <div class="expand cursor-pointer flex gap-1 items-center bg-gray-200 p-2 select-none">
                 <svg class="w-7 h-7" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 7.375C7.5 6.33947 8.33947 5.5 9.375 5.5C10.4105 5.5 11.25 6.33947 11.25 7.375V16.625C11.25 18.489 12.761 20 14.625 20C16.489 20 18 18.489 18 16.625V11.8107L19.2197 13.0303L20.2803 11.9697L17.25 8.93934L14.2197 11.9697L15.2803 13.0303L16.5 11.8107V16.625C16.5 17.6605 15.6605 18.5 14.625 18.5C13.5895 18.5 12.75 17.6605 12.75 16.625V7.375C12.75 5.51104 11.239 4 9.375 4C7.51104 4 6 5.51104 6 7.375V9.5H4V15H9.5V9.5H7.5V7.375ZM5.5 11V13.5H8V11H5.5Z" fill="#1F2328"/>
                 </svg>
@@ -970,9 +918,9 @@
               </div>
 
               <!-- hidden content -->
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-prefix-spaces="4">
                 
-                <table class="border border-gray-200 w-full">
+                <table class="definition-return border border-gray-200 w-full">
                   <thead class="bg-gray-200">
                     <tr>
                       <th class="w-2"></th>
@@ -1003,36 +951,23 @@
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">local frame = CreateFrame("Frame")</code>
-                  <code class="bg-gray-100 block p-2">frame:RegisterEvent("TIME_PLAYED_MSG")</code>
-                  <code class="bg-gray-100 block p-2">frame:SetScript("OnEvent", function(self, event, ...)</code>
-                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;if event == "TIME_PLAYED_MSG" then</code>
-                  
-                  <code class="bg-gray-100 block p-2">
-                    &nbsp;&nbsp;&nbsp;&nbsp;local
-                    
-                    
-                      
-                      totalTimePlayed
-                      
-                    
-                      ,
-                      timePlayedThisLevel
-                      
-                    
-                    = ...
-                  </code>
-                  
-                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;&nbsp;&nbsp;-- code goes here</code>
-                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;end</code>
-                  <code class="bg-gray-100 block p-2">end)</code>
+                  <pre class="hljs p-2 flex flex-col">
+                    <code class="language-lua">local frame = CreateFrame("Frame")</code>
+                    <code class="language-lua">frame:RegisterEvent("TIME_PLAYED_MSG")</code>
+                    <code class="language-lua">frame:SetScript("OnEvent", function(self, event, ...)</code>
+                    <code class="language-lua">  if event == "TIME_PLAYED_MSG" then</code>
+                    <code class="code-snippet"></code>
+                    <code class="language-lua">     -- code goes here</code>
+                    <code class="language-lua">  end</code>
+                    <code class="language-lua">end)</code>
+                  </pre>
                 </div>
 
               </div>
             </div>
           
             <div class="bucket border">
-              <div class="expand cursor-pointer flex gap-1 items-center bg-gray-200 p-2">
+              <div class="expand cursor-pointer flex gap-1 items-center bg-gray-200 p-2 select-none">
                 <svg class="w-7 h-7" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 7.375C7.5 6.33947 8.33947 5.5 9.375 5.5C10.4105 5.5 11.25 6.33947 11.25 7.375V16.625C11.25 18.489 12.761 20 14.625 20C16.489 20 18 18.489 18 16.625V11.8107L19.2197 13.0303L20.2803 11.9697L17.25 8.93934L14.2197 11.9697L15.2803 13.0303L16.5 11.8107V16.625C16.5 17.6605 15.6605 18.5 14.625 18.5C13.5895 18.5 12.75 17.6605 12.75 16.625V7.375C12.75 5.51104 11.239 4 9.375 4C7.51104 4 6 5.51104 6 7.375V9.5H4V15H9.5V9.5H7.5V7.375ZM5.5 11V13.5H8V11H5.5Z" fill="#1F2328"/>
                 </svg>
@@ -1043,9 +978,9 @@
               </div>
 
               <!-- hidden content -->
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-prefix-spaces="4">
                 
-                <table class="border border-gray-200 w-full">
+                <table class="definition-return border border-gray-200 w-full">
                   <thead class="bg-gray-200">
                     <tr>
                       <th class="w-2"></th>
@@ -1076,36 +1011,23 @@
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">local frame = CreateFrame("Frame")</code>
-                  <code class="bg-gray-100 block p-2">frame:RegisterEvent("UI_ERROR_MESSAGE")</code>
-                  <code class="bg-gray-100 block p-2">frame:SetScript("OnEvent", function(self, event, ...)</code>
-                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;if event == "UI_ERROR_MESSAGE" then</code>
-                  
-                  <code class="bg-gray-100 block p-2">
-                    &nbsp;&nbsp;&nbsp;&nbsp;local
-                    
-                    
-                      
-                      errorType
-                      
-                    
-                      ,
-                      message
-                      
-                    
-                    = ...
-                  </code>
-                  
-                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;&nbsp;&nbsp;-- code goes here</code>
-                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;end</code>
-                  <code class="bg-gray-100 block p-2">end)</code>
+                  <pre class="hljs p-2 flex flex-col">
+                    <code class="language-lua">local frame = CreateFrame("Frame")</code>
+                    <code class="language-lua">frame:RegisterEvent("UI_ERROR_MESSAGE")</code>
+                    <code class="language-lua">frame:SetScript("OnEvent", function(self, event, ...)</code>
+                    <code class="language-lua">  if event == "UI_ERROR_MESSAGE" then</code>
+                    <code class="code-snippet"></code>
+                    <code class="language-lua">     -- code goes here</code>
+                    <code class="language-lua">  end</code>
+                    <code class="language-lua">end)</code>
+                  </pre>
                 </div>
 
               </div>
             </div>
           
             <div class="bucket border">
-              <div class="expand cursor-pointer flex gap-1 items-center bg-gray-200 p-2">
+              <div class="expand cursor-pointer flex gap-1 items-center bg-gray-200 p-2 select-none">
                 <svg class="w-7 h-7" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 7.375C7.5 6.33947 8.33947 5.5 9.375 5.5C10.4105 5.5 11.25 6.33947 11.25 7.375V16.625C11.25 18.489 12.761 20 14.625 20C16.489 20 18 18.489 18 16.625V11.8107L19.2197 13.0303L20.2803 11.9697L17.25 8.93934L14.2197 11.9697L15.2803 13.0303L16.5 11.8107V16.625C16.5 17.6605 15.6605 18.5 14.625 18.5C13.5895 18.5 12.75 17.6605 12.75 16.625V7.375C12.75 5.51104 11.239 4 9.375 4C7.51104 4 6 5.51104 6 7.375V9.5H4V15H9.5V9.5H7.5V7.375ZM5.5 11V13.5H8V11H5.5Z" fill="#1F2328"/>
                 </svg>
@@ -1116,9 +1038,9 @@
               </div>
 
               <!-- hidden content -->
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-prefix-spaces="4">
                 
-                <table class="border border-gray-200 w-full">
+                <table class="definition-return border border-gray-200 w-full">
                   <thead class="bg-gray-200">
                     <tr>
                       <th class="w-2"></th>
@@ -1149,36 +1071,23 @@
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">local frame = CreateFrame("Frame")</code>
-                  <code class="bg-gray-100 block p-2">frame:RegisterEvent("UI_INFO_MESSAGE")</code>
-                  <code class="bg-gray-100 block p-2">frame:SetScript("OnEvent", function(self, event, ...)</code>
-                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;if event == "UI_INFO_MESSAGE" then</code>
-                  
-                  <code class="bg-gray-100 block p-2">
-                    &nbsp;&nbsp;&nbsp;&nbsp;local
-                    
-                    
-                      
-                      errorType
-                      
-                    
-                      ,
-                      message
-                      
-                    
-                    = ...
-                  </code>
-                  
-                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;&nbsp;&nbsp;-- code goes here</code>
-                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;end</code>
-                  <code class="bg-gray-100 block p-2">end)</code>
+                  <pre class="hljs p-2 flex flex-col">
+                    <code class="language-lua">local frame = CreateFrame("Frame")</code>
+                    <code class="language-lua">frame:RegisterEvent("UI_INFO_MESSAGE")</code>
+                    <code class="language-lua">frame:SetScript("OnEvent", function(self, event, ...)</code>
+                    <code class="language-lua">  if event == "UI_INFO_MESSAGE" then</code>
+                    <code class="code-snippet"></code>
+                    <code class="language-lua">     -- code goes here</code>
+                    <code class="language-lua">  end</code>
+                    <code class="language-lua">end)</code>
+                  </pre>
                 </div>
 
               </div>
             </div>
           
             <div class="bucket border">
-              <div class="expand cursor-pointer flex gap-1 items-center bg-gray-200 p-2">
+              <div class="expand cursor-pointer flex gap-1 items-center bg-gray-200 p-2 select-none">
                 <svg class="w-7 h-7" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 7.375C7.5 6.33947 8.33947 5.5 9.375 5.5C10.4105 5.5 11.25 6.33947 11.25 7.375V16.625C11.25 18.489 12.761 20 14.625 20C16.489 20 18 18.489 18 16.625V11.8107L19.2197 13.0303L20.2803 11.9697L17.25 8.93934L14.2197 11.9697L15.2803 13.0303L16.5 11.8107V16.625C16.5 17.6605 15.6605 18.5 14.625 18.5C13.5895 18.5 12.75 17.6605 12.75 16.625V7.375C12.75 5.51104 11.239 4 9.375 4C7.51104 4 6 5.51104 6 7.375V9.5H4V15H9.5V9.5H7.5V7.375ZM5.5 11V13.5H8V11H5.5Z" fill="#1F2328"/>
                 </svg>
@@ -1189,26 +1098,28 @@
               </div>
 
               <!-- hidden content -->
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-prefix-spaces="4">
                 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">local frame = CreateFrame("Frame")</code>
-                  <code class="bg-gray-100 block p-2">frame:RegisterEvent("VARIABLES_LOADED")</code>
-                  <code class="bg-gray-100 block p-2">frame:SetScript("OnEvent", function(self, event, ...)</code>
-                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;if event == "VARIABLES_LOADED" then</code>
-                  
-                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;&nbsp;&nbsp;-- code goes here</code>
-                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;end</code>
-                  <code class="bg-gray-100 block p-2">end)</code>
+                  <pre class="hljs p-2 flex flex-col">
+                    <code class="language-lua">local frame = CreateFrame("Frame")</code>
+                    <code class="language-lua">frame:RegisterEvent("VARIABLES_LOADED")</code>
+                    <code class="language-lua">frame:SetScript("OnEvent", function(self, event, ...)</code>
+                    <code class="language-lua">  if event == "VARIABLES_LOADED" then</code>
+                    <code class="code-snippet"></code>
+                    <code class="language-lua">     -- code goes here</code>
+                    <code class="language-lua">  end</code>
+                    <code class="language-lua">end)</code>
+                  </pre>
                 </div>
 
               </div>
             </div>
           
             <div class="bucket border">
-              <div class="expand cursor-pointer flex gap-1 items-center bg-gray-200 p-2">
+              <div class="expand cursor-pointer flex gap-1 items-center bg-gray-200 p-2 select-none">
                 <svg class="w-7 h-7" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 7.375C7.5 6.33947 8.33947 5.5 9.375 5.5C10.4105 5.5 11.25 6.33947 11.25 7.375V16.625C11.25 18.489 12.761 20 14.625 20C16.489 20 18 18.489 18 16.625V11.8107L19.2197 13.0303L20.2803 11.9697L17.25 8.93934L14.2197 11.9697L15.2803 13.0303L16.5 11.8107V16.625C16.5 17.6605 15.6605 18.5 14.625 18.5C13.5895 18.5 12.75 17.6605 12.75 16.625V7.375C12.75 5.51104 11.239 4 9.375 4C7.51104 4 6 5.51104 6 7.375V9.5H4V15H9.5V9.5H7.5V7.375ZM5.5 11V13.5H8V11H5.5Z" fill="#1F2328"/>
                 </svg>
@@ -1219,26 +1130,28 @@
               </div>
 
               <!-- hidden content -->
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-prefix-spaces="4">
                 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">local frame = CreateFrame("Frame")</code>
-                  <code class="bg-gray-100 block p-2">frame:RegisterEvent("WOW_MOUSE_NOT_FOUND")</code>
-                  <code class="bg-gray-100 block p-2">frame:SetScript("OnEvent", function(self, event, ...)</code>
-                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;if event == "WOW_MOUSE_NOT_FOUND" then</code>
-                  
-                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;&nbsp;&nbsp;-- code goes here</code>
-                  <code class="bg-gray-100 block p-2">&nbsp;&nbsp;end</code>
-                  <code class="bg-gray-100 block p-2">end)</code>
+                  <pre class="hljs p-2 flex flex-col">
+                    <code class="language-lua">local frame = CreateFrame("Frame")</code>
+                    <code class="language-lua">frame:RegisterEvent("WOW_MOUSE_NOT_FOUND")</code>
+                    <code class="language-lua">frame:SetScript("OnEvent", function(self, event, ...)</code>
+                    <code class="language-lua">  if event == "WOW_MOUSE_NOT_FOUND" then</code>
+                    <code class="code-snippet"></code>
+                    <code class="language-lua">     -- code goes here</code>
+                    <code class="language-lua">  end</code>
+                    <code class="language-lua">end)</code>
+                  </pre>
                 </div>
 
               </div>
             </div>
           
           </div>
-         <!-- end events loop -->
+         <!-- END: section.Events -->
       </div>
     </main>
 
@@ -1275,6 +1188,7 @@
           const returnParts = [];
           const functionName = content.dataset.name;
           const namespaceName = content.dataset.namespace;
+          const prefixSpaces = parseInt(content.dataset.prefixSpaces, 10);
 
           // Get all return value parts.
           if (argumentDefinition) {
@@ -1299,14 +1213,24 @@
 
           // Constructs the whole line.
           const lineParts = [];
+
+          lineParts.push(' '.repeat(prefixSpaces));          
+          
           if (returnParts.length > 0) {
             lineParts.push("local");
             lineParts.push(returnParts.join(", "));
             lineParts.push("=");
           }
-          lineParts.push(`${namespaceName}.${functionName}(${argumentParts.join(", ")})`);
 
-          codeSnippet.innerHTML = hljs.highlight(lineParts.join(" "), {language: "lua"}).value;
+          if (namespaceName && functionName) {
+            lineParts.push(`${namespaceName}.${functionName}(${argumentParts.join(", ")})`);
+          } else {
+            lineParts.push("...")
+          }
+
+          if (argumentParts.length > 0 || returnParts.length > 0) {
+            codeSnippet.innerHTML = hljs.highlight(lineParts.join(" "), {language: "lua"}).value;
+          } else {}
         }
 
         // Creates code snippets.

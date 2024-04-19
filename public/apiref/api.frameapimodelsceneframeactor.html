@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>FrameAPIModelSceneFrameActor - WoW API</title>
     <link rel="stylesheet" href="/assets/tailwind.v2.min.css">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
     <style>
       .main-container { max-width: 1600px; }
       code.hljs { padding: 0!important; }
@@ -24,9 +25,9 @@
         
          <!-- end function loop -->
 
-         <!-- end table loop -->
+         <!-- END: section.Tables -->
         
-         <!-- end events loop -->
+         <!-- END: section.Events -->
       </div>
     </main>
 
@@ -63,6 +64,7 @@
           const returnParts = [];
           const functionName = content.dataset.name;
           const namespaceName = content.dataset.namespace;
+          const prefixSpaces = parseInt(content.dataset.prefixSpaces, 10);
 
           // Get all return value parts.
           if (argumentDefinition) {
@@ -87,14 +89,24 @@
 
           // Constructs the whole line.
           const lineParts = [];
+
+          lineParts.push(' '.repeat(prefixSpaces));          
+          
           if (returnParts.length > 0) {
             lineParts.push("local");
             lineParts.push(returnParts.join(", "));
             lineParts.push("=");
           }
-          lineParts.push(`${namespaceName}.${functionName}(${argumentParts.join(", ")})`);
 
-          codeSnippet.innerHTML = hljs.highlight(lineParts.join(" "), {language: "lua"}).value;
+          if (namespaceName && functionName) {
+            lineParts.push(`${namespaceName}.${functionName}(${argumentParts.join(", ")})`);
+          } else {
+            lineParts.push("...")
+          }
+
+          if (argumentParts.length > 0 || returnParts.length > 0) {
+            codeSnippet.innerHTML = hljs.highlight(lineParts.join(" "), {language: "lua"}).value;
+          } else {}
         }
 
         // Creates code snippets.
