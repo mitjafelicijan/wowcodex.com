@@ -236,9 +236,7 @@
             lineParts.push("...")
           }
 
-          if (argumentParts.length > 0 || returnParts.length > 0) {
-            codeSnippet.innerHTML = hljs.highlight(lineParts.join(" "), {language: "lua"}).value;
-          } else {}
+          codeSnippet.innerHTML = hljs.highlight(lineParts.join(" "), {language: "lua"}).value;
         }
 
         // Creates code snippets.
