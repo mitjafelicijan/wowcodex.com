@@ -6,7 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>SimpleAnimGroupAPI - WoW API</title>
     <link rel="stylesheet" href="/assets/tailwind.v2.min.css">
-    <style>.main-container { max-width: 1600px; }</style>
+    <style>
+      .main-container { max-width: 1600px; }
+      code.hljs { padding: 0!important; }
+    </style>
   </head>
   <body class="p-10">
 
@@ -36,12 +39,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="SimpleAnimGroupAPI" data-name="CreateAnimation"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -77,7 +80,7 @@
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -104,37 +107,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        anim
-                        
-                      
-                      =
-                    
-                    CreateAnimation
-                    (
-                      
-                        
-                        
-                          
-                          animationType
-                          
-                        
-                          ,
-                          name
-                          
-                        
-                          ,
-                          templateName
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -152,12 +125,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="SimpleAnimGroupAPI" data-name="Finish"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -176,16 +149,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                    Finish
-                    (
-                      
-                        
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -203,12 +167,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="SimpleAnimGroupAPI" data-name="GetAnimationSpeedMultiplier"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -226,7 +190,7 @@
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -253,25 +217,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        animationSpeedMultiplier
-                        
-                      
-                      =
-                    
-                    GetAnimationSpeedMultiplier
-                    (
-                      
-                        
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -289,12 +235,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="SimpleAnimGroupAPI" data-name="GetAnimations"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -312,7 +258,7 @@
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -339,25 +285,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        scriptObject
-                        
-                      
-                      =
-                    
-                    GetAnimations
-                    (
-                      
-                        
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -375,12 +303,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="SimpleAnimGroupAPI" data-name="GetDuration"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -398,7 +326,7 @@
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -425,25 +353,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        durationSec
-                        
-                      
-                      =
-                    
-                    GetDuration
-                    (
-                      
-                        
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -461,12 +371,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="SimpleAnimGroupAPI" data-name="GetElapsed"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -484,7 +394,7 @@
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -511,25 +421,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        elapsedSec
-                        
-                      
-                      =
-                    
-                    GetElapsed
-                    (
-                      
-                        
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -547,12 +439,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="SimpleAnimGroupAPI" data-name="GetLoopState"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -570,7 +462,7 @@
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -597,25 +489,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        loopState
-                        
-                      
-                      =
-                    
-                    GetLoopState
-                    (
-                      
-                        
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -633,12 +507,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="SimpleAnimGroupAPI" data-name="GetLooping"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -656,7 +530,7 @@
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -683,25 +557,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        loopType
-                        
-                      
-                      =
-                    
-                    GetLooping
-                    (
-                      
-                        
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -719,12 +575,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="SimpleAnimGroupAPI" data-name="GetProgress"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -742,7 +598,7 @@
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -769,25 +625,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        progress
-                        
-                      
-                      =
-                    
-                    GetProgress
-                    (
-                      
-                        
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -805,12 +643,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="SimpleAnimGroupAPI" data-name="GetScript"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -840,7 +678,7 @@
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -867,33 +705,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        script
-                        
-                      
-                      =
-                    
-                    GetScript
-                    (
-                      
-                        
-                        
-                          
-                          scriptTypeName
-                          
-                        
-                          ,
-                          bindingType
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -911,12 +723,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="SimpleAnimGroupAPI" data-name="HasScript"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -940,7 +752,7 @@
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -967,29 +779,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        hasScript
-                        
-                      
-                      =
-                    
-                    HasScript
-                    (
-                      
-                        
-                        
-                          
-                          scriptName
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -1007,12 +797,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="SimpleAnimGroupAPI" data-name="HookScript"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -1049,28 +839,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                    HookScript
-                    (
-                      
-                        
-                        
-                          
-                          scriptTypeName
-                          
-                        
-                          ,
-                          script
-                          
-                        
-                          ,
-                          bindingType
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -1088,12 +857,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="SimpleAnimGroupAPI" data-name="IsDone"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -1111,7 +880,7 @@
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -1138,25 +907,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        isDone
-                        
-                      
-                      =
-                    
-                    IsDone
-                    (
-                      
-                        
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -1174,12 +925,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="SimpleAnimGroupAPI" data-name="IsPaused"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -1197,7 +948,7 @@
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -1224,25 +975,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        isPaused
-                        
-                      
-                      =
-                    
-                    IsPaused
-                    (
-                      
-                        
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -1260,12 +993,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="SimpleAnimGroupAPI" data-name="IsPendingFinish"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -1283,7 +1016,7 @@
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -1310,25 +1043,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        isPendingFinish
-                        
-                      
-                      =
-                    
-                    IsPendingFinish
-                    (
-                      
-                        
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -1346,12 +1061,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="SimpleAnimGroupAPI" data-name="IsPlaying"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -1369,7 +1084,7 @@
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -1396,25 +1111,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        isPlaying
-                        
-                      
-                      =
-                    
-                    IsPlaying
-                    (
-                      
-                        
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -1432,12 +1129,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="SimpleAnimGroupAPI" data-name="IsReverse"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -1455,7 +1152,7 @@
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -1482,25 +1179,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        isReverse
-                        
-                      
-                      =
-                    
-                    IsReverse
-                    (
-                      
-                        
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -1518,12 +1197,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="SimpleAnimGroupAPI" data-name="IsSetToFinalAlpha"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -1541,7 +1220,7 @@
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -1568,25 +1247,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        isSetToFinalAlpha
-                        
-                      
-                      =
-                    
-                    IsSetToFinalAlpha
-                    (
-                      
-                        
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -1604,12 +1265,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="SimpleAnimGroupAPI" data-name="Pause"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -1628,16 +1289,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                    Pause
-                    (
-                      
-                        
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -1655,12 +1307,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="SimpleAnimGroupAPI" data-name="Play"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -1691,24 +1343,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                    Play
-                    (
-                      
-                        
-                        
-                          
-                          reverse
-                          
-                        
-                          ,
-                          offset
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -1726,12 +1361,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="SimpleAnimGroupAPI" data-name="RemoveAnimations"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -1750,16 +1385,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                    RemoveAnimations
-                    (
-                      
-                        
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -1777,12 +1403,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="SimpleAnimGroupAPI" data-name="Restart"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -1813,24 +1439,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                    Restart
-                    (
-                      
-                        
-                        
-                          
-                          reverse
-                          
-                        
-                          ,
-                          offset
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -1848,12 +1457,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="SimpleAnimGroupAPI" data-name="SetAnimationSpeedMultiplier"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -1878,20 +1487,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                    SetAnimationSpeedMultiplier
-                    (
-                      
-                        
-                        
-                          
-                          animationSpeedMultiplier
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -1909,12 +1505,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="SimpleAnimGroupAPI" data-name="SetLooping"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -1939,20 +1535,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                    SetLooping
-                    (
-                      
-                        
-                        
-                          
-                          loopType
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -1970,12 +1553,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="SimpleAnimGroupAPI" data-name="SetPlaying"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -2000,20 +1583,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                    SetPlaying
-                    (
-                      
-                        
-                        
-                          
-                          play
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -2031,12 +1601,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="SimpleAnimGroupAPI" data-name="SetScript"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -2067,24 +1637,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                    SetScript
-                    (
-                      
-                        
-                        
-                          
-                          scriptTypeName
-                          
-                        
-                          ,
-                          script
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -2102,12 +1655,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="SimpleAnimGroupAPI" data-name="SetToFinalAlpha"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -2132,20 +1685,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                    SetToFinalAlpha
-                    (
-                      
-                        
-                        
-                          
-                          setToFinalAlpha
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -2163,12 +1703,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="SimpleAnimGroupAPI" data-name="Stop"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -2187,16 +1727,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                    Stop
-                    (
-                      
-                        
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -2213,6 +1744,7 @@
 
     <script>
       window.onload = function() {
+        // Toggles definitions.
         const expandItems = document.querySelectorAll(".bucket .expand");
         if (expandItems) {
           expandItems.forEach(item => {
@@ -2233,7 +1765,74 @@
             });
           });
         }
+
+        function generateCodeSnippet(codeSnippet) {
+          const content = codeSnippet.closest(".content");
+          const argumentDefinition = content.querySelector(".definition-argument");
+          const returnDefinition = content.querySelector(".definition-return");
+
+          const argumentParts = [];
+          const returnParts = [];
+          const functionName = content.dataset.name;
+          const namespaceName = content.dataset.namespace;
+
+          // Get all return value parts.
+          if (argumentDefinition) {
+            argumentDefinition.querySelectorAll("tbody tr").forEach(item => {
+              const argname = item.querySelector("td:first-child");
+              argumentParts.push(argname.innerText);
+            })
+          }
+          
+          // Get all argument value parts.
+          if (returnDefinition) {
+            returnDefinition.querySelectorAll("tbody tr").forEach(item => {
+              const checkbox = item.querySelector("td:first-child input[type=checkbox]");
+              const argname = item.querySelector("td:nth-child(2)");
+              if (checkbox.checked) {
+                returnParts.push(argname.innerText);
+              } else {
+                returnParts.push("_");
+              }
+            })
+          }
+
+          // Constructs the whole line.
+          const lineParts = [];
+          if (returnParts.length > 0) {
+            lineParts.push("local");
+            lineParts.push(returnParts.join(", "));
+            lineParts.push("=");
+          }
+          lineParts.push(`${namespaceName}.${functionName}(${argumentParts.join(", ")})`);
+
+          codeSnippet.innerHTML = hljs.highlight(lineParts.join(" "), {language: "lua"}).value;
+        }
+
+        // Creates code snippets.
+        const codeSnippetItems = document.querySelectorAll(".code-snippet");
+        if (codeSnippetItems) {
+          codeSnippetItems.forEach(codeSnippet => {
+            generateCodeSnippet(codeSnippet);
+          });
+        }
+        
+        const codeSnippetToggleItems = document.querySelectorAll(".content input[type=checkbox]");
+        if (codeSnippetToggleItems) {
+          codeSnippetToggleItems.forEach(item => {
+            item.addEventListener("click", evt => {
+              evt.stopPropagation();
+              const codeSnippet = evt.target.closest(".content").querySelector(".code-snippet");
+              generateCodeSnippet(codeSnippet);
+            });
+          });
+        }
       }
     </script>
+    
+    <link rel="stylesheet" href="/assets/hljs/default.min.css">
+    <script src="/assets/hljs/highlight.min.js"></script>
+    <script src="/assets/hljs/lua.min.js"></script>
+    <script>hljs.highlightAll();</script>
   </body>
 </html>

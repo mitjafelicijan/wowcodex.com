@@ -6,7 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>VoiceChat - WoW API</title>
     <link rel="stylesheet" href="/assets/tailwind.v2.min.css">
-    <style>.main-container { max-width: 1600px; }</style>
+    <style>
+      .main-container { max-width: 1600px; }
+      code.hljs { padding: 0!important; }
+    </style>
   </head>
   <body class="p-10">
 
@@ -38,12 +41,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="VoiceChat" data-name="ActivateChannel"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -68,20 +71,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                    ActivateChannel
-                    (
-                      
-                        
-                        
-                          
-                          channelID
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -99,12 +89,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="VoiceChat" data-name="ActivateChannelTranscription"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -129,20 +119,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                    ActivateChannelTranscription
-                    (
-                      
-                        
-                        
-                          
-                          channelID
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -160,12 +137,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="VoiceChat" data-name="BeginLocalCapture"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -190,20 +167,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                    BeginLocalCapture
-                    (
-                      
-                        
-                        
-                          
-                          listenToLocalUser
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -221,14 +185,14 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="VoiceChat" data-name="CanPlayerUseVoiceChat"> <!-- hidden stuff begins -->
 
                  <!-- end arguments -->
                 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -255,22 +219,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        canUseVoiceChat
-                        
-                      
-                      =
-                    
-                    CanPlayerUseVoiceChat
-                    (
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -288,12 +237,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="VoiceChat" data-name="CreateChannel"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -317,7 +266,7 @@
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -344,29 +293,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        status
-                        
-                      
-                      =
-                    
-                    CreateChannel
-                    (
-                      
-                        
-                        
-                          
-                          channelDisplayName
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -384,12 +311,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="VoiceChat" data-name="DeactivateChannel"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -414,20 +341,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                    DeactivateChannel
-                    (
-                      
-                        
-                        
-                          
-                          channelID
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -445,12 +359,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="VoiceChat" data-name="DeactivateChannelTranscription"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -475,20 +389,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                    DeactivateChannelTranscription
-                    (
-                      
-                        
-                        
-                          
-                          channelID
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -506,7 +407,7 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="VoiceChat" data-name="EndLocalCapture"> <!-- hidden stuff begins -->
 
                  <!-- end arguments -->
                 
@@ -514,13 +415,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                    EndLocalCapture
-                    (
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -538,14 +433,14 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="VoiceChat" data-name="GetActiveChannelID"> <!-- hidden stuff begins -->
 
                  <!-- end arguments -->
                 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -572,22 +467,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        channelID
-                        
-                      
-                      =
-                    
-                    GetActiveChannelID
-                    (
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -605,14 +485,14 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="VoiceChat" data-name="GetActiveChannelType"> <!-- hidden stuff begins -->
 
                  <!-- end arguments -->
                 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -639,22 +519,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        channelType
-                        
-                      
-                      =
-                    
-                    GetActiveChannelType
-                    (
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -672,14 +537,14 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="VoiceChat" data-name="GetAvailableInputDevices"> <!-- hidden stuff begins -->
 
                  <!-- end arguments -->
                 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -706,22 +571,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        inputDevices
-                        
-                      
-                      =
-                    
-                    GetAvailableInputDevices
-                    (
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -739,14 +589,14 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="VoiceChat" data-name="GetAvailableOutputDevices"> <!-- hidden stuff begins -->
 
                  <!-- end arguments -->
                 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -773,22 +623,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        outputDevices
-                        
-                      
-                      =
-                    
-                    GetAvailableOutputDevices
-                    (
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -806,12 +641,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="VoiceChat" data-name="GetChannel"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -835,7 +670,7 @@
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -862,29 +697,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        channel
-                        
-                      
-                      =
-                    
-                    GetChannel
-                    (
-                      
-                        
-                        
-                          
-                          channelID
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -902,12 +715,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="VoiceChat" data-name="GetChannelForChannelType"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -931,7 +744,7 @@
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -958,29 +771,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        channel
-                        
-                      
-                      =
-                    
-                    GetChannelForChannelType
-                    (
-                      
-                        
-                        
-                          
-                          channelType
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -998,12 +789,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="VoiceChat" data-name="GetChannelForCommunityStream"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -1033,7 +824,7 @@
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -1060,33 +851,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        channel
-                        
-                      
-                      =
-                    
-                    GetChannelForCommunityStream
-                    (
-                      
-                        
-                        
-                          
-                          clubId
-                          
-                        
-                          ,
-                          streamId
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -1104,14 +869,14 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="VoiceChat" data-name="GetCommunicationMode"> <!-- hidden stuff begins -->
 
                  <!-- end arguments -->
                 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -1138,22 +903,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        communicationMode
-                        
-                      
-                      =
-                    
-                    GetCommunicationMode
-                    (
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -1171,14 +921,14 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="VoiceChat" data-name="GetCurrentVoiceChatConnectionStatusCode"> <!-- hidden stuff begins -->
 
                  <!-- end arguments -->
                 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -1205,22 +955,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        statusCode
-                        
-                      
-                      =
-                    
-                    GetCurrentVoiceChatConnectionStatusCode
-                    (
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -1238,14 +973,14 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="VoiceChat" data-name="GetInputVolume"> <!-- hidden stuff begins -->
 
                  <!-- end arguments -->
                 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -1272,22 +1007,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        volume
-                        
-                      
-                      =
-                    
-                    GetInputVolume
-                    (
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -1305,14 +1025,14 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="VoiceChat" data-name="GetLocalPlayerActiveChannelMemberInfo"> <!-- hidden stuff begins -->
 
                  <!-- end arguments -->
                 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -1339,22 +1059,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        memberInfo
-                        
-                      
-                      =
-                    
-                    GetLocalPlayerActiveChannelMemberInfo
-                    (
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -1372,12 +1077,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="VoiceChat" data-name="GetLocalPlayerMemberID"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -1401,7 +1106,7 @@
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -1428,29 +1133,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        memberID
-                        
-                      
-                      =
-                    
-                    GetLocalPlayerMemberID
-                    (
-                      
-                        
-                        
-                          
-                          channelID
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -1468,14 +1151,14 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="VoiceChat" data-name="GetMasterVolumeScale"> <!-- hidden stuff begins -->
 
                  <!-- end arguments -->
                 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -1502,22 +1185,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        scale
-                        
-                      
-                      =
-                    
-                    GetMasterVolumeScale
-                    (
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -1535,12 +1203,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="VoiceChat" data-name="GetMemberGUID"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -1570,7 +1238,7 @@
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -1597,33 +1265,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        memberGUID
-                        
-                      
-                      =
-                    
-                    GetMemberGUID
-                    (
-                      
-                        
-                        
-                          
-                          memberID
-                          
-                        
-                          ,
-                          channelID
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -1641,12 +1283,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="VoiceChat" data-name="GetMemberID"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -1676,7 +1318,7 @@
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -1703,33 +1345,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        memberID
-                        
-                      
-                      =
-                    
-                    GetMemberID
-                    (
-                      
-                        
-                        
-                          
-                          channelID
-                          
-                        
-                          ,
-                          memberGUID
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -1747,12 +1363,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="VoiceChat" data-name="GetMemberInfo"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -1782,7 +1398,7 @@
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -1809,33 +1425,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        memberInfo
-                        
-                      
-                      =
-                    
-                    GetMemberInfo
-                    (
-                      
-                        
-                        
-                          
-                          memberID
-                          
-                        
-                          ,
-                          channelID
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -1853,12 +1443,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="VoiceChat" data-name="GetMemberName"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -1888,7 +1478,7 @@
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -1915,33 +1505,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        memberName
-                        
-                      
-                      =
-                    
-                    GetMemberName
-                    (
-                      
-                        
-                        
-                          
-                          memberID
-                          
-                        
-                          ,
-                          channelID
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -1959,12 +1523,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="VoiceChat" data-name="GetMemberVolume"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -1988,7 +1552,7 @@
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -2015,29 +1579,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        volume
-                        
-                      
-                      =
-                    
-                    GetMemberVolume
-                    (
-                      
-                        
-                        
-                          
-                          playerLocation
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -2055,14 +1597,14 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="VoiceChat" data-name="GetOutputVolume"> <!-- hidden stuff begins -->
 
                  <!-- end arguments -->
                 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -2089,22 +1631,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        volume
-                        
-                      
-                      =
-                    
-                    GetOutputVolume
-                    (
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -2122,14 +1649,14 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="VoiceChat" data-name="GetPTTButtonPressedState"> <!-- hidden stuff begins -->
 
                  <!-- end arguments -->
                 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -2156,22 +1683,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        isPressed
-                        
-                      
-                      =
-                    
-                    GetPTTButtonPressedState
-                    (
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -2189,14 +1701,14 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="VoiceChat" data-name="GetProcesses"> <!-- hidden stuff begins -->
 
                  <!-- end arguments -->
                 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -2223,22 +1735,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        processes
-                        
-                      
-                      =
-                    
-                    GetProcesses
-                    (
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -2256,14 +1753,14 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="VoiceChat" data-name="GetPushToTalkBinding"> <!-- hidden stuff begins -->
 
                  <!-- end arguments -->
                 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -2290,22 +1787,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        keys
-                        
-                      
-                      =
-                    
-                    GetPushToTalkBinding
-                    (
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -2323,14 +1805,14 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="VoiceChat" data-name="GetRemoteTtsVoices"> <!-- hidden stuff begins -->
 
                  <!-- end arguments -->
                 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -2357,22 +1839,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        ttsVoices
-                        
-                      
-                      =
-                    
-                    GetRemoteTtsVoices
-                    (
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -2390,14 +1857,14 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="VoiceChat" data-name="GetTtsVoices"> <!-- hidden stuff begins -->
 
                  <!-- end arguments -->
                 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -2424,22 +1891,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        ttsVoices
-                        
-                      
-                      =
-                    
-                    GetTtsVoices
-                    (
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -2457,14 +1909,14 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="VoiceChat" data-name="GetVADSensitivity"> <!-- hidden stuff begins -->
 
                  <!-- end arguments -->
                 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -2491,22 +1943,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        sensitivity
-                        
-                      
-                      =
-                    
-                    GetVADSensitivity
-                    (
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -2524,12 +1961,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="VoiceChat" data-name="IsChannelJoinPending"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -2565,7 +2002,7 @@
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -2592,37 +2029,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        isPending
-                        
-                      
-                      =
-                    
-                    IsChannelJoinPending
-                    (
-                      
-                        
-                        
-                          
-                          channelType
-                          
-                        
-                          ,
-                          clubId
-                          
-                        
-                          ,
-                          streamId
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -2640,14 +2047,14 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="VoiceChat" data-name="IsDeafened"> <!-- hidden stuff begins -->
 
                  <!-- end arguments -->
                 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -2674,22 +2081,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        isDeafened
-                        
-                      
-                      =
-                    
-                    IsDeafened
-                    (
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -2707,14 +2099,14 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="VoiceChat" data-name="IsEnabled"> <!-- hidden stuff begins -->
 
                  <!-- end arguments -->
                 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -2741,22 +2133,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        isEnabled
-                        
-                      
-                      =
-                    
-                    IsEnabled
-                    (
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -2774,14 +2151,14 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="VoiceChat" data-name="IsLoggedIn"> <!-- hidden stuff begins -->
 
                  <!-- end arguments -->
                 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -2808,22 +2185,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        isLoggedIn
-                        
-                      
-                      =
-                    
-                    IsLoggedIn
-                    (
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -2841,12 +2203,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="VoiceChat" data-name="IsMemberLocalPlayer"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -2876,7 +2238,7 @@
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -2903,33 +2265,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        isLocalPlayer
-                        
-                      
-                      =
-                    
-                    IsMemberLocalPlayer
-                    (
-                      
-                        
-                        
-                          
-                          memberID
-                          
-                        
-                          ,
-                          channelID
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -2947,12 +2283,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="VoiceChat" data-name="IsMemberMuted"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -2976,7 +2312,7 @@
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -3003,29 +2339,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        mutedForMe
-                        
-                      
-                      =
-                    
-                    IsMemberMuted
-                    (
-                      
-                        
-                        
-                          
-                          playerLocation
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -3043,12 +2357,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="VoiceChat" data-name="IsMemberMutedForAll"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -3078,7 +2392,7 @@
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -3105,33 +2419,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        mutedForAll
-                        
-                      
-                      =
-                    
-                    IsMemberMutedForAll
-                    (
-                      
-                        
-                        
-                          
-                          memberID
-                          
-                        
-                          ,
-                          channelID
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -3149,12 +2437,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="VoiceChat" data-name="IsMemberSilenced"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -3184,7 +2472,7 @@
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -3211,33 +2499,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        silenced
-                        
-                      
-                      =
-                    
-                    IsMemberSilenced
-                    (
-                      
-                        
-                        
-                          
-                          memberID
-                          
-                        
-                          ,
-                          channelID
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -3255,14 +2517,14 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="VoiceChat" data-name="IsMuted"> <!-- hidden stuff begins -->
 
                  <!-- end arguments -->
                 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -3289,22 +2551,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        isMuted
-                        
-                      
-                      =
-                    
-                    IsMuted
-                    (
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -3322,14 +2569,14 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="VoiceChat" data-name="IsParentalDisabled"> <!-- hidden stuff begins -->
 
                  <!-- end arguments -->
                 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -3356,22 +2603,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        isParentalDisabled
-                        
-                      
-                      =
-                    
-                    IsParentalDisabled
-                    (
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -3389,14 +2621,14 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="VoiceChat" data-name="IsParentalMuted"> <!-- hidden stuff begins -->
 
                  <!-- end arguments -->
                 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -3423,22 +2655,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        isParentalMuted
-                        
-                      
-                      =
-                    
-                    IsParentalMuted
-                    (
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -3456,12 +2673,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="VoiceChat" data-name="IsPlayerUsingVoice"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -3485,7 +2702,7 @@
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -3512,29 +2729,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        isUsingVoice
-                        
-                      
-                      =
-                    
-                    IsPlayerUsingVoice
-                    (
-                      
-                        
-                        
-                          
-                          playerLocation
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -3552,14 +2747,14 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="VoiceChat" data-name="IsSilenced"> <!-- hidden stuff begins -->
 
                  <!-- end arguments -->
                 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -3586,22 +2781,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        isSilenced
-                        
-                      
-                      =
-                    
-                    IsSilenced
-                    (
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -3619,14 +2799,14 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="VoiceChat" data-name="IsSpeakForMeActive"> <!-- hidden stuff begins -->
 
                  <!-- end arguments -->
                 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -3653,22 +2833,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        isActive
-                        
-                      
-                      =
-                    
-                    IsSpeakForMeActive
-                    (
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -3686,14 +2851,14 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="VoiceChat" data-name="IsSpeakForMeAllowed"> <!-- hidden stuff begins -->
 
                  <!-- end arguments -->
                 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -3720,22 +2885,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        isAllowed
-                        
-                      
-                      =
-                    
-                    IsSpeakForMeAllowed
-                    (
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -3753,14 +2903,14 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="VoiceChat" data-name="IsTranscribing"> <!-- hidden stuff begins -->
 
                  <!-- end arguments -->
                 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -3787,22 +2937,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        isTranscribing
-                        
-                      
-                      =
-                    
-                    IsTranscribing
-                    (
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -3820,14 +2955,14 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="VoiceChat" data-name="IsTranscriptionAllowed"> <!-- hidden stuff begins -->
 
                  <!-- end arguments -->
                 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -3854,22 +2989,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        isAllowed
-                        
-                      
-                      =
-                    
-                    IsTranscriptionAllowed
-                    (
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -3887,14 +3007,14 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="VoiceChat" data-name="IsVoiceChatConnected"> <!-- hidden stuff begins -->
 
                  <!-- end arguments -->
                 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -3921,22 +3041,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        connected
-                        
-                      
-                      =
-                    
-                    IsVoiceChatConnected
-                    (
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -3954,12 +3059,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="VoiceChat" data-name="LeaveChannel"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -3984,20 +3089,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                    LeaveChannel
-                    (
-                      
-                        
-                        
-                          
-                          channelID
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -4015,14 +3107,14 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="VoiceChat" data-name="Login"> <!-- hidden stuff begins -->
 
                  <!-- end arguments -->
                 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -4049,22 +3141,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        status
-                        
-                      
-                      =
-                    
-                    Login
-                    (
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -4082,14 +3159,14 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="VoiceChat" data-name="Logout"> <!-- hidden stuff begins -->
 
                  <!-- end arguments -->
                 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -4116,22 +3193,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        status
-                        
-                      
-                      =
-                    
-                    Logout
-                    (
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -4149,7 +3211,7 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="VoiceChat" data-name="MarkChannelsDiscovered"> <!-- hidden stuff begins -->
 
                  <!-- end arguments -->
                 
@@ -4157,13 +3219,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                    MarkChannelsDiscovered
-                    (
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -4181,12 +3237,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="VoiceChat" data-name="RequestJoinAndActivateCommunityStreamChannel"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -4217,24 +3273,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                    RequestJoinAndActivateCommunityStreamChannel
-                    (
-                      
-                        
-                        
-                          
-                          clubId
-                          
-                        
-                          ,
-                          streamId
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -4252,12 +3291,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="VoiceChat" data-name="RequestJoinChannelByChannelType"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -4288,24 +3327,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                    RequestJoinChannelByChannelType
-                    (
-                      
-                        
-                        
-                          
-                          channelType
-                          
-                        
-                          ,
-                          autoActivate
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -4323,12 +3345,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="VoiceChat" data-name="SetCommunicationMode"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -4353,20 +3375,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                    SetCommunicationMode
-                    (
-                      
-                        
-                        
-                          
-                          communicationMode
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -4384,12 +3393,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="VoiceChat" data-name="SetDeafened"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -4414,20 +3423,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                    SetDeafened
-                    (
-                      
-                        
-                        
-                          
-                          isDeafened
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -4445,12 +3441,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="VoiceChat" data-name="SetInputDevice"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -4475,20 +3471,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                    SetInputDevice
-                    (
-                      
-                        
-                        
-                          
-                          deviceID
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -4506,12 +3489,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="VoiceChat" data-name="SetInputVolume"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -4536,20 +3519,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                    SetInputVolume
-                    (
-                      
-                        
-                        
-                          
-                          volume
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -4567,12 +3537,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="VoiceChat" data-name="SetMasterVolumeScale"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -4597,20 +3567,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                    SetMasterVolumeScale
-                    (
-                      
-                        
-                        
-                          
-                          scale
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -4628,12 +3585,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="VoiceChat" data-name="SetMemberMuted"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -4664,24 +3621,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                    SetMemberMuted
-                    (
-                      
-                        
-                        
-                          
-                          playerLocation
-                          
-                        
-                          ,
-                          muted
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -4699,12 +3639,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="VoiceChat" data-name="SetMemberVolume"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -4735,24 +3675,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                    SetMemberVolume
-                    (
-                      
-                        
-                        
-                          
-                          playerLocation
-                          
-                        
-                          ,
-                          volume
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -4770,12 +3693,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="VoiceChat" data-name="SetMuted"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -4800,20 +3723,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                    SetMuted
-                    (
-                      
-                        
-                        
-                          
-                          isMuted
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -4831,12 +3741,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="VoiceChat" data-name="SetOutputDevice"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -4861,20 +3771,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                    SetOutputDevice
-                    (
-                      
-                        
-                        
-                          
-                          deviceID
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -4892,12 +3789,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="VoiceChat" data-name="SetOutputVolume"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -4922,20 +3819,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                    SetOutputVolume
-                    (
-                      
-                        
-                        
-                          
-                          volume
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -4953,12 +3837,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="VoiceChat" data-name="SetPortraitTexture"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -4995,28 +3879,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                    SetPortraitTexture
-                    (
-                      
-                        
-                        
-                          
-                          textureObject
-                          
-                        
-                          ,
-                          memberID
-                          
-                        
-                          ,
-                          channelID
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -5034,12 +3897,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="VoiceChat" data-name="SetPushToTalkBinding"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -5064,20 +3927,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                    SetPushToTalkBinding
-                    (
-                      
-                        
-                        
-                          
-                          keys
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -5095,12 +3945,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="VoiceChat" data-name="SetVADSensitivity"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -5125,20 +3975,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                    SetVADSensitivity
-                    (
-                      
-                        
-                        
-                          
-                          sensitivity
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -5156,14 +3993,14 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="VoiceChat" data-name="ShouldDiscoverChannels"> <!-- hidden stuff begins -->
 
                  <!-- end arguments -->
                 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -5190,22 +4027,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        shouldDiscoverChannels
-                        
-                      
-                      =
-                    
-                    ShouldDiscoverChannels
-                    (
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -5223,12 +4045,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="VoiceChat" data-name="SpeakRemoteTextSample"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -5253,20 +4075,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                    SpeakRemoteTextSample
-                    (
-                      
-                        
-                        
-                          
-                          text
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -5284,12 +4093,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="VoiceChat" data-name="SpeakText"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -5338,36 +4147,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                    SpeakText
-                    (
-                      
-                        
-                        
-                          
-                          voiceID
-                          
-                        
-                          ,
-                          text
-                          
-                        
-                          ,
-                          destination
-                          
-                        
-                          ,
-                          rate
-                          
-                        
-                          ,
-                          volume
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -5385,7 +4165,7 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="VoiceChat" data-name="StopSpeakingText"> <!-- hidden stuff begins -->
 
                  <!-- end arguments -->
                 
@@ -5393,13 +4173,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                    StopSpeakingText
-                    (
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -5417,7 +4191,7 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="VoiceChat" data-name="ToggleDeafened"> <!-- hidden stuff begins -->
 
                  <!-- end arguments -->
                 
@@ -5425,13 +4199,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                    ToggleDeafened
-                    (
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -5449,12 +4217,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="VoiceChat" data-name="ToggleMemberMuted"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -5479,20 +4247,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                    ToggleMemberMuted
-                    (
-                      
-                        
-                        
-                          
-                          playerLocation
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -5510,7 +4265,7 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="VoiceChat" data-name="ToggleMuted"> <!-- hidden stuff begins -->
 
                  <!-- end arguments -->
                 
@@ -5518,13 +4273,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                    ToggleMuted
-                    (
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -9229,6 +7978,7 @@
 
     <script>
       window.onload = function() {
+        // Toggles definitions.
         const expandItems = document.querySelectorAll(".bucket .expand");
         if (expandItems) {
           expandItems.forEach(item => {
@@ -9249,7 +7999,74 @@
             });
           });
         }
+
+        function generateCodeSnippet(codeSnippet) {
+          const content = codeSnippet.closest(".content");
+          const argumentDefinition = content.querySelector(".definition-argument");
+          const returnDefinition = content.querySelector(".definition-return");
+
+          const argumentParts = [];
+          const returnParts = [];
+          const functionName = content.dataset.name;
+          const namespaceName = content.dataset.namespace;
+
+          // Get all return value parts.
+          if (argumentDefinition) {
+            argumentDefinition.querySelectorAll("tbody tr").forEach(item => {
+              const argname = item.querySelector("td:first-child");
+              argumentParts.push(argname.innerText);
+            })
+          }
+          
+          // Get all argument value parts.
+          if (returnDefinition) {
+            returnDefinition.querySelectorAll("tbody tr").forEach(item => {
+              const checkbox = item.querySelector("td:first-child input[type=checkbox]");
+              const argname = item.querySelector("td:nth-child(2)");
+              if (checkbox.checked) {
+                returnParts.push(argname.innerText);
+              } else {
+                returnParts.push("_");
+              }
+            })
+          }
+
+          // Constructs the whole line.
+          const lineParts = [];
+          if (returnParts.length > 0) {
+            lineParts.push("local");
+            lineParts.push(returnParts.join(", "));
+            lineParts.push("=");
+          }
+          lineParts.push(`${namespaceName}.${functionName}(${argumentParts.join(", ")})`);
+
+          codeSnippet.innerHTML = hljs.highlight(lineParts.join(" "), {language: "lua"}).value;
+        }
+
+        // Creates code snippets.
+        const codeSnippetItems = document.querySelectorAll(".code-snippet");
+        if (codeSnippetItems) {
+          codeSnippetItems.forEach(codeSnippet => {
+            generateCodeSnippet(codeSnippet);
+          });
+        }
+        
+        const codeSnippetToggleItems = document.querySelectorAll(".content input[type=checkbox]");
+        if (codeSnippetToggleItems) {
+          codeSnippetToggleItems.forEach(item => {
+            item.addEventListener("click", evt => {
+              evt.stopPropagation();
+              const codeSnippet = evt.target.closest(".content").querySelector(".code-snippet");
+              generateCodeSnippet(codeSnippet);
+            });
+          });
+        }
       }
     </script>
+    
+    <link rel="stylesheet" href="/assets/hljs/default.min.css">
+    <script src="/assets/hljs/highlight.min.js"></script>
+    <script src="/assets/hljs/lua.min.js"></script>
+    <script>hljs.highlightAll();</script>
   </body>
 </html>

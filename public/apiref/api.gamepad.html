@@ -6,7 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>GamePad - WoW API</title>
     <link rel="stylesheet" href="/assets/tailwind.v2.min.css">
-    <style>.main-container { max-width: 1600px; }</style>
+    <style>
+      .main-container { max-width: 1600px; }
+      code.hljs { padding: 0!important; }
+    </style>
   </head>
   <body class="p-10">
 
@@ -38,12 +41,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="GamePad" data-name="AddSDLMapping"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -73,7 +76,7 @@
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -100,33 +103,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        success
-                        
-                      
-                      =
-                    
-                    AddSDLMapping
-                    (
-                      
-                        
-                        
-                          
-                          platform
-                          
-                        
-                          ,
-                          mapping
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -144,7 +121,7 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="GamePad" data-name="ApplyConfigs"> <!-- hidden stuff begins -->
 
                  <!-- end arguments -->
                 
@@ -152,13 +129,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                    ApplyConfigs
-                    (
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -176,12 +147,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="GamePad" data-name="AxisIndexToConfigName"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -205,7 +176,7 @@
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -232,29 +203,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        configName
-                        
-                      
-                      =
-                    
-                    AxisIndexToConfigName
-                    (
-                      
-                        
-                        
-                          
-                          axisIndex
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -272,12 +221,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="GamePad" data-name="ButtonBindingToIndex"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -301,7 +250,7 @@
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -328,29 +277,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        buttonIndex
-                        
-                      
-                      =
-                    
-                    ButtonBindingToIndex
-                    (
-                      
-                        
-                        
-                          
-                          bindingName
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -368,12 +295,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="GamePad" data-name="ButtonIndexToBinding"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -397,7 +324,7 @@
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -424,29 +351,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        bindingName
-                        
-                      
-                      =
-                    
-                    ButtonIndexToBinding
-                    (
-                      
-                        
-                        
-                          
-                          buttonIndex
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -464,12 +369,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="GamePad" data-name="ButtonIndexToConfigName"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -493,7 +398,7 @@
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -520,29 +425,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        configName
-                        
-                      
-                      =
-                    
-                    ButtonIndexToConfigName
-                    (
-                      
-                        
-                        
-                          
-                          buttonIndex
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -560,7 +443,7 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="GamePad" data-name="ClearLedColor"> <!-- hidden stuff begins -->
 
                  <!-- end arguments -->
                 
@@ -568,13 +451,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                    ClearLedColor
-                    (
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -592,12 +469,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="GamePad" data-name="DeleteConfig"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -622,20 +499,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                    DeleteConfig
-                    (
-                      
-                        
-                        
-                          
-                          configID
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -653,14 +517,14 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="GamePad" data-name="GetActiveDeviceID"> <!-- hidden stuff begins -->
 
                  <!-- end arguments -->
                 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -687,22 +551,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        deviceID
-                        
-                      
-                      =
-                    
-                    GetActiveDeviceID
-                    (
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -720,14 +569,14 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="GamePad" data-name="GetAllConfigIDs"> <!-- hidden stuff begins -->
 
                  <!-- end arguments -->
                 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -754,22 +603,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        configIDs
-                        
-                      
-                      =
-                    
-                    GetAllConfigIDs
-                    (
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -787,14 +621,14 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="GamePad" data-name="GetAllDeviceIDs"> <!-- hidden stuff begins -->
 
                  <!-- end arguments -->
                 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -821,22 +655,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        deviceIDs
-                        
-                      
-                      =
-                    
-                    GetAllDeviceIDs
-                    (
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -854,14 +673,14 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="GamePad" data-name="GetCombinedDeviceID"> <!-- hidden stuff begins -->
 
                  <!-- end arguments -->
                 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -888,22 +707,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        deviceID
-                        
-                      
-                      =
-                    
-                    GetCombinedDeviceID
-                    (
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -921,12 +725,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="GamePad" data-name="GetConfig"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -950,7 +754,7 @@
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -977,29 +781,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        config
-                        
-                      
-                      =
-                    
-                    GetConfig
-                    (
-                      
-                        
-                        
-                          
-                          configID
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -1017,12 +799,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="GamePad" data-name="GetDeviceMappedState"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -1046,7 +828,7 @@
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -1073,29 +855,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        state
-                        
-                      
-                      =
-                    
-                    GetDeviceMappedState
-                    (
-                      
-                        
-                        
-                          
-                          deviceID
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -1113,12 +873,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="GamePad" data-name="GetDeviceRawState"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -1142,7 +902,7 @@
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -1169,29 +929,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        rawState
-                        
-                      
-                      =
-                    
-                    GetDeviceRawState
-                    (
-                      
-                        
-                        
-                          
-                          deviceID
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -1209,14 +947,14 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="GamePad" data-name="GetLedColor"> <!-- hidden stuff begins -->
 
                  <!-- end arguments -->
                 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -1243,22 +981,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        color
-                        
-                      
-                      =
-                    
-                    GetLedColor
-                    (
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -1276,12 +999,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="GamePad" data-name="GetPowerLevel"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -1305,7 +1028,7 @@
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -1332,29 +1055,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        powerLevel
-                        
-                      
-                      =
-                    
-                    GetPowerLevel
-                    (
-                      
-                        
-                        
-                          
-                          deviceID
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -1372,14 +1073,14 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="GamePad" data-name="IsEnabled"> <!-- hidden stuff begins -->
 
                  <!-- end arguments -->
                 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -1406,22 +1107,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        enabled
-                        
-                      
-                      =
-                    
-                    IsEnabled
-                    (
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -1439,12 +1125,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="GamePad" data-name="SetConfig"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -1469,20 +1155,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                    SetConfig
-                    (
-                      
-                        
-                        
-                          
-                          config
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -1500,12 +1173,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="GamePad" data-name="SetLedColor"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -1530,20 +1203,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                    SetLedColor
-                    (
-                      
-                        
-                        
-                          
-                          color
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -1561,12 +1221,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="GamePad" data-name="SetVibration"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -1597,24 +1257,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                    SetVibration
-                    (
-                      
-                        
-                        
-                          
-                          vibrationType
-                          
-                        
-                          ,
-                          intensity
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -1632,12 +1275,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="GamePad" data-name="StickIndexToConfigName"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -1661,7 +1304,7 @@
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -1688,29 +1331,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        configName
-                        
-                      
-                      =
-                    
-                    StickIndexToConfigName
-                    (
-                      
-                        
-                        
-                          
-                          stickIndex
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -1728,7 +1349,7 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="GamePad" data-name="StopVibration"> <!-- hidden stuff begins -->
 
                  <!-- end arguments -->
                 
@@ -1736,13 +1357,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                    StopVibration
-                    (
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -2550,6 +2165,7 @@
 
     <script>
       window.onload = function() {
+        // Toggles definitions.
         const expandItems = document.querySelectorAll(".bucket .expand");
         if (expandItems) {
           expandItems.forEach(item => {
@@ -2570,7 +2186,74 @@
             });
           });
         }
+
+        function generateCodeSnippet(codeSnippet) {
+          const content = codeSnippet.closest(".content");
+          const argumentDefinition = content.querySelector(".definition-argument");
+          const returnDefinition = content.querySelector(".definition-return");
+
+          const argumentParts = [];
+          const returnParts = [];
+          const functionName = content.dataset.name;
+          const namespaceName = content.dataset.namespace;
+
+          // Get all return value parts.
+          if (argumentDefinition) {
+            argumentDefinition.querySelectorAll("tbody tr").forEach(item => {
+              const argname = item.querySelector("td:first-child");
+              argumentParts.push(argname.innerText);
+            })
+          }
+          
+          // Get all argument value parts.
+          if (returnDefinition) {
+            returnDefinition.querySelectorAll("tbody tr").forEach(item => {
+              const checkbox = item.querySelector("td:first-child input[type=checkbox]");
+              const argname = item.querySelector("td:nth-child(2)");
+              if (checkbox.checked) {
+                returnParts.push(argname.innerText);
+              } else {
+                returnParts.push("_");
+              }
+            })
+          }
+
+          // Constructs the whole line.
+          const lineParts = [];
+          if (returnParts.length > 0) {
+            lineParts.push("local");
+            lineParts.push(returnParts.join(", "));
+            lineParts.push("=");
+          }
+          lineParts.push(`${namespaceName}.${functionName}(${argumentParts.join(", ")})`);
+
+          codeSnippet.innerHTML = hljs.highlight(lineParts.join(" "), {language: "lua"}).value;
+        }
+
+        // Creates code snippets.
+        const codeSnippetItems = document.querySelectorAll(".code-snippet");
+        if (codeSnippetItems) {
+          codeSnippetItems.forEach(codeSnippet => {
+            generateCodeSnippet(codeSnippet);
+          });
+        }
+        
+        const codeSnippetToggleItems = document.querySelectorAll(".content input[type=checkbox]");
+        if (codeSnippetToggleItems) {
+          codeSnippetToggleItems.forEach(item => {
+            item.addEventListener("click", evt => {
+              evt.stopPropagation();
+              const codeSnippet = evt.target.closest(".content").querySelector(".code-snippet");
+              generateCodeSnippet(codeSnippet);
+            });
+          });
+        }
       }
     </script>
+    
+    <link rel="stylesheet" href="/assets/hljs/default.min.css">
+    <script src="/assets/hljs/highlight.min.js"></script>
+    <script src="/assets/hljs/lua.min.js"></script>
+    <script>hljs.highlightAll();</script>
   </body>
 </html>

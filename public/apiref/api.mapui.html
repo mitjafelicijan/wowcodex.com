@@ -6,7 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>MapUI - WoW API</title>
     <link rel="stylesheet" href="/assets/tailwind.v2.min.css">
-    <style>.main-container { max-width: 1600px; }</style>
+    <style>
+      .main-container { max-width: 1600px; }
+      code.hljs { padding: 0!important; }
+    </style>
   </head>
   <body class="p-10">
 
@@ -38,12 +41,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="MapUI" data-name="GetAreaInfo"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -67,7 +70,7 @@
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -94,29 +97,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        name
-                        
-                      
-                      =
-                    
-                    GetAreaInfo
-                    (
-                      
-                        
-                        
-                          
-                          areaID
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -134,12 +115,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="MapUI" data-name="GetBestMapForUnit"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -163,7 +144,7 @@
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -190,29 +171,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        uiMapID
-                        
-                      
-                      =
-                    
-                    GetBestMapForUnit
-                    (
-                      
-                        
-                        
-                          
-                          unitToken
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -230,12 +189,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="MapUI" data-name="GetBountySetIDForMap"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -259,7 +218,7 @@
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -286,29 +245,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        bountySetID
-                        
-                      
-                      =
-                    
-                    GetBountySetIDForMap
-                    (
-                      
-                        
-                        
-                          
-                          uiMapID
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -326,14 +263,14 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="MapUI" data-name="GetFallbackWorldMapID"> <!-- hidden stuff begins -->
 
                  <!-- end arguments -->
                 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -360,22 +297,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        uiMapID
-                        
-                      
-                      =
-                    
-                    GetFallbackWorldMapID
-                    (
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -393,12 +315,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="MapUI" data-name="GetMapArtBackgroundAtlas"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -422,7 +344,7 @@
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -449,29 +371,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        atlasName
-                        
-                      
-                      =
-                    
-                    GetMapArtBackgroundAtlas
-                    (
-                      
-                        
-                        
-                          
-                          uiMapID
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -489,12 +389,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="MapUI" data-name="GetMapArtHelpTextPosition"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -518,7 +418,7 @@
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -545,29 +445,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        position
-                        
-                      
-                      =
-                    
-                    GetMapArtHelpTextPosition
-                    (
-                      
-                        
-                        
-                          
-                          uiMapID
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -585,12 +463,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="MapUI" data-name="GetMapArtID"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -614,7 +492,7 @@
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -641,29 +519,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        uiMapArtID
-                        
-                      
-                      =
-                    
-                    GetMapArtID
-                    (
-                      
-                        
-                        
-                          
-                          uiMapID
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -681,12 +537,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="MapUI" data-name="GetMapArtLayerTextures"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -716,7 +572,7 @@
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -743,33 +599,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        textures
-                        
-                      
-                      =
-                    
-                    GetMapArtLayerTextures
-                    (
-                      
-                        
-                        
-                          
-                          uiMapID
-                          
-                        
-                          ,
-                          layerIndex
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -787,12 +617,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="MapUI" data-name="GetMapArtLayers"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -816,7 +646,7 @@
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -843,29 +673,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        layerInfo
-                        
-                      
-                      =
-                    
-                    GetMapArtLayers
-                    (
-                      
-                        
-                        
-                          
-                          uiMapID
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -883,12 +691,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="MapUI" data-name="GetMapBannersForMap"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -912,7 +720,7 @@
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -939,29 +747,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        mapBanners
-                        
-                      
-                      =
-                    
-                    GetMapBannersForMap
-                    (
-                      
-                        
-                        
-                          
-                          uiMapID
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -979,12 +765,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="MapUI" data-name="GetMapChildrenInfo"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -1020,7 +806,7 @@
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -1047,37 +833,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        info
-                        
-                      
-                      =
-                    
-                    GetMapChildrenInfo
-                    (
-                      
-                        
-                        
-                          
-                          uiMapID
-                          
-                        
-                          ,
-                          mapType
-                          
-                        
-                          ,
-                          allDescendants
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -1095,12 +851,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="MapUI" data-name="GetMapDisplayInfo"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -1124,7 +880,7 @@
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -1151,29 +907,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        hideIcons
-                        
-                      
-                      =
-                    
-                    GetMapDisplayInfo
-                    (
-                      
-                        
-                        
-                          
-                          uiMapID
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -1191,12 +925,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="MapUI" data-name="GetMapGroupID"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -1220,7 +954,7 @@
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -1247,29 +981,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        uiMapGroupID
-                        
-                      
-                      =
-                    
-                    GetMapGroupID
-                    (
-                      
-                        
-                        
-                          
-                          uiMapID
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -1287,12 +999,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="MapUI" data-name="GetMapGroupMembersInfo"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -1316,7 +1028,7 @@
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -1343,29 +1055,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        info
-                        
-                      
-                      =
-                    
-                    GetMapGroupMembersInfo
-                    (
-                      
-                        
-                        
-                          
-                          uiMapGroupID
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -1383,12 +1073,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="MapUI" data-name="GetMapHighlightInfoAtPosition"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -1424,7 +1114,7 @@
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -1507,65 +1197,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        fileDataID
-                        
-                      
-                        ,
-                        atlasID
-                        
-                      
-                        ,
-                        texturePercentageX
-                        
-                      
-                        ,
-                        texturePercentageY
-                        
-                      
-                        ,
-                        textureX
-                        
-                      
-                        ,
-                        textureY
-                        
-                      
-                        ,
-                        scrollChildX
-                        
-                      
-                        ,
-                        scrollChildY
-                        
-                      
-                      =
-                    
-                    GetMapHighlightInfoAtPosition
-                    (
-                      
-                        
-                        
-                          
-                          uiMapID
-                          
-                        
-                          ,
-                          x
-                          
-                        
-                          ,
-                          y
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -1583,12 +1215,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="MapUI" data-name="GetMapInfo"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -1612,7 +1244,7 @@
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -1639,29 +1271,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        info
-                        
-                      
-                      =
-                    
-                    GetMapInfo
-                    (
-                      
-                        
-                        
-                          
-                          uiMapID
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -1679,12 +1289,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="MapUI" data-name="GetMapInfoAtPosition"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -1726,7 +1336,7 @@
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -1753,41 +1363,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        info
-                        
-                      
-                      =
-                    
-                    GetMapInfoAtPosition
-                    (
-                      
-                        
-                        
-                          
-                          uiMapID
-                          
-                        
-                          ,
-                          x
-                          
-                        
-                          ,
-                          y
-                          
-                        
-                          ,
-                          ignoreZoneMapPositionData
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -1805,12 +1381,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="MapUI" data-name="GetMapLevels"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -1834,7 +1410,7 @@
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -1885,41 +1461,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        playerMinLevel
-                        
-                      
-                        ,
-                        playerMaxLevel
-                        
-                      
-                        ,
-                        petMinLevel
-                        
-                      
-                        ,
-                        petMaxLevel
-                        
-                      
-                      =
-                    
-                    GetMapLevels
-                    (
-                      
-                        
-                        
-                          
-                          uiMapID
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -1937,12 +1479,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="MapUI" data-name="GetMapLinksForMap"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -1966,7 +1508,7 @@
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -1993,29 +1535,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        mapLinks
-                        
-                      
-                      =
-                    
-                    GetMapLinksForMap
-                    (
-                      
-                        
-                        
-                          
-                          uiMapID
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -2033,12 +1553,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="MapUI" data-name="GetMapPosFromWorldPos"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -2074,7 +1594,7 @@
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -2109,41 +1629,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        uiMapID
-                        
-                      
-                        ,
-                        mapPosition
-                        
-                      
-                      =
-                    
-                    GetMapPosFromWorldPos
-                    (
-                      
-                        
-                        
-                          
-                          continentID
-                          
-                        
-                          ,
-                          worldPosition
-                          
-                        
-                          ,
-                          overrideUiMapID
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -2161,12 +1647,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="MapUI" data-name="GetMapRectOnMap"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -2196,7 +1682,7 @@
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -2247,45 +1733,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        minX
-                        
-                      
-                        ,
-                        maxX
-                        
-                      
-                        ,
-                        minY
-                        
-                      
-                        ,
-                        maxY
-                        
-                      
-                      =
-                    
-                    GetMapRectOnMap
-                    (
-                      
-                        
-                        
-                          
-                          uiMapID
-                          
-                        
-                          ,
-                          topUiMapID
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -2303,12 +1751,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="MapUI" data-name="GetPlayerMapPosition"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -2338,7 +1786,7 @@
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -2365,33 +1813,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        position
-                        
-                      
-                      =
-                    
-                    GetPlayerMapPosition
-                    (
-                      
-                        
-                        
-                          
-                          uiMapID
-                          
-                        
-                          ,
-                          unitToken
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -2409,12 +1831,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="MapUI" data-name="GetWorldPosFromMapPos"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -2444,7 +1866,7 @@
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -2479,37 +1901,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        continentID
-                        
-                      
-                        ,
-                        worldPosition
-                        
-                      
-                      =
-                    
-                    GetWorldPosFromMapPos
-                    (
-                      
-                        
-                        
-                          
-                          uiMapID
-                          
-                        
-                          ,
-                          mapPosition
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -2527,12 +1919,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="MapUI" data-name="MapHasArt"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -2556,7 +1948,7 @@
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -2583,29 +1975,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        hasArt
-                        
-                      
-                      =
-                    
-                    MapHasArt
-                    (
-                      
-                        
-                        
-                          
-                          uiMapID
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -2623,12 +1993,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="MapUI" data-name="RequestPreloadMap"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -2653,20 +2023,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                    RequestPreloadMap
-                    (
-                      
-                        
-                        
-                          
-                          uiMapID
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -3167,6 +2524,7 @@
 
     <script>
       window.onload = function() {
+        // Toggles definitions.
         const expandItems = document.querySelectorAll(".bucket .expand");
         if (expandItems) {
           expandItems.forEach(item => {
@@ -3187,7 +2545,74 @@
             });
           });
         }
+
+        function generateCodeSnippet(codeSnippet) {
+          const content = codeSnippet.closest(".content");
+          const argumentDefinition = content.querySelector(".definition-argument");
+          const returnDefinition = content.querySelector(".definition-return");
+
+          const argumentParts = [];
+          const returnParts = [];
+          const functionName = content.dataset.name;
+          const namespaceName = content.dataset.namespace;
+
+          // Get all return value parts.
+          if (argumentDefinition) {
+            argumentDefinition.querySelectorAll("tbody tr").forEach(item => {
+              const argname = item.querySelector("td:first-child");
+              argumentParts.push(argname.innerText);
+            })
+          }
+          
+          // Get all argument value parts.
+          if (returnDefinition) {
+            returnDefinition.querySelectorAll("tbody tr").forEach(item => {
+              const checkbox = item.querySelector("td:first-child input[type=checkbox]");
+              const argname = item.querySelector("td:nth-child(2)");
+              if (checkbox.checked) {
+                returnParts.push(argname.innerText);
+              } else {
+                returnParts.push("_");
+              }
+            })
+          }
+
+          // Constructs the whole line.
+          const lineParts = [];
+          if (returnParts.length > 0) {
+            lineParts.push("local");
+            lineParts.push(returnParts.join(", "));
+            lineParts.push("=");
+          }
+          lineParts.push(`${namespaceName}.${functionName}(${argumentParts.join(", ")})`);
+
+          codeSnippet.innerHTML = hljs.highlight(lineParts.join(" "), {language: "lua"}).value;
+        }
+
+        // Creates code snippets.
+        const codeSnippetItems = document.querySelectorAll(".code-snippet");
+        if (codeSnippetItems) {
+          codeSnippetItems.forEach(codeSnippet => {
+            generateCodeSnippet(codeSnippet);
+          });
+        }
+        
+        const codeSnippetToggleItems = document.querySelectorAll(".content input[type=checkbox]");
+        if (codeSnippetToggleItems) {
+          codeSnippetToggleItems.forEach(item => {
+            item.addEventListener("click", evt => {
+              evt.stopPropagation();
+              const codeSnippet = evt.target.closest(".content").querySelector(".code-snippet");
+              generateCodeSnippet(codeSnippet);
+            });
+          });
+        }
       }
     </script>
+    
+    <link rel="stylesheet" href="/assets/hljs/default.min.css">
+    <script src="/assets/hljs/highlight.min.js"></script>
+    <script src="/assets/hljs/lua.min.js"></script>
+    <script>hljs.highlightAll();</script>
   </body>
 </html>

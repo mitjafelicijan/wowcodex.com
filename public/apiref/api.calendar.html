@@ -6,7 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Calendar - WoW API</title>
     <link rel="stylesheet" href="/assets/tailwind.v2.min.css">
-    <style>.main-container { max-width: 1600px; }</style>
+    <style>
+      .main-container { max-width: 1600px; }
+      code.hljs { padding: 0!important; }
+    </style>
   </head>
   <body class="p-10">
 
@@ -38,7 +41,7 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="Calendar" data-name="AddEvent"> <!-- hidden stuff begins -->
 
                  <!-- end arguments -->
                 
@@ -46,13 +49,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                    AddEvent
-                    (
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -70,14 +67,14 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="Calendar" data-name="AreNamesReady"> <!-- hidden stuff begins -->
 
                  <!-- end arguments -->
                 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -104,22 +101,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        ready
-                        
-                      
-                      =
-                    
-                    AreNamesReady
-                    (
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -137,14 +119,14 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="Calendar" data-name="CanAddEvent"> <!-- hidden stuff begins -->
 
                  <!-- end arguments -->
                 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -171,22 +153,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        canAddEvent
-                        
-                      
-                      =
-                    
-                    CanAddEvent
-                    (
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -204,14 +171,14 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="Calendar" data-name="CanSendInvite"> <!-- hidden stuff begins -->
 
                  <!-- end arguments -->
                 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -238,22 +205,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        canSendInvite
-                        
-                      
-                      =
-                    
-                    CanSendInvite
-                    (
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -271,7 +223,7 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="Calendar" data-name="CloseEvent"> <!-- hidden stuff begins -->
 
                  <!-- end arguments -->
                 
@@ -279,13 +231,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                    CloseEvent
-                    (
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -303,12 +249,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="Calendar" data-name="ContextMenuEventCanComplain"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -344,7 +290,7 @@
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -371,37 +317,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        canComplain
-                        
-                      
-                      =
-                    
-                    ContextMenuEventCanComplain
-                    (
-                      
-                        
-                        
-                          
-                          offsetMonths
-                          
-                        
-                          ,
-                          monthDay
-                          
-                        
-                          ,
-                          eventIndex
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -419,12 +335,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="Calendar" data-name="ContextMenuEventCanEdit"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -460,7 +376,7 @@
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -487,37 +403,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        canEdit
-                        
-                      
-                      =
-                    
-                    ContextMenuEventCanEdit
-                    (
-                      
-                        
-                        
-                          
-                          offsetMonths
-                          
-                        
-                          ,
-                          monthDay
-                          
-                        
-                          ,
-                          eventIndex
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -535,12 +421,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="Calendar" data-name="ContextMenuEventCanRemove"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -576,7 +462,7 @@
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -603,37 +489,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        canRemove
-                        
-                      
-                      =
-                    
-                    ContextMenuEventCanRemove
-                    (
-                      
-                        
-                        
-                          
-                          offsetMonths
-                          
-                        
-                          ,
-                          monthDay
-                          
-                        
-                          ,
-                          eventIndex
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -651,14 +507,14 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="Calendar" data-name="ContextMenuEventClipboard"> <!-- hidden stuff begins -->
 
                  <!-- end arguments -->
                 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -685,22 +541,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        exists
-                        
-                      
-                      =
-                    
-                    ContextMenuEventClipboard
-                    (
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -718,7 +559,7 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="Calendar" data-name="ContextMenuEventCopy"> <!-- hidden stuff begins -->
 
                  <!-- end arguments -->
                 
@@ -726,13 +567,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                    ContextMenuEventCopy
-                    (
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -750,14 +585,14 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="Calendar" data-name="ContextMenuEventGetCalendarType"> <!-- hidden stuff begins -->
 
                  <!-- end arguments -->
                 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -784,22 +619,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        calendarType
-                        
-                      
-                      =
-                    
-                    ContextMenuEventGetCalendarType
-                    (
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -817,12 +637,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="Calendar" data-name="ContextMenuEventPaste"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -853,24 +673,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                    ContextMenuEventPaste
-                    (
-                      
-                        
-                        
-                          
-                          offsetMonths
-                          
-                        
-                          ,
-                          monthDay
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -888,7 +691,7 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="Calendar" data-name="ContextMenuEventRemove"> <!-- hidden stuff begins -->
 
                  <!-- end arguments -->
                 
@@ -896,13 +699,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                    ContextMenuEventRemove
-                    (
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -920,7 +717,7 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="Calendar" data-name="ContextMenuEventSignUp"> <!-- hidden stuff begins -->
 
                  <!-- end arguments -->
                 
@@ -928,13 +725,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                    ContextMenuEventSignUp
-                    (
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -952,14 +743,14 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="Calendar" data-name="ContextMenuGetEventIndex"> <!-- hidden stuff begins -->
 
                  <!-- end arguments -->
                 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -986,22 +777,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        info
-                        
-                      
-                      =
-                    
-                    ContextMenuGetEventIndex
-                    (
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -1019,7 +795,7 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="Calendar" data-name="ContextMenuInviteAvailable"> <!-- hidden stuff begins -->
 
                  <!-- end arguments -->
                 
@@ -1027,13 +803,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                    ContextMenuInviteAvailable
-                    (
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -1051,7 +821,7 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="Calendar" data-name="ContextMenuInviteDecline"> <!-- hidden stuff begins -->
 
                  <!-- end arguments -->
                 
@@ -1059,13 +829,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                    ContextMenuInviteDecline
-                    (
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -1083,7 +847,7 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="Calendar" data-name="ContextMenuInviteRemove"> <!-- hidden stuff begins -->
 
                  <!-- end arguments -->
                 
@@ -1091,13 +855,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                    ContextMenuInviteRemove
-                    (
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -1115,7 +873,7 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="Calendar" data-name="ContextMenuInviteTentative"> <!-- hidden stuff begins -->
 
                  <!-- end arguments -->
                 
@@ -1123,13 +881,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                    ContextMenuInviteTentative
-                    (
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -1147,12 +899,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="Calendar" data-name="ContextMenuSelectEvent"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -1189,28 +941,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                    ContextMenuSelectEvent
-                    (
-                      
-                        
-                        
-                          
-                          offsetMonths
-                          
-                        
-                          ,
-                          monthDay
-                          
-                        
-                          ,
-                          eventIndex
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -1228,7 +959,7 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="Calendar" data-name="CreateCommunitySignUpEvent"> <!-- hidden stuff begins -->
 
                  <!-- end arguments -->
                 
@@ -1236,13 +967,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                    CreateCommunitySignUpEvent
-                    (
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -1260,7 +985,7 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="Calendar" data-name="CreateGuildAnnouncementEvent"> <!-- hidden stuff begins -->
 
                  <!-- end arguments -->
                 
@@ -1268,13 +993,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                    CreateGuildAnnouncementEvent
-                    (
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -1292,7 +1011,7 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="Calendar" data-name="CreateGuildSignUpEvent"> <!-- hidden stuff begins -->
 
                  <!-- end arguments -->
                 
@@ -1300,13 +1019,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                    CreateGuildSignUpEvent
-                    (
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -1324,7 +1037,7 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="Calendar" data-name="CreatePlayerEvent"> <!-- hidden stuff begins -->
 
                  <!-- end arguments -->
                 
@@ -1332,13 +1045,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                    CreatePlayerEvent
-                    (
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -1356,7 +1063,7 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="Calendar" data-name="EventAvailable"> <!-- hidden stuff begins -->
 
                  <!-- end arguments -->
                 
@@ -1364,13 +1071,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                    EventAvailable
-                    (
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -1388,14 +1089,14 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="Calendar" data-name="EventCanEdit"> <!-- hidden stuff begins -->
 
                  <!-- end arguments -->
                 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -1422,22 +1123,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        canEdit
-                        
-                      
-                      =
-                    
-                    EventCanEdit
-                    (
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -1455,7 +1141,7 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="Calendar" data-name="EventClearAutoApprove"> <!-- hidden stuff begins -->
 
                  <!-- end arguments -->
                 
@@ -1463,13 +1149,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                    EventClearAutoApprove
-                    (
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -1487,7 +1167,7 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="Calendar" data-name="EventClearLocked"> <!-- hidden stuff begins -->
 
                  <!-- end arguments -->
                 
@@ -1495,13 +1175,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                    EventClearLocked
-                    (
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -1519,12 +1193,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="Calendar" data-name="EventClearModerator"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -1549,20 +1223,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                    EventClearModerator
-                    (
-                      
-                        
-                        
-                          
-                          inviteIndex
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -1580,7 +1241,7 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="Calendar" data-name="EventDecline"> <!-- hidden stuff begins -->
 
                  <!-- end arguments -->
                 
@@ -1588,13 +1249,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                    EventDecline
-                    (
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -1612,14 +1267,14 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="Calendar" data-name="EventGetCalendarType"> <!-- hidden stuff begins -->
 
                  <!-- end arguments -->
                 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -1646,22 +1301,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        calendarType
-                        
-                      
-                      =
-                    
-                    EventGetCalendarType
-                    (
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -1679,14 +1319,14 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="Calendar" data-name="EventGetClubId"> <!-- hidden stuff begins -->
 
                  <!-- end arguments -->
                 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -1713,22 +1353,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        info
-                        
-                      
-                      =
-                    
-                    EventGetClubId
-                    (
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -1746,12 +1371,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="Calendar" data-name="EventGetInvite"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -1775,7 +1400,7 @@
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -1802,29 +1427,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        info
-                        
-                      
-                      =
-                    
-                    EventGetInvite
-                    (
-                      
-                        
-                        
-                          
-                          eventIndex
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -1842,12 +1445,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="Calendar" data-name="EventGetInviteResponseTime"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -1871,7 +1474,7 @@
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -1898,29 +1501,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        time
-                        
-                      
-                      =
-                    
-                    EventGetInviteResponseTime
-                    (
-                      
-                        
-                        
-                          
-                          eventIndex
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -1938,14 +1519,14 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="Calendar" data-name="EventGetInviteSortCriterion"> <!-- hidden stuff begins -->
 
                  <!-- end arguments -->
                 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -1980,26 +1561,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        criterion
-                        
-                      
-                        ,
-                        reverse
-                        
-                      
-                      =
-                    
-                    EventGetInviteSortCriterion
-                    (
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -2017,14 +1579,14 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="Calendar" data-name="EventGetSelectedInvite"> <!-- hidden stuff begins -->
 
                  <!-- end arguments -->
                 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -2051,22 +1613,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        inviteIndex
-                        
-                      
-                      =
-                    
-                    EventGetSelectedInvite
-                    (
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -2084,12 +1631,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="Calendar" data-name="EventGetStatusOptions"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -2113,7 +1660,7 @@
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -2140,29 +1687,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        options
-                        
-                      
-                      =
-                    
-                    EventGetStatusOptions
-                    (
-                      
-                        
-                        
-                          
-                          eventIndex
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -2180,12 +1705,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="Calendar" data-name="EventGetTextures"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -2209,7 +1734,7 @@
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -2236,29 +1761,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        textures
-                        
-                      
-                      =
-                    
-                    EventGetTextures
-                    (
-                      
-                        
-                        
-                          
-                          eventType
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -2276,14 +1779,14 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="Calendar" data-name="EventGetTypes"> <!-- hidden stuff begins -->
 
                  <!-- end arguments -->
                 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -2310,22 +1813,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        types
-                        
-                      
-                      =
-                    
-                    EventGetTypes
-                    (
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -2343,14 +1831,14 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="Calendar" data-name="EventGetTypesDisplayOrdered"> <!-- hidden stuff begins -->
 
                  <!-- end arguments -->
                 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -2377,22 +1865,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        infos
-                        
-                      
-                      =
-                    
-                    EventGetTypesDisplayOrdered
-                    (
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -2410,14 +1883,14 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="Calendar" data-name="EventHasPendingInvite"> <!-- hidden stuff begins -->
 
                  <!-- end arguments -->
                 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -2444,22 +1917,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        hasPendingInvite
-                        
-                      
-                      =
-                    
-                    EventHasPendingInvite
-                    (
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -2477,14 +1935,14 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="Calendar" data-name="EventHaveSettingsChanged"> <!-- hidden stuff begins -->
 
                  <!-- end arguments -->
                 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -2511,22 +1969,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        haveSettingsChanged
-                        
-                      
-                      =
-                    
-                    EventHaveSettingsChanged
-                    (
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -2544,12 +1987,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="Calendar" data-name="EventInvite"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -2574,20 +2017,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                    EventInvite
-                    (
-                      
-                        
-                        
-                          
-                          name
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -2605,12 +2035,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="Calendar" data-name="EventRemoveInvite"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -2635,20 +2065,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                    EventRemoveInvite
-                    (
-                      
-                        
-                        
-                          
-                          inviteIndex
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -2666,12 +2083,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="Calendar" data-name="EventRemoveInviteByGuid"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -2696,20 +2113,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                    EventRemoveInviteByGuid
-                    (
-                      
-                        
-                        
-                          
-                          guid
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -2727,12 +2131,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="Calendar" data-name="EventSelectInvite"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -2757,20 +2161,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                    EventSelectInvite
-                    (
-                      
-                        
-                        
-                          
-                          inviteIndex
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -2788,7 +2179,7 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="Calendar" data-name="EventSetAutoApprove"> <!-- hidden stuff begins -->
 
                  <!-- end arguments -->
                 
@@ -2796,13 +2187,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                    EventSetAutoApprove
-                    (
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -2820,12 +2205,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="Calendar" data-name="EventSetClubId"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -2850,20 +2235,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                    EventSetClubId
-                    (
-                      
-                        
-                        
-                          
-                          clubId
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -2881,12 +2253,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="Calendar" data-name="EventSetDate"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -2923,28 +2295,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                    EventSetDate
-                    (
-                      
-                        
-                        
-                          
-                          month
-                          
-                        
-                          ,
-                          monthDay
-                          
-                        
-                          ,
-                          year
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -2962,12 +2313,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="Calendar" data-name="EventSetDescription"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -2992,20 +2343,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                    EventSetDescription
-                    (
-                      
-                        
-                        
-                          
-                          description
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -3023,12 +2361,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="Calendar" data-name="EventSetInviteStatus"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -3059,24 +2397,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                    EventSetInviteStatus
-                    (
-                      
-                        
-                        
-                          
-                          eventIndex
-                          
-                        
-                          ,
-                          status
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -3094,7 +2415,7 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="Calendar" data-name="EventSetLocked"> <!-- hidden stuff begins -->
 
                  <!-- end arguments -->
                 
@@ -3102,13 +2423,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                    EventSetLocked
-                    (
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -3126,12 +2441,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="Calendar" data-name="EventSetModerator"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -3156,20 +2471,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                    EventSetModerator
-                    (
-                      
-                        
-                        
-                          
-                          inviteIndex
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -3187,12 +2489,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="Calendar" data-name="EventSetTextureID"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -3217,20 +2519,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                    EventSetTextureID
-                    (
-                      
-                        
-                        
-                          
-                          textureIndex
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -3248,12 +2537,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="Calendar" data-name="EventSetTime"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -3284,24 +2573,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                    EventSetTime
-                    (
-                      
-                        
-                        
-                          
-                          hour
-                          
-                        
-                          ,
-                          minute
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -3319,12 +2591,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="Calendar" data-name="EventSetTitle"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -3349,20 +2621,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                    EventSetTitle
-                    (
-                      
-                        
-                        
-                          
-                          title
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -3380,12 +2639,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="Calendar" data-name="EventSetType"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -3410,20 +2669,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                    EventSetType
-                    (
-                      
-                        
-                        
-                          
-                          typeIndex
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -3441,7 +2687,7 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="Calendar" data-name="EventSignUp"> <!-- hidden stuff begins -->
 
                  <!-- end arguments -->
                 
@@ -3449,13 +2695,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                    EventSignUp
-                    (
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -3473,12 +2713,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="Calendar" data-name="EventSortInvites"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -3509,24 +2749,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                    EventSortInvites
-                    (
-                      
-                        
-                        
-                          
-                          criterion
-                          
-                        
-                          ,
-                          reverse
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -3544,7 +2767,7 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="Calendar" data-name="EventTentative"> <!-- hidden stuff begins -->
 
                  <!-- end arguments -->
                 
@@ -3552,13 +2775,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                    EventTentative
-                    (
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -3576,12 +2793,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="Calendar" data-name="GetClubCalendarEvents"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -3617,7 +2834,7 @@
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -3644,37 +2861,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        events
-                        
-                      
-                      =
-                    
-                    GetClubCalendarEvents
-                    (
-                      
-                        
-                        
-                          
-                          clubId
-                          
-                        
-                          ,
-                          startTime
-                          
-                        
-                          ,
-                          endTime
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -3692,12 +2879,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="Calendar" data-name="GetDayEvent"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -3733,7 +2920,7 @@
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -3760,37 +2947,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        event
-                        
-                      
-                      =
-                    
-                    GetDayEvent
-                    (
-                      
-                        
-                        
-                          
-                          monthOffset
-                          
-                        
-                          ,
-                          monthDay
-                          
-                        
-                          ,
-                          index
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -3808,14 +2965,14 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="Calendar" data-name="GetDefaultGuildFilter"> <!-- hidden stuff begins -->
 
                  <!-- end arguments -->
                 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -3842,22 +2999,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        info
-                        
-                      
-                      =
-                    
-                    GetDefaultGuildFilter
-                    (
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -3875,14 +3017,14 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="Calendar" data-name="GetEventIndex"> <!-- hidden stuff begins -->
 
                  <!-- end arguments -->
                 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -3909,22 +3051,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        info
-                        
-                      
-                      =
-                    
-                    GetEventIndex
-                    (
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -3942,12 +3069,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="Calendar" data-name="GetEventIndexInfo"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -3983,7 +3110,7 @@
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -4010,37 +3137,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        eventIndexInfo
-                        
-                      
-                      =
-                    
-                    GetEventIndexInfo
-                    (
-                      
-                        
-                        
-                          
-                          eventID
-                          
-                        
-                          ,
-                          monthOffset
-                          
-                        
-                          ,
-                          monthDay
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -4058,14 +3155,14 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="Calendar" data-name="GetEventInfo"> <!-- hidden stuff begins -->
 
                  <!-- end arguments -->
                 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -4092,22 +3189,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        info
-                        
-                      
-                      =
-                    
-                    GetEventInfo
-                    (
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -4125,12 +3207,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="Calendar" data-name="GetFirstPendingInvite"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -4160,7 +3242,7 @@
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -4187,33 +3269,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        firstPendingInvite
-                        
-                      
-                      =
-                    
-                    GetFirstPendingInvite
-                    (
-                      
-                        
-                        
-                          
-                          offsetMonths
-                          
-                        
-                          ,
-                          monthDay
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -4231,12 +3287,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="Calendar" data-name="GetGuildEventInfo"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -4260,7 +3316,7 @@
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -4287,29 +3343,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        info
-                        
-                      
-                      =
-                    
-                    GetGuildEventInfo
-                    (
-                      
-                        
-                        
-                          
-                          index
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -4327,12 +3361,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="Calendar" data-name="GetGuildEventSelectionInfo"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -4356,7 +3390,7 @@
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -4383,29 +3417,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        info
-                        
-                      
-                      =
-                    
-                    GetGuildEventSelectionInfo
-                    (
-                      
-                        
-                        
-                          
-                          index
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -4423,12 +3435,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="Calendar" data-name="GetHolidayInfo"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -4464,7 +3476,7 @@
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -4491,37 +3503,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        event
-                        
-                      
-                      =
-                    
-                    GetHolidayInfo
-                    (
-                      
-                        
-                        
-                          
-                          monthOffset
-                          
-                        
-                          ,
-                          monthDay
-                          
-                        
-                          ,
-                          index
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -4539,14 +3521,14 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="Calendar" data-name="GetMaxCreateDate"> <!-- hidden stuff begins -->
 
                  <!-- end arguments -->
                 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -4573,22 +3555,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        maxCreateDate
-                        
-                      
-                      =
-                    
-                    GetMaxCreateDate
-                    (
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -4606,14 +3573,14 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="Calendar" data-name="GetMinDate"> <!-- hidden stuff begins -->
 
                  <!-- end arguments -->
                 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -4640,22 +3607,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        minDate
-                        
-                      
-                      =
-                    
-                    GetMinDate
-                    (
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -4673,12 +3625,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="Calendar" data-name="GetMonthInfo"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -4702,7 +3654,7 @@
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -4729,29 +3681,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        monthInfo
-                        
-                      
-                      =
-                    
-                    GetMonthInfo
-                    (
-                      
-                        
-                        
-                          
-                          offsetMonths
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -4769,14 +3699,14 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="Calendar" data-name="GetNextClubId"> <!-- hidden stuff begins -->
 
                  <!-- end arguments -->
                 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -4803,22 +3733,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        clubId
-                        
-                      
-                      =
-                    
-                    GetNextClubId
-                    (
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -4836,12 +3751,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="Calendar" data-name="GetNumDayEvents"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -4871,7 +3786,7 @@
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -4898,33 +3813,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        numDayEvents
-                        
-                      
-                      =
-                    
-                    GetNumDayEvents
-                    (
-                      
-                        
-                        
-                          
-                          offsetMonths
-                          
-                        
-                          ,
-                          monthDay
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -4942,14 +3831,14 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="Calendar" data-name="GetNumGuildEvents"> <!-- hidden stuff begins -->
 
                  <!-- end arguments -->
                 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -4976,22 +3865,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        numGuildEvents
-                        
-                      
-                      =
-                    
-                    GetNumGuildEvents
-                    (
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -5009,14 +3883,14 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="Calendar" data-name="GetNumInvites"> <!-- hidden stuff begins -->
 
                  <!-- end arguments -->
                 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -5043,22 +3917,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        num
-                        
-                      
-                      =
-                    
-                    GetNumInvites
-                    (
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -5076,14 +3935,14 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="Calendar" data-name="GetNumPendingInvites"> <!-- hidden stuff begins -->
 
                  <!-- end arguments -->
                 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -5110,22 +3969,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        num
-                        
-                      
-                      =
-                    
-                    GetNumPendingInvites
-                    (
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -5143,12 +3987,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="Calendar" data-name="GetRaidInfo"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -5184,7 +4028,7 @@
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -5211,37 +4055,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        info
-                        
-                      
-                      =
-                    
-                    GetRaidInfo
-                    (
-                      
-                        
-                        
-                          
-                          offsetMonths
-                          
-                        
-                          ,
-                          monthDay
-                          
-                        
-                          ,
-                          eventIndex
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -5259,14 +4073,14 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="Calendar" data-name="IsActionPending"> <!-- hidden stuff begins -->
 
                  <!-- end arguments -->
                 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -5293,22 +4107,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        actionPending
-                        
-                      
-                      =
-                    
-                    IsActionPending
-                    (
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -5326,14 +4125,14 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="Calendar" data-name="IsEventOpen"> <!-- hidden stuff begins -->
 
                  <!-- end arguments -->
                 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -5360,22 +4159,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        isOpen
-                        
-                      
-                      =
-                    
-                    IsEventOpen
-                    (
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -5393,12 +4177,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="Calendar" data-name="MassInviteCommunity"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -5441,32 +4225,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                    MassInviteCommunity
-                    (
-                      
-                        
-                        
-                          
-                          clubId
-                          
-                        
-                          ,
-                          minLevel
-                          
-                        
-                          ,
-                          maxLevel
-                          
-                        
-                          ,
-                          maxRankOrder
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -5484,12 +4243,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="Calendar" data-name="MassInviteGuild"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -5526,28 +4285,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                    MassInviteGuild
-                    (
-                      
-                        
-                        
-                          
-                          minLevel
-                          
-                        
-                          ,
-                          maxLevel
-                          
-                        
-                          ,
-                          maxRankOrder
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -5565,7 +4303,7 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="Calendar" data-name="OpenCalendar"> <!-- hidden stuff begins -->
 
                  <!-- end arguments -->
                 
@@ -5573,13 +4311,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                    OpenCalendar
-                    (
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -5597,12 +4329,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="Calendar" data-name="OpenEvent"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -5638,7 +4370,7 @@
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Returns</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-return border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="w-2"></th>
@@ -5665,37 +4397,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                      local
-                      
-                      
-                        
-                        success
-                        
-                      
-                      =
-                    
-                    OpenEvent
-                    (
-                      
-                        
-                        
-                          
-                          offsetMonths
-                          
-                        
-                          ,
-                          monthDay
-                          
-                        
-                          ,
-                          index
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -5713,7 +4415,7 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="Calendar" data-name="RemoveEvent"> <!-- hidden stuff begins -->
 
                  <!-- end arguments -->
                 
@@ -5721,13 +4423,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                    RemoveEvent
-                    (
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -5745,12 +4441,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="Calendar" data-name="SetAbsMonth"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -5781,24 +4477,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                    SetAbsMonth
-                    (
-                      
-                        
-                        
-                          
-                          month
-                          
-                        
-                          ,
-                          year
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -5816,12 +4495,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="Calendar" data-name="SetMonth"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -5846,20 +4525,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                    SetMonth
-                    (
-                      
-                        
-                        
-                          
-                          offsetMonths
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -5877,12 +4543,12 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="Calendar" data-name="SetNextClubId"> <!-- hidden stuff begins -->
 
                 
                 <div>
                   <h3 class="font-medium pb-2 underline">Arguments</h3>
-                  <table class="border border-gray-200 w-full">
+                  <table class="definition-argument border border-gray-200 w-full">
                     <thead class="bg-gray-200">
                       <tr>
                         <th class="p-2 text-left">Name</th>
@@ -5907,20 +4573,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                    SetNextClubId
-                    (
-                      
-                        
-                        
-                          
-                          clubId
-                          
-                        
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -5938,7 +4591,7 @@
                 </svg>
               </div>
 
-              <div class="content p-2 hidden flex flex-col gap-3"> <!-- hidden stuff begins -->
+              <div class="content p-2 hidden flex flex-col gap-3" data-namespace="Calendar" data-name="UpdateEvent"> <!-- hidden stuff begins -->
 
                  <!-- end arguments -->
                 
@@ -5946,13 +4599,7 @@
 
                 <div> <!-- BEGIN: function call -->
                   <h3 class="font-medium pb-2 underline">Code example</h3>
-                  <code class="bg-gray-100 block p-2">
-                    
-                    UpdateEvent
-                    (
-                      
-                    )
-                  </code>
+                  <pre class="code-snippet"></pre>
                 </div> <!-- END: function call -->
               </div> <!-- hidden stuff ends -->
               
@@ -7569,6 +6216,7 @@
 
     <script>
       window.onload = function() {
+        // Toggles definitions.
         const expandItems = document.querySelectorAll(".bucket .expand");
         if (expandItems) {
           expandItems.forEach(item => {
@@ -7589,7 +6237,74 @@
             });
           });
         }
+
+        function generateCodeSnippet(codeSnippet) {
+          const content = codeSnippet.closest(".content");
+          const argumentDefinition = content.querySelector(".definition-argument");
+          const returnDefinition = content.querySelector(".definition-return");
+
+          const argumentParts = [];
+          const returnParts = [];
+          const functionName = content.dataset.name;
+          const namespaceName = content.dataset.namespace;
+
+          // Get all return value parts.
+          if (argumentDefinition) {
+            argumentDefinition.querySelectorAll("tbody tr").forEach(item => {
+              const argname = item.querySelector("td:first-child");
+              argumentParts.push(argname.innerText);
+            })
+          }
+          
+          // Get all argument value parts.
+          if (returnDefinition) {
+            returnDefinition.querySelectorAll("tbody tr").forEach(item => {
+              const checkbox = item.querySelector("td:first-child input[type=checkbox]");
+              const argname = item.querySelector("td:nth-child(2)");
+              if (checkbox.checked) {
+                returnParts.push(argname.innerText);
+              } else {
+                returnParts.push("_");
+              }
+            })
+          }
+
+          // Constructs the whole line.
+          const lineParts = [];
+          if (returnParts.length > 0) {
+            lineParts.push("local");
+            lineParts.push(returnParts.join(", "));
+            lineParts.push("=");
+          }
+          lineParts.push(`${namespaceName}.${functionName}(${argumentParts.join(", ")})`);
+
+          codeSnippet.innerHTML = hljs.highlight(lineParts.join(" "), {language: "lua"}).value;
+        }
+
+        // Creates code snippets.
+        const codeSnippetItems = document.querySelectorAll(".code-snippet");
+        if (codeSnippetItems) {
+          codeSnippetItems.forEach(codeSnippet => {
+            generateCodeSnippet(codeSnippet);
+          });
+        }
+        
+        const codeSnippetToggleItems = document.querySelectorAll(".content input[type=checkbox]");
+        if (codeSnippetToggleItems) {
+          codeSnippetToggleItems.forEach(item => {
+            item.addEventListener("click", evt => {
+              evt.stopPropagation();
+              const codeSnippet = evt.target.closest(".content").querySelector(".code-snippet");
+              generateCodeSnippet(codeSnippet);
+            });
+          });
+        }
       }
     </script>
+    
+    <link rel="stylesheet" href="/assets/hljs/default.min.css">
+    <script src="/assets/hljs/highlight.min.js"></script>
+    <script src="/assets/hljs/lua.min.js"></script>
+    <script>hljs.highlightAll();</script>
   </body>
 </html>
