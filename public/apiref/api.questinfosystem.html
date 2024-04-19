@@ -502,7 +502,9 @@
             lineParts.push("...")
           }
 
-          codeSnippet.innerHTML = hljs.highlight(lineParts.join(" "), {language: "lua"}).value;
+          if (lineParts.join(" ").trim() != "...") {
+            codeSnippet.innerHTML = hljs.highlight(lineParts.join(" "), {language: "lua"}).value;
+          }
         }
 
         // Creates code snippets.
