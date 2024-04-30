@@ -1,9 +1,10 @@
 # Converts TGA files to PNG or JPEG
 
 > [!NOTE]
-> Simple tool that allows bulk converting of TGA files to PNG or JPEG format.
-> By default WoW client 1.12 saves all the in-game screenshots as TGA files
-> which are a bit hard to share. So this tool makes it a bit easier.
+> Simple tool that allows bulk converting of TGA files to PNG BPM or JPEG
+> format. By default WoW ** client 1.12** saves all the in-game screenshots
+> as TGA files which are a bit hard to share. So this tool makes it a
+> bit easier.
 
 If you don't want to use this tool you could use https://imagemagick.org
 which also allows convertion and is much more versatile than this tool
