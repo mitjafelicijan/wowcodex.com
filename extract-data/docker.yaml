@@ -1,0 +1,29 @@
+version: "3.8"
+
+services:
+  mysql:
+    image: mysql:5.5
+    privileged: true
+    command: --sql_mode=""
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: wow
+      MYSQL_USER: wow
+      MYSQL_PASSWORD: wow
+    volumes:
+      - ./world_full_08082017.sql:/docker-entrypoint-initdb.d/dump.sql
+    ports:
+      - 3306:3306
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    privileged: true
+    depends_on:
+      - mysql
+    ports:
+      - 5588:80
+    environment:
+      MYSQL_USERNAME: wow
+      MYSQL_ROOT_PASSWORD: wow
+      MYSQL_PORT_3306_TCP_ADDR: mysql
+      PMA_HOST: mysql

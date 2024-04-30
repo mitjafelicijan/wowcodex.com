@@ -5,9 +5,7 @@ default:
 
 install:
 	@echo "Installing LuaRocks packages from packages.txt"
-	@while read -r package; do \
-		luarocks install --local "$$package"; \
-	done < packages.txt
+	sh ./installdeps.sh
 
 server:
 	cd public && npx --yes browser-sync start --server --watch --no-open
