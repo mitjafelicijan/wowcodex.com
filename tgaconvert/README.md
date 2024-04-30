@@ -2,7 +2,7 @@
 
 > [!NOTE]
 > Simple tool that allows bulk converting of TGA files to PNG BPM or JPEG
-> format. By default WoW ** client 1.12** saves all the in-game screenshots
+> format. By default WoW **client 1.12** saves all the in-game screenshots
 > as TGA files which are a bit hard to share. So this tool makes it a
 > bit easier.
 
