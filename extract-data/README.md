@@ -1,8 +1,8 @@
 # Extracts content from Nostalrius Core
 
 > [!IMPORTANT]
-> Small utilities that extract data the Nostalrius Core database.
-> This exported files can be used in your addons since they have a bunch
+> Small utilities that extract data the **Nostalrius** Core database.
+> This exported files can be used in **your addons** since they have a bunch
 > of additional data that is not provided by WoW API.
 
 ## Extracted content
@@ -45,7 +45,7 @@ local WoWCodexArmor = {
 }
 ```
 
-## Running this yourself
+## Running it yourself
 
 These tools require you to have Lua, LuaRocks and Docker installed on
 your system.
@@ -56,6 +56,10 @@ be installed. Check `deps.sh` to check what is being installed.
 ```sh
 # First lets install all the LUA dependencies.
 sh ./deps.sh
+
+# Extract SQL data. This step is important because Docker will use
+# extracted file to populate the database automatically.
+7z x data/world_full_08082017.7z -o./data
 
 # Lets start docker stack.
 docker-compose -f docker.yaml up
