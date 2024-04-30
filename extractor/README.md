@@ -8,8 +8,8 @@
 ## Extracted content
 
 One way of getting `itemID` which is the key in the table is to parse
-item links. In version 1.12 not a lot of functions are available to
-eaily get item ID.
+item links. In version 1.12 there is no reliable way of getting this
+information.
 
 ```lua
 local link = GetContainerItemLink(0, 1) -- (bagID, slotIndex)
@@ -39,11 +39,6 @@ local WoWCodexWeapons = {
   ["4445"] = {Name = "Flesh Carver", BuyPrice = "10341", ItemLevel = "23", SellPrice = "2068", Quality = "2"},
   ["3445"] = {Name = "Ceremonial Knife", BuyPrice = "1133", ItemLevel = "12", SellPrice = "226", Quality = "1"},
   ["2243"] = {Name = "Hand of Edward the Odd", BuyPrice = "352770", ItemLevel = "62", SellPrice = "70554", Quality = "4"},
-  ["14527"] = {Name = "Monster - Mace2H, Horde Hammer A03 Dark", BuyPrice = "0", ItemLevel = "1", SellPrice = "0", Quality = "0"},
-  ["19107"] = {Name = "Bloodseeker", BuyPrice = "220858", ItemLevel = "63", SellPrice = "44171", Quality = "3"},
-  ["1811"] = {Name = "Blunt Claymore", BuyPrice = "2255", ItemLevel = "17", SellPrice = "451", Quality = "0"},
-  ["21703"] = {Name = "Hammer of Ji'zhi", BuyPrice = "811491", ItemLevel = "73", SellPrice = "162298", Quality = "4"},
-  ["15276"] = {Name = "Magus Long Staff", BuyPrice = "226315", ItemLevel = "58", SellPrice = "45263", Quality = "2"},
 }
 ```
 
@@ -58,11 +53,6 @@ local WoWCodexArmor = {
   ["9476"] = {Name = "Big Bad Pauldrons", BuyPrice = "42968", ItemLevel = "50", SellPrice = "8593", Quality = "3"},
   ["2988"] = {Name = "Inscribed Leather Gloves", BuyPrice = "1571", ItemLevel = "19", SellPrice = "314", Quality = "2"},
   ["1988"] = {Name = "Chief Brigadier Gauntlets", BuyPrice = "14260", ItemLevel = "38", SellPrice = "2852", Quality = "2"},
-  ["10023"] = {Name = "Shadoweave Gloves", BuyPrice = "16672", ItemLevel = "45", SellPrice = "3334", Quality = "2"},
-  ["19690"] = {Name = "Bloodsoul Breastplate", BuyPrice = "198415", ItemLevel = "65", SellPrice = "39683", Quality = "3"},
-  ["19952"] = {Name = "Gri'lek's Charm of Valor", BuyPrice = "0", ItemLevel = "65", SellPrice = "0", Quality = "4"},
-  ["16999"] = {Name = "Royal Seal of Alexis", BuyPrice = "42837", ItemLevel = "59", SellPrice = "10709", Quality = "3"},
-  ["15656"] = {Name = "Merciless Epaulets", BuyPrice = "66833", ItemLevel = "54", SellPrice = "13366", Quality = "2"},
 }
 ```
 
