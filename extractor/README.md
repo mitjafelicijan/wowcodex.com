@@ -68,8 +68,9 @@ local WoWCodexArmor = {
 
 ## Running it yourself
 
-These tools require you to have Lua, LuaRocks and Docker installed on
-your system.
+> [!NOTE]
+> These tools require you to have Lua, LuaRocks and Docker installed on
+> your system.
 
 Lua scripts require `luasql-mysql` and MySQL development C headers to
 be installed. Check `deps.sh` to check what is being installed.
