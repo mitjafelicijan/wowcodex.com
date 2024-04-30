@@ -14,3 +14,8 @@ More information about tools is located under each directory.
 
 - [Data extractor](./extractor) - Extracts content from Nostalrius Core
 - [TGA converter](./tgaconvert) - Converts TGA files to PNG, BPM or JPEG
+
+## License
+
+Each sub-project within this repository will have its own license due
+to the inclusion of Blizzard assets.
