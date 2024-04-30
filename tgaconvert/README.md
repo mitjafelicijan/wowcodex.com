@@ -1,4 +1,4 @@
-# Converts TGA files to PNG or JPEG
+# Converts TGA files to PNG, BPM or JPEG
 
 > [!NOTE]
 > Simple tool that allows bulk converting of TGA files to PNG BPM or JPEG

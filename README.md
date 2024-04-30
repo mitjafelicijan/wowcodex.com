@@ -9,3 +9,8 @@ useful for other versions.
 > so bare that in mind. I do not own any of those assets.
 
 More information about tools is located under each directory.
+
+## Sub projects
+
+- [Data extractor](./extractor) - Extracts content from Nostalrius Core
+- [TGA converter](./tgaconvert) - Converts TGA files to PNG, BPM or JPEG
