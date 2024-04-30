@@ -26,7 +26,7 @@ if conn then
   cursor:close()
 
   local serializedData = serializeTable(data)
-  saveSerializedTable("armor.lua", "Armor", serializedData)
+  saveSerializedTable("export/WoWCodexArmor.lua", "WoWCodexArmor", serializedData)
 end
 
 conn:close()

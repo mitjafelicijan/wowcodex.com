@@ -5,10 +5,22 @@
 > This exported files can be used in your addons since they have a bunch
 > of additional data that is not provided by WoW API.
 
-https://github.com/mitjafelicijan/nostalrius-core
+## Requirements
+
+These tools require you to have Lua, LuaRocks and Docker installed on
+your system.
+
+## Extract commands
+
 
 Extracts:
 
 - quests
 - items
 - books
+
+## Original data
+
+data comes from Nostalrius Core project
+https://github.com/brian8544/nostalrius-core/ but there is also a fork
+available at https://github.com/mitjafelicijan/nostalrius-core.
