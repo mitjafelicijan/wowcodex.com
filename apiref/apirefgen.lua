@@ -5,6 +5,7 @@ require("luarocks.loader")
 
 local helpers = require("helpers")
 local etlua = require("etlua")
+local lunajson = require("lunajson")
 
 local BLIZZ_DOCS = "Blizzard_APIDocumentationGenerated"
 local APIREF_OUT_DIRECTORY = "../public/apiref"
@@ -52,6 +53,7 @@ end
 local sectionTemplate = etlua.compile(sectionTemplateHTML)
 
 -- Looping over all of the sections, generating are reference files.
+print("Sections:", #APIDocumentation.Sections)
 for _, section in ipairs(APIDocumentation.Sections) do
   print(section.Name)
   print("   functions:", #section.Functions)
@@ -70,7 +72,52 @@ for _, section in ipairs(APIDocumentation.Sections) do
   end
 end
 
-print("Sections:", #APIDocumentation.Sections)
+-- Generate search index file.
+
+local searchIndex = {}
+for _, section in ipairs(APIDocumentation.Sections) do
+  table.insert(searchIndex, {
+    name = section.Name,
+    api = "namespace",
+    url = string.format("/apiref/api.%s.html", string.lower(section.Name)),
+  })
+
+  if section.Functions then
+    for _, func in pairs(section.Functions) do
+      table.insert(searchIndex, {
+        name = string.format("%s.%s", section.Name, func.Name),
+        api = "function",
+        url = string.format("/apiref/api.%s.html", string.lower(section.Name)),
+      })
+    end
+  end
+  
+  if section.Events then
+    for _, item in pairs(section.Events) do
+      table.insert(searchIndex, {
+        name = item.LiteralName,
+        api = "event",
+        url = string.format("/apiref/api.%s.html", string.lower(section.Name)),
+      })
+    end
+  end
+  
+  if section.Tables then
+    for _, item in pairs(section.Tables) do
+      table.insert(searchIndex, {
+        name = item.Name,
+        api = "table",
+        url = string.format("/apiref/api.%s.html", string.lower(section.Name)),
+      })
+    end
+  end
+end
+
+local written = helpers.writeFile(string.format("%s/search.json", APIREF_OUT_DIRECTORY), lunajson.encode(searchIndex))
+if not written then
+  print("Search index file not written")
+  os.Exit(1)
+end
 
 -- Generates index of all the API sections.
 
@@ -91,3 +138,4 @@ if not written then
   print("HTML file not written")
   os.Exit(1)
 end
+

@@ -11,6 +11,8 @@
       .main-container { max-width: 1600px; }
       code.hljs { padding: 0!important; }
     </style>
+
+    <script src="/assets/lunr.min.js"></script>
   </head>
   <body class="p-10">
 
@@ -720,6 +722,24 @@
           });
         }
       }
+
+      // Search.
+      window.addEventListener("load", async(evt) => {
+        const searchResponse = await fetch("/apiref/search.json");
+        const searchData = await searchResponse.json();
+        console.log(searchData);
+
+        window.idx = lunr(function() {
+          this.ref("url");
+          this.field("name");
+          this.field("api");
+
+          searchData.forEach(function(doc) {
+            this.add(doc);
+          }, this);
+        })
+      });
+      
     </script>
     
     <link rel="stylesheet" href="/assets/hljs/default.min.css">
