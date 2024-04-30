@@ -1,4 +1,4 @@
-local WoWCodexArmor = {
+WoWCodexArmor = {
     ["236"] = {Name = "Cured Leather Armor", BuyPrice = "2795", ItemLevel = "22", SellPrice = "559", Quality = "1"},
     ["9476"] = {Name = "Big Bad Pauldrons", BuyPrice = "42968", ItemLevel = "50", SellPrice = "8593", Quality = "3"},
     ["2988"] = {Name = "Inscribed Leather Gloves", BuyPrice = "1571", ItemLevel = "19", SellPrice = "314", Quality = "2"},

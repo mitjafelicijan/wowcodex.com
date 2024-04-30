@@ -11,7 +11,7 @@ services:
       MYSQL_USER: wow
       MYSQL_PASSWORD: wow
     volumes:
-      - ./world_full_08082017.sql:/docker-entrypoint-initdb.d/dump.sql
+      - ./data/world_full_08082017.sql:/docker-entrypoint-initdb.d/dump.sql
     ports:
       - 3306:3306
 

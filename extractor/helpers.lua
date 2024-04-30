@@ -4,9 +4,9 @@ function serializeTable(tbl)
         str = str .. '    ["' .. key .. '"] = {'
         for k, v in pairs(value) do
             if type(v) == "string" then
-                str = str .. k .. ' = "' .. v .. '", '
+                str = str .. k .. ' = "' .. v:gsub('"', "'") .. '", '
             else
-                str = str .. k .. " = " .. tostring(v) .. ", "
+                str = str .. k .. " = " .. tostring(v):gsub('"', "'") .. ", "
             end
         end
         str = str:sub(1, -3) -- Remove the last comma and space
@@ -19,7 +19,7 @@ end
 function saveSerializedTable(filename, varname, data)
   local file = io.open(filename, "w")
   if file then
-    file:write(string.format("local %s = ", varname))
+    file:write(string.format("%s = ", varname))
     file:write(data)
     file:close()
     print("Data exported to " .. filename)

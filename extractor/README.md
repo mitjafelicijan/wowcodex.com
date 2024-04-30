@@ -7,6 +7,27 @@
 
 ## Extracted content
 
+One way of getting `itemID` which is the key in the table is to parse
+item links. In version 1.12 not a lot of functions are available to
+eaily get item ID.
+
+```lua
+local link = GetContainerItemLink(0, 1) -- (bagID, slotIndex)
+local _, _, _, itemID = string.find(link, "|c%x+|H(item:(%d+):%d+:%d+:%d+)|h%[.-%]|h|r")
+
+local weaponItemData = WoWCodexWeapons[itemID]
+local armorItemData = WoWCodexArmor[itemID]
+local itemData = weaponItemData or armorItemData
+
+if itemData then
+  DEFAULT_CHAT_FRAME:AddMessage("Name: " .. itemData.Name)
+  DEFAULT_CHAT_FRAME:AddMessage("ItemLevel: " .. itemData.ItemLevel)
+  DEFAULT_CHAT_FRAME:AddMessage("BuyPrice: " .. itemData.BuyPrice)
+  DEFAULT_CHAT_FRAME:AddMessage("SellPrice: " .. itemData.SellPrice)
+  DEFAULT_CHAT_FRAME:AddMessage("Quality: " .. itemData.Quality)
+end
+```
+
 ### Weapons
 
 You can copy file in [WoWCodexWeapons.lua](export/WoWCodexWeapons.lua)
