@@ -34,7 +34,7 @@ You can copy file in [WoWCodexWeapons.lua](export/WoWCodexWeapons.lua)
 to your WoW addon and then use it in your Lua code.
 
 ```lua
-local WoWCodexWeapons = {
+WoWCodexWeapons = {
   ["15464"] = {Name = "Brute Hammer", BuyPrice = "22523", ItemLevel = "28", SellPrice = "4504", Quality = "2"},
   ["4445"] = {Name = "Flesh Carver", BuyPrice = "10341", ItemLevel = "23", SellPrice = "2068", Quality = "2"},
   ["3445"] = {Name = "Ceremonial Knife", BuyPrice = "1133", ItemLevel = "12", SellPrice = "226", Quality = "1"},
@@ -48,7 +48,7 @@ You can copy file in [WoWCodexArmor.lua](export/WoWCodexArmor.lua)
 to your WoW addon and then use it in your Lua code.
 
 ```lua
-local WoWCodexArmor = {
+WoWCodexArmor = {
   ["236"] = {Name = "Cured Leather Armor", BuyPrice = "2795", ItemLevel = "22", SellPrice = "559", Quality = "1"},
   ["9476"] = {Name = "Big Bad Pauldrons", BuyPrice = "42968", ItemLevel = "50", SellPrice = "8593", Quality = "3"},
   ["2988"] = {Name = "Inscribed Leather Gloves", BuyPrice = "1571", ItemLevel = "19", SellPrice = "314", Quality = "2"},
